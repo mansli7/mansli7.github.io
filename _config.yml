@@ -1,3 +1,7 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 title: Mansli7 Portal
 description: Bible Study and Technology Sharing
+author: Mansli7
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
