@@ -1,25 +1,50 @@
 ---
 layout: default
-title: BS
+title: Bible Study Portal
 ---
 
-# BS (Bible Study)
+# 📚 Bible Study Portal
 
-Welcome to the study portal.
+Your comprehensive guide to studying God's Word.
 
 ---
 
-## Annual Reading
+## 📖 Annual Reading Plan
 
-- [2026 Plan](ar/2026.md)
+Follow a structured reading schedule throughout the year.
 
-## Deep Study
+- **2026 Plan** - Complete Bible reading schedule
+  - [View Plan](ar/2026.md)
 
-- Genesis
-- Four Gospels
-- Other Books
+[See All Reading Plans →](/bs/ar/)
 
-## Study Questions
+---
 
-- Genesis
-- Four Gospels
+## 🔍 Deep Study
+
+Go deeper into specific biblical books and themes.
+
+### Available Studies
+- **Genesis** - Creation and Foundation
+- **Four Gospels** - Life and Ministry of Jesus
+- **Other Books** - Additional biblical studies
+
+[Explore Deep Studies →](/bs/ds/)
+
+---
+
+## ❓ Study Questions
+
+Interactive study guides to enhance your understanding.
+
+### Question Sets
+- **Genesis Questions**
+- **Gospel Questions**
+
+[View Study Questions →](/bs/sq/)
+
+---
+
+<footer style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eee; color: #666;">
+  <p>[← Back to Home](../)</p>
+</footer>
