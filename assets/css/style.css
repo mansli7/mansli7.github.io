@@ -32,6 +32,11 @@ body{
   line-height:1.65;
 }
 
+/* Override Bulma defaults to ensure consistent background */
+.section, main, .container{
+  background: transparent !important;
+}
+
 /* container */
 .container{
   max-width:var(--container-max);
