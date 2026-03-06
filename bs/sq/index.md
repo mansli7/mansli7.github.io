@@ -9,25 +9,80 @@ Interactive study guides with thought-provoking questions to enhance your unders
 
 ---
 
-## Question Sets
+## 📖 Torah (Pentateuch) - Available Now!
 
-<div style="display: grid; gap: 1.5rem; margin: 2rem 0;">
+<div style="display: grid; gap: 1rem; margin: 2rem 0;">
 
   <div class="cardish">
-    <h3>📖 Genesis Questions</h3>
-    <p>Reflection and discussion questions covering the entire book of Genesis, organized by chapter.</p>
+    <h3>📖 Genesis 創世紀</h3>
     <p><strong>Topics:</strong> Creation, Fall, Flood, Patriarchs, Joseph</p>
-    <p><strong>Status:</strong> Coming soon</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/genesis" class="cta">English</a>
+      <a href="zh/genesis" class="cta">中文</a>
+    </div>
   </div>
 
   <div class="cardish">
+    <h3>📖 Exodus 出埃及記</h3>
+    <p><strong>Topics:</strong> Slavery, Plagues, Exodus, Law, Tabernacle</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/exodus" class="cta">English</a>
+      <a href="zh/exodus" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 Leviticus 利未記</h3>
+    <p><strong>Topics:</strong> Sacrifices, Priesthood, Holiness, Purity Laws</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/leviticus" class="cta">English</a>
+      <a href="zh/leviticus" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 Numbers 民數記</h3>
+    <p><strong>Topics:</strong> Wilderness, Census, Rebellion, Journey</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/numbers" class="cta">English</a>
+      <a href="zh/numbers" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 Deuteronomy 申命記</h3>
+    <p><strong>Topics:</strong> Law Review, Covenant, Blessings & Curses</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/deuteronomy" class="cta">English</a>
+      <a href="zh/deuteronomy" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 Joshua 約書亞記</h3>
+    <p><strong>Topics:</strong> Conquest, Inheritance, Covenant Renewal</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/joshua" class="cta">English</a>
+      <a href="zh/joshua" class="cta">中文</a>
+    </div>
+  </div>
+
+</div>
+
+---
+
+## 📚 More Books Coming Soon
+
+<div style="display: grid; gap: 1.5rem; margin: 2rem 0;">
+
+  <div class="cardish" style="opacity: 0.6;">
     <h3>📖 Gospel Questions</h3>
     <p>Guided questions through the gospel accounts, focusing on the life and teachings of Jesus.</p>
     <p><strong>Topics:</strong> Miracles, Parables, Sermons, Passion Week</p>
     <p><strong>Status:</strong> Coming soon</p>
   </div>
 
-  <div class="cardish">
+  <div class="cardish" style="opacity: 0.6;">
     <h3>📖 Epistle Questions</h3>
     <p>Study questions for the New Testament letters, exploring doctrine and practical Christian living.</p>
     <p><strong>Topics:</strong> Faith, Grace, Church, Ethics, End Times</p>

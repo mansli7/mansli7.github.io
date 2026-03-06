@@ -5,6 +5,11 @@ title: Deep Study
 
 # 🔍 Deep Study
 
+<div style="padding: 1rem; background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; border-radius: 8px; margin-bottom: 2rem;">
+  <strong>🚧 Under Construction</strong>
+  <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">Deep study materials are currently being prepared. Check back soon!</p>
+</div>
+
 In-depth exploration of biblical books, themes, and theological concepts.
 
 ---

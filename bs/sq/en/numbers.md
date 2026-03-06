@@ -1,0 +1,191 @@
+---
+layout: default
+title: Numbers Study Questions
+---
+
+# Numbers Study Questions
+
+<div style="margin-bottom: 2rem;">
+  <a href="../" class="cta" style="background: linear-gradient(180deg, #8b7355, #6d5a42);">← Back to Study Questions</a>
+  <a href="../zh/numbers" class="cta" style="margin-left: 1rem;">中文版本</a>
+</div>
+
+---
+
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 1-4
+
+---
+
+How did the LORD instruct Moses to count the Israelite army?
+How many tribes were counted?
+What was the total number of people?
+Were the Levites included, and why or why not?
+Where was the Levite camp located?
+How were the Levites counted?
+How many were there?
+Which tribe took the place of the firstborn of Israel?
+How many Levites performed the carrying work in the tabernacle,that is,the tent of meeting?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 5-8
+
+---
+
+Why must the unclean go outside the camp?
+What does Nazirite mean?
+How should Aaron and his sons bless the Israelites?
+On the days the altar is anointed, how many days do the leaders offer their offerings?
+Are the offerings the same each day?
+Which tribe is set apart from the Israelites for the LORD?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 9-12
+
+---
+
+If someone is unclean due to contact with a dead body and cannot celebrate the Passover, is there other day to celebrate it?
+Does the Israelites’ journey or camping relate to the cloud over the tabernacle?
+On what day did the Israelites leave the Desert of Sinai?
+What does Moses say whenever the ark sets out?
+What does he say whenever it comes to rest?
+What does Kibroth Hattaavah mean?
+Who began to talk against Moses?
+Who is described as extremely humble?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 13-16
+
+---
+
+From where did the twelve men set out to explore the land of Canaan?
+How many days did they spend exploring?
+How many spread a bad report?
+How did the whole congregation react after hearing the report?
+For how many years will the Israelites wander in the wilderness?
+Whose body will lie in the wilderness?
+Who will be allowed to enter the land of Canaan?
+What do you learn from Numbers 14:39-45?
+Do foreigner and native-born have the same laws and regulations?
+What position did Korah and his followers try to get?
+How did they die?
+How was the plague stopped?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 17-20
+
+---
+
+Whose staff will sprout?
+Which firstborn must be redeemed?
+Which firstborn cannot be redeemed?
+What fraction of Israel’s produce is given to the LORD as a wave offering?
+What is the ashes of the red heifer used for?
+Where did Miriam die?
+What did Moses and Aaron do wrong at the waters of Meribah?
+Where did Aaron die?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 21-24
+
+---
+
+What did Moses make and put it up on a pole?
+Whoever was bitten by a snake would live by looking at it?
+In the New Testament, who said he would be lifted up in the same way so that everyone who believes in him may have eternal life?
+Why did the king of Moab summon Balaam, and why did he refuse the first time but go the second time?
+Who caused Balaam’s donkey to speak?
+The king of Moab summoned Balaam to curse Israel, but he blessed Israel instead. From whom did this blessing come?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 25-28
+
+---
+
+In Numbers 25, what caused the plague?
+What caused the plague to stop?
+On the plains of Moab by the Jordan opposite Jericho, how many Israelites were counted?
+Compared to the count in the wilderness of Sinai, which tribe increased the most?
+Which tribe decreased the most?
+Who were counted in both censuses?
+If a man dies without a son, to whom does his inheritance go?
+Why was Moses not allowed to enter Canaan?
+In Numbers 28, for what occasions did God instruct Moses to present the offerings?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 29-32
+
+---
+
+In Numbers 29, for what occasions did God instruct Moses to present the offerings?
+If a man makes a vow to the LORD or takes an oath to bind himself by a pledge, can he break his word?
+Why did they fight against the Midianites?
+Why was Balaam killed?
+How is Balaam described in the New Testament?
+Do those who did not go to war share in the spoils?
+Do the Levites have a share?
+Which tribes asked for the land east of the Jordan as their inheritance?
+
+---
+
+------------------------------------------------------------------------
+
+---
+
+Numbers 33-36
+
+---
+
+Think again: when the king of Moab summoned Balaam, why did Balaam go the second time?
+How many places did the Israelites camp at from leaving Egypt until entering Canaan?
+After entering Canaan, what happens if the inhabitants are not driven out?
+Into how many tribes was the land of Canaan divided as inheritance?
+How many cities did the Levites receive?
+How many of these were cities of refuge?
+What is the purpose of the cities of refuge?
+Can a daughter who receives an inheritance in one of the Israelite tribes marry someone from another tribe?
+
+---
+
+<p style="text-align: center; margin-top: 3rem;">
+  <a href="../">← Back to Study Questions</a>
+</p>
