@@ -24,5 +24,53 @@
     </div>
   </main>
 
+  <script>
+    // Mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    
+    if (navToggle) {
+      navToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+    }
+    
+    // Mobile dropdown toggle
+    const dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(dropdown => {
+      const link = dropdown.querySelector('a');
+      if (link && window.innerWidth <= 768) {
+        link.addEventListener('click', function(e) {
+          if (this.nextElementSibling && this.nextElementSibling.classList.contains('dropdown-content')) {
+            e.preventDefault();
+            dropdown.classList.toggle('active');
+          }
+        });
+      }
+    });
+    
+    // Highlight active page
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-link, .dropdown > a');
+    
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === currentPath || (href !== '/' && currentPath.startsWith(href))) {
+        link.classList.add('active');
+      }
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (navMenu && navToggle) {
+        if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+          navMenu.classList.remove('active');
+          navToggle.classList.remove('active');
+        }
+      }
+    });
+  </script>
+
 </body>
 </html>
