@@ -35,7 +35,12 @@ Which woman did the LORD deliver Sisera into the hands of?
 ---
 
 
-Judges 5-8 :::{.en} Who was with Gideon so that he would strike down the Midianites as one man?
+Judges 5-8
+
+---
+
+
+Who was with Gideon so that he would strike down the Midianites as one man?
 
 What does “Jehovah‑Shalom” mean, and what is its origin?
 
@@ -45,12 +50,15 @@ How many men did Gideon lead to defeat the vast army of the Midianites, the Amal
 
 What did Gideon make and set up, and how did it become a snare to Gideon and his family?
 
-:::
+---
+
+
+Judges 9-12
 
 ---
 
 
-Judges 9-12 :::{.en} Who killed his seventy brothers, and was his evil repaid?
+Who killed his seventy brothers, and was his evil repaid?
 
 Why did the LORD’s anger burn against Israel, so that He sold them into the hands of the Philistines and the Ammonites?
 
@@ -58,7 +66,6 @@ Do you think the vow Jephthah made to the LORD was good?
 
 Why did the Ephraimites threaten to burn down Jephthah’s house over his head, and do you think they were right?
 
-:::
 
 ---
 
