@@ -21,7 +21,8 @@
 
 /* base */
 *{box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%;min-height:100vh}
+html{background: var(--bg-primary)}
 body{
   margin:0;
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -32,9 +33,10 @@ body{
   line-height:1.65;
 }
 
-/* Override Bulma defaults to ensure consistent background */
-.section, main, .container{
-  background: transparent !important;
+/* main section */
+main, .section{
+  background: transparent;
+  padding: 1.5rem 0;
 }
 
 /* container */
