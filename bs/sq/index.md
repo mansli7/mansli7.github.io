@@ -71,7 +71,60 @@ Interactive study guides with thought-provoking questions to enhance your unders
 
 ---
 
-## 📚 More Books Coming Soon
+## � Historical Books - Available Now!
+
+<div style="display: grid; gap: 1rem; margin: 2rem 0;">
+
+  <div class="cardish">
+    <h3>📖 Judges 士師記</h3>
+    <p><strong>Topics:</strong> Cycles of Sin, Deliverance, Judges, Apostasy</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/judges" class="cta">English</a>
+      <a href="zh/judges" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 Ruth 路得記</h3>
+    <p><strong>Topics:</strong> Loyalty, Redemption, Kinsman Redeemer, Providence</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/ruth" class="cta">English</a>
+      <a href="zh/ruth" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 1 Samuel 撒母耳記上</h3>
+    <p><strong>Topics:</strong> Samuel, Saul, David, Kingdom Established</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/1-samuel" class="cta">English</a>
+      <a href="zh/1-samuel" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 2 Samuel 撒母耳記下</h3>
+    <p><strong>Topics:</strong> David's Reign, Covenant, Sin and Consequences</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/2-samuel" class="cta">English</a>
+      <a href="zh/2-samuel" class="cta">中文</a>
+    </div>
+  </div>
+
+  <div class="cardish">
+    <h3>📖 1 Kings 列王紀上</h3>
+    <p><strong>Topics:</strong> Solomon, Temple, Kingdom Divided, Prophets</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/1-kings" class="cta">English</a>
+      <a href="zh/1-kings" class="cta">中文</a>
+    </div>
+  </div>
+
+</div>
+
+---
+
+## �📚 More Books Coming Soon
 
 <div style="display: grid; gap: 1.5rem; margin: 2rem 0;">
 
