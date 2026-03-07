@@ -9,11 +9,11 @@ Welcome.
 
 ---
 
-## BS (Study)
+## Bible Study
 
 - [Annual Reading](/bs/ar/)
-- [Deep Study](/bs/ds/)
 - [Study Questions](/bs/sq/)
+- [Deep Study](/bs/ds/)
 
 ---
 
