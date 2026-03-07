@@ -189,7 +189,7 @@ main, .section{
 @media (max-width: 768px) {
   /* Remove sticky nav on mobile for better content visibility */
   .main-nav{
-    position: relative;
+    position: relative !important;
     padding: 0.5rem 0;
   }
   .main-nav .brand{
