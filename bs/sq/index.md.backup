@@ -58,14 +58,6 @@ Interactive study guides with thought-provoking questions to enhance your unders
     </div>
   </div>
 
-</div>
-
----
-
-## 📖 歷史書 Historical Books (Joshua - Esther)
-
-<div style="display: grid; gap: 1rem; margin: 2rem 0;">
-
   <div class="cardish">
     <h3>📖 Joshua 約書亞記</h3>
     <p><strong>Topics:</strong> Conquest, Inheritance, Covenant Renewal</p>
@@ -74,6 +66,14 @@ Interactive study guides with thought-provoking questions to enhance your unders
       <a href="zh/joshua" class="cta">中文</a>
     </div>
   </div>
+
+</div>
+
+---
+
+## � Historical Books - Available Now!
+
+<div style="display: grid; gap: 1rem; margin: 2rem 0;">
 
   <div class="cardish">
     <h3>📖 Judges 士師記</h3>
@@ -124,49 +124,21 @@ Interactive study guides with thought-provoking questions to enhance your unders
 
 ---
 
-## 📚 Coming Soon
+## �📚 More Books Coming Soon
 
 <div style="display: grid; gap: 1.5rem; margin: 2rem 0;">
 
   <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 詩歌 Poetry & Wisdom Books (Job - Song of Songs)</h3>
-    <p>Study questions exploring the beauty, depth, and practical wisdom of the poetic books.</p>
-    <p><strong>Books:</strong> Job, Psalms, Proverbs, Ecclesiastes, Song of Songs</p>
-    <p><strong>Status:</strong> Coming soon</p>
-  </div>
-
-  <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 先知書 Prophetic Books (Isaiah - Malachi)</h3>
-    <p>Questions guiding through prophetic messages, warnings, and promises of restoration.</p>
-    <p><strong>Books:</strong> Major Prophets (Isaiah - Daniel), Minor Prophets (Hosea - Malachi)</p>
-    <p><strong>Status:</strong> Coming soon</p>
-  </div>
-
-  <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 四福音 Four Gospels (Matthew - John)</h3>
+    <h3>📖 Gospel Questions</h3>
     <p>Guided questions through the gospel accounts, focusing on the life and teachings of Jesus.</p>
     <p><strong>Topics:</strong> Miracles, Parables, Sermons, Passion Week</p>
     <p><strong>Status:</strong> Coming soon</p>
   </div>
 
   <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 使徒行傳 Acts</h3>
-    <p>Questions exploring the early church history and the spread of the gospel.</p>
-    <p><strong>Topics:</strong> Pentecost, Missions, Church Growth, Persecution</p>
-    <p><strong>Status:</strong> Coming soon</p>
-  </div>
-
-  <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 書信 Epistles (Romans - Jude)</h3>
+    <h3>📖 Epistle Questions</h3>
     <p>Study questions for the New Testament letters, exploring doctrine and practical Christian living.</p>
-    <p><strong>Topics:</strong> Faith, Grace, Church, Ethics, Spiritual Growth</p>
-    <p><strong>Status:</strong> Coming soon</p>
-  </div>
-
-  <div class="cardish" style="opacity: 0.6;">
-    <h3>📖 啟示錄 Revelation</h3>
-    <p>Questions exploring the visions and prophecies about the future and Christ's return.</p>
-    <p><strong>Topics:</strong> Seven Churches, Seals, Trumpets, Final Victory</p>
+    <p><strong>Topics:</strong> Faith, Grace, Church, Ethics, End Times</p>
     <p><strong>Status:</strong> Coming soon</p>
   </div>
 
