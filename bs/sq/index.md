@@ -14,7 +14,7 @@ Interactive study guides with thought-provoking questions to enhance your unders
 <div style="display: grid; gap: 1rem; margin: 2rem 0;">
 
   <div class="cardish">
-    <h3>📖 Genesis 創世紀</h3>
+    <h3>📖 Genesis 創世記</h3>
     <p><strong>Topics:</strong> Creation, Fall, Flood, Patriarchs, Joseph</p>
     <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
       <a href="en/genesis" class="cta">English</a>
