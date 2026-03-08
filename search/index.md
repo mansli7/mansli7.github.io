@@ -102,17 +102,42 @@ title: Search
 
 <script>
 let searchData = [];
+let searchIndexLoaded = false;
 
 // Load search data
 fetch('/search.json')
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Search index not found (HTTP ' + response.status + ')');
+    }
+    return response.json();
+  })
   .then(data => {
     searchData = data;
+    searchIndexLoaded = true;
+    document.getElementById('searchStats').innerHTML = '<span style="color: #10b981;">✓ Search ready - ' + searchData.length + ' pages indexed</span>';
     console.log('Search index loaded:', searchData.length, 'pages');
+    
+    // If there's a search query already, perform search
+    const currentQuery = document.getElementById('searchInput').value;
+    if (currentQuery) {
+      performSearch(currentQuery);
+    }
   })
   .catch(error => {
     console.error('Error loading search data:', error);
-    document.getElementById('searchStats').innerHTML = '<span style="color: #dc2626;">⚠️ Search index could not be loaded. Please refresh the page.</span>';
+    document.getElementById('searchStats').innerHTML = `
+      <div class="cardish" style="background: rgba(220, 38, 38, 0.05); border-color: #dc2626; padding: 1rem; margin-bottom: 1rem;">
+        <p style="color: #dc2626; margin: 0 0 0.5rem 0; font-weight: 600;">⚠️ Search is temporarily unavailable</p>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">
+          The search index will be available after the site is built on GitHub Pages. 
+          Please use the Quick Navigation below to browse content.
+        </p>
+      </div>
+    `;
+    document.getElementById('searchInput').disabled = true;
+    document.getElementById('searchInput').placeholder = 'Search unavailable - use Quick Navigation below';
+    document.getElementById('quickNav').style.display = 'block';
   });
 
 // Search function
@@ -122,9 +147,16 @@ function performSearch(query) {
   const statsDiv = document.getElementById('searchStats');
   const quickNav = document.getElementById('quickNav');
   
+  // Check if search index is loaded
+  if (!searchIndexLoaded) {
+    return;
+  }
+  
   if (!query || query.trim().length < 2) {
     resultsDiv.innerHTML = '';
-    statsDiv.innerHTML = '';
+    if (searchIndexLoaded) {
+      statsDiv.innerHTML = '<span style="color: #10b981;">✓ Search ready - ' + searchData.length + ' pages indexed</span>';
+    }
     quickNav.style.display = 'block';
     return;
   }
