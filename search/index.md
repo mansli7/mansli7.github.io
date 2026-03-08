@@ -165,18 +165,36 @@ function performSearch(query) {
   }
 
   quickNav.style.display = 'none';
-  const searchTerms = query.toLowerCase().trim().split(/\s+/);
+  const searchTerms = query.trim().split(/\s+/);
   
   const results = searchData.filter(page => {
-    const searchableText = (page.title + ' ' + page.content).toLowerCase();
-    return searchTerms.every(term => searchableText.includes(term));
+    // For Chinese and other non-ASCII characters, don't use toLowerCase on the content
+    // Just use the original text for matching
+    const titleOriginal = page.title || '';
+    const contentOriginal = page.content || '';
+    const titleLower = titleOriginal.toLowerCase();
+    const contentLower = contentOriginal.toLowerCase();
+    
+    return searchTerms.every(term => {
+      const termLower = term.toLowerCase();
+      // Check both case-insensitive (for English) and case-sensitive (for Chinese)
+      return titleLower.includes(termLower) || contentLower.includes(termLower) ||
+             titleOriginal.includes(term) || contentOriginal.includes(term);
+    });
   }).map(page => {
     // Calculate relevance score
     let score = 0;
-    const titleLower = page.title.toLowerCase();
+    const titleOriginal = page.title || '';
+    const contentOriginal = page.content || '';
+    const titleLower = titleOriginal.toLowerCase();
+    const contentLower = contentOriginal.toLowerCase();
+    
     searchTerms.forEach(term => {
-      if (titleLower.includes(term)) score += 10;
-      if (page.content.toLowerCase().includes(term)) score += 1;
+      const termLower = term.toLowerCase();
+      // Title matches get higher scores
+      if (titleLower.includes(termLower) || titleOriginal.includes(term)) score += 10;
+      // Content matches get lower scores
+      if (contentLower.includes(termLower) || contentOriginal.includes(term)) score += 1;
     });
     return { ...page, score };
   }).sort((a, b) => b.score - a.score);
@@ -212,9 +230,12 @@ function performSearch(query) {
 
 // Highlight matching terms
 function highlightText(text, terms) {
+  if (!text) return '';
   let highlighted = escapeHtml(text);
   terms.forEach(term => {
-    const regex = new RegExp(`(${escapeRegex(term)})`, 'gi');
+    // Create regex that matches both case-insensitive and exact matches
+    const escapedTerm = escapeRegex(term);
+    const regex = new RegExp(`(${escapedTerm})`, 'gi');
     highlighted = highlighted.replace(regex, '<span class="highlight">$1</span>');
   });
   return highlighted;
