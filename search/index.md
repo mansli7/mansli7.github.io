@@ -104,19 +104,23 @@ title: Search
 let searchData = [];
 let searchIndexLoaded = false;
 
+console.log('Search page loaded, attempting to fetch search.json...');
+
 // Load search data
-fetch('/search.json')
+fetch('/search.json?v=' + Date.now())
   .then(response => {
+    console.log('Fetch response:', response.status, response.statusText);
     if (!response.ok) {
       throw new Error('Search index not found (HTTP ' + response.status + ')');
     }
     return response.json();
   })
   .then(data => {
+    console.log('JSON loaded:', data);
     searchData = data.pages || data;
     searchIndexLoaded = true;
+    console.log('Search data ready:', searchData.length, 'pages');
     document.getElementById('searchStats').innerHTML = '<span style="color: #10b981;">✓ Search ready - ' + searchData.length + ' pages indexed</span>';
-    console.log('Search index loaded:', searchData.length, 'pages');
     
     // If there's a search query already, perform search
     const currentQuery = document.getElementById('searchInput').value;
@@ -128,10 +132,9 @@ fetch('/search.json')
     console.error('Error loading search data:', error);
     document.getElementById('searchStats').innerHTML = `
       <div class="cardish" style="background: rgba(220, 38, 38, 0.05); border-color: #dc2626; padding: 1rem; margin-bottom: 1rem;">
-        <p style="color: #dc2626; margin: 0 0 0.5rem 0; font-weight: 600;">⚠️ Search is temporarily unavailable</p>
+        <p style="color: #dc2626; margin: 0 0 0.5rem 0; font-weight: 600;">⚠️ Search error</p>
         <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">
-          The search index will be available after the site is built on GitHub Pages. 
-          Please use the Quick Navigation below to browse content.
+          ${error.message}. Please try refreshing the page (Ctrl+Shift+R or Cmd+Shift+R).
         </p>
       </div>
     `;
