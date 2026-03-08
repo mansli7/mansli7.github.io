@@ -113,7 +113,7 @@ fetch('/search.json')
     return response.json();
   })
   .then(data => {
-    searchData = data;
+    searchData = data.pages || data;
     searchIndexLoaded = true;
     document.getElementById('searchStats').innerHTML = '<span style="color: #10b981;">✓ Search ready - ' + searchData.length + ' pages indexed</span>';
     console.log('Search index loaded:', searchData.length, 'pages');

@@ -1,14 +1,18 @@
 ---
 layout: null
 ---
-[
-{% assign pages_with_title = site.pages | where_exp: "page", "page.title and page.url != '/search/'" %}
-{% for page in pages_with_title %}
-  {
-    "title": {{ page.title | jsonify }},
-    "url": {{ page.url | jsonify }},
-    "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-    "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
-{% endfor %}
-]
+{
+  "pages": [
+    {%- assign searchable_pages = site.pages | where_exp: "item", "item.title" -%}
+    {%- for page in searchable_pages -%}
+      {%- if page.url != "/search/" and page.url != "/search/index.html" -%}
+        {
+          "title": {{ page.title | jsonify }},
+          "url": {{ page.url | jsonify }},
+          "content": {{ page.content | strip_html | strip_newlines | jsonify }},
+          "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }}
+        }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
