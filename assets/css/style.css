@@ -64,21 +64,219 @@ main, .section{
 .main-nav .brand{
   color: var(--text-primary);
   text-decoration:none;
-  font-size:1.3rem;
-  font-weight:700;
   margin-right: auto;
-  padding:.6rem .95rem;
-  border-radius:10px;
+  padding: 0;
   transition: all var(--transition);
-  background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(139,115,85,0.06));
-  border: 1.5px solid var(--border);
-  box-shadow: 0 2px 4px var(--shadow);
 }
-.main-nav .brand:hover{
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px var(--shadow-hover);
+
+/* Logo Design 1: Modern M7 Monogram */
+.logo-design-1 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(139,115,85,0.08));
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-design-1::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(135deg, #6366f1, #8b7355, #d4af37);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo-design-1:hover::before {
+  opacity: 1;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #6366f1 0%, #8b7355 50%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(99,102,241,0.3);
+  position: relative;
+}
+
+.logo-icon::after {
+  content: '📖💡';
+  position: absolute;
+  font-size: 0.5rem;
+  right: -8px;
+  top: -6px;
+  opacity: 0.8;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.main-nav .brand:hover .logo-design-1 {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(99,102,241,0.15);
+}
+
+.main-nav .brand:hover .logo-icon {
+  animation: logoGradientShift 1.5s ease infinite;
+}
+
+@keyframes logoGradientShift {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.2); }
+}
+
+/* 
+====================================
+ALTERNATIVE LOGO DESIGNS
+====================================
+To switch designs, replace the HTML in _includes/nav.html and uncomment the CSS below:
+
+DESIGN 2: Circular Badge Style
+-------------------------------
+HTML for nav.html (replace line 2-5):
+  <a href="/" class="brand">
+    <span class="logo-design-2">
+      <span class="logo-badge">M7</span>
+      <span class="logo-text">Mansli7</span>
+    </span>
+  </a>
+
+CSS (uncomment below):
+
+.logo-design-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.4rem 0.9rem 0.4rem 0.4rem;
+  border-radius: 50px;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-accent));
+  border: 2px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.logo-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #6366f1, #8b7355);
+  color: white;
+  box-shadow: 0 4px 12px rgba(99,102,241,0.3);
+  letter-spacing: -0.05em;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-badge::before {
+  content: '📖💡';
+  position: absolute;
+  font-size: 0.65rem;
+  bottom: 2px;
+  right: 2px;
+  opacity: 0.9;
+}
+
+.main-nav .brand:hover .logo-design-2 {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(99,102,241,0.2);
   border-color: var(--primary);
 }
+
+.main-nav .brand:hover .logo-badge {
+  box-shadow: 0 6px 16px rgba(99,102,241,0.4);
+  transform: rotate(5deg);
+}
+
+
+DESIGN 3: Minimalist Book+Tech
+-------------------------------
+HTML for nav.html (replace line 2-5):
+  <a href="/" class="brand">
+    <span class="logo-design-3">
+      <span class="logo-symbols">📖⚡</span>
+      <span class="logo-name">
+        <strong>Mansli7</strong>
+        <small>Study & Share</small>
+      </span>
+    </span>
+  </a>
+
+CSS (uncomment below):
+
+.logo-design-3 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.logo-symbols {
+  font-size: 1.6rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 4px rgba(99,102,241,0.3));
+  transition: transform 0.3s ease;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.logo-name strong {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.logo-name small {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.main-nav .brand:hover .logo-design-3 {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(99,102,241,0.15);
+  border-color: var(--primary);
+}
+
+.main-nav .brand:hover .logo-symbols {
+  transform: scale(1.1) rotate(-5deg);
+}
+
+*/
 
 .nav-toggle{
   display:none;
@@ -193,8 +391,17 @@ main, .section{
     padding: 0.5rem 0;
   }
   .main-nav .brand{
-    font-size: 1.1rem;
+    padding: 0;
+  }
+  .logo-design-1 {
     padding: 0.4rem 0.7rem;
+    gap: 0.5rem;
+  }
+  .logo-icon {
+    font-size: 1.2rem;
+  }
+  .logo-text {
+    font-size: 1rem;
   }
   .nav-link{
     font-size: 0.9rem;
