@@ -174,6 +174,12 @@ Interactive study guides with thought-provoking questions to enhance your unders
 
 ---
 
+## ⬇️ Download Study Questions
+
+Open any book's English or Chinese page and click the **⬇️ Download** button to save a plain-text copy of all the questions for that book. Great for printing or offline study.
+
+---
+
 ## How to Use Study Questions
 
 1. **📖 Read the passage** - Start by reading the biblical text carefully
