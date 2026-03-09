@@ -50,7 +50,7 @@ main, .section{
 .main-nav{
   display:flex;
   align-items:center;
-  padding: 0.75rem 0;
+  padding: 0.35rem 0;
   font-weight:600;
   position: sticky;
   top: 0;
@@ -65,26 +65,27 @@ main, .section{
   color: var(--text-primary);
   text-decoration:none;
   margin-right: auto;
-  padding: 0.2rem 0.4rem;
+  padding: 0.25rem 0.5rem;
   display: flex;
   align-items: center;
   gap: 0;
-  border-radius: 10px;
+  border-radius: 50%;
   background: transparent;
   border: none;
   transition: all 0.3s ease;
 }
 
 .logo-image {
-  width: 64px;
-  height: 64px;
-  border-radius: 8px;
-  object-fit: contain;
-  background: transparent;
-  padding: 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bg-accent);
+  padding: 3px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.22), 0 0 0 2.5px var(--accent);
   border: none;
   transition: all 0.3s ease;
+  display: block;
 }
 
 .brand-text {
@@ -219,7 +220,7 @@ main, .section{
     padding: 0.5rem 0;
   }
   .main-nav .brand{
-    padding: 0.15rem 0.3rem;
+    padding: 0.2rem 0.4rem;
     gap: 0;
   }
   .logo-image {
