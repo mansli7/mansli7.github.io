@@ -71,6 +71,40 @@
       }
     });
 
+    // Annual Reading: highlight today's cell
+    (function() {
+      if (!/\/bs\/ar\/2026-/.test(window.location.pathname)) return;
+      var now = new Date();
+      var m = now.getMonth() + 1;
+      var d = now.getDate();
+      var prefix = m + ',' + d + ',';
+      var cells = document.querySelectorAll('table td');
+      for (var i = 0; i < cells.length; i++) {
+        var cell = cells[i];
+        if (cell.textContent.trim().indexOf(prefix) === 0) {
+          cell.style.background = 'linear-gradient(135deg, #f5c842, #f0a500)';
+          cell.style.color = '#2c1810';
+          cell.style.fontWeight = '700';
+          cell.style.borderRadius = '6px';
+          cell.style.outline = '2px solid #f0a500';
+          // Also highlight the whole row lightly
+          var row = cell.parentElement;
+          if (row) {
+            var siblings = row.querySelectorAll('td');
+            for (var j = 0; j < siblings.length; j++) {
+              if (siblings[j] !== cell) {
+                siblings[j].style.background = 'rgba(245, 200, 66, 0.15)';
+              }
+            }
+          }
+          setTimeout(function() {
+            cell.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 200);
+          break;
+        }
+      }
+    })();
+
     // Study Questions: inject download button on individual book pages
     (function() {
       var sqMatch = window.location.pathname.match(/\/bs\/sq\/(en|zh)\/([^/]+)/);
