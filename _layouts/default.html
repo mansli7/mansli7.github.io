@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <title>{{ page.title }}</title>
+  {% seo %}
 
   <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Site styles -->
@@ -33,6 +32,7 @@
       navToggle.addEventListener('click', function() {
         this.classList.toggle('active');
         navMenu.classList.toggle('active');
+        this.setAttribute('aria-expanded', navMenu.classList.contains('active') ? 'true' : 'false');
       });
     }
     
@@ -67,6 +67,7 @@
         if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
           navMenu.classList.remove('active');
           navToggle.classList.remove('active');
+          navToggle.setAttribute('aria-expanded', 'false');
         }
       }
     });

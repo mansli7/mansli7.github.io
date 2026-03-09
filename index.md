@@ -51,7 +51,7 @@ All scripture is given by inspiration of God, and is profitable for doctrine, fo
 <h3 style="margin-top: 0;">🔍 Deep Study</h3>
 <p>In-depth theological studies and comprehensive Bible analysis.</p>
 <p><strong>Status:</strong> Coming soon</p>
-<a href="/bs/ds/" class="cta" style="opacity: 0.6; pointer-events: none;">Under Construction</a>
+<a href="/bs/ds/" class="cta" style="opacity: 0.6; pointer-events: none;" tabindex="-1" aria-disabled="true">Under Construction</a>
 </div>
 
 </div>
@@ -64,7 +64,7 @@ All scripture is given by inspiration of God, and is profitable for doctrine, fo
 <h3 style="margin-top: 0;">Tech Resources & Tutorials</h3>
 <p>Web development, programming, cloud services, and technology insights.</p>
 <p><strong>Status:</strong> Coming soon</p>
-<a href="/tech/" class="cta" style="opacity: 0.6; pointer-events: none;">Under Construction</a>
+<a href="/tech/" class="cta" style="opacity: 0.6; pointer-events: none;" tabindex="-1" aria-disabled="true">Under Construction</a>
 </div>
 
 ---
