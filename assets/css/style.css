@@ -82,7 +82,7 @@ main, .section{
   object-fit: cover;
   background: var(--bg-accent);
   padding: 3px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.22), 0 0 0 2.5px var(--accent);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.22);
   border: none;
   transition: all 0.3s ease;
   display: block;
