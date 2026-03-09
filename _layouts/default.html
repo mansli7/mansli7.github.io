@@ -71,38 +71,74 @@
       }
     });
 
-    // Annual Reading: highlight today's cell
+    // Annual Reading: clean cell display, link to study questions, highlight today
     (function() {
       if (!/\/bs\/ar\/2026-/.test(window.location.pathname)) return;
+      var isZh = /2026-zh/.test(window.location.pathname);
+      var sqBase = '/bs/sq/' + (isZh ? 'zh' : 'en') + '/';
+
+      // Books that have study questions (longer keys first to avoid partial matches)
+      var bookMap = isZh
+        ? { '撒上':'1-samuel','撒下':'2-samuel','王上':'1-kings',
+            '創':'genesis','出':'exodus','利':'leviticus','民':'numbers',
+            '申':'deuteronomy','書':'joshua','士':'judges','得':'ruth' }
+        : { '1Sa':'1-samuel','2Sa':'2-samuel','1Ki':'1-kings',
+            'Ge':'genesis','Ex':'exodus','Lev':'leviticus','Nu':'numbers',
+            'Dt':'deuteronomy','Jos':'joshua','Jdg':'judges','Ru':'ruth' };
+      var bookKeys = Object.keys(bookMap);
+
       var now = new Date();
-      var m = now.getMonth() + 1;
-      var d = now.getDate();
-      var prefix = m + ',' + d + ',';
-      var cells = document.querySelectorAll('table td');
-      for (var i = 0; i < cells.length; i++) {
-        var cell = cells[i];
-        if (cell.textContent.trim().indexOf(prefix) === 0) {
+      var todayM = now.getMonth() + 1;
+      var todayD = now.getDate();
+      var todayCell = null;
+
+      document.querySelectorAll('table td').forEach(function(cell) {
+        var text = cell.textContent.trim();
+        var parts = text.match(/^(\d+),(\d+),(.+)$/);
+        if (!parts) return;
+
+        var cm = parseInt(parts[1]), cd = parseInt(parts[2]), reading = parts[3];
+        var isToday = (cm === todayM && cd === todayD);
+        if (isToday) todayCell = cell;
+
+        // Find study question slug (try keys in order)
+        var slug = null;
+        for (var k = 0; k < bookKeys.length; k++) {
+          if (reading.indexOf(bookKeys[k]) === 0) { slug = bookMap[bookKeys[k]]; break; }
+        }
+
+        // Rewrite cell: keep M,D, prefix as plain text, link only the reading part
+        cell.textContent = '';
+        cell.appendChild(document.createTextNode(cm + ',' + cd + ','));
+        if (slug) {
+          var a = document.createElement('a');
+          a.href = sqBase + slug;
+          a.textContent = reading;
+          a.title = isZh ? '查看學習問題' : 'View study questions';
+          a.style.cssText = 'color:inherit;text-decoration:underline;text-decoration-style:dotted;';
+          cell.appendChild(a);
+        } else {
+          cell.appendChild(document.createTextNode(reading));
+        }
+
+        // Highlight today
+        if (isToday) {
           cell.style.background = 'linear-gradient(135deg, #f5c842, #f0a500)';
           cell.style.color = '#2c1810';
           cell.style.fontWeight = '700';
           cell.style.borderRadius = '6px';
           cell.style.outline = '2px solid #f0a500';
-          // Also highlight the whole row lightly
+          if (slug) cell.querySelector('a').style.color = '#2c1810';
           var row = cell.parentElement;
-          if (row) {
-            var siblings = row.querySelectorAll('td');
-            for (var j = 0; j < siblings.length; j++) {
-              if (siblings[j] !== cell) {
-                siblings[j].style.background = 'rgba(245, 200, 66, 0.15)';
-              }
-            }
-          }
-          setTimeout(function() {
-            cell.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }, 200);
-          break;
+          if (row) row.querySelectorAll('td').forEach(function(sib) {
+            if (sib !== cell) sib.style.background = 'rgba(245,200,66,0.15)';
+          });
         }
-      }
+      });
+
+      if (todayCell) setTimeout(function() {
+        todayCell.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 200);
     })();
 
     // Study Questions: inject download button on individual book pages
