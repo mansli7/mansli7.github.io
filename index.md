@@ -11,25 +11,18 @@ title: Home
   <p class="scripture-ref">— 2 Timothy 3:16-17</p>
 </div>
 
----
-
-## 📅 Today’s Reading
-
 <div class="today-reading-box" id="today-reading">
+  <p class="today-label">Today's Reading</p>
   <div id="todayDate" class="today-date"></div>
   <div id="todayRef" class="today-ref">Loading…</div>
   <div id="todayRefZh" class="today-ref-zh"></div>
   <div id="todayActions" class="today-actions"></div>
 </div>
 
----
-
-## 📚 Resources
-
 <div class="card-grid-3">
 
 <div class="cardish">
-<h3 style="margin-top:0;">📅 Bible Reading Plan</h3>
+<h3 style="margin-top:0;">Bible Reading Plan</h3>
 <p>A structured plan to read through the entire Bible in 2026, one section each day. Available in English and Chinese.</p>
 <a href="/bs/ar/" class="cta">View Plans →</a>
 </div>
@@ -48,10 +41,4 @@ title: Home
 
 </div>
 
----
-
 <p style="text-align:center; margin-top:1.5rem; color:var(--text-secondary);">🔎 <a href="/search/">Search the site</a> for specific topics and resources</p>
-
----
-
-<p style="text-align:center; margin-top:2rem; color:var(--text-secondary);">🔎 <a href="/search/">Search the site</a> for specific topics and resources</p>
