@@ -4,11 +4,11 @@ title: Home
 ---
 
 <div class="scripture-banner">
-  <p class="scripture-zh">聖經都是　神所默示的、〔或作凡　神所默示的聖經〕於教訓、督責、使人歸正、教導人學義、都是有益的，叫屬神的人得以完全，預備行各樣的善事。</p>
-  <p class="scripture-ref">— 提摩太後書 3:16-17</p>
+  <p class="scripture-zh">經上也是這樣記著說：首先的人亞當成了有靈（靈：或作血氣）的活人；末後的亞當成了叫人活的靈。</p>
+  <p class="scripture-ref">— 哥林多前書15:45</p>
   <hr class="scripture-hr">
-  <p class="scripture-en">All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works.</p>
-  <p class="scripture-ref">— 2 Timothy 3:16-17</p>
+  <p class="scripture-en">And so it is written, The first man Adam was made a living soul; the last Adam was made a quickening spirit.</p>
+  <p class="scripture-ref">— 1 Corinthians chapter15:45</p>
 </div>
 
 <div class="today-reading-box" id="today-reading">
