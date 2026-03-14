@@ -120,6 +120,15 @@ Interactive study guides with thought-provoking questions to enhance your unders
     </div>
   </div>
 
+  <div class="cardish">
+    <h3>📖 2 Kings 列王紀下</h3>
+    <p><strong>Topics:</strong> Elijah, Elisha, Reform, Exile</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="en/2-kings" class="cta">English</a>
+      <a href="zh/2-kings" class="cta">中文</a>
+    </div>
+  </div>
+
 </div>
 
 ---

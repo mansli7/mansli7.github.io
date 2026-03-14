@@ -41,6 +41,12 @@ Individual study questions can be downloaded from each book's page. Visit the St
 <a href="/bs/sq/" class="cta">Go to Study Questions →</a>
 </div>
 
+<div class="cardish" style="margin-top: 1rem;">
+<h3 style="margin-top:0;">📄 2 Kings Raw Text File</h3>
+<p>The original bilingual source file for 2 Kings study questions is also available directly as a plain-text download.</p>
+<a href="/assets/downloads/12_2ki-all.txt" class="cta" download>⬇️ Download 12_2ki-all.txt</a>
+</div>
+
 ---
 
 ## 📌 How to Use the Excel Reading Plan
