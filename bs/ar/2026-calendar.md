@@ -88,23 +88,6 @@ title: 2026 Bible Reading Calendar
   // ── Study question slugs (books that have SQ pages) ───────────
   var sq = {"Ge":"genesis","Ex":"exodus","Lev":"leviticus","Nu":"numbers","Dt":"deuteronomy","Jos":"joshua","Jdg":"judges","Ru":"ruth","1Sa":"1-samuel","2Sa":"2-samuel","1Ki":"1-kings","2Ki":"2-kings"};
 
-  // ── Highlight questions (2–3 per book, placeholder for others) ─
-  // Format: { "abbr": ["Q1 text", "Q2 text", "Q3 text"] }
-  var hq = {
-    "Ge": ["What does the creation account reveal about God's character and purposes?","How does the Fall (Gen 3) change humanity's relationship with God, and what hope does God's promise offer?","What can we learn from Abraham's faith journey about trusting God's promises?"],
-    "Ex": ["How does the story of Moses' call reveal God's compassion for the oppressed?","What do the plagues reveal about God's power over the false gods of Egypt?","What is the significance of the Passover as a picture of redemption?"],
-    "Lev": ["Why does God emphasize holiness so strongly, and what does that mean for us today?","How do the sacrificial laws point forward to Christ's atonement?","What does the concept of clean and unclean teach about approaching a holy God?"],
-    "Nu": ["What does Israel's rebellion in the wilderness reveal about the human heart?","How does God's faithfulness continue despite Israel's repeated failures?","What can we learn from Caleb and Joshua's different response to the challenges ahead?"],
-    "Dt": ["Why does Moses review the law before Israel enters the land?","What does 'love the Lord your God with all your heart' mean in practical terms?","How does the pattern of blessing and cursing in Deuteronomy apply to our own obedience?"],
-    "Jos": ["How does the conquest of Canaan demonstrate God's faithfulness to His promises?","What does Rahab's story teach about faith and inclusion in God's people?","What does it mean to 'be strong and courageous' in Joshua 1, and how does this apply today?"],
-    "Jdg": ["What cycle of sin, oppression, crying out, and deliverance do you observe in Judges?","How do the judges reflect both God's grace and the consequences of compromise?","What does the final chapters of Judges reveal about what happens when 'everyone does what is right in their own eyes'?"],
-    "Ru": ["How does Ruth's loyalty to Naomi model covenant faithfulness?","What does Boaz's role as kinsman-redeemer foreshadow about Christ's redemption?","How does God's providence work quietly in ordinary events throughout this story?"],
-    "1Sa": ["What does Samuel's birth and dedication reveal about Hannah's faith and God's response to prayer?","How does Saul's reign begin promisingly but end in tragedy, and what are the warning signs?","What qualities does God see in David that differ from what humans look for in a leader?"],
-    "2Sa": ["How does David's response to Saul's death and the Philistines reveal his character?","What does God's covenant with David (2 Sam 7) promise and why is it significant?","How does David's sin with Bathsheba and its consequences illustrate the seriousness of sin?"],
-    "1Ki": ["What contributed to Solomon's wisdom, and where did he go wrong later?","How does the division of the kingdom reflect the consequences of unfaithfulness?","What does Elijah's confrontation with the prophets of Baal teach about exclusive devotion to God?"],
-    "2Ki": ["How do the ministries of Elijah and Elisha compare in terms of miracles and message?","What recurring pattern in the kings of Israel and Judah leads to their downfall?","How does the exile to Assyria and Babylon fulfill God's warnings in Deuteronomy?"]
-  };
-
   // ── BibleGateway base URL builder ──────────────────────────────
   var bgNames = {"Ge":"Genesis","Ex":"Exodus","Lev":"Leviticus","Nu":"Numbers","Dt":"Deuteronomy","Jos":"Joshua","Jdg":"Judges","Ru":"Ruth","1Sa":"1+Samuel","2Sa":"2+Samuel","1Ki":"1+Kings","2Ki":"2+Kings","1Ch":"1+Chronicles","2Ch":"2+Chronicles","Ezr":"Ezra","Ne":"Nehemiah","Est":"Esther","Job":"Job","Ps":"Psalms","Pr":"Proverbs","Ecc":"Ecclesiastes","SS":"Song+of+Solomon","Isa":"Isaiah","Jer":"Jeremiah","La":"Lamentations","Eze":"Ezekiel","Da":"Daniel","Hos":"Hosea","Joel":"Joel","Am":"Amos","Ob":"Obadiah","Jnh":"Jonah","Mic":"Micah","Na":"Nahum","Hab":"Habakkuk","Zep":"Zephaniah","Hag":"Haggai","Zec":"Zechariah","Mal":"Malachi","Mt":"Matthew","Mk":"Mark","Lk":"Luke","Jn":"John","Ac":"Acts","Ro":"Romans","1Co":"1+Corinthians","2Co":"2+Corinthians","Gal":"Galatians","Eph":"Ephesians","Php":"Philippians","Col":"Colossians","1Th":"1+Thessalonians","2Th":"2+Thessalonians","1Ti":"1+Timothy","2Ti":"2+Timothy","Tit":"Titus","Phm":"Philemon","Heb":"Hebrews","Jas":"James","1Pe":"1+Peter","2Pe":"2+Peter","1Jn":"1+John","2Jn":"2+John","3Jn":"3+John","Jude":"Jude","Rev":"Revelation"};
 
@@ -131,8 +114,7 @@ title: 2026 Bible Reading Calendar
           abbr: abbr,
           chapters: ch,
           sq: sq[abbr] || null,
-          bg: bgUrl(abbr, ch),
-          hq: hq[abbr] || null
+          bg: bgUrl(abbr, ch)
         };
       }
     }
@@ -219,18 +201,13 @@ title: 2026 Bible Reading Calendar
   // ── Build the study question panel HTML ───────────────────────
   function sqPanel(cardId, parsed, m, d) {
     var html = '<div id="sq-' + cardId + '" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #e2e8f0;">';
-    if (parsed.abbr && parsed.hq) {
+    if (parsed.abbr && parsed.sq) {
       html += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
       html += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
-      html += '<ol style="padding-left:1.1rem;margin:0 0 0.6rem;">';
-      for (var i = 0; i < parsed.hq.length; i++) {
-        html += '<li style="font-size:0.8rem;color:#475569;line-height:1.55;margin-bottom:0.35rem;" data-verse="' + parsed.abbr + '">' + parsed.hq[i] + '</li>';
-      }
-      html += '</ol>';
-      if (parsed.sq) {
-        html += '<a class="card-en" href="/bs/sq/en/' + parsed.sq + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">See all questions →</a>';
-        html += '<a class="card-zh" href="/bs/sq/zh/' + parsed.sq + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看全部問題 →</a>';
-      }
+      html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Open the full ' + n[parsed.abbr][0] + ' study page and use the section that matches ' + parsed.en + '. This avoids showing generic prompts from unrelated parts of the book.</p>';
+      html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">請打開' + n[parsed.abbr][1] + '研習問題頁，查看對應「' + parsed.zh + '」的段落。這樣就不會顯示與當天章節不相符的通用問題。</p>';
+      html += '<a class="card-en" href="/bs/sq/en/' + parsed.sq + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">See matching book questions →</a>';
+      html += '<a class="card-zh" href="/bs/sq/zh/' + parsed.sq + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看對應書卷問題 →</a>';
     } else if (parsed.en === '📋 Review Day') {
       var targets = reviewTargets(m, d);
       html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Use today to review this week\'s readings and revisit the linked study-question sets for the books you covered.</p>';

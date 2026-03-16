@@ -266,12 +266,16 @@
     elRefZh.textContent=parsed.zh;
     var readBtn=document.createElement('a');
     readBtn.href='/bs/ar/2026-en'; readBtn.className='cta'; readBtn.textContent='\uD83D\uDCDA Open Reading Plan';
-    elActions.appendChild(readBtn);
+    readBtn.href='/bs/ar/2026-calendar'; readBtn.className='cta'; readBtn.textContent='📅 Open Calendar';
     if (parsed.sq) {
       var sqBtn=document.createElement('a');
-      sqBtn.href='/bs/sq/en/'+parsed.sq; sqBtn.className='cta cta-outline'; sqBtn.textContent='\u2753 Open Study Questions';
-      elActions.appendChild(sqBtn);
-    }
+      var sqBtnEn=document.createElement('a');
+      sqBtnEn.href='/bs/sq/en/'+parsed.sq; sqBtnEn.className='cta cta-outline'; sqBtnEn.textContent='❓ Study Questions EN';
+      elActions.appendChild(sqBtnEn);
+
+      var sqBtnZh=document.createElement('a');
+      sqBtnZh.href='/bs/sq/zh/'+parsed.sq; sqBtnZh.className='cta cta-outline'; sqBtnZh.textContent='❓ 學習問題 中文';
+      elActions.appendChild(sqBtnZh);
   })();
   </script>
 
