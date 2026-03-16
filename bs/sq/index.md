@@ -3,15 +3,160 @@ layout: default
 title: Study Questions
 ---
 
-# ❓ Study Questions
+<div class="mb-8">
+  <h1 style="font-size:1.875rem;">❓ Study Questions</h1>
+  <p class="text-slate-500">Guided questions for each book — observe, interpret, and apply Scripture to your life.</p>
+</div>
 
-Interactive study guides with thought-provoking questions to enhance your understanding and application of Scripture.
+## 📖 律法書 Law Books (Genesis – Deuteronomy)
 
----
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
 
-## 📖 律法書 Law Books (Genesis - Deuteronomy)
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Genesis 創世記</h3>
+    <p class="text-xs text-slate-400 mb-3">Creation, Fall, Flood, Patriarchs, Joseph</p>
+    <div class="flex gap-2">
+      <a href="en/genesis" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/genesis" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
 
-<div style="display: grid; gap: 1rem; margin: 2rem 0;">
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Exodus 出埃及記</h3>
+    <p class="text-xs text-slate-400 mb-3">Slavery, Plagues, Exodus, Law, Tabernacle</p>
+    <div class="flex gap-2">
+      <a href="en/exodus" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/exodus" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Leviticus 利未記</h3>
+    <p class="text-xs text-slate-400 mb-3">Sacrifices, Priesthood, Holiness, Purity Laws</p>
+    <div class="flex gap-2">
+      <a href="en/leviticus" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/leviticus" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Numbers 民數記</h3>
+    <p class="text-xs text-slate-400 mb-3">Wilderness, Census, Rebellion, Journey</p>
+    <div class="flex gap-2">
+      <a href="en/numbers" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/numbers" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Deuteronomy 申命記</h3>
+    <p class="text-xs text-slate-400 mb-3">Law Review, Covenant, Blessings &amp; Curses</p>
+    <div class="flex gap-2">
+      <a href="en/deuteronomy" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/deuteronomy" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+</div>
+
+## 📖 歷史書 Historical Books (Joshua – 2 Kings)
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Joshua 約書亞記</h3>
+    <p class="text-xs text-slate-400 mb-3">Conquest, Inheritance, Covenant Renewal</p>
+    <div class="flex gap-2">
+      <a href="en/joshua" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/joshua" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Judges 士師記</h3>
+    <p class="text-xs text-slate-400 mb-3">Cycles of Sin, Deliverance, Judges, Apostasy</p>
+    <div class="flex gap-2">
+      <a href="en/judges" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/judges" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 Ruth 路得記</h3>
+    <p class="text-xs text-slate-400 mb-3">Loyalty, Redemption, Kinsman Redeemer</p>
+    <div class="flex gap-2">
+      <a href="en/ruth" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/ruth" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 1 Samuel 撒母耳記上</h3>
+    <p class="text-xs text-slate-400 mb-3">Samuel, Saul, David, Kingdom Established</p>
+    <div class="flex gap-2">
+      <a href="en/1-samuel" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/1-samuel" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 2 Samuel 撒母耳記下</h3>
+    <p class="text-xs text-slate-400 mb-3">David's Reign, Covenant, Sin and Consequences</p>
+    <div class="flex gap-2">
+      <a href="en/2-samuel" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/2-samuel" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 1 Kings 列王紀上</h3>
+    <p class="text-xs text-slate-400 mb-3">Solomon, Temple, Kingdom Divided, Prophets</p>
+    <div class="flex gap-2">
+      <a href="en/1-kings" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/1-kings" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 2 Kings 列王紀下</h3>
+    <p class="text-xs text-slate-400 mb-3">Elijah, Elisha, Reform, Exile</p>
+    <div class="flex gap-2">
+      <a href="en/2-kings" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">English</a>
+      <a href="zh/2-kings" class="cta" style="font-size:0.8rem;padding:0.4rem 0.75rem;">中文</a>
+    </div>
+  </div>
+
+</div>
+
+## 📚 Coming Soon
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 mt-4">
+
+  <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 詩歌 Poetry &amp; Wisdom (Job – Song of Songs)</h3>
+    <p class="text-xs text-slate-400">Study questions exploring the beauty and wisdom of the poetic books.</p>
+    <p class="text-xs text-indigo-400 mt-2">Coming soon</p>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 先知書 Prophetic Books (Isaiah – Malachi)</h3>
+    <p class="text-xs text-slate-400">Questions guiding through prophetic messages, warnings, and promises.</p>
+    <p class="text-xs text-indigo-400 mt-2">Coming soon</p>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 四福音 Four Gospels (Matthew – John)</h3>
+    <p class="text-xs text-slate-400">Guided questions through the life and teachings of Jesus.</p>
+    <p class="text-xs text-indigo-400 mt-2">Coming soon</p>
+  </div>
+
+  <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
+    <h3 style="margin-top:0;font-size:0.95rem;">📖 書信 Epistles (Romans – Jude) &amp; Revelation</h3>
+    <p class="text-xs text-slate-400">Study questions for the New Testament letters and Revelation.</p>
+    <p class="text-xs text-indigo-400 mt-2">Coming soon</p>
+  </div>
+
+</div>
 
   <div class="cardish">
     <h3>📖 Genesis 創世記</h3>

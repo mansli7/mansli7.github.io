@@ -10,15 +10,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+  <!-- Tailwind CSS via CDN -->
+  <script>
+    tailwind.config = {
+      corePlugins: { preflight: false },
+      theme: {
+        extend: {
+          colors: { primary: '#6366f1', 'primary-dark': '#4f46e5' },
+          fontFamily: {
+            sans: ['Inter','system-ui','-apple-system','Segoe UI','Roboto',
+                   'Helvetica Neue','Arial','PingFang TC','Hiragino Sans GB',
+                   'Microsoft YaHei New','Microsoft Yahei','SimHei','sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <!-- Site styles -->
-  <link rel="stylesheet" href="/assets/css/style.css?v=2026-03-09b">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2026-03-17">
 </head>
 <body>
 
   {% include nav.html %}
 
-  <main class="section">
-    <div class="container">
+  <main class="py-8">
+    <div class="container max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       {{ content }}
     </div>
   </main>
@@ -26,47 +44,45 @@
   <script>
     // Mobile menu toggle
     const navToggle = document.getElementById('navToggle');
-    const navMenu = document.getElementById('navMenu');
-    
-    if (navToggle) {
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+    const closeIcon = document.getElementById('closeIcon');
+
+    if (navToggle && mobileMenu) {
       navToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-        this.setAttribute('aria-expanded', navMenu.classList.contains('active') ? 'true' : 'false');
+        const isOpen = !mobileMenu.classList.contains('hidden');
+        mobileMenu.classList.toggle('hidden');
+        if (menuIcon) menuIcon.classList.toggle('hidden', !isOpen);
+        if (closeIcon) closeIcon.classList.toggle('hidden', isOpen);
+        this.setAttribute('aria-expanded', String(!isOpen));
       });
     }
-    
-    // Mobile dropdown toggle
-    const dropdowns = document.querySelectorAll('.dropdown');
-    dropdowns.forEach(dropdown => {
-      const link = dropdown.querySelector('a');
-      if (link && window.innerWidth <= 768) {
-        link.addEventListener('click', function(e) {
-          if (this.nextElementSibling && this.nextElementSibling.classList.contains('dropdown-content')) {
-            e.preventDefault();
-            dropdown.classList.toggle('active');
-          }
-        });
-      }
-    });
-    
+
+    // Mobile reading plan dropdown toggle
+    const mobileDropToggle = document.getElementById('mobileDropToggle');
+    const mobileDropContent = document.getElementById('mobileDropContent');
+    if (mobileDropToggle && mobileDropContent) {
+      mobileDropToggle.addEventListener('click', function() {
+        mobileDropContent.classList.toggle('hidden');
+      });
+    }
+
     // Highlight active page
     const currentPath = window.location.pathname;
-    const navLinks = document.querySelectorAll('.nav-link, .dropdown > a');
-    
-    navLinks.forEach(link => {
+    document.querySelectorAll('.nav-link').forEach(function(link) {
       const href = link.getAttribute('href');
-      if (href === currentPath || (href !== '/' && currentPath.startsWith(href))) {
+      if (href && (href === currentPath || (href !== '/' && currentPath.startsWith(href)))) {
         link.classList.add('active');
       }
     });
-    
+
     // Close mobile menu when clicking outside
     document.addEventListener('click', function(e) {
-      if (navMenu && navToggle) {
-        if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
-          navMenu.classList.remove('active');
-          navToggle.classList.remove('active');
+      if (mobileMenu && navToggle && !mobileMenu.classList.contains('hidden')) {
+        if (!mobileMenu.contains(e.target) && !navToggle.contains(e.target)) {
+          mobileMenu.classList.add('hidden');
+          if (menuIcon) menuIcon.classList.remove('hidden');
+          if (closeIcon) closeIcon.classList.add('hidden');
           navToggle.setAttribute('aria-expanded', 'false');
         }
       }
