@@ -3,59 +3,59 @@ layout: default
 title: Search
 ---
 
-# 🔎 Search
+<div class="max-w-4xl mx-auto mt-2">
+  <div class="mb-8">
+    <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Search</p>
+    <h1 style="font-size:1.875rem;">🔎 Search the Site</h1>
+    <p class="text-slate-500">Search Bible studies, reading-plan pages, and supporting resources from one place.</p>
+  </div>
 
-<div style="max-width: 800px; margin: 2rem auto;">
-  
-  <div class="search-container">
-    <div style="position: relative; margin-bottom: 2rem;">
-      <input 
-        type="text" 
-        id="searchInput" 
-        placeholder="Search Bible studies, questions, and resources..." 
-        style="width: 100%; padding: 1rem 3rem 1rem 1.2rem; font-size: 1.1rem; border: 2px solid var(--border); border-radius: 12px; background: var(--bg-secondary); color: var(--text-primary); transition: all 0.3s ease;"
+  <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8">
+    <div class="relative mb-4">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Bible studies, questions, and resources..."
+        class="w-full rounded-2xl border-2 border-slate-200 bg-slate-50 px-5 py-4 pr-14 text-lg text-slate-900 transition-all"
         autocomplete="off"
       >
-      <span style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); font-size: 1.5rem; opacity: 0.5;">🔍</span>
+      <span class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl opacity-50">🔍</span>
     </div>
-
-    <div id="searchStats" style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;"></div>
-
+    <div id="searchStats" class="text-center text-slate-500 text-sm mb-4"></div>
     <div id="searchResults"></div>
+  </div>
 
-    <div id="quickNav" class="cardish" style="margin-top: 2rem;">
-      <h3>Quick Navigation</h3>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem;">
-        <a href="/bs/" style="padding: 0.8rem; background: var(--bg-accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); transition: all 0.2s; border: 1px solid var(--border);">📖 Bible Study Portal</a>
-        <a href="/bs/ar/" style="padding: 0.8rem; background: var(--bg-accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); transition: all 0.2s; border: 1px solid var(--border);">📅 Annual Reading</a>
-        <a href="/bs/sq/" style="padding: 0.8rem; background: var(--bg-accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); transition: all 0.2s; border: 1px solid var(--border);">❓ Study Questions</a>
-        <a href="/bs/ds/" style="padding: 0.8rem; background: var(--bg-accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); transition: all 0.2s; border: 1px solid var(--border);">🔍 Deep Study</a>
-        <a href="/tech/" style="padding: 0.8rem; background: var(--bg-accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); transition: all 0.2s; border: 1px solid var(--border);">💻 Technology</a>
-      </div>
+  <div id="quickNav" class="bg-slate-50 rounded-3xl border border-slate-200 p-6">
+    <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Quick Navigation</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      <a href="/bs/" class="search-shortcut">📖 Bible Study Portal</a>
+      <a href="/bs/ar/" class="search-shortcut">📅 Annual Reading</a>
+      <a href="/bs/sq/" class="search-shortcut">❓ Study Questions</a>
+      <a href="/tech/" class="search-shortcut">💻 Technology</a>
     </div>
-
   </div>
 </div>
 
 <style>
 #searchInput:focus {
   outline: none;
-  border-color: var(--primary);
+  border-color: #6366f1;
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  background: #ffffff;
 }
 
 .search-result {
-  background: var(--bg-secondary);
-  border: 2px solid var(--border);
-  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
   padding: 1.2rem;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
 }
 
 .search-result:hover {
-  border-color: var(--primary);
-  box-shadow: 0 4px 12px var(--shadow);
+  border-color: #c7d2fe;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
   transform: translateY(-2px);
 }
 
@@ -65,23 +65,23 @@ title: Search
 }
 
 .search-result h3 a {
-  color: var(--text-primary);
+  color: #0f172a;
   text-decoration: none;
 }
 
 .search-result h3 a:hover {
-  color: var(--primary);
+  color: #6366f1;
 }
 
 .search-result p {
-  color: var(--text-secondary);
+  color: #475569;
   margin: 0.5rem 0;
   line-height: 1.6;
 }
 
 .search-result .search-url {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: #94a3b8;
   font-family: monospace;
 }
 
@@ -92,11 +92,23 @@ title: Search
   font-weight: 600;
 }
 
-#quickNav a:hover {
-  background: var(--bg-secondary);
-  border-color: var(--primary);
+.search-shortcut {
+  padding: 0.9rem 1rem;
+  background: #ffffff;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #0f172a;
+  transition: all 0.2s;
+  border: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.search-shortcut:hover {
+  background: #f8fafc;
+  border-color: #c7d2fe;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--shadow);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
 }
 </style>
 
@@ -104,22 +116,17 @@ title: Search
 let searchData = [];
 let searchIndexLoaded = false;
 
-console.log('Search page loaded, attempting to fetch search.json...');
-
 // Load search data
 fetch('/search.json?v=' + Date.now())
   .then(response => {
-    console.log('Fetch response:', response.status, response.statusText);
     if (!response.ok) {
       throw new Error('Search index not found (HTTP ' + response.status + ')');
     }
     return response.json();
   })
   .then(data => {
-    console.log('JSON loaded:', data);
     searchData = data.pages || data;
     searchIndexLoaded = true;
-    console.log('Search data ready:', searchData.length, 'pages');
     document.getElementById('searchStats').innerHTML = '<span style="color: #10b981;">✓ Search ready - ' + searchData.length + ' pages indexed</span>';
     
     // If there's a search query already, perform search
@@ -129,11 +136,10 @@ fetch('/search.json?v=' + Date.now())
     }
   })
   .catch(error => {
-    console.error('Error loading search data:', error);
     document.getElementById('searchStats').innerHTML = `
-      <div class="cardish" style="background: rgba(220, 38, 38, 0.05); border-color: #dc2626; padding: 1rem; margin-bottom: 1rem;">
+      <div style="background: rgba(220, 38, 38, 0.05); border: 1px solid #fecaca; border-radius: 16px; padding: 1rem; margin-bottom: 1rem;">
         <p style="color: #dc2626; margin: 0 0 0.5rem 0; font-weight: 600;">⚠️ Search error</p>
-        <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">
+        <p style="color: #64748b; font-size: 0.9rem; margin: 0;">
           ${error.message}. Please try refreshing the page (Ctrl+Shift+R or Cmd+Shift+R).
         </p>
       </div>
@@ -203,9 +209,9 @@ function performSearch(query) {
   if (results.length === 0) {
     statsDiv.innerHTML = `No results found for "<strong>${escapeHtml(query)}</strong>"`;
     resultsDiv.innerHTML = `
-      <div class="cardish" style="text-align: center; padding: 2rem; opacity: 0.7;">
+      <div style="text-align: center; padding: 2rem; opacity: 0.7; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 18px;">
         <p style="font-size: 1.1rem; margin-bottom: 1rem;">😕 No matches found</p>
-        <p style="color: var(--text-secondary);">Try different keywords or browse using Quick Navigation below</p>
+        <p style="color: #64748b;">Try different keywords or browse using Quick Navigation below</p>
       </div>
     `;
     quickNav.style.display = 'block';

@@ -3,60 +3,59 @@ layout: default
 title: Downloads
 ---
 
-# ⬇️ Downloads
-
-Downloadable resources for Bible study and reading.
-
----
-
-## 📅 2026 Bible Reading Plans
-
-<div class="card-grid-2">
-
-<div class="cardish">
-<h3 style="margin-top:0;">📖 English Version</h3>
-<p>Complete 2026 Bible reading schedule in English. Organised by week with 6 reading days and 1 review day per week.</p>
-<a href="/assets/downloads/2026-bible-reading-plan-en.xlsx" class="cta" download>⬇️ Download Excel</a>
-<a href="/bs/ar/2026-en" class="cta cta-outline" style="margin-left:0.5rem;">View Online</a>
+<div class="mb-8 mt-2">
+	<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Downloads</p>
+	<h1 style="font-size:1.875rem;">⬇️ Download Resources</h1>
+	<p class="text-slate-500">Get the reading-plan spreadsheets and source materials for offline use, printing, or personal workflow.</p>
 </div>
 
-<div class="cardish">
-<h3 style="margin-top:0;">📖 中文版本 (Chinese Version)</h3>
-<p>2026年完整聖經閱讀計劃，中文版本。每週6天閱讀和1天複習。</p>
-<a href="/assets/downloads/2026-bible-reading-plan-zh.xlsx" class="cta" download>⬇️ 下載 Excel</a>
-<a href="/bs/ar/2026-zh" class="cta cta-outline" style="margin-left:0.5rem;">線上查看</a>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
+	<div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+		<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">2026 Reading Plan</p>
+		<h3 style="margin-top:0;">📖 English Version</h3>
+		<p class="text-sm text-slate-500 leading-relaxed mb-4">Complete 2026 Bible reading schedule in English, organized by week with six reading days and one review day.</p>
+		<div class="flex gap-2 flex-wrap">
+			<a href="/assets/downloads/2026-bible-reading-plan-en.xlsx" class="cta" download>⬇️ Download Excel</a>
+			<a href="/bs/ar/2026-en" class="cta-outline">View Online</a>
+		</div>
+	</div>
+	<div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+		<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">2026 Reading Plan</p>
+		<h3 style="margin-top:0;">📖 中文版本</h3>
+		<p class="text-sm text-slate-500 leading-relaxed mb-4">2026 年完整聖經閱讀計劃，按週安排，每週 6 天閱讀與 1 天複習，適合列印或離線使用。</p>
+		<div class="flex gap-2 flex-wrap">
+			<a href="/assets/downloads/2026-bible-reading-plan-zh.xlsx" class="cta" download>⬇️ 下載 Excel</a>
+			<a href="/bs/ar/2026-zh" class="cta-outline">線上查看</a>
+		</div>
+	</div>
 </div>
 
+<div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1.3fr)_minmax(16rem,0.9fr)] gap-4 mb-8">
+	<div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+		<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Study Material</p>
+		<h3 style="margin-top:0;">❓ Study Question Exports</h3>
+		<p class="text-sm text-slate-500 leading-relaxed mb-4">Each book page provides a plain-text download button. This is the easiest way to save question sets for printing, sharing, or offline reading.</p>
+		<div class="flex gap-2 flex-wrap">
+			<a href="/bs/sq/" class="cta">Open Study Questions →</a>
+			<a href="/bs/ar/2026-calendar" class="cta-outline">Use with Calendar</a>
+		</div>
+	</div>
+	<div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+		<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Source File</p>
+		<h3 style="margin-top:0;">📄 2 Kings Raw Text</h3>
+		<p class="text-sm text-slate-500 leading-relaxed mb-4">The bilingual source text for 2 Kings is also available directly.</p>
+		<a href="/assets/downloads/12_2ki-all.txt" class="cta" download>⬇️ Download 12_2ki-all.txt</a>
+	</div>
 </div>
 
----
-
-## 📝 Study Questions
-
-Individual study questions can be downloaded from each book's page. Visit the Study Questions section and open any book to find the download button.
-
-<div class="cardish">
-<h3 style="margin-top:0;">❓ Study Question Sheets</h3>
-<p>Printable study question sheets for each book of the Bible — available in English and Chinese. Open any book's page and click <strong>⬇️ Download</strong> to save a plain-text copy.</p>
-<a href="/bs/sq/" class="cta">Go to Study Questions →</a>
+<div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
+	<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Using the Excel Files</p>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+		<div class="rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Open the spreadsheet in Excel, Numbers, or Google Sheets.</div>
+		<div class="rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Each row represents one week, with daily readings laid out Monday through Sunday.</div>
+		<div class="rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Review days are built in, so use them for re-reading, note-taking, and prayer.</div>
+		<div class="rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Keep the file as a printable reference even if you mainly use the new calendar page online.</div>
+	</div>
 </div>
-
-<div class="cardish" style="margin-top: 1rem;">
-<h3 style="margin-top:0;">📄 2 Kings Raw Text File</h3>
-<p>The original bilingual source file for 2 Kings study questions is also available directly as a plain-text download.</p>
-<a href="/assets/downloads/12_2ki-all.txt" class="cta" download>⬇️ Download 12_2ki-all.txt</a>
-</div>
-
----
-
-## 📌 How to Use the Excel Reading Plan
-
-1. Download the Excel file for your preferred language
-2. Open in Excel, Numbers, or Google Sheets
-3. Each row is one week, with columns for Monday–Sunday
-4. Review days are marked — use them to reflect on what you've read
-5. Tick off each day as you complete your reading
-
----
 
 <p style="text-align:center; margin-top:2rem;"><a href="/">← Back to Home</a></p>
