@@ -14,11 +14,11 @@ title: 2026 Bible Reading Calendar
   </div>
   <div class="flex items-center gap-2">
     <button id="langToggle" type="button" onclick="toggleLang()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 transition-colors shadow-sm" aria-label="Switch calendar language">
-      🌐 <span id="langLabel">Show 中文</span>
+      🌐 <span id="langLabel">Switch to 中文</span>
     </button>
     <a href="/bs/ar/" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 transition-colors shadow-sm">
-      <span class="card-en">← Plans</span>
-      <span class="card-zh" style="display:none;">← 計劃</span>
+      <span class="card-en">← Plan Hub</span>
+      <span class="card-zh" style="display:none;">← 計劃總覽</span>
     </a>
   </div>
 </div>
@@ -221,7 +221,7 @@ title: 2026 Bible Reading Calendar
 
   function syncCalendarLanguage() {
     langZh = window.Mansli7Lang && window.Mansli7Lang.getCurrentLang() === 'zh';
-    document.getElementById('langLabel').textContent = langZh ? 'Show English' : 'Show 中文';
+    document.getElementById('langLabel').textContent = langZh ? '切換至 English' : 'Switch to 中文';
     document.getElementById('monthLabel').textContent = langZh ? MONTHS_ZH[currentMonth-1] : MONTHS[currentMonth-1];
     updateProgress(currentMonth);
   }
@@ -289,8 +289,8 @@ title: 2026 Bible Reading Calendar
         html += '<li style="margin-bottom:0.3rem;">' + exact.zh[k] + '</li>';
       }
       html += '</ul>';
-      html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">See full ' + parsed.en + ' questions →</a>';
-      html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看完整' + parsed.zh + '問題 →</a>';
+      html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
+      html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
     } else if (parsed.en === '📋 Review Day') {
       var targets = reviewTargets(m, d);
       html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Use today to review this week\'s readings and revisit any linked study-question sets that are already available for the books you covered.</p>';
@@ -303,14 +303,14 @@ title: 2026 Bible Reading Calendar
         }
         html += '</div>';
       } else {
-        html += '<p class="card-en" style="font-size:0.82rem;color:#94a3b8;margin:0;">This week\'s readings do not yet have linked study-question sets. Use the day for rereading and notes.</p>';
-        html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#94a3b8;margin:0;">本週的閱讀目前還沒有對應的學習問題頁面，今天可用來重讀經文並整理筆記。</p>';
+        html += '<p class="card-en" style="font-size:0.82rem;color:#94a3b8;margin:0;">This week\'s readings do not yet have linked question sets. Use the day for rereading, prayer, and notes.</p>';
+        html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#94a3b8;margin:0;">本週的閱讀目前還沒有對應的問題集，今天可用來重讀經文、禱告並整理筆記。</p>';
       }
     } else {
-      html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Study questions for ' + parsed.en + ' are not available yet. Today\'s reading still stays on the calendar, and completed question sets currently cover ' + sqCoverage.availableRangeEn + '.</p>';
-      html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">「' + parsed.zh + '」的學習問題目前尚未提供。今天的讀經仍照計畫進行，而已完成的問題集目前涵蓋' + sqCoverage.availableRangeZh + '。</p>';
-      html += '<a class="card-en" href="/bs/sq/" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Browse available study-question books →</a>';
-      html += '<a class="card-zh" href="/bs/sq/" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看目前已提供的書卷問題 →</a>';
+      html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">A prepared question set for ' + parsed.en + ' is not live yet. Today\'s reading still stays on the calendar, and completed sets currently cover ' + sqCoverage.availableRangeEn + '.</p>';
+      html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">「' + parsed.zh + '」的問題集目前尚未上線。今天的讀經仍照計畫進行，而已完成的問題集目前涵蓋' + sqCoverage.availableRangeZh + '。</p>';
+      html += '<a class="card-en" href="/bs/sq/" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Browse available book pages →</a>';
+      html += '<a class="card-zh" href="/bs/sq/" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看目前已提供的書卷頁面 →</a>';
     }
     html += '</div>';
     return html;
@@ -366,7 +366,7 @@ title: 2026 Bible Reading Calendar
     html += '<div class="card-en">';
     html += '<p style="font-size:0.92rem;font-weight:700;color:#0f172a;margin:0 0 0.2rem;line-height:1.3;">' + parsed.en + '</p>';
     if (!isReview) {
-      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? 'Questions ready' : 'Questions coming soon') + '</span>';
+      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? 'Question set ready' : 'Question set coming soon') + '</span>';
     }
     html += bgl;
     html += '</div>';
@@ -375,20 +375,20 @@ title: 2026 Bible Reading Calendar
     html += '<div class="card-zh" style="display:none;">';
     html += '<p style="font-size:0.92rem;font-weight:700;color:#0f172a;margin:0 0 0.2rem;line-height:1.3;">' + parsed.zh + '</p>';
     if (!isReview) {
-      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? '已提供問題' : '問題即將提供') + '</span>';
+      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? '問題集已提供' : '問題集即將提供') + '</span>';
     }
     html += bgl;
     html += '</div>';
 
     // Today badge
     if (isToday) {
-      html += '<span class="card-en" style="display:inline-block;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">TODAY</span>';
-      html += '<span class="card-zh" style="display:none;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">今天</span>';
+      html += '<span class="card-en" style="display:inline-block;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">Today</span>';
+      html += '<span class="card-zh" style="display:none;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">今日</span>';
     }
 
     // Study questions button + panel
-    var panelLabelEn = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Study Questions' : '📖 Question Status';
-    var panelLabelZh = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 學習問題' : '📖 問題狀態';
+    var panelLabelEn = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Open Question Panel' : '📖 View Question Status';
+    var panelLabelZh = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 打開問題面板' : '📖 查看問題狀態';
     html += '<div style="margin-top:0.65rem;">';
     html += '<button type="button" id="sqbtn-' + cardId + '" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" aria-controls="sq-' + cardId + '" aria-label="Toggle study question details for ' + parsed.en.replace(/"/g, '&quot;') + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:0.25rem;">';
     html += '<span class="card-en">' + panelLabelEn + '</span>';
@@ -414,7 +414,7 @@ title: 2026 Bible Reading Calendar
       var card = buildCard(m, d);
       if (card) html += card;
     }
-    if (!html) html = '<p style="color:#94a3b8;font-size:0.9rem;">No readings scheduled for this month.</p>';
+    if (!html) html = '<p class="card-en" style="color:#94a3b8;font-size:0.9rem;">No readings are scheduled for this month.</p><p class="card-zh" style="display:none;color:#94a3b8;font-size:0.9rem;">這個月份目前沒有安排讀經內容。</p>';
     grid.innerHTML = html;
 
     // Re-apply language state
@@ -448,9 +448,9 @@ title: 2026 Bible Reading Calendar
     var pct = Math.round((done / total) * 100);
     document.getElementById('cal-progress').textContent = done > 0
       ? (langZh
-          ? '第 ' + done + ' 天，共 ' + total + ' 天 · 已完成 ' + pct + '%'
-          : 'Day ' + done + ' of ' + total + ' · ' + pct + '% complete')
-      : (langZh ? '2026 年 ' + MONTHS_ZH[m-1] : MONTHS[m-1] + ' 2026');
+            ? '已完成第 ' + done + ' 天，共 ' + total + ' 天 · 進度 ' + pct + '%'
+            : 'Completed day ' + done + ' of ' + total + ' · ' + pct + '%')
+          : (langZh ? '2026 年 ' + MONTHS_ZH[m-1] + ' 讀經安排' : MONTHS[m-1] + ' 2026 reading schedule');
   }
 
   // ── Navigation ────────────────────────────────────────────────

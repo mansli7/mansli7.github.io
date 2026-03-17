@@ -8,8 +8,8 @@ title: Study Questions
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">延伸思想</p>
   <h1 class="card-en" style="font-size:1.875rem;">❓ Study Questions</h1>
   <h1 class="card-zh" style="font-size:1.875rem;">❓ 學習問題</h1>
-  <p class="card-en text-slate-500">Use these book-based guides to observe, interpret, and apply Scripture. They connect directly with the daily calendar when a book has prepared questions.</p>
-  <p class="card-zh text-slate-500">這些按書卷整理的問題幫助你觀察、理解並應用經文。若某卷書已有整理完成的問題，也會直接和每日月曆連接。</p>
+  <p class="card-en text-slate-500">Use these book-based guides to observe, interpret, and apply Scripture. When a book already has prepared questions, the daily calendar links here directly.</p>
+  <p class="card-zh text-slate-500">這些按書卷整理的問題幫助你觀察、理解並應用經文。若某卷書已有整理完成的問題，每日月曆也會直接連到這裡。</p>
 </div>
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8">
@@ -17,8 +17,8 @@ title: Study Questions
     <div>
       <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">How This Fits</p>
       <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">使用方式</p>
-      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">The calendar gives you quick prompts for the day when that reading already has prepared study questions. This section is where you go for the full question set for the books that are live now, either for personal reflection or group study.</p>
-      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">當某天的閱讀已經有整理好的學習問題時，月曆會先提供快速提示。這個頁面則提供那些已上線書卷的完整問題集，適合個人默想或小組查考。</p>
+      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">The calendar gives you quick prompts when that day's reading already has prepared study questions. This section is where you open the full question sets for the books that are live now, whether for personal reflection or group study.</p>
+      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">當某天的閱讀已經有整理好的學習問題時，月曆會先提供快速提示。這個頁面則讓你打開目前已上線書卷的完整問題集，適合個人默想或小組查考。</p>
     </div>
     <div class="flex gap-2 flex-wrap">
       <a href="/bs/ar/2026-calendar" class="cta card-en">Open 2026 Calendar</a>
@@ -34,8 +34,8 @@ title: Study Questions
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first twelve books in the reading flow: Genesis through 2 Kings.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十二卷書，從創世記到列王紀下。</p>
-  <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books remain in the calendar and reading plan, but their study-question state is shown as coming soon until those guides are published.</p>
-  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其學習問題會先標示為即將提供，直到整理完成為止。</p>
+  <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
+  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
 
 <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Available Now</p>
@@ -50,8 +50,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Creation, fall, flood, patriarchs, and Joseph.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">創造、墮落、洪水、族長，以及約瑟的故事。</p>
     <div class="flex gap-2">
-      <a href="en/genesis" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/genesis" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/genesis" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/genesis" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -60,8 +60,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Slavery, plagues, the exodus, the law, and the tabernacle.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">奴役、災禍、出埃及、律法，以及會幕。</p>
     <div class="flex gap-2">
-      <a href="en/exodus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/exodus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/exodus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/exodus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -70,8 +70,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Sacrifices, priesthood, holiness, and purity laws.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">獻祭、祭司職分、聖潔，以及潔淨條例。</p>
     <div class="flex gap-2">
-      <a href="en/leviticus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/leviticus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/leviticus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/leviticus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -80,8 +80,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">The wilderness years, census, rebellion, and journeying.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">曠野歲月、數點百姓、悖逆，以及路程。</p>
     <div class="flex gap-2">
-      <a href="en/numbers" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/numbers" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/numbers" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/numbers" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -90,8 +90,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Review of the law, covenant renewal, blessings, and curses.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">重述律法、更新盟約、祝福，以及咒詛。</p>
     <div class="flex gap-2">
-      <a href="en/deuteronomy" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/deuteronomy" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/deuteronomy" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/deuteronomy" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
 </div>
@@ -105,8 +105,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Conquest, inheritance, and covenant renewal.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">征服、承受產業，以及更新盟約。</p>
     <div class="flex gap-2">
-      <a href="en/joshua" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/joshua" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/joshua" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/joshua" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -115,8 +115,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Cycles of sin, deliverance, judges, and apostasy.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">犯罪循環、拯救、士師，以及背道。</p>
     <div class="flex gap-2">
-      <a href="en/judges" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/judges" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/judges" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/judges" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -125,8 +125,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Loyalty, redemption, and the kinsman redeemer.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">忠誠、救贖，以及至親救贖者。</p>
     <div class="flex gap-2">
-      <a href="en/ruth" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/ruth" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/ruth" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/ruth" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -135,8 +135,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Samuel, Saul, David, and the kingdom established.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">撒母耳、掃羅、大衛，以及王國的建立。</p>
     <div class="flex gap-2">
-      <a href="en/1-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/1-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/1-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/1-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -145,8 +145,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">David's reign, covenant, sin, and consequences.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">大衛作王、盟約、罪，以及後果。</p>
     <div class="flex gap-2">
-      <a href="en/2-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/2-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/2-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/2-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -155,8 +155,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Solomon, the temple, the divided kingdom, and prophets.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">所羅門、聖殿、王國分裂，以及先知。</p>
     <div class="flex gap-2">
-      <a href="en/1-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/1-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/1-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/1-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -165,8 +165,8 @@ title: Study Questions
     <p class="card-en text-xs text-slate-400 mb-3">Elijah, Elisha, reform, and exile.</p>
     <p class="card-zh text-xs text-slate-400 mb-3">以利亞、以利沙、改革，以及被擄。</p>
     <div class="flex gap-2">
-      <a href="en/2-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
-      <a href="zh/2-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
+      <a href="en/2-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/2-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
 </div>
@@ -208,8 +208,8 @@ title: Study Questions
     <div class="card-zh rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">先讀經文，再打開問題頁面。</div>
     <div class="card-en rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Work through the prompts slowly instead of trying to answer everything at once.</div>
     <div class="card-zh rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">慢慢完成問題，不需要一次全部答完。</div>
-    <div class="card-en rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Open the language page you want and stay with that page for a cleaner reading flow.</div>
-    <div class="card-zh rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">選定你要的語言頁面後，直接沿著那個語言的流程閱讀即可。</div>
+    <div class="card-en rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Stay in your selected site language and open each book page from that same flow for a cleaner reading experience.</div>
+    <div class="card-zh rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">保持你目前選定的網站語言，並沿著同一個流程打開各書卷頁面，閱讀會更清楚順手。</div>
     <div class="card-en rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">Download the plain-text copy from any book page when you want offline or printable study.</div>
     <div class="card-zh rounded-2xl bg-white border border-slate-200 p-4 text-sm text-slate-600">若要離線或列印，可在各書卷頁面下載純文字版本。</div>
   </div>

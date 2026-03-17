@@ -9,7 +9,7 @@ title: About
   <h1 class="card-en" style="font-size:1.875rem;">The Last Adam</h1>
   <h1 class="card-zh" style="font-size:1.875rem;">末後的亞當</h1>
   <p class="card-en text-slate-500">This site exists to help readers move from daily Bible reading into thoughtful reflection, always pointing back to Jesus Christ.</p>
-  <p class="card-zh text-slate-500">這個網站存在的目的，是幫助讀者從每日讀經進入更深入的思想，並始終回到耶穌基督身上。</p>
+  <p class="card-zh text-slate-500">這個網站的目的，是幫助讀者從每日讀經進入更深入的思想，並始終回到耶穌基督身上。</p>
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
@@ -31,7 +31,7 @@ title: About
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Why This Site Exists</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">網站存在的原因</p>
   <p class="card-en text-slate-600 leading-relaxed mb-4">Mansli7 is built around a simple aim: help people read God’s Word consistently, think carefully about what it says, and understand salvation through Jesus Christ, the Last Adam.</p>
-  <p class="card-zh text-slate-600 leading-relaxed mb-4">Mansli7 圍繞著一個簡單目的: 幫助人穩定讀神的話，仔細思想經文所說的，並藉著末後的亞當耶穌基督明白救恩。</p>
+  <p class="card-zh text-slate-600 leading-relaxed mb-4">Mansli7 圍繞著一個簡單的目的：幫助人穩定讀神的話，仔細思想經文所說的，並藉著末後的亞當耶穌基督明白救恩。</p>
   <p class="card-en text-slate-600 leading-relaxed mb-0">Where the first Adam brought sin and death through disobedience, Jesus Christ brings life through His perfect obedience, His atoning death, and His resurrection. The theme of the site is meant to keep that contrast visible.</p>
   <p class="card-zh text-slate-600 leading-relaxed mb-0">第一個亞當因悖逆帶來罪和死，耶穌基督卻藉著完全順服、代贖的死與復活帶來生命。這個網站的主題就是要把這個對比清楚擺在人面前。</p>
 </div>

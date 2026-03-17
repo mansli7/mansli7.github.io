@@ -8,8 +8,8 @@ title: Annual Reading Plans
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">讀經計劃</p>
   <h1 class="card-en" style="font-size:1.875rem;">📅 Annual Reading Plans</h1>
   <h1 class="card-zh" style="font-size:1.875rem;">📅 年度讀經計劃</h1>
-  <p class="card-en text-slate-500">Choose the full yearly schedule, or use the calendar-first view for the simplest daily workflow.</p>
-  <p class="card-zh text-slate-500">你可以使用完整年度表，也可以直接用月曆模式開始最簡單的每日流程。</p>
+  <p class="card-en text-slate-500">Use the calendar for the main day-by-day flow, or open a full weekly table when you want the entire year at a glance.</p>
+  <p class="card-zh text-slate-500">日常使用請以月曆為主；若你想一次查看整年安排，再打開完整週次表。</p>
 </div>
 
 <div class="bg-indigo-50 rounded-3xl border border-indigo-200 p-6 shadow-sm mb-8">
@@ -19,8 +19,8 @@ title: Annual Reading Plans
       <p class="card-zh text-xs font-bold tracking-widest text-indigo-500 uppercase mb-2">建議入口</p>
       <h2 class="card-en text-xl font-bold text-slate-900 mb-2" style="margin-top:0;">Start with Calendar View</h2>
       <h2 class="card-zh text-xl font-bold text-slate-900 mb-2" style="margin-top:0;">先從月曆模式開始</h2>
-      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">The calendar is now the primary experience: daily readings, language toggle, quick prompts, and review-day links to the right study-question pages.</p>
-      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">月曆現在是主要入口: 每日讀經、語言切換、快速提示，以及複習日對應的學習問題連結都集中在這裡。</p>
+      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">The calendar is now the primary experience: daily readings, language switching, quick prompts, and review-day links to the matching study-question pages.</p>
+      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">月曆現在是主要入口：每日讀經、語言切換、快速提示，以及複習日對應的學習問題連結都集中在這裡。</p>
     </div>
     <div class="flex gap-2 flex-wrap">
       <a href="2026-calendar" class="cta card-en">📅 Open Calendar →</a>
@@ -38,11 +38,11 @@ title: Annual Reading Plans
     <h3 class="card-zh" style="margin-top:0;font-size:1rem;">英文版本</h3>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-2">Complete 2026 reading schedule in English, organized by week with daily readings and review days.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-2">2026 年完整英文讀經計劃，按週整理，每週包含每日閱讀與複習節奏。</p>
-    <p class="card-en text-xs text-slate-400 mb-4">Best if you want the original weekly layout or a printable reference.</p>
-    <p class="card-zh text-xs text-slate-400 mb-4">如果你需要原始週次排列或可列印版本，這是最直接的入口。</p>
+    <p class="card-en text-xs text-slate-400 mb-4">Best when you want the original weekly layout or a printable reference sheet.</p>
+    <p class="card-zh text-xs text-slate-400 mb-4">如果你需要原始週次排版或可列印的參考表，這是最直接的入口。</p>
     <div class="flex gap-2 flex-wrap">
-      <a href="2026-en" class="cta card-en">📄 View Plan</a>
-      <a href="2026-en" class="cta card-zh">📄 查看計劃</a>
+      <a href="2026-en" class="cta card-en">📄 Open Weekly Table</a>
+      <a href="2026-en" class="cta card-zh">📄 打開週次表</a>
       <a href="/assets/downloads/2026-bible-reading-plan-en.xlsx" download class="cta card-en" style="background:linear-gradient(180deg,#64748b,#475569);">⬇️ Download Excel</a>
       <a href="/assets/downloads/2026-bible-reading-plan-en.xlsx" download class="cta card-zh" style="background:linear-gradient(180deg,#64748b,#475569);">⬇️ 下載 Excel</a>
     </div>
@@ -54,11 +54,11 @@ title: Annual Reading Plans
     <h3 class="card-zh" style="margin-top:0;font-size:1rem;">中文版本</h3>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-2">Complete 2026 reading schedule in Chinese, organized by week with daily readings and review days.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-2">2026 年完整中文讀經計劃，按週安排，每週包含每日讀經與複習節奏。</p>
-    <p class="card-en text-xs text-slate-400 mb-4">Best if you want the original weekly layout or a printable reference in Chinese.</p>
+    <p class="card-en text-xs text-slate-400 mb-4">Best when you want the original weekly layout or a printable Chinese reference sheet.</p>
     <p class="card-zh text-xs text-slate-400 mb-4">如果你想保留原本的週次表格或下載列印，這是最直接的版本。</p>
     <div class="flex gap-2 flex-wrap">
-      <a href="2026-zh" class="cta card-en">📄 View Plan</a>
-      <a href="2026-zh" class="cta card-zh">📄 查看計劃</a>
+      <a href="2026-zh" class="cta card-en">📄 Open Weekly Table</a>
+      <a href="2026-zh" class="cta card-zh">📄 打開週次表</a>
       <a href="/assets/downloads/2026-bible-reading-plan-zh.xlsx" download class="cta card-en" style="background:linear-gradient(180deg,#64748b,#475569);">⬇️ Download Excel</a>
       <a href="/assets/downloads/2026-bible-reading-plan-zh.xlsx" download class="cta card-zh" style="background:linear-gradient(180deg,#64748b,#475569);">⬇️ 下載 Excel</a>
     </div>
@@ -71,8 +71,8 @@ title: Annual Reading Plans
     <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">第 1 步</p>
     <p class="card-en font-semibold text-slate-900 mb-1">Choose a reading view</p>
     <p class="card-zh font-semibold text-slate-900 mb-1">選擇讀經入口</p>
-    <p class="card-en text-sm text-slate-500 mb-0">Use the calendar for daily flow, or the weekly tables for a compact reference.</p>
-    <p class="card-zh text-sm text-slate-500 mb-0">日常使用請選月曆，若需要整體參考則看週次表格。</p>
+    <p class="card-en text-sm text-slate-500 mb-0">Use the calendar for day-by-day reading, or the weekly tables when you want the whole structure quickly.</p>
+    <p class="card-zh text-sm text-slate-500 mb-0">日常使用請選月曆；若想快速掌握整體安排，就看週次表。</p>
   </div>
   <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
     <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Step 2</p>
