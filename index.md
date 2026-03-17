@@ -7,7 +7,8 @@ title: Home
   <section class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
     <p class="text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
     <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
-    <p class="text-slate-600 leading-relaxed mb-6">The reading plan, calendar view, and study-question pages are designed to work together: read the passage, reflect on key prompts, then go deeper only when you need to.</p>
+    <p class="text-slate-600 leading-relaxed mb-3">The reading plan, calendar view, and study-question pages are designed to work together: read the passage, reflect on key prompts where prepared questions are already available, then go deeper only when you need to.</p>
+    <p class="text-sm text-slate-500 leading-relaxed mb-6">Current prepared study-question sets cover Genesis through 2 Kings. Later books stay visible in the reading plan and are marked as coming soon in the reflection flow.</p>
     <div class="flex flex-wrap items-center gap-3 mb-6">
       <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
       <a href="/bs/sq/" class="cta-outline">Browse Study Questions</a>
@@ -19,7 +20,7 @@ title: Home
       </div>
       <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
         <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">2. Reflect</p>
-        <p class="text-sm text-slate-600 mb-0">Open the matched study prompts directly from the calendar card.</p>
+        <p class="text-sm text-slate-600 mb-0">Open the matched study prompts directly from the calendar card when that book already has prepared questions.</p>
       </div>
       <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
         <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">3. Go Deeper</p>
@@ -49,6 +50,7 @@ title: Home
   <div id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2"></div>
   <div id="todayRef" class="text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
   <div id="todayRefZh" class="text-lg text-slate-500 mb-5"></div>
+  <div id="todayNote" class="text-sm text-slate-500 mb-4"></div>
   <div id="todayActions" class="flex flex-wrap gap-3"></div>
 </div>
 
@@ -89,7 +91,7 @@ title: Home
     </div>
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
       <p class="font-semibold text-slate-900 mb-1">Open the prompts</p>
-      <p class="text-sm text-slate-500 mb-0">Use the study-question panel for quick reflection.</p>
+      <p class="text-sm text-slate-500 mb-0">Use the study-question panel for quick reflection when that book already has prepared prompts.</p>
     </div>
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
       <p class="font-semibold text-slate-900 mb-1">Go deeper later</p>

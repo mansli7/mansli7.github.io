@@ -322,9 +322,11 @@
     var elDate=document.getElementById('todayDate');
     var elRef=document.getElementById('todayRef');
     var elRefZh=document.getElementById('todayRefZh');
+    var elNote=document.getElementById('todayNote');
     var elActions=document.getElementById('todayActions');
     if (!elDate) return;
     elActions.textContent = '';
+    if (elNote) elNote.textContent = '';
     elDate.textContent=dateStr;
     if (!code) { elRef.textContent='No reading scheduled for today'; return; }
     var parsed=parse(code);
@@ -335,7 +337,7 @@
     readBtn.className='cta';
     readBtn.textContent='📅 Open Calendar';
     elActions.appendChild(readBtn);
-    if (parsed.sq) {
+    if (parsed.sqStatus && parsed.sqStatus.available) {
       var sqBtnEn=document.createElement('a');
       sqBtnEn.href=exactSqHref('en', parsed); sqBtnEn.className='cta cta-outline'; sqBtnEn.textContent='❓ Study Questions EN';
       elActions.appendChild(sqBtnEn);
@@ -343,6 +345,16 @@
       var sqBtnZh=document.createElement('a');
       sqBtnZh.href=exactSqHref('zh', parsed); sqBtnZh.className='cta cta-outline'; sqBtnZh.textContent='❓ 學習問題 中文';
       elActions.appendChild(sqBtnZh);
+      if (elNote) elNote.textContent='Prepared study questions are available for this reading in both English and Chinese.';
+    } else if (parsed.en === '📋 Review Day') {
+      if (elNote) elNote.textContent='Use today to review the week’s readings and revisit any book study pages that are already available.';
+    } else {
+      if (elNote) elNote.textContent='Study questions for this book are still in progress. Browse the currently available sets from Genesis through 2 Kings.';
+      var browseBtn=document.createElement('a');
+      browseBtn.href='/bs/sq/';
+      browseBtn.className='cta cta-outline';
+      browseBtn.textContent='❓ Browse Available Questions';
+      elActions.appendChild(browseBtn);
     }
   })();
   </script>

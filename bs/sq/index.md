@@ -13,13 +13,19 @@ title: Study Questions
   <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
     <div>
       <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">How This Fits</p>
-      <p class="text-sm text-slate-600 leading-relaxed mb-0">The calendar gives you quick prompts for the day. This section is where you go when you want the full question set for a book, either for personal reflection or group study.</p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-0">The calendar gives you quick prompts for the day when that reading already has prepared study questions. This section is where you go for the full question set for the books that are live now, either for personal reflection or group study.</p>
     </div>
     <div class="flex gap-2 flex-wrap">
       <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
       <a href="/downloads/" class="cta-outline">Open Downloads</a>
     </div>
   </div>
+</div>
+
+<div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
+  <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
+  <p class="text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first twelve books in the reading flow: Genesis through 2 Kings.</p>
+  <p class="text-sm text-slate-600 leading-relaxed mb-0">Later books remain in the calendar and reading plan, but their study-question state is shown as coming soon until those guides are published.</p>
 </div>
 
 <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Available Now</p>
