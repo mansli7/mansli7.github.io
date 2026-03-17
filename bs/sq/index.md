@@ -45,40 +45,50 @@ title: Study Questions
 <h2 class="card-zh" style="margin-top:0;">📖 律法書 (創世記至申命記)</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Genesis 創世記</h3>
-    <p class="text-xs text-slate-400 mb-3">Creation, Fall, Flood, Patriarchs, Joseph</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Genesis</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 創世記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Creation, fall, flood, patriarchs, and Joseph.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">創造、墮落、洪水、族長，以及約瑟的故事。</p>
     <div class="flex gap-2">
       <a href="en/genesis" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/genesis" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Exodus 出埃及記</h3>
-    <p class="text-xs text-slate-400 mb-3">Slavery, Plagues, Exodus, Law, Tabernacle</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Exodus</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 出埃及記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Slavery, plagues, the exodus, the law, and the tabernacle.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">奴役、災禍、出埃及、律法，以及會幕。</p>
     <div class="flex gap-2">
       <a href="en/exodus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/exodus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Leviticus 利未記</h3>
-    <p class="text-xs text-slate-400 mb-3">Sacrifices, Priesthood, Holiness, Purity Laws</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Leviticus</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 利未記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Sacrifices, priesthood, holiness, and purity laws.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">獻祭、祭司職分、聖潔，以及潔淨條例。</p>
     <div class="flex gap-2">
       <a href="en/leviticus" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/leviticus" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Numbers 民數記</h3>
-    <p class="text-xs text-slate-400 mb-3">Wilderness, Census, Rebellion, Journey</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Numbers</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 民數記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">The wilderness years, census, rebellion, and journeying.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">曠野歲月、數點百姓、悖逆，以及路程。</p>
     <div class="flex gap-2">
       <a href="en/numbers" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/numbers" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Deuteronomy 申命記</h3>
-    <p class="text-xs text-slate-400 mb-3">Law Review, Covenant, Blessings &amp; Curses</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Deuteronomy</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 申命記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Review of the law, covenant renewal, blessings, and curses.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">重述律法、更新盟約、祝福，以及咒詛。</p>
     <div class="flex gap-2">
       <a href="en/deuteronomy" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/deuteronomy" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
@@ -90,56 +100,70 @@ title: Study Questions
 <h2 class="card-zh">📖 歷史書 (約書亞記至列王紀下)</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Joshua 約書亞記</h3>
-    <p class="text-xs text-slate-400 mb-3">Conquest, Inheritance, Covenant Renewal</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Joshua</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 約書亞記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Conquest, inheritance, and covenant renewal.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">征服、承受產業，以及更新盟約。</p>
     <div class="flex gap-2">
       <a href="en/joshua" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/joshua" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Judges 士師記</h3>
-    <p class="text-xs text-slate-400 mb-3">Cycles of Sin, Deliverance, Judges, Apostasy</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Judges</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 士師記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Cycles of sin, deliverance, judges, and apostasy.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">犯罪循環、拯救、士師，以及背道。</p>
     <div class="flex gap-2">
       <a href="en/judges" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/judges" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 Ruth 路得記</h3>
-    <p class="text-xs text-slate-400 mb-3">Loyalty, Redemption, Kinsman Redeemer</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Ruth</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 路得記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Loyalty, redemption, and the kinsman redeemer.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">忠誠、救贖，以及至親救贖者。</p>
     <div class="flex gap-2">
       <a href="en/ruth" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/ruth" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 1 Samuel 撒母耳記上</h3>
-    <p class="text-xs text-slate-400 mb-3">Samuel, Saul, David, Kingdom Established</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Samuel</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 撒母耳記上</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Samuel, Saul, David, and the kingdom established.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">撒母耳、掃羅、大衛，以及王國的建立。</p>
     <div class="flex gap-2">
       <a href="en/1-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/1-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 2 Samuel 撒母耳記下</h3>
-    <p class="text-xs text-slate-400 mb-3">David's Reign, Covenant, Sin and Consequences</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 2 Samuel</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 撒母耳記下</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">David's reign, covenant, sin, and consequences.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">大衛作王、盟約、罪，以及後果。</p>
     <div class="flex gap-2">
       <a href="en/2-samuel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/2-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 1 Kings 列王紀上</h3>
-    <p class="text-xs text-slate-400 mb-3">Solomon, Temple, Kingdom Divided, Prophets</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Kings</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 列王紀上</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Solomon, the temple, the divided kingdom, and prophets.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">所羅門、聖殿、王國分裂，以及先知。</p>
     <div class="flex gap-2">
       <a href="en/1-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/1-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 2 Kings 列王紀下</h3>
-    <p class="text-xs text-slate-400 mb-3">Elijah, Elisha, Reform, Exile</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 2 Kings</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 列王紀下</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Elijah, Elisha, reform, and exile.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">以利亞、以利沙、改革，以及被擄。</p>
     <div class="flex gap-2">
       <a href="en/2-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open English</a>
       <a href="zh/2-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開中文</a>
@@ -151,20 +175,28 @@ title: Study Questions
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">即將提供</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 詩歌 Poetry &amp; Wisdom (Job – Song of Songs)</h3>
-    <p class="text-xs text-slate-400 mb-0">Study questions exploring beauty, wisdom, lament, worship, and practical godliness.</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Poetry &amp; Wisdom (Job – Song of Songs)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 詩歌智慧書 (約伯記至雅歌)</h3>
+    <p class="card-en text-xs text-slate-400 mb-0">Study questions exploring beauty, wisdom, lament, worship, and practical godliness.</p>
+    <p class="card-zh text-xs text-slate-400 mb-0">將整理關於美、智慧、哀歌、敬拜，以及實際敬虔生活的問題。</p>
   </div>
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 先知書 Prophetic Books (Isaiah – Malachi)</h3>
-    <p class="text-xs text-slate-400 mb-0">Guides for prophetic warnings, covenant themes, judgment, and restoration promises.</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Prophetic Books (Isaiah – Malachi)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 先知書 (以賽亞書至瑪拉基書)</h3>
+    <p class="card-en text-xs text-slate-400 mb-0">Guides for prophetic warnings, covenant themes, judgment, and restoration promises.</p>
+    <p class="card-zh text-xs text-slate-400 mb-0">將整理先知警告、盟約主題、審判，以及復興應許的引導問題。</p>
   </div>
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 四福音 Four Gospels (Matthew – John)</h3>
-    <p class="text-xs text-slate-400 mb-0">Question sets following the life, teaching, death, and resurrection of Jesus.</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Four Gospels (Matthew – John)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 四福音 (馬太福音至約翰福音)</h3>
+    <p class="card-en text-xs text-slate-400 mb-0">Question sets following the life, teaching, death, and resurrection of Jesus.</p>
+    <p class="card-zh text-xs text-slate-400 mb-0">將整理跟隨耶穌生平、教導、受死與復活的問題集。</p>
   </div>
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 style="margin-top:0;font-size:0.95rem;">📖 書信 Epistles &amp; Revelation</h3>
-    <p class="text-xs text-slate-400 mb-0">Study guides for doctrine, church life, perseverance, and the final hope of Christ’s victory.</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Epistles &amp; Revelation</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 書信與啟示錄</h3>
+    <p class="card-en text-xs text-slate-400 mb-0">Study guides for doctrine, church life, perseverance, and the final hope of Christ’s victory.</p>
+    <p class="card-zh text-xs text-slate-400 mb-0">將整理教義、教會生活、忍耐，以及基督終極得勝盼望的查考引導。</p>
   </div>
 </div>
 
