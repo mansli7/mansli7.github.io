@@ -19,7 +19,7 @@ title: Home
       </div>
       <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
         <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">2. Reflect</p>
-        <p class="text-sm text-slate-600 mb-0">Open 2–3 guided prompts directly from the calendar card.</p>
+        <p class="text-sm text-slate-600 mb-0">Open the matched study prompts directly from the calendar card.</p>
       </div>
       <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
         <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">3. Go Deeper</p>
