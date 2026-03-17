@@ -16,8 +16,8 @@ title: Study Questions
       <p class="text-sm text-slate-600 leading-relaxed mb-0">The calendar gives you quick prompts for the day. This section is where you go when you want the full question set for a book, either for personal reflection or group study.</p>
     </div>
     <div class="flex gap-2 flex-wrap">
-      <a href="/bs/ar/2026-calendar" class="cta">📅 Back to Calendar</a>
-      <a href="/downloads/" class="cta-outline">⬇️ Downloads</a>
+      <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
+      <a href="/downloads/" class="cta-outline">Open Downloads</a>
     </div>
   </div>
 </div>

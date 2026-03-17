@@ -6,10 +6,10 @@ title: Home
 <div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.9fr)] gap-6 items-start mb-8 mt-2">
   <section class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
     <p class="text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
-    <h1 class="text-3xl sm:text-4xl font-bold text-slate-900 leading-tight mb-4">Read through Scripture with a clear daily path and linked study questions.</h1>
+    <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
     <p class="text-slate-600 leading-relaxed mb-6">The reading plan, calendar view, and study-question pages are designed to work together: read the passage, reflect on key prompts, then go deeper only when you need to.</p>
-    <div class="flex flex-wrap gap-3 mb-6">
-      <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar →</a>
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+      <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
       <a href="/bs/sq/" class="cta-outline">Browse Study Questions</a>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -42,7 +42,7 @@ title: Home
   <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-3">
     <div>
       <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
-      <p class="text-sm text-slate-500 mb-0">Start here if you just want the next step right now.</p>
+      <p class="text-sm text-slate-500 mb-0">Auto-matched to today&#39;s date so you can continue the plan without searching.</p>
     </div>
     <a href="/bs/ar/2026-calendar" class="text-sm font-medium text-indigo-600">Open full calendar →</a>
   </div>

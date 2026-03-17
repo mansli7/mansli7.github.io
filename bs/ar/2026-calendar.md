@@ -230,7 +230,26 @@ title: 2026 Bible Reading Calendar
 
   var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
   var MONTHS_ZH = ['1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'];
+  var WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var WEEKDAYS_ZH = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
   var DAYS_IN_MONTH = [0,31,28,31,30,31,30,31,31,30,31,30,31];
+
+  function weekdayInfo(m, d) {
+    var dayIndex = new Date(2026, m - 1, d).getDay();
+    return { en: WEEKDAYS[dayIndex], zh: WEEKDAYS_ZH[dayIndex] };
+  }
+
+  function exactSqAnchor(parsed) {
+    if (!parsed.sq || !parsed.chapters) return '';
+    var range = parsed.chapters.replace(/[^0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    return range ? 'sq-' + parsed.sq + '-' + range : '';
+  }
+
+  function exactSqHref(targetLang, parsed) {
+    var href = '/bs/sq/' + targetLang + '/' + parsed.sq;
+    var anchor = exactSqAnchor(parsed);
+    return anchor ? href + '#' + anchor : href;
+  }
 
   function applyLangState(root) {
     var scope = root || document;
@@ -310,8 +329,8 @@ title: 2026 Bible Reading Calendar
         html += '<li style="margin-bottom:0.3rem;">' + exact.zh[k] + '</li>';
       }
       html += '</ul>';
-      html += '<a class="card-en" href="/bs/sq/en/' + parsed.sq + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">See full ' + parsed.en + ' questions →</a>';
-      html += '<a class="card-zh" href="/bs/sq/zh/' + parsed.sq + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看完整' + parsed.zh + '問題 →</a>';
+      html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">See full ' + parsed.en + ' questions →</a>';
+      html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">查看完整' + parsed.zh + '問題 →</a>';
     } else if (parsed.en === '📋 Review Day') {
       var targets = reviewTargets(m, d);
       html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Use today to review this week\'s readings and revisit the linked study-question sets for the books you covered.</p>';
@@ -342,6 +361,7 @@ title: 2026 Bible Reading Calendar
     var isReview = (code === 'Review');
     var isToday = (m === todayM && d === todayD);
     var dayNum = dayOfYear(m, d);
+    var weekday = weekdayInfo(m, d);
     var cardId = m + '_' + d;
 
     var stripColor = isToday
@@ -366,8 +386,12 @@ title: 2026 Bible Reading Calendar
 
     // Color strip + date
     html += '<div style="' + stripColor + 'padding:0.5rem 0.85rem;display:flex;align-items:center;justify-content:space-between;">';
-    html += '<span style="font-size:0.7rem;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:0.05em;">' + MONTHS[m-1].slice(0,3).toUpperCase() + ' ' + d + '</span>';
-    html += '<span style="font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.75);">Day ' + dayNum + ' / 365</span>';
+    html += '<div style="display:flex;flex-direction:column;gap:0.08rem;">';
+    html += '<span class="card-en" style="font-size:0.7rem;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:0.05em;">' + MONTHS[m-1].slice(0,3).toUpperCase() + ' ' + d + ' · ' + weekday.en.toUpperCase() + '</span>';
+    html += '<span class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:0.03em;">' + MONTHS_ZH[m-1] + ' ' + d + ' 日 · ' + weekday.zh + '</span>';
+    html += '</div>';
+    html += '<span class="card-en" style="font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.75);">Day ' + dayNum + ' / 365</span>';
+    html += '<span class="card-zh" style="display:none;font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.75);">第 ' + dayNum + ' / 365 天</span>';
     html += '</div>';
 
     // Card body
