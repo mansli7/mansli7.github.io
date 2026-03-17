@@ -7,25 +7,11 @@ title: Home
   <section class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
     <p class="text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
     <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
-    <p class="text-slate-600 leading-relaxed mb-3">The reading plan, calendar view, and study-question pages are designed to work together: read the passage, reflect on key prompts where prepared questions are already available, then go deeper only when you need to.</p>
-    <p class="text-sm text-slate-500 leading-relaxed mb-6">Current prepared study-question sets cover Genesis through 2 Kings. Later books stay visible in the reading plan and are marked as coming soon in the reflection flow.</p>
-    <div class="flex flex-wrap items-center gap-3 mb-6">
+    <p class="text-slate-600 leading-relaxed mb-3">Use the calendar for the daily reading path, then open study-question pages when you want slower personal or group study.</p>
+    <p class="text-sm text-slate-500 leading-relaxed mb-6">Prepared study questions are available for select books, while the reading plan continues through the full year.</p>
+    <div class="flex flex-wrap items-center gap-3">
       <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
       <a href="/bs/sq/" class="cta-outline">Browse Study Questions</a>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-      <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
-        <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">1. Read</p>
-        <p class="text-sm text-slate-600 mb-0">Follow the day’s assignment in English or Chinese.</p>
-      </div>
-      <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
-        <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">2. Reflect</p>
-        <p class="text-sm text-slate-600 mb-0">Open the matched study prompts directly from the calendar card when that book already has prepared questions.</p>
-      </div>
-      <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4">
-        <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">3. Go Deeper</p>
-        <p class="text-sm text-slate-600 mb-0">Use the full study-question pages for slower personal or group study.</p>
-      </div>
     </div>
   </section>
 
@@ -40,12 +26,9 @@ title: Home
 </div>
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8" id="today-reading">
-  <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-3">
-    <div>
-      <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
-      <p class="text-sm text-slate-500 mb-0">Auto-matched to today&#39;s date so you can continue the plan without searching.</p>
-    </div>
-    <a href="/bs/ar/2026-calendar" class="text-sm font-medium text-indigo-600">Open full calendar →</a>
+  <div class="mb-3">
+    <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
+    <p class="text-sm text-slate-500 mb-0">Today&#39;s assignment, matched to the current date.</p>
   </div>
   <div id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2"></div>
   <div id="todayRef" class="text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
