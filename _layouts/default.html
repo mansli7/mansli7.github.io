@@ -64,7 +64,9 @@
     const mobileDropContent = document.getElementById('mobileDropContent');
     if (mobileDropToggle && mobileDropContent) {
       mobileDropToggle.addEventListener('click', function() {
+        const isOpen = !mobileDropContent.classList.contains('hidden');
         mobileDropContent.classList.toggle('hidden');
+        this.setAttribute('aria-expanded', String(!isOpen));
       });
     }
 

@@ -56,6 +56,21 @@ a.cta-outline:hover {
   box-shadow: 0 8px 20px rgba(99,102,241,0.12);
 }
 
+a.cta:focus-visible,
+a.cta-outline:focus-visible,
+nav a:focus-visible,
+nav button:focus-visible,
+#cal-root a:focus-visible,
+#cal-root button:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+a.cta:focus-visible,
+a.cta-outline:focus-visible {
+  transform: none;
+}
+
 .sq-book-actions {
   display: flex;
   flex-wrap: wrap;
@@ -117,6 +132,18 @@ blockquote {
 code { background: #f1f5f9; padding: .2rem .4rem; border-radius: 4px; font-size: 0.9em; font-family: ui-monospace, Menlo, Monaco, 'Courier New', monospace; }
 pre { background: #f1f5f9; padding: 1rem; border-radius: 8px; overflow-x: auto; border: 1px solid #e2e8f0; }
 pre code { background: none; padding: 0; border: none; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 /* ============================================================
    REMOVED: nav, hero, cardish, card-grid, scripture-banner,

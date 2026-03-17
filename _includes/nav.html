@@ -12,7 +12,7 @@
       </a>
 
       <!-- Hamburger (mobile only) -->
-      <button id="navToggle" class="md:hidden p-2 rounded-lg text-slate-500 hover:bg-slate-100 transition-colors" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+      <button id="navToggle" type="button" class="md:hidden p-2 rounded-lg text-slate-500 hover:bg-slate-100 transition-colors" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
         <svg id="menuIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
@@ -54,7 +54,7 @@
     <div class="max-w-5xl mx-auto px-4 py-3 space-y-0.5">
       <a href="/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">Home</a>
       <div>
-        <button id="mobileDropToggle" class="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 flex items-center justify-between transition-colors">
+        <button id="mobileDropToggle" type="button" class="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 flex items-center justify-between transition-colors" aria-expanded="false" aria-controls="mobileDropContent">
           <span>📅 Reading Plan</span>
           <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>

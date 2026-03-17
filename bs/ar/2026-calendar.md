@@ -13,7 +13,7 @@ title: 2026 Bible Reading Calendar
     <p class="text-slate-500 text-sm" id="cal-progress"></p>
   </div>
   <div class="flex items-center gap-2">
-    <button id="langToggle" onclick="toggleLang()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 transition-colors shadow-sm">
+    <button id="langToggle" type="button" onclick="toggleLang()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 transition-colors shadow-sm" aria-label="Switch calendar language">
       🌐 <span id="langLabel">Show 中文</span>
     </button>
     <a href="/bs/ar/" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 transition-colors shadow-sm">
@@ -48,27 +48,27 @@ title: 2026 Bible Reading Calendar
 
 <!-- Month navigation -->
 <div class="flex items-center justify-between bg-white rounded-xl border border-slate-200 shadow-sm px-5 py-3 mb-6">
-  <button onclick="prevMonth()" class="p-1.5 rounded-lg hover:bg-slate-100 transition-colors text-slate-500 hover:text-slate-900">
+  <button type="button" onclick="prevMonth()" class="p-1.5 rounded-lg hover:bg-slate-100 transition-colors text-slate-500 hover:text-slate-900" aria-label="Show previous month">
     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
   </button>
   <div class="text-center">
-    <div id="monthLabel" class="font-bold text-slate-900 text-lg"></div>
+    <div id="monthLabel" class="font-bold text-slate-900 text-lg" aria-live="polite"></div>
     <div class="card-en text-xs text-slate-400 mt-0.5">2026</div>
     <div class="card-zh text-xs text-slate-400 mt-0.5" style="display:none;">2026 年</div>
   </div>
-  <button onclick="nextMonth()" class="p-1.5 rounded-lg hover:bg-slate-100 transition-colors text-slate-500 hover:text-slate-900">
+  <button type="button" onclick="nextMonth()" class="p-1.5 rounded-lg hover:bg-slate-100 transition-colors text-slate-500 hover:text-slate-900" aria-label="Show next month">
     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
   </button>
 </div>
 
 <!-- Legend -->
-<div class="flex flex-wrap gap-4 mb-5 text-xs text-slate-500">
-  <span class="card-en flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-blue-500 inline-block"></span> Daily Reading</span>
-  <span class="card-zh flex items-center gap-1.5" style="display:none;"><span class="w-3 h-3 rounded-sm bg-blue-500 inline-block"></span> 每日讀經</span>
-  <span class="card-en flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-emerald-500 inline-block"></span> Review Day</span>
-  <span class="card-zh flex items-center gap-1.5" style="display:none;"><span class="w-3 h-3 rounded-sm bg-emerald-500 inline-block"></span> 複習日</span>
-  <span class="card-en flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-amber-400 inline-block"></span> Today</span>
-  <span class="card-zh flex items-center gap-1.5" style="display:none;"><span class="w-3 h-3 rounded-sm bg-amber-400 inline-block"></span> 今天</span>
+<div class="flex flex-wrap gap-4 mb-5 text-xs text-slate-500" role="list" aria-label="Calendar legend">
+  <span class="card-en flex items-center gap-1.5" role="listitem"><span class="w-3 h-3 rounded-sm bg-blue-500 inline-block" aria-hidden="true"></span> Daily Reading</span>
+  <span class="card-zh flex items-center gap-1.5" style="display:none;" role="listitem"><span class="w-3 h-3 rounded-sm bg-blue-500 inline-block" aria-hidden="true"></span> 每日讀經</span>
+  <span class="card-en flex items-center gap-1.5" role="listitem"><span class="w-3 h-3 rounded-sm bg-emerald-500 inline-block" aria-hidden="true"></span> Review Day</span>
+  <span class="card-zh flex items-center gap-1.5" style="display:none;" role="listitem"><span class="w-3 h-3 rounded-sm bg-emerald-500 inline-block" aria-hidden="true"></span> 複習日</span>
+  <span class="card-en flex items-center gap-1.5" role="listitem"><span class="w-3 h-3 rounded-sm bg-amber-400 inline-block" aria-hidden="true"></span> Today</span>
+  <span class="card-zh flex items-center gap-1.5" style="display:none;" role="listitem"><span class="w-3 h-3 rounded-sm bg-amber-400 inline-block" aria-hidden="true"></span> 今天</span>
 </div>
 
 <!-- Calendar grid -->
@@ -390,7 +390,7 @@ title: 2026 Bible Reading Calendar
     var panelLabelEn = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Study Questions' : '📖 Question Status';
     var panelLabelZh = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 學習問題' : '📖 問題狀態';
     html += '<div style="margin-top:0.65rem;">';
-    html += '<button id="sqbtn-' + cardId + '" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" style="font-size:0.78rem;color:#6366f1;font-weight:600;background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:0.25rem;">';
+    html += '<button type="button" id="sqbtn-' + cardId + '" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" aria-controls="sq-' + cardId + '" aria-label="Toggle study question details for ' + parsed.en.replace(/"/g, '&quot;') + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:0.25rem;">';
     html += '<span class="card-en">' + panelLabelEn + '</span>';
     html += '<span class="card-zh" style="display:none;">' + panelLabelZh + '</span>';
     html += '<span class="sq-chevron">▾</span>';
