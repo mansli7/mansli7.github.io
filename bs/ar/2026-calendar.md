@@ -197,7 +197,7 @@ title: 2026 Bible Reading Calendar
   var todayM = now.getMonth() + 1;
   var todayD = now.getDate();
   var currentMonth = (now.getFullYear() === 2026) ? todayM : 1;
-  var langZh = false;
+  var langZh = window.Mansli7Lang && window.Mansli7Lang.getCurrentLang() === 'zh';
   var openCardId = null;
 
   var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -211,20 +211,20 @@ title: 2026 Bible Reading Calendar
     return { en: WEEKDAYS[dayIndex], zh: WEEKDAYS_ZH[dayIndex] };
   }
 
-  function applyLangState(root) {
-    var scope = root || document;
-    scope.querySelectorAll('.card-en').forEach(function(el){ el.style.display = langZh ? 'none' : ''; });
-    scope.querySelectorAll('.card-zh').forEach(function(el){ el.style.display = langZh ? '' : 'none'; });
-  }
+  function applyLangState() {}
 
   // ── Toggle language ───────────────────────────────────────────
   window.toggleLang = function() {
-    langZh = !langZh;
+    if (!window.Mansli7Lang) return;
+    window.Mansli7Lang.setLang(langZh ? 'en' : 'zh');
+  };
+
+  function syncCalendarLanguage() {
+    langZh = window.Mansli7Lang && window.Mansli7Lang.getCurrentLang() === 'zh';
     document.getElementById('langLabel').textContent = langZh ? 'Show English' : 'Show 中文';
-    applyLangState(document);
     document.getElementById('monthLabel').textContent = langZh ? MONTHS_ZH[currentMonth-1] : MONTHS[currentMonth-1];
     updateProgress(currentMonth);
-  };
+  }
 
   function setSQButtonState(cardId, isOpen) {
     var btn = document.getElementById('sqbtn-' + cardId);
@@ -418,8 +418,6 @@ title: 2026 Bible Reading Calendar
     grid.innerHTML = html;
 
     // Re-apply language state
-    applyLangState(grid);
-
     // Update progress indicator
     updateProgress(m);
 
@@ -465,6 +463,11 @@ title: 2026 Bible Reading Calendar
 
   // ── Init ──────────────────────────────────────────────────────
   renderMonth(currentMonth);
+  syncCalendarLanguage();
+  document.addEventListener('mansli7:langchange', function() {
+    syncCalendarLanguage();
+    renderMonth(currentMonth);
+  });
 
 })();
 </script>

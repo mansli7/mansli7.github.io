@@ -5,82 +5,114 @@ title: Home
 
 <div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.9fr)] gap-6 items-start mb-8 mt-2">
   <section class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
-    <p class="text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
-    <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
-    <p class="text-slate-600 leading-relaxed mb-3">Use the calendar for the daily reading path, then open study-question pages when you want slower personal or group study.</p>
-    <p class="text-sm text-slate-500 leading-relaxed mb-6">Prepared study questions are available for select books, while the reading plan continues through the full year.</p>
+    <p class="card-en text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
+    <p class="card-zh text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">聖經學習入口</p>
+    <h1 class="card-en text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
+    <h1 class="card-zh text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">用清楚的每日路徑讀完整本聖經，並在需要時進入對應的學習問題。</h1>
+    <p class="card-en text-slate-600 leading-relaxed mb-3">Use the calendar for the daily reading path, then open study-question pages when you want slower personal or group study.</p>
+    <p class="card-zh text-slate-600 leading-relaxed mb-3">先用月曆進入每天的讀經安排，之後若要更慢地個人思想或小組查考，再打開學習問題頁面。</p>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">Prepared study questions are available for select books, while the reading plan continues through the full year.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">目前部分書卷已提供整理好的學習問題，整年的讀經計劃則持續完整前進。</p>
+    <div class="flex flex-wrap items-center gap-2 mb-6">
+      <button type="button" data-lang-switch="en" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">English</button>
+      <button type="button" data-lang-switch="zh" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">中文</button>
+    </div>
     <div class="flex flex-wrap items-center gap-3">
-      <a href="/bs/ar/2026-calendar" class="cta">Open 2026 Calendar</a>
-      <a href="/bs/sq/" class="cta-outline">Browse Study Questions</a>
+      <a href="/bs/ar/2026-calendar" class="cta card-en">Open 2026 Calendar</a>
+      <a href="/bs/ar/2026-calendar" class="cta card-zh">打開 2026 月曆</a>
+      <a href="/bs/sq/" class="cta-outline card-en">Browse Study Questions</a>
+      <a href="/bs/sq/" class="cta-outline card-zh">瀏覽學習問題</a>
     </div>
   </section>
 
   <aside class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
-    <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Scripture</p>
-    <p class="text-slate-600 italic leading-relaxed mb-1 text-base">All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.</p>
-    <p class="text-slate-400 text-sm text-right mb-5">— 2 Timothy 3:16–17</p>
-    <hr style="margin:0 0 1.25rem;">
-    <p class="text-slate-600 leading-relaxed mb-1 text-base">聖經都是神所默示的，於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。</p>
-    <p class="text-slate-400 text-sm text-right mb-0">— 提摩太後書 3:16–17</p>
+    <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Scripture</p>
+    <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">經文</p>
+    <p class="card-en text-slate-600 italic leading-relaxed mb-1 text-base">All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.</p>
+    <p class="card-en text-slate-400 text-sm text-right mb-0">— 2 Timothy 3:16–17</p>
+    <p class="card-zh text-slate-600 leading-relaxed mb-1 text-base">聖經都是神所默示的，於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。</p>
+    <p class="card-zh text-slate-400 text-sm text-right mb-0">— 提摩太後書 3:16–17</p>
   </aside>
 </div>
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8" id="today-reading">
   <div class="mb-3">
-    <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
-    <p class="text-sm text-slate-500 mb-0">Today&#39;s assignment, matched to the current date.</p>
+    <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
+    <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">今日讀經</p>
+    <p class="card-en text-sm text-slate-500 mb-0">Today&#39;s assignment, matched to the current date.</p>
+    <p class="card-zh text-sm text-slate-500 mb-0">依今天日期自動對應的讀經安排。</p>
   </div>
   <div id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2"></div>
-  <div id="todayRef" class="text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
-  <div id="todayRefZh" class="text-lg text-slate-500 mb-5"></div>
+  <div id="todayRef" class="card-en text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
+  <div id="todayRefZh" class="card-zh text-2xl font-bold text-slate-900 leading-tight mb-1">載入中…</div>
   <div id="todayNote" class="text-sm text-slate-500 mb-4"></div>
   <div id="todayActions" class="flex flex-wrap gap-3"></div>
 </div>
 
-<p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Main Paths</p>
+<p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Main Paths</p>
+<p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">主要入口</p>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <div class="text-3xl mb-4">📅</div>
-    <h3 class="font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Calendar First</h3>
-    <p class="text-sm text-slate-500 leading-relaxed mb-5">The main reading experience: one day at a time, with study-question access built into each card.</p>
-    <a href="/bs/ar/2026-calendar" class="cta">Open Calendar →</a>
+    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Calendar First</h3>
+    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">先看月曆</h3>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">The main reading experience: one day at a time, with study-question access built into each card.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">這是主要讀經方式: 一天一張卡片，並直接連到對應的學習問題。</p>
+    <a href="/bs/ar/2026-calendar" class="cta card-en">Open Calendar →</a>
+    <a href="/bs/ar/2026-calendar" class="cta card-zh">打開月曆 →</a>
   </div>
 
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <div class="text-3xl mb-4">❓</div>
-    <h3 class="font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Book Study Questions</h3>
-    <p class="text-sm text-slate-500 leading-relaxed mb-5">Browse full question sets by book for deeper individual study, journaling, or group discussion.</p>
-    <a href="/bs/sq/" class="cta">Explore Questions →</a>
+    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Book Study Questions</h3>
+    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">書卷學習問題</h3>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">Browse full question sets by book for deeper individual study, journaling, or group discussion.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">按書卷瀏覽完整問題集，適合個人默想、筆記整理或小組討論。</p>
+    <a href="/bs/sq/" class="cta card-en">Explore Questions →</a>
+    <a href="/bs/sq/" class="cta card-zh">瀏覽問題 →</a>
   </div>
 
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <div class="text-3xl mb-4">⬇️</div>
-    <h3 class="font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Downloads</h3>
-    <p class="text-sm text-slate-500 leading-relaxed mb-5">Download the original Excel plans and portable study material for offline use or printing.</p>
-    <a href="/downloads/" class="cta">Open Downloads →</a>
+    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Downloads</h3>
+    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">下載</h3>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">Download the original Excel plans and portable study material for offline use or printing.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">下載原始 Excel 計劃與可攜式學習資料，方便離線使用或列印。</p>
+    <a href="/downloads/" class="cta card-en">Open Downloads →</a>
+    <a href="/downloads/" class="cta card-zh">打開下載區 →</a>
   </div>
 </div>
 
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
-  <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Recommended Flow</p>
+  <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Recommended Flow</p>
+  <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">建議使用流程</p>
   <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
-      <p class="font-semibold text-slate-900 mb-1">Open the calendar</p>
-      <p class="text-sm text-slate-500 mb-0">Use the day card as your starting point.</p>
+      <p class="card-en font-semibold text-slate-900 mb-1">Open the calendar</p>
+      <p class="card-zh font-semibold text-slate-900 mb-1">打開月曆</p>
+      <p class="card-en text-sm text-slate-500 mb-0">Use the day card as your starting point.</p>
+      <p class="card-zh text-sm text-slate-500 mb-0">先從當天的卡片開始。</p>
     </div>
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
-      <p class="font-semibold text-slate-900 mb-1">Read the passage</p>
-      <p class="text-sm text-slate-500 mb-0">Switch between English and Chinese as needed.</p>
+      <p class="card-en font-semibold text-slate-900 mb-1">Read the passage</p>
+      <p class="card-zh font-semibold text-slate-900 mb-1">閱讀經文</p>
+      <p class="card-en text-sm text-slate-500 mb-0">Follow the selected language and stay with the daily reading.</p>
+      <p class="card-zh text-sm text-slate-500 mb-0">依照你目前選定的語言完成當天閱讀。</p>
     </div>
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
-      <p class="font-semibold text-slate-900 mb-1">Open the prompts</p>
-      <p class="text-sm text-slate-500 mb-0">Use the study-question panel for quick reflection when that book already has prepared prompts.</p>
+      <p class="card-en font-semibold text-slate-900 mb-1">Open the prompts</p>
+      <p class="card-zh font-semibold text-slate-900 mb-1">打開提示</p>
+      <p class="card-en text-sm text-slate-500 mb-0">Use the study-question panel when that book already has prepared prompts.</p>
+      <p class="card-zh text-sm text-slate-500 mb-0">若該書卷已經有整理好的問題，就進入對應頁面繼續思想。</p>
     </div>
     <div class="rounded-2xl bg-white border border-slate-200 p-4">
-      <p class="font-semibold text-slate-900 mb-1">Go deeper later</p>
-      <p class="text-sm text-slate-500 mb-0">Use the full book pages when you want more depth.</p>
+      <p class="card-en font-semibold text-slate-900 mb-1">Go deeper later</p>
+      <p class="card-zh font-semibold text-slate-900 mb-1">之後再深入</p>
+      <p class="card-en text-sm text-slate-500 mb-0">Use the full book pages when you want more depth.</p>
+      <p class="card-zh text-sm text-slate-500 mb-0">當你想更深入時，再打開完整書卷問題頁面。</p>
     </div>
   </div>
 </div>
 
-<p style="text-align:center;font-size:0.875rem;color:#94a3b8;">🔎 <a href="/search/" style="color:#6366f1;">Search the site</a> for passages, topics, and resources</p>
+<p class="card-en" style="text-align:center;font-size:0.875rem;color:#94a3b8;">🔎 <a href="/search/" style="color:#6366f1;">Search the site</a> for passages, topics, and resources</p>
+<p class="card-zh" style="text-align:center;font-size:0.875rem;color:#94a3b8;">🔎 <a href="/search/" style="color:#6366f1;">搜尋網站</a>中的經文、主題與資源</p>

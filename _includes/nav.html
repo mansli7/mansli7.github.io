@@ -1,5 +1,12 @@
 <style>
   .nav-link.active { color: #6366f1 !important; background-color: #eef2ff !important; font-weight: 600; }
+  .lang-switch {
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #475569;
+    transition: all 150ms ease;
+  }
+  .lang-switch:hover { border-color: #94a3b8; color: #0f172a; }
 </style>
 
 <nav class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
@@ -23,28 +30,52 @@
 
       <!-- Desktop nav links -->
       <div class="hidden md:flex items-center gap-0.5">
-        <a href="/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">Home</a>
+        <a href="/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+          <span class="card-en">Home</span>
+          <span class="card-zh">首頁</span>
+        </a>
 
         <!-- Reading Plan dropdown -->
         <div class="relative group">
           <a href="/bs/ar/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors flex items-center gap-1">
-            📅 Reading Plan
+            <span class="card-en">📅 Reading Plan</span>
+            <span class="card-zh">📅 讀經計劃</span>
             <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </a>
           <div class="absolute top-full left-0 mt-1 w-52 bg-white rounded-xl border border-slate-200 shadow-xl py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-150 z-50">
-            <a href="/bs/ar/" class="block px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors">Annual Reading Plans</a>
-            <a href="/bs/ar/2026-en" class="block px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors">2026 English</a>
-            <a href="/bs/ar/2026-zh" class="block px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors">2026 中文</a>
+            <a href="/bs/ar/" class="block px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+              <span class="card-en">Annual Reading Plans</span>
+              <span class="card-zh">年度讀經計劃</span>
+            </a>
             <div class="my-1 border-t border-slate-100"></div>
-            <a href="/bs/ar/2026-calendar" class="block px-4 py-2.5 text-sm font-medium text-indigo-600 hover:bg-indigo-50 transition-colors">📅 Calendar View</a>
+            <a href="/bs/ar/2026-calendar" class="block px-4 py-2.5 text-sm font-medium text-indigo-600 hover:bg-indigo-50 transition-colors">
+              <span class="card-en">📅 Calendar View</span>
+              <span class="card-zh">📅 月曆檢視</span>
+            </a>
           </div>
         </div>
 
-        <a href="/bs/sq/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">❓ Study Questions</a>
-        <a href="/tech/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">💻 Tech</a>
-        <a href="/downloads/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">⬇️ Downloads</a>
-        <a href="/about/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">About</a>
+        <a href="/bs/sq/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+          <span class="card-en">❓ Study Questions</span>
+          <span class="card-zh">❓ 學習問題</span>
+        </a>
+        <a href="/tech/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+          <span class="card-en">💻 Tech</span>
+          <span class="card-zh">💻 技術分享</span>
+        </a>
+        <a href="/downloads/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+          <span class="card-en">⬇️ Downloads</span>
+          <span class="card-zh">⬇️ 下載</span>
+        </a>
+        <a href="/about/" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+          <span class="card-en">About</span>
+          <span class="card-zh">關於</span>
+        </a>
         <a href="/search/" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-colors">🔎</a>
+        <div class="ml-2 flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 p-1">
+          <button type="button" data-lang-switch="en" class="lang-switch px-3 py-1.5 rounded-full text-xs font-semibold">English</button>
+          <button type="button" data-lang-switch="zh" class="lang-switch px-3 py-1.5 rounded-full text-xs font-semibold">中文</button>
+        </div>
       </div>
     </div>
   </div>
@@ -52,24 +83,51 @@
   <!-- Mobile menu -->
   <div id="mobileMenu" class="hidden md:hidden border-t border-slate-100 bg-white">
     <div class="max-w-5xl mx-auto px-4 py-3 space-y-0.5">
-      <a href="/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">Home</a>
+      <div class="flex items-center gap-2 px-1 pb-3">
+        <button type="button" data-lang-switch="en" class="lang-switch px-3 py-1.5 rounded-full text-xs font-semibold">English</button>
+        <button type="button" data-lang-switch="zh" class="lang-switch px-3 py-1.5 rounded-full text-xs font-semibold">中文</button>
+      </div>
+      <a href="/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+        <span class="card-en">Home</span>
+        <span class="card-zh">首頁</span>
+      </a>
       <div>
         <button id="mobileDropToggle" type="button" class="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 flex items-center justify-between transition-colors" aria-expanded="false" aria-controls="mobileDropContent">
-          <span>📅 Reading Plan</span>
+          <span class="card-en">📅 Reading Plan</span>
+          <span class="card-zh">📅 讀經計劃</span>
           <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div id="mobileDropContent" class="hidden ml-3 mt-0.5 space-y-0.5 border-l-2 border-slate-100 pl-3">
-          <a href="/bs/ar/" class="block px-3 py-2 rounded-lg text-sm text-slate-500 hover:bg-slate-50 hover:text-indigo-600 transition-colors">Annual Reading Plans</a>
-          <a href="/bs/ar/2026-en" class="block px-3 py-2 rounded-lg text-sm text-slate-500 hover:bg-slate-50 hover:text-indigo-600 transition-colors">2026 English</a>
-          <a href="/bs/ar/2026-zh" class="block px-3 py-2 rounded-lg text-sm text-slate-500 hover:bg-slate-50 hover:text-indigo-600 transition-colors">2026 中文</a>
-          <a href="/bs/ar/2026-calendar" class="block px-3 py-2 rounded-lg text-sm font-medium text-indigo-600 hover:bg-indigo-50 transition-colors">📅 Calendar View</a>
+          <a href="/bs/ar/" class="block px-3 py-2 rounded-lg text-sm text-slate-500 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+            <span class="card-en">Annual Reading Plans</span>
+            <span class="card-zh">年度讀經計劃</span>
+          </a>
+          <a href="/bs/ar/2026-calendar" class="block px-3 py-2 rounded-lg text-sm font-medium text-indigo-600 hover:bg-indigo-50 transition-colors">
+            <span class="card-en">📅 Calendar View</span>
+            <span class="card-zh">📅 月曆檢視</span>
+          </a>
         </div>
       </div>
-      <a href="/bs/sq/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">❓ Study Questions</a>
-      <a href="/tech/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">💻 Tech</a>
-      <a href="/downloads/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">⬇️ Downloads</a>
-      <a href="/about/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">About</a>
-      <a href="/search/" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors">🔎 Search</a>
+      <a href="/bs/sq/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+        <span class="card-en">❓ Study Questions</span>
+        <span class="card-zh">❓ 學習問題</span>
+      </a>
+      <a href="/tech/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+        <span class="card-en">💻 Tech</span>
+        <span class="card-zh">💻 技術分享</span>
+      </a>
+      <a href="/downloads/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+        <span class="card-en">⬇️ Downloads</span>
+        <span class="card-zh">⬇️ 下載</span>
+      </a>
+      <a href="/about/" class="nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-colors">
+        <span class="card-en">About</span>
+        <span class="card-zh">關於</span>
+      </a>
+      <a href="/search/" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors">
+        <span class="card-en">🔎 Search</span>
+        <span class="card-zh">🔎 搜尋</span>
+      </a>
     </div>
   </div>
 </nav>

@@ -3,7 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function() {
+      var lang = 'en';
+      try {
+        lang = window.localStorage.getItem('mansli7-site-lang') || 'en';
+      } catch (error) {
+        lang = 'en';
+      }
+      if (lang !== 'zh') lang = 'en';
+      document.documentElement.setAttribute('data-site-lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-Hant' : 'en');
+    })();
+  </script>
   {% seo %}
+
+  <style>
+    .card-zh { display: none; }
+    html[data-site-lang="zh"] .card-en { display: none !important; }
+    html[data-site-lang="zh"] .card-zh { display: block !important; }
+    html[data-site-lang="zh"] span.card-zh,
+    html[data-site-lang="zh"] strong.card-zh,
+    html[data-site-lang="zh"] em.card-zh,
+    html[data-site-lang="zh"] small.card-zh {
+      display: inline !important;
+    }
+    html[data-site-lang="zh"] a.card-zh,
+    html[data-site-lang="zh"] button.card-zh { display: inline-block !important; }
+    html[data-site-lang="zh"] .inline-block.card-zh { display: inline-block !important; }
+    html[data-site-lang="zh"] .inline-flex.card-zh { display: inline-flex !important; }
+    html[data-site-lang="zh"] .flex.card-zh { display: flex !important; }
+    html[data-site-lang="zh"] .grid.card-zh { display: grid !important; }
+    html[data-site-lang="en"] .card-zh { display: none !important; }
+    .lang-switch-active {
+      background: #1e293b !important;
+      border-color: #1e293b !important;
+      color: #ffffff !important;
+    }
+  </style>
 
   <!-- Google Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +68,7 @@
   <!-- Site styles -->
   <link rel="stylesheet" href="/assets/css/style.css?v=2026-03-17">
   <script src="/assets/js/reading-plan-2026.js?v=2026-03-17"></script>
+  <script src="/assets/js/site-lang.js?v=2026-03-18"></script>
 </head>
 <body>
 
@@ -312,52 +350,79 @@
   (function(){
     if (window.location.pathname !== '/') return;
     var readingPlan = window.Mansli7Reading2026;
+    var langApi = window.Mansli7Lang;
     if (!readingPlan) return;
     var r = readingPlan.r;
     var parse = readingPlan.parse;
     var exactSqHref = readingPlan.exactSqHref;
-    var now=new Date();
-    var key=(now.getMonth()+1)+'/'+now.getDate();
-    var code=r[key];
-    var months=['January','February','March','April','May','June','July','August','September','October','November','December'];
-    var dateStr=months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
-    var elDate=document.getElementById('todayDate');
-    var elRef=document.getElementById('todayRef');
-    var elRefZh=document.getElementById('todayRefZh');
-    var elNote=document.getElementById('todayNote');
-    var elActions=document.getElementById('todayActions');
-    if (!elDate) return;
-    elActions.textContent = '';
-    if (elNote) elNote.textContent = '';
-    elDate.textContent=dateStr;
-    if (!code) { elRef.textContent='No reading scheduled for today'; return; }
-    var parsed=parse(code);
-    elRef.textContent=parsed.en;
-    elRefZh.textContent=parsed.zh;
-    var readBtn=document.createElement('a');
-    readBtn.href='/bs/ar/2026-calendar';
-    readBtn.className='cta';
-    readBtn.textContent='📅 Open Calendar';
-    elActions.appendChild(readBtn);
-    if (parsed.sqStatus && parsed.sqStatus.available) {
-      var sqBtnEn=document.createElement('a');
-      sqBtnEn.href=exactSqHref('en', parsed); sqBtnEn.className='cta cta-outline'; sqBtnEn.textContent='❓ Study Questions EN';
-      elActions.appendChild(sqBtnEn);
+    var now = new Date();
+    var key = (now.getMonth() + 1) + '/' + now.getDate();
+    var code = r[key];
+    var elDate = document.getElementById('todayDate');
+    var elRef = document.getElementById('todayRef');
+    var elRefZh = document.getElementById('todayRefZh');
+    var elNote = document.getElementById('todayNote');
+    var elActions = document.getElementById('todayActions');
 
-      var sqBtnZh=document.createElement('a');
-      sqBtnZh.href=exactSqHref('zh', parsed); sqBtnZh.className='cta cta-outline'; sqBtnZh.textContent='❓ 學習問題 中文';
-      elActions.appendChild(sqBtnZh);
-      if (elNote) elNote.textContent='Prepared study questions are available for this reading in both English and Chinese.';
-    } else if (parsed.en === '📋 Review Day') {
-      if (elNote) elNote.textContent='Use today to review the week’s readings and revisit any book study pages that are already available.';
-    } else {
-      if (elNote) elNote.textContent='Study questions for this book are still in progress. Browse the currently available sets from Genesis through 2 Kings.';
-      var browseBtn=document.createElement('a');
-      browseBtn.href='/bs/sq/';
-      browseBtn.className='cta cta-outline';
-      browseBtn.textContent='❓ Browse Available Questions';
-      elActions.appendChild(browseBtn);
+    function renderWidget() {
+      var currentLang = langApi && langApi.getCurrentLang ? langApi.getCurrentLang() : 'en';
+      if (!elDate || !elActions || !elRef || !elRefZh) return;
+
+      elActions.textContent = '';
+      if (elNote) elNote.textContent = '';
+      elDate.textContent = currentLang === 'zh'
+        ? new Intl.DateTimeFormat('zh-Hant', { year: 'numeric', month: 'long', day: 'numeric' }).format(now)
+        : new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(now);
+
+      if (!code) {
+        elRef.textContent = 'No reading scheduled for today';
+        elRefZh.textContent = '今天沒有安排讀經。';
+        return;
+      }
+
+      var parsed = parse(code);
+      elRef.textContent = parsed.en;
+      elRefZh.textContent = parsed.zh;
+
+      var readBtn = document.createElement('a');
+      readBtn.href = '/bs/ar/2026-calendar';
+      readBtn.className = 'cta';
+      readBtn.textContent = currentLang === 'zh' ? '📅 打開 2026 月曆' : '📅 Open 2026 Calendar';
+      elActions.appendChild(readBtn);
+
+      if (parsed.sqStatus && parsed.sqStatus.available) {
+        var sqBtn = document.createElement('a');
+        sqBtn.href = exactSqHref(currentLang, parsed);
+        sqBtn.className = 'cta cta-outline';
+        sqBtn.textContent = currentLang === 'zh' ? '❓ 打開學習問題' : '❓ Open Study Questions';
+        elActions.appendChild(sqBtn);
+        if (elNote) {
+          elNote.textContent = currentLang === 'zh'
+            ? '今天的閱讀已有對應學習問題，可直接進入目前選定語言的頁面。'
+            : 'Prepared study questions are available for today\'s reading in your selected language.';
+        }
+      } else if (parsed.en === '📋 Review Day') {
+        if (elNote) {
+          elNote.textContent = currentLang === 'zh'
+            ? '今天可用來複習本週進度，並回看已經提供的書卷學習問題。'
+            : 'Use today to review the week\'s readings and revisit any study-question pages that are already available.';
+        }
+      } else {
+        if (elNote) {
+          elNote.textContent = currentLang === 'zh'
+            ? '這卷書的學習問題仍在整理中，可先瀏覽目前已提供的書卷。'
+            : 'Study questions for this book are still in progress. Browse the currently available sets first.';
+        }
+        var browseBtn = document.createElement('a');
+        browseBtn.href = '/bs/sq/';
+        browseBtn.className = 'cta cta-outline';
+        browseBtn.textContent = currentLang === 'zh' ? '❓ 瀏覽現有問題集' : '❓ Browse Available Questions';
+        elActions.appendChild(browseBtn);
+      }
     }
+
+    renderWidget();
+    document.addEventListener('mansli7:langchange', renderWidget);
   })();
   </script>
 
