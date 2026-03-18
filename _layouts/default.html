@@ -391,11 +391,8 @@
         try {
           var bibleHref = null;
           if (parsed.abbr) {
-            var name = readingPlan.bgNames && readingPlan.bgNames[parsed.abbr] ? readingPlan.bgNames[parsed.abbr] : (currentLang === 'zh' ? parsed.zh : parsed.en);
-            var chap = parsed.chapters ? parsed.chapters.replace(/-/g, '-') : '';
-            var search = name + (chap ? '+' + chap : '');
-            var version = currentLang === 'zh' ? 'CUV' : 'NIV';
-            bibleHref = 'https://www.biblegateway.com/passage/?search=' + encodeURIComponent(search) + '&version=' + version;
+            // Use shared bgUrl builder so book names are converted and encoded correctly
+            bibleHref = readingPlan.bgUrl(parsed.abbr, parsed.chapters, currentLang === 'zh' ? 'CUV' : 'NIV');
           } else if (parsed.bg) {
             bibleHref = parsed.bg;
           }
