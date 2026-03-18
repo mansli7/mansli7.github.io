@@ -104,21 +104,27 @@
     var abs = '/bs/sq/' + lang + '/' + slug;
     var candidates = [];
 
+    // Absolute variants first (common on GitHub Pages/Jekyll pretty URLs)
+    candidates.push(abs + '/');
+    candidates.push(abs + '/index.html');
+    candidates.push(abs + '.html');
+    candidates.push(abs + '.md');
+
     // Relative variants (no leading slash)
-    candidates.push(rel + '.md');
-    candidates.push(rel + '.html');
-    candidates.push(rel + '/index.html');
     candidates.push(rel + '/');
+    candidates.push(rel + '/index.html');
+    candidates.push(rel + '.html');
+    candidates.push(rel + '.md');
 
     // If the site may be served under a project subpath (e.g. /repo/...), try prefixing the first path segment
     try {
       var seg = (typeof location !== 'undefined' && location.pathname) ? (location.pathname.split('/')[1] || '') : '';
       if (seg && seg.length && seg !== 'bs') {
         var projPrefix = '/' + seg + '/bs/sq/' + lang + '/' + slug;
-        candidates.push(projPrefix + '.md');
-        candidates.push(projPrefix + '.html');
-        candidates.push(projPrefix + '/index.html');
         candidates.push(projPrefix + '/');
+        candidates.push(projPrefix + '/index.html');
+        candidates.push(projPrefix + '.html');
+        candidates.push(projPrefix + '.md');
       }
     } catch (e) { /* ignore */ }
 
@@ -147,9 +153,9 @@
     var attemptFetch = function(index) {
       if (index >= candidates.length) return Promise.resolve(null);
       var url = candidates[index];
-      try { if (typeof console !== 'undefined' && console.debug) console.debug('[reading-plan] trying SQ URL:', url); } catch (e) {}
+      try { if (typeof console !== 'undefined' && console.log) console.log('[reading-plan] trying SQ URL:', url); } catch (e) {}
       return fetch(url).then(function(res) {
-        try { if (typeof console !== 'undefined' && console.debug) console.debug('[reading-plan] fetched', url, 'status', res.status); } catch (e) {}
+        try { if (typeof console !== 'undefined' && console.log) console.log('[reading-plan] fetched', url, 'status', res.status); } catch (e) {}
         if (!res.ok) throw new Error('fetch ' + url + ' failed');
         return res.text().then(function(text) { return { url: url, text: text }; });
       }).catch(function() {
@@ -258,8 +264,26 @@
   window.Mansli7Reading2026.getPromptsFor = getPromptsFor;
 
   // Short study-question prompts keyed by reading code (used by calendar and homepage)
-  // NOTE: prompts are now loaded dynamically from `/bs/sq/{en|zh}/{book}.md` when missing.
-  // Keep an empty hq map here to preserve backward compatibility; prefer editing the
-  // individual book pages under `/bs/sq/` instead of duplicating content.
-  window.Mansli7Reading2026.hq = window.Mansli7Reading2026.hq || {};
+  // NOTE: prompts are normally loaded dynamically from `/bs/sq/{en|zh}/{book}.md`.
+  // Add a minimal inline fallback for immediate availability of today's prompts.
+  window.Mansli7Reading2026.hq = window.Mansli7Reading2026.hq || {
+    '1Sa25-28': {
+      en: [
+        'David sent his servant to see Nabal—if you were in the same situation, would you respond like Nabal or like Abigail to David?',
+        'In Saul’s camp, David again had the chance to kill Saul but did not—why?',
+        'Did Saul know he was guilty?',
+        'Did David tell Achish that he had invaded Judah—was this true?',
+        'When Saul inquired of the LORD, did the LORD answer him?',
+        'Who had cut off the mediums and later sought a medium for inquiry?'
+      ],
+      zh: [
+        '大衛派他的僕人去見拿八，如果你遇到同樣情景，你會像拿八那樣，還是像亞比該那樣回應大衛？',
+        '在掃羅營地，大衛又有機會殺掃羅，但沒殺，為什麼？',
+        '掃羅知道自己有罪嗎？',
+        '大衛對亞吉說他侵犯了猶大地，是真的嗎？',
+        '掃羅求問耶和華，耶和華回答他了嗎？',
+        '誰曾剪除交鬼的，而後又找交鬼的求問？'
+      ]
+    }
+  };
 })();
