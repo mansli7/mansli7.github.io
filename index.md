@@ -15,16 +15,7 @@ title: Home
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">已有：一年通讀聖經計劃，配合聖經思考問題。</p>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">In development: in-depth book studies (e.g. Genesis), short articles (Chinese characters & the Bible; evolution and God's creation), bilingual Bible lookup, recommended resources (Chinese Bibles, Strong's numbers, maps), explanation of the site name, and program-generated reading-plan calendars.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">在建：精讀書卷（例如創世記）、短文分享（漢字與聖經、進化論與神的創造）、中英經文查詢、網站推薦與地圖、網站名稱說明，以及用程序生成的讀經計劃日曆。</p>
-    <div class="flex flex-wrap items-center gap-2 mb-6">
-      <button type="button" data-lang-switch="en" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">English</button>
-      <button type="button" data-lang-switch="zh" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">中文</button>
-    </div>
-    <div class="flex flex-wrap items-center gap-3">
-      <a href="/bs/ar/2026-calendar" class="cta card-en">Open 2026 Calendar</a>
-      <a href="/bs/ar/2026-calendar" class="cta card-zh">打開 2026 月曆</a>
-      <a href="/bs/sq/" class="cta-outline card-en">Browse Study Questions</a>
-      <a href="/bs/sq/" class="cta-outline card-zh">瀏覽學習問題</a>
-    </div>
+    
   </section>
 
   <aside class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
