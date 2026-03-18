@@ -392,7 +392,7 @@
           var bibleHref = null;
           if (parsed.abbr) {
             // Use shared bgUrl builder so book names are converted and encoded correctly
-            bibleHref = readingPlan.bgUrl(parsed.abbr, parsed.chapters, currentLang === 'zh' ? 'CUV' : 'NIV');
+            bibleHref = readingPlan.bgUrl(parsed.abbr, parsed.chapters, currentLang === 'zh' ? 'CUV' : 'NIV', currentLang === 'zh' ? 'zh' : 'en');
           } else if (parsed.bg) {
             bibleHref = parsed.bg;
           }

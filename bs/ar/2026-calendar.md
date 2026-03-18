@@ -256,8 +256,9 @@ title: 2026 Bible Reading Calendar
       ? 'box-shadow:0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08);'
       : 'box-shadow:0 1px 4px rgba(0,0,0,0.06);';
 
-    var bgl = parsed.bg
-      ? '<a href="' + parsed.bg + '" target="_blank" rel="noopener" title="Open in BibleGateway" style="font-size:0.75rem;color:#6366f1;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:3px;margin-top:2px;">↗ BibleGateway</a>'
+    var bgUrlForCard = parsed.abbr ? readingPlan.bgUrl(parsed.abbr, parsed.chapters, langZh ? 'CUV' : 'NIV', langZh ? 'zh' : 'en') : parsed.bg;
+    var bgl = bgUrlForCard
+      ? '<a href="' + bgUrlForCard + '" target="_blank" rel="noopener" title="Open in BibleGateway" style="font-size:0.75rem;color:#6366f1;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:3px;margin-top:2px;">↗ BibleGateway</a>'
       : '';
 
     var html = '<div' + (isToday ? ' data-today="true"' : '') + ' style="background:#fff;border-radius:16px;overflow:hidden;transition:box-shadow 200ms;' + borderStyle + shadowStyle + '" onmouseover="this.style.boxShadow=\'0 6px 20px rgba(0,0,0,0.1)\'" onmouseout="this.style.boxShadow=\'' + (isToday ? '0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08)' : '0 1px 4px rgba(0,0,0,0.06)') + '\'">';
