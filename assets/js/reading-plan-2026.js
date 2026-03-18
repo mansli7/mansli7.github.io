@@ -18,8 +18,10 @@
   function bgUrl(abbr, chapters) {
     var name = bgNames[abbr];
     if (!name) return null;
-    var search = name + (chapters ? '+' + chapters.replace(/-/g, '-') : '');
-    return 'https://www.biblegateway.com/passage/?search=' + search + '&version=NIV';
+    // bgNames may use '+' for internal keys; convert to readable book name
+    var book = name.replace(/\+/g, ' ');
+    var search = book + (chapters ? ' ' + chapters.replace(/-/g, '-') : '');
+    return 'https://www.biblegateway.com/passage/?search=' + encodeURIComponent(search) + '&version=NIV';
   }
 
   function studyQuestionStatus(abbr) {
