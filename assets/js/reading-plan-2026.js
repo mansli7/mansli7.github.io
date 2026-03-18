@@ -186,34 +186,8 @@
   window.Mansli7Reading2026.getPromptsFor = getPromptsFor;
 
   // Short study-question prompts keyed by reading code (used by calendar and homepage)
-  window.Mansli7Reading2026.hq = {
-    "Ge1-4": { en: ["Can you remember on which day God created humans?", "How were they created?", "The Chinese translation of 'greed' is 婪. Do you notice any connection between the structure of the word 婪 and the origin of sin?"], zh: ["讀完後能否記住，神是第幾天造人，如何造的？", "是否發現這個字『婪』和罪的由來有關聯？"] },
-    "Ge5-8": { en: ["Did anyone in the genealogies in chapter 5 get drowned by the flood?", "The Chinese translation of 'ark' is 船. Does the structure of the word 船 suggest a deeper meaning to you?"], zh: ["第五章家譜裡的人有沒有被洪水淹死的？", "你對這個字『船』有了更多的理解嗎？"] },
-    "Ge9-12": { en: ["What covenant did God make with Noah and his descendants, including you and me?", "When Babel is translated from Hebrew into English, what is it also called?", "There is a city in the Bible whose name comes from the same Hebrew word as Babel. Which city is it?"], zh: ["神和諾亞及後裔，包括你和我立了什麼約？", "巴別，從希伯來文翻譯成中文也稱作什麼，或者說聖經裡有一個城市的名字和巴別是同一個希伯來字，它是哪個城市？"] },
-    "Ge13-16": { en: ["What covenant did God make with Abram?", "Who came out to meet Abram with bread and wine?"], zh: ["神和亞伯蘭立了什麼約？", "誰拿酒和餅迎接亞伯蘭？"] },
-    "Ge17-20": { en: ["What new names did God give to Abram and Sarai, and what do they mean?", "Why did God destroy Sodom and Gomorrah?"], zh: ["神給亞伯蘭和撒萊的新名字叫什麼，有什麼含義？", "神為什麼要毀滅所多瑪和蛾摩拉？"] },
-    "Ge21-24": { en: ["How old was Abram when he left Haran?", "How old was he when Isaac was born?", "What does Jehovah-jireh mean?"], zh: ["亞伯蘭出哈蘭時多大年齡？", "生以撒時多大年齡？", "耶和華以勒是什麼意思？"] },
-    "Ge25-28": { en: ["Why was Esau also called Edom?", "Comparing Genesis 26:7 with Genesis 26:16 and 26:28-29, what do you observe?", "When Jacob deceived Isaac to receive the blessing, what methods did Isaac use to determine whether he was really Esau?"], zh: ["以掃為什麼又叫以東？", "對照創世記26:7與26:16、26:28-29，你讀出了什麼？", "當雅各騙以撒要祝福時，以撒用哪些方法來確定他是不是以掃？"] },
-    "Ge29-32": { en: ["Jacob deceived his father. Who then deceived Jacob?", "How many years did Jacob serve Laban?", "Why was Jacob also called Israel?"], zh: ["雅各騙了父親，那誰騙了他？", "雅各服侍拉班多少年？", "雅各又被稱為以色列，為什麼？"] },
-    "Ge33-36": { en: ["Where did Jacob tell Esau he was going?", "But where did he actually go instead?", "How many sons did Jacob have?"], zh: ["雅各對以掃說他會去什麼地方？", "但他實際卻去了另外什麼地方？", "雅各有多少個兒子？"] },
-    "Ge37-40": { en: ["For how much silver was Joseph sold by his brothers?", "After he was sold, who was with him so that everything he did prospered?", "Did Joseph refuse Potiphar's wife because he was afraid of offending his master?"], zh: ["約瑟被哥哥們賣了多少銀子？", "被賣之後，誰與他同在，使他百事順利？", "約瑟不從波提乏妻子的誘惑，是因為他怕得罪他的主人嗎？"] },
-    "Ge41-44": { en: ["How old was Joseph when he governed the whole land of Egypt?", "When they first went to Egypt to buy grain, how many sons did Jacob send?", "Whom did Joseph keep in custody while the other brothers returned to bring their youngest brother?"], zh: ["約瑟治理埃及全地時多大年齡？", "第一次到埃及買糧時，雅各派了幾個兒子？", "約瑟把誰囚下，讓其餘的哥哥回去把他們的小弟弟帶來？"] },
-    "Ge45-48": { en: ["Who do you think sent Joseph to Egypt?", "Who would go down to Egypt with Jacob and surely bring him back up again?", "How many people from Jacob's family came to Egypt in total?"], zh: ["你認為是誰差約瑟去了埃及？", "誰要和雅各一同下埃及去，也必定帶他上來？", "雅各家來到埃及的共有多少人？"] },
-    "Ge49-50": { en: ["Which son received the greatest blessing from Jacob?", "After Jacob died, was he buried in Egypt?", "After his father's death, did Joseph intend to repay his brothers for their evil deeds?"], zh: ["雅各給哪個兒子的祝福最好？", "雅各死後是葬在埃及嗎？", "約瑟在父親死後是否要報復他哥哥們的惡行？"] },
-    "1Sa25-28": { en: ["David sent his servant to see Nabal. If you were in the same situation, would you respond like Nabal or like Abigail to David?", "In Saul's camp, David again had the chance to kill Saul but did not—why?", "Did Saul know he was guilty?", "Did David tell Achish that he had invaded Judah—was this true?", "When Saul inquired of the LORD, did the LORD answer him?", "Who had cut off the mediums and later sought a medium for inquiry?"], zh: ["大衛派他的僕人去見拿八，如果你遇到同樣情景，你會像拿八那樣，還是像亞比該那樣回應大衛？", "在掃羅營地，大衛又有機會殺掃羅，但沒殺，為什麼？", "掃羅知道自己有罪嗎？", "大衛對亞吉說他侵犯了猶大地，是真的嗎？", "掃羅求問耶和華，耶和華回答他了嗎？", "誰曾剪除交鬼的，而後又找交鬼的求問？"] },
-    "1Sa29-31": { en: ["The Philistines gathered at Aphek to fight Israel. Did the Philistine commanders allow David to go out with them?", "Whom did David consult about whether he could pursue the Amalekites?", "From the spoils David took from the Amalekites, how much did the fighting men and the guards each receive?"], zh: ["非利士人聚集到亞弗去和以色列打仗，非利士首領讓大衛和他們一同出戰嗎？", "對於是否能追趕上亞瑪力人，大衛求問了誰？", "大衛從亞瑪力人得到的擄物，上陣的和看守的各得多少？"] },
-  "2Sa1-4": {
-    en: [
-      "What does David's lament for Saul and Jonathan reveal about his character?",
-      "How does David's response to the news of Saul's death model humility and trust in God?",
-      "Where do you see God's sovereignty at work in these events?",
-      "What personal takeaway or prayer arises from David's actions and words?"
-    ],
-    zh: [
-      "大衛為掃羅和約拿單哀悼，這顯示他性格中的哪些特質？",
-      "大衛對掃羅死亡的回應如何示範謙卑與對神的倚靠？",
-      "在這些事件中，你在哪裡看到神的主權在運行？",
-      "從大衛的行動與話語中，你有什麼個人的反思或禱告？"
-    ]
-  };
+  // NOTE: prompts are now loaded dynamically from `/bs/sq/{en|zh}/{book}.md` when missing.
+  // Keep an empty hq map here to preserve backward compatibility; prefer editing the
+  // individual book pages under `/bs/sq/` instead of duplicating content.
+  window.Mansli7Reading2026.hq = window.Mansli7Reading2026.hq || {};
 })();
