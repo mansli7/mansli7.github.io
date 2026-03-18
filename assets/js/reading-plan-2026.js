@@ -97,12 +97,35 @@
     lang = lang === 'zh' ? 'zh' : 'en';
     var slug = sqBookSlug(abbr);
     if (!slug) return Promise.resolve(null);
-    var url = '/bs/sq/' + lang + '/' + slug + '.md';
-    if (_sqCache[url]) return Promise.resolve(_sqCache[url].rawText ? _sqCache[url].rawText : _sqCache[url]);
-    return fetch(url).then(function(res) {
-      if (!res.ok) throw new Error('fetch ' + url + ' failed');
-      return res.text();
-    }).then(function(text) {
+    // Try multiple path variants to support different hosting base paths
+    var candidates = [
+      '/bs/sq/' + lang + '/' + slug + '.md',
+      './bs/sq/' + lang + '/' + slug + '.md',
+      'bs/sq/' + lang + '/' + slug + '.md'
+    ];
+
+    // If any candidate is cached, use it
+    for (var ci = 0; ci < candidates.length; ci++) {
+      var cu = candidates[ci];
+      if (_sqCache[cu]) return Promise.resolve(_sqCache[cu].prompts || _sqCache[cu].rawText || null);
+    }
+
+    // Try fetching each candidate in sequence until one succeeds
+    var attemptFetch = function(index) {
+      if (index >= candidates.length) return Promise.resolve(null);
+      var url = candidates[index];
+      return fetch(url).then(function(res) {
+        if (!res.ok) throw new Error('fetch ' + url + ' failed');
+        return res.text().then(function(text) { return { url: url, text: text }; });
+      }).catch(function() {
+        return attemptFetch(index + 1);
+      });
+    };
+
+    return attemptFetch(0).then(function(result) {
+      if (!result || !result.text) return null;
+      var url = result.url;
+      var text = result.text;
       // cache raw text
       _sqCache[url] = { rawText: text };
       var book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : abbr;
