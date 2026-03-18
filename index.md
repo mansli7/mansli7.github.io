@@ -32,8 +32,7 @@ title: Home
   <div class="mb-3">
     <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
     <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">今日讀經</p>
-    <p class="card-en text-sm text-slate-500 mb-0">Today&#39;s assignment, matched to the current date.</p>
-    <p class="card-zh text-sm text-slate-500 mb-0">依今天日期自動對應的讀經安排。</p>
+    
   </div>
   <div id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2"></div>
   <div id="todayRef" class="card-en text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>

@@ -66,8 +66,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Site styles -->
-  <link rel="stylesheet" href="/assets/css/style.css?v=2026-03-17">
-  <script src="/assets/js/reading-plan-2026.js?v=2026-03-17"></script>
+  <link rel="stylesheet" href="/assets/css/style.css?v=2026-03-18">
+  <script src="/assets/js/reading-plan-2026.js?v=2026-03-18"></script>
   <script src="/assets/js/site-lang.js?v=2026-03-18"></script>
 </head>
 <body>
@@ -382,42 +382,50 @@
       }
 
       var parsed = parse(code);
-      elRef.textContent = parsed.en;
-      elRefZh.textContent = parsed.zh;
+      // Combine passage and question label on one line
+      elRef.textContent = parsed.en + ' — Study Questions';
+      elRefZh.textContent = parsed.zh + ' 思考問題';
 
-      // Bible link (if available)
-      if (parsed.bg) {
-        var bibleBtn = document.createElement('a');
-        bibleBtn.href = parsed.bg;
-        bibleBtn.target = '_blank';
-        bibleBtn.rel = 'noopener noreferrer';
-        bibleBtn.className = 'cta';
-        bibleBtn.textContent = currentLang === 'zh' ? '📖 在 BibleGateway 查看' : '📖 Open in BibleGateway';
-        elActions.appendChild(bibleBtn);
-      }
+      // Bible link (language-specific version)
+      (function(){
+        try {
+          var bibleHref = null;
+          if (parsed.abbr) {
+            var name = readingPlan.bgNames && readingPlan.bgNames[parsed.abbr] ? readingPlan.bgNames[parsed.abbr] : (currentLang === 'zh' ? parsed.zh : parsed.en);
+            var chap = parsed.chapters ? parsed.chapters.replace(/-/g, '-') : '';
+            var search = name + (chap ? '+' + chap : '');
+            var version = currentLang === 'zh' ? 'CUV' : 'NIV';
+            bibleHref = 'https://www.biblegateway.com/passage/?search=' + encodeURIComponent(search) + '&version=' + version;
+          } else if (parsed.bg) {
+            bibleHref = parsed.bg;
+          }
+          if (bibleHref) {
+            var bibleBtn = document.createElement('a');
+            bibleBtn.href = bibleHref;
+            bibleBtn.target = '_blank';
+            bibleBtn.rel = 'noopener noreferrer';
+            bibleBtn.className = 'cta';
+            bibleBtn.textContent = currentLang === 'zh' ? '📖 打開 BibleGateway 讀經' : '📖 Open BibleGateway to read';
+            elActions.appendChild(bibleBtn);
+          }
+        } catch (e) {
+          // fail silently
+        }
+      })();
 
-      // Study question link (if available)
+      // Show study-question prompts inline (if available). No extra SQ button.
       if (parsed.sqStatus && parsed.sqStatus.available) {
-        var sqBtn = document.createElement('a');
-        sqBtn.href = exactSqHref(currentLang, parsed);
-        sqBtn.className = 'cta cta-outline';
-        sqBtn.textContent = currentLang === 'zh' ? '❓ 開啟今日學習問題' : '❓ Open Today\'s Study Question';
-        elActions.appendChild(sqBtn);
-
-        // If prompt snippets are available, show them under the widget
         var hq = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
         var prompts = hq && hq[code] ? (currentLang === 'zh' ? hq[code].zh : hq[code].en) : null;
         if (elNote) {
           if (prompts && prompts.length) {
             var noteHtml = '';
-            noteHtml += '<div class="text-xs font-semibold text-slate-500 mb-1">' + (currentLang === 'zh' ? '今日' : 'Today') + '</div>';
-            noteHtml += '<div class="font-semibold mb-2">' + (currentLang === 'zh' ? '學習問題' : 'Study Questions') + '</div>';
-            noteHtml += '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0 0 0.75rem;">';
-            for (var i = 0; i < Math.min(prompts.length, 4); i++) {
+            noteHtml += '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
+            for (var i = 0; i < prompts.length; i++) {
               noteHtml += '<li style="margin-bottom:0.35rem;">' + prompts[i] + '</li>';
             }
             noteHtml += '</ul>';
-            noteHtml += '<div><a class="cta-outline" href="' + exactSqHref(currentLang, parsed) + '">' + (currentLang === 'zh' ? '打開完整' : 'Open full') + ' ' + (currentLang === 'zh' ? parsed.zh : parsed.en) + ' ' + (currentLang === 'zh' ? '頁面 →' : 'page →') + '</a></div>';
+            // don't add the "open full page" link per request
             elNote.innerHTML = noteHtml;
           } else {
             elNote.textContent = currentLang === 'zh'
