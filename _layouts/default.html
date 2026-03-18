@@ -422,12 +422,22 @@
               noteHtml += '<li style="margin-bottom:0.35rem;">' + prompts[i] + '</li>';
             }
             noteHtml += '</ul>';
-            // don't add the "open full page" link per request
             elNote.innerHTML = noteHtml;
           } else {
-            elNote.textContent = currentLang === 'zh'
-              ? '今日有對應學習問題。'
-              : 'Study question available for today.';
+            // show availability message immediately, then attempt to load prompts from book page
+            elNote.textContent = currentLang === 'zh' ? '今日有對應學習問題。' : 'Study question available for today.';
+            if (window.Mansli7Reading2026 && window.Mansli7Reading2026.getPromptsFor) {
+              window.Mansli7Reading2026.getPromptsFor(code).then(function(res) {
+                if (!res) return;
+                var loaded = currentLang === 'zh' ? res.zh : res.en;
+                if (loaded && loaded.length) {
+                  var noteHtml2 = '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
+                  for (var j = 0; j < loaded.length; j++) noteHtml2 += '<li style="margin-bottom:0.35rem;">' + loaded[j] + '</li>';
+                  noteHtml2 += '</ul>';
+                  elNote.innerHTML = noteHtml2;
+                }
+              }).catch(function(){});
+            }
           }
         }
       } else if (parsed.en === '📋 Review Day') {

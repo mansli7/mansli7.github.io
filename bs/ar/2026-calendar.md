@@ -185,7 +185,8 @@ title: 2026 Bible Reading Calendar
 
   // ── Build the study question panel HTML ───────────────────────
   function sqPanel(cardId, parsed, m, d) {
-    var html = '<div id="sq-' + cardId + '" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #e2e8f0;">';
+    // include data-code so panels can be populated asynchronously after render
+    var html = '<div id="sq-' + cardId + '" data-code="' + (parsed.code ? encodeURIComponent(parsed.code) : '') + '" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #e2e8f0;">';
     var exact = parsed.code ? hq[parsed.code] : null;
     if (parsed.abbr && parsed.sqStatus && parsed.sqStatus.available && parsed.sq) {
       if (exact) {
@@ -338,6 +339,53 @@ title: 2026 Bible Reading Calendar
     }
     if (!html) html = '<p class="card-en" style="color:#94a3b8;font-size:0.9rem;">No readings are scheduled for this month.</p><p class="card-zh" style="display:none;color:#94a3b8;font-size:0.9rem;">這個月份目前沒有安排讀經內容。</p>';
     grid.innerHTML = html;
+
+    // After inserting cards, populate any panels that lack exact prompts by fetching from book pages
+    if (window.Mansli7Reading2026 && window.Mansli7Reading2026.getPromptsFor) {
+      setTimeout(function() {
+        var panels = grid.querySelectorAll('[id^="sq-"]');
+        panels.forEach(function(panel) {
+          try {
+            var code = panel.getAttribute('data-code');
+            if (!code) return;
+            code = decodeURIComponent(code);
+            var parsed = parse(code);
+            var exact = parsed.code ? hq[parsed.code] : null;
+            if (exact) return; // already populated inline
+
+            // show loading indicator
+            var enPlaceholder = '<p class="card-en" style="font-size:0.82rem;color:#64748b;">Loading prompts…</p>';
+            var zhPlaceholder = '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;">載入問題…</p>';
+            panel.innerHTML = enPlaceholder + zhPlaceholder;
+
+            window.Mansli7Reading2026.getPromptsFor(code).then(function(res) {
+              if (!res) return;
+              var en = res.en, zh = res.zh;
+              if ((en && en.length) || (zh && zh.length)) {
+                var out = '';
+                out += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
+                out += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
+                if (en && en.length) {
+                  out += '<ul class="card-en" style="margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+                  en.forEach(function(p){ out += '<li style="margin-bottom:0.3rem;">' + p + '</li>'; });
+                  out += '</ul>';
+                }
+                if (zh && zh.length) {
+                  out += '<ul class="card-zh" style="display:none;margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+                  zh.forEach(function(p){ out += '<li style="margin-bottom:0.3rem;">' + p + '</li>'; });
+                  out += '</ul>';
+                }
+                out += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
+                out += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
+                panel.innerHTML = out;
+              } else {
+                // leave the existing book-level message (already present in HTML)
+              }
+            }).catch(function(){});
+          } catch (e) { /* ignore per-panel errors */ }
+        });
+      }, 40);
+    }
 
     // Re-apply language state
     // Update progress indicator

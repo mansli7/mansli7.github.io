@@ -77,6 +77,96 @@
     return anchor ? href + '#' + anchor : href;
   }
 
+  // Utility: escape RegExp
+  function escapeRegExp(s) {
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // In-memory cache for fetched study-question files
+  var _sqCache = {};
+
+  // Compute slug for book study-question file (e.g. "Genesis" -> "genesis", "1 Samuel" -> "1-samuel")
+  function sqBookSlug(abbr) {
+    if (!abbr) return null;
+    var book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : (bgNames && bgNames[abbr]) || abbr;
+    return book.toLowerCase().replace(/[^0-9a-z\s-]/g, '').replace(/\s+/g, '-');
+  }
+
+  // Fetch study-question markdown for a book and extract prompts for the given chapters (or whole book)
+  function fetchSqPrompts(abbr, chapters, lang) {
+    lang = lang === 'zh' ? 'zh' : 'en';
+    var slug = sqBookSlug(abbr);
+    if (!slug) return Promise.resolve(null);
+    var url = '/bs/sq/' + lang + '/' + slug + '.md';
+    if (_sqCache[url]) return Promise.resolve(_sqCache[url].rawText ? _sqCache[url].rawText : _sqCache[url]);
+    return fetch(url).then(function(res) {
+      if (!res.ok) throw new Error('fetch ' + url + ' failed');
+      return res.text();
+    }).then(function(text) {
+      // cache raw text
+      _sqCache[url] = { rawText: text };
+      var book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : abbr;
+      var ch = (chapters || '').replace(/[—–]/g, '-');
+      // Build regex to find the matching section header (e.g. "Genesis 1-4")
+      var sectionRegex;
+      if (ch) {
+        var chPat = escapeRegExp(ch).replace(/\-/g, '[-–—]');
+        sectionRegex = new RegExp('^' + escapeRegExp(book) + '\\s*' + chPat + '[\\s\\S]*?(?=\n---\\n|$)', 'im');
+      } else {
+        sectionRegex = new RegExp('^' + escapeRegExp(book) + '[\\s\\S]*?(?=\n---\\n|$)', 'im');
+      }
+      var m = text.match(sectionRegex);
+      var section = m ? m[0] : null;
+      if (!section) {
+        // fallback: try to find any section that starts with the book name
+        var anyRegex = new RegExp('^' + escapeRegExp(book) + '[\\s\\S]*?(?=\n---\\n|$)', 'im');
+        m = text.match(anyRegex);
+        section = m ? m[0] : null;
+      }
+      if (!section) return null;
+      // Remove heading line and split into prompt blocks
+      var lines = section.split(/\n/);
+      // drop the first line if it contains the heading
+      if (lines.length && lines[0].toLowerCase().indexOf(book.toLowerCase()) === 0) lines.shift();
+      var prompts = [];
+      var buffer = [];
+      for (var i = 0; i < lines.length; i++) {
+        var l = lines[i].trim();
+        if (!l || l === '---') {
+          if (buffer.length) { prompts.push(buffer.join(' ').trim()); buffer = []; }
+        } else {
+          buffer.push(l);
+        }
+      }
+      if (buffer.length) prompts.push(buffer.join(' ').trim());
+      _sqCache[url].prompts = prompts.length ? prompts : null;
+      return _sqCache[url].prompts;
+    }).catch(function() { return null; });
+  }
+
+  // Get prompts for a reading code. Returns a Promise resolving to { en: [..], zh: [..] } or null
+  function getPromptsFor(code) {
+    if (!code) return Promise.resolve(null);
+    // If exact prompts exist in the in-memory map, return immediately
+    var hqMap = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
+    if (hqMap[code]) return Promise.resolve({ en: hqMap[code].en || null, zh: hqMap[code].zh || null });
+
+    var parsed = parse(code);
+    if (!parsed || !parsed.abbr) return Promise.resolve(null);
+    if (!parsed.sqStatus || !parsed.sqStatus.available) return Promise.resolve(null);
+
+    // Try exact-range prompts from book page; if missing, fall back to aggregated book prompts
+    return Promise.all([fetchSqPrompts(parsed.abbr, parsed.chapters, 'en'), fetchSqPrompts(parsed.abbr, parsed.chapters, 'zh')]).then(function(results) {
+      var en = results[0];
+      var zh = results[1];
+      if (en || zh) return { en: en, zh: zh };
+      // fallback: fetch whole book prompts
+      return Promise.all([fetchSqPrompts(parsed.abbr, '', 'en'), fetchSqPrompts(parsed.abbr, '', 'zh')]).then(function(full) {
+        return { en: full[0], zh: full[1] };
+      });
+    }).catch(function() { return null; });
+  }
+
   window.Mansli7Reading2026 = {
     r: r,
     n: n,
@@ -89,6 +179,11 @@
     exactSqAnchor: exactSqAnchor,
     exactSqHref: exactSqHref
   };
+
+  // expose fetch helpers
+  window.Mansli7Reading2026.sqBookSlug = sqBookSlug;
+  window.Mansli7Reading2026.fetchSqPrompts = fetchSqPrompts;
+  window.Mansli7Reading2026.getPromptsFor = getPromptsFor;
 
   // Short study-question prompts keyed by reading code (used by calendar and homepage)
   window.Mansli7Reading2026.hq = {
@@ -106,6 +201,19 @@
     "Ge45-48": { en: ["Who do you think sent Joseph to Egypt?", "Who would go down to Egypt with Jacob and surely bring him back up again?", "How many people from Jacob's family came to Egypt in total?"], zh: ["你認為是誰差約瑟去了埃及？", "誰要和雅各一同下埃及去，也必定帶他上來？", "雅各家來到埃及的共有多少人？"] },
     "Ge49-50": { en: ["Which son received the greatest blessing from Jacob?", "After Jacob died, was he buried in Egypt?", "After his father's death, did Joseph intend to repay his brothers for their evil deeds?"], zh: ["雅各給哪個兒子的祝福最好？", "雅各死後是葬在埃及嗎？", "約瑟在父親死後是否要報復他哥哥們的惡行？"] },
     "1Sa25-28": { en: ["David sent his servant to see Nabal. If you were in the same situation, would you respond like Nabal or like Abigail to David?", "In Saul's camp, David again had the chance to kill Saul but did not—why?", "Did Saul know he was guilty?", "Did David tell Achish that he had invaded Judah—was this true?", "When Saul inquired of the LORD, did the LORD answer him?", "Who had cut off the mediums and later sought a medium for inquiry?"], zh: ["大衛派他的僕人去見拿八，如果你遇到同樣情景，你會像拿八那樣，還是像亞比該那樣回應大衛？", "在掃羅營地，大衛又有機會殺掃羅，但沒殺，為什麼？", "掃羅知道自己有罪嗎？", "大衛對亞吉說他侵犯了猶大地，是真的嗎？", "掃羅求問耶和華，耶和華回答他了嗎？", "誰曾剪除交鬼的，而後又找交鬼的求問？"] },
-    "1Sa29-31": { en: ["The Philistines gathered at Aphek to fight Israel. Did the Philistine commanders allow David to go out with them?", "Whom did David consult about whether he could pursue the Amalekites?", "From the spoils David took from the Amalekites, how much did the fighting men and the guards each receive?"], zh: ["非利士人聚集到亞弗去和以色列打仗，非利士首領讓大衛和他們一同出戰嗎？", "對於是否能追趕上亞瑪力人，大衛求問了誰？", "大衛從亞瑪力人得到的擄物，上陣的和看守的各得多少？"] }
+    "1Sa29-31": { en: ["The Philistines gathered at Aphek to fight Israel. Did the Philistine commanders allow David to go out with them?", "Whom did David consult about whether he could pursue the Amalekites?", "From the spoils David took from the Amalekites, how much did the fighting men and the guards each receive?"], zh: ["非利士人聚集到亞弗去和以色列打仗，非利士首領讓大衛和他們一同出戰嗎？", "對於是否能追趕上亞瑪力人，大衛求問了誰？", "大衛從亞瑪力人得到的擄物，上陣的和看守的各得多少？"] },
+  "2Sa1-4": {
+    en: [
+      "What does David's lament for Saul and Jonathan reveal about his character?",
+      "How does David's response to the news of Saul's death model humility and trust in God?",
+      "Where do you see God's sovereignty at work in these events?",
+      "What personal takeaway or prayer arises from David's actions and words?"
+    ],
+    zh: [
+      "大衛為掃羅和約拿單哀悼，這顯示他性格中的哪些特質？",
+      "大衛對掃羅死亡的回應如何示範謙卑與對神的倚靠？",
+      "在這些事件中，你在哪裡看到神的主權在運行？",
+      "從大衛的行動與話語中，你有什麼個人的反思或禱告？"
+    ]
   };
 })();
