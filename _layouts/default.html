@@ -403,10 +403,27 @@
         sqBtn.className = 'cta cta-outline';
         sqBtn.textContent = currentLang === 'zh' ? '❓ 開啟今日學習問題' : '❓ Open Today\'s Study Question';
         elActions.appendChild(sqBtn);
+
+        // If prompt snippets are available, show them under the widget
+        var hq = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
+        var prompts = hq && hq[code] ? (currentLang === 'zh' ? hq[code].zh : hq[code].en) : null;
         if (elNote) {
-          elNote.textContent = currentLang === 'zh'
-            ? '今日有對應學習問題。'
-            : 'Study question available for today.';
+          if (prompts && prompts.length) {
+            var noteHtml = '';
+            noteHtml += '<div class="text-xs font-semibold text-slate-500 mb-1">' + (currentLang === 'zh' ? '今日' : 'Today') + '</div>';
+            noteHtml += '<div class="font-semibold mb-2">' + (currentLang === 'zh' ? '學習問題' : 'Study Questions') + '</div>';
+            noteHtml += '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0 0 0.75rem;">';
+            for (var i = 0; i < Math.min(prompts.length, 4); i++) {
+              noteHtml += '<li style="margin-bottom:0.35rem;">' + prompts[i] + '</li>';
+            }
+            noteHtml += '</ul>';
+            noteHtml += '<div><a class="cta-outline" href="' + exactSqHref(currentLang, parsed) + '">' + (currentLang === 'zh' ? '打開完整' : 'Open full') + ' ' + (currentLang === 'zh' ? parsed.zh : parsed.en) + ' ' + (currentLang === 'zh' ? '頁面 →' : 'page →') + '</a></div>';
+            elNote.innerHTML = noteHtml;
+          } else {
+            elNote.textContent = currentLang === 'zh'
+              ? '今日有對應學習問題。'
+              : 'Study question available for today.';
+          }
         }
       } else if (parsed.en === '📋 Review Day') {
         if (elNote) {
