@@ -98,17 +98,46 @@
     var slug = sqBookSlug(abbr);
     if (!slug) return Promise.resolve(null);
     // Try multiple path variants to support different hosting base paths
-    var candidates = [
-      '/bs/sq/' + lang + '/' + slug + '.md',
-      '/bs/sq/' + lang + '/' + slug + '.html',
-      '/bs/sq/' + lang + '/' + slug + '/index.html',
-      '/bs/sq/' + lang + '/' + slug + '/',
-      './bs/sq/' + lang + '/' + slug + '.md',
-      './bs/sq/' + lang + '/' + slug + '.html',
-      'bs/sq/' + lang + '/' + slug + '.md'
-    ];
+    // Build candidate URLs in a robust order: prefer relative paths (project pages),
+    // then try project-root prefix, then absolute root. Include .md, .html, index.html, and directory variants.
+    var rel = 'bs/sq/' + lang + '/' + slug;
+    var abs = '/bs/sq/' + lang + '/' + slug;
+    var candidates = [];
 
-    // If any candidate is cached, use it
+    // Relative variants (no leading slash)
+    candidates.push(rel + '.md');
+    candidates.push(rel + '.html');
+    candidates.push(rel + '/index.html');
+    candidates.push(rel + '/');
+
+    // If the site may be served under a project subpath (e.g. /repo/...), try prefixing the first path segment
+    try {
+      var seg = (typeof location !== 'undefined' && location.pathname) ? (location.pathname.split('/')[1] || '') : '';
+      if (seg && seg.length && seg !== 'bs') {
+        var projPrefix = '/' + seg + '/bs/sq/' + lang + '/' + slug;
+        candidates.push(projPrefix + '.md');
+        candidates.push(projPrefix + '.html');
+        candidates.push(projPrefix + '/index.html');
+        candidates.push(projPrefix + '/');
+      }
+    } catch (e) { /* ignore */ }
+
+    // Absolute variants
+    candidates.push(abs + '.md');
+    candidates.push(abs + '.html');
+    candidates.push(abs + '/index.html');
+    candidates.push(abs + '/');
+
+    // Remove duplicates while preserving order
+    var seenC = {};
+    var uniq = [];
+    for (var iC = 0; iC < candidates.length; iC++) {
+      var u = candidates[iC];
+      if (!seenC[u]) { seenC[u] = true; uniq.push(u); }
+    }
+    candidates = uniq;
+
+    // If any candidate is cached, return it
     for (var ci = 0; ci < candidates.length; ci++) {
       var cu = candidates[ci];
       if (_sqCache[cu]) return Promise.resolve(_sqCache[cu].prompts || _sqCache[cu].rawText || null);
@@ -118,7 +147,9 @@
     var attemptFetch = function(index) {
       if (index >= candidates.length) return Promise.resolve(null);
       var url = candidates[index];
+      try { if (typeof console !== 'undefined' && console.debug) console.debug('[reading-plan] trying SQ URL:', url); } catch (e) {}
       return fetch(url).then(function(res) {
+        try { if (typeof console !== 'undefined' && console.debug) console.debug('[reading-plan] fetched', url, 'status', res.status); } catch (e) {}
         if (!res.ok) throw new Error('fetch ' + url + ' failed');
         return res.text().then(function(text) { return { url: url, text: text }; });
       }).catch(function() {
