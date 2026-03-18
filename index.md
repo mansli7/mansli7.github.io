@@ -7,12 +7,14 @@ title: Home
   <section class="bg-white rounded-3xl border border-slate-200 shadow-sm p-8">
     <p class="card-en text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">Bible Study Portal</p>
     <p class="card-zh text-xs font-bold tracking-[0.2em] text-slate-400 uppercase mb-4">聖經學習入口</p>
-    <h1 class="card-en text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read through Scripture with a clear daily path and linked study questions.</h1>
-    <h1 class="card-zh text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">用清楚的每日路徑讀完整本聖經，並在需要時進入對應的學習問題。</h1>
-    <p class="card-en text-slate-600 leading-relaxed mb-3">Use the calendar for the daily reading path, then open study-question pages when you want slower personal or group study.</p>
-    <p class="card-zh text-slate-600 leading-relaxed mb-3">先用月曆進入每天的讀經安排，之後若要更慢地個人思想或小組查考，再打開學習問題頁面。</p>
-    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">Prepared study questions are available for select books, while the reading plan continues through the full year.</p>
-    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">目前部分書卷已提供整理好的學習問題，整年的讀經計劃則持續完整前進。</p>
+    <h1 class="card-en text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">Read the Bible — know the truth.</h1>
+    <h1 class="card-zh text-2xl sm:text-3xl font-bold text-slate-900 leading-tight mb-4 max-w-2xl">閱讀聖經，認識真理</h1>
+    <p class="card-en text-slate-600 leading-relaxed mb-3">"Jesus said, 'I am the way and the truth and the life. No one comes to the Father except through me.'" — John 14:6</p>
+    <p class="card-zh text-slate-600 leading-relaxed mb-3">耶穌說「我就是道路、真理、生命；若不藉著我，沒有人能到父那裡去。」— 約翰福音 14:6</p>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">Available: a year-long reading plan with linked study questions.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">已有：一年通讀聖經計劃，配合聖經思考問題。</p>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">In development: in-depth book studies (e.g. Genesis), short articles (Chinese characters & the Bible; evolution and God's creation), bilingual Bible lookup, recommended resources (Chinese Bibles, Strong's numbers, maps), explanation of the site name, and program-generated reading-plan calendars.</p>
+    <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">在建：精讀書卷（例如創世記）、短文分享（漢字與聖經、進化論與神的創造）、中英經文查詢、網站推薦與地圖、網站名稱說明，以及用程序生成的讀經計劃日曆。</p>
     <div class="flex flex-wrap items-center gap-2 mb-6">
       <button type="button" data-lang-switch="en" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">English</button>
       <button type="button" data-lang-switch="zh" class="lang-switch px-4 py-2 rounded-full text-sm font-semibold">中文</button>
