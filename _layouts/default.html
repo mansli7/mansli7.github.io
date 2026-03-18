@@ -370,9 +370,10 @@
 
       elActions.textContent = '';
       if (elNote) elNote.textContent = '';
+      // Show weekday plus year, month and day
       elDate.textContent = currentLang === 'zh'
-        ? new Intl.DateTimeFormat('zh-Hant', { year: 'numeric', month: 'long', day: 'numeric' }).format(now)
-        : new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(now);
+        ? new Intl.DateTimeFormat('zh-Hant', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(now)
+        : new Intl.DateTimeFormat('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(now);
 
       if (!code) {
         elRef.textContent = 'No reading scheduled for today';
@@ -384,40 +385,41 @@
       elRef.textContent = parsed.en;
       elRefZh.textContent = parsed.zh;
 
-      var readBtn = document.createElement('a');
-      readBtn.href = '/bs/ar/2026-calendar';
-      readBtn.className = 'cta';
-      readBtn.textContent = currentLang === 'zh' ? '📅 打開 2026 月曆' : '📅 Open 2026 Calendar';
-      elActions.appendChild(readBtn);
+      // Bible link (if available)
+      if (parsed.bg) {
+        var bibleBtn = document.createElement('a');
+        bibleBtn.href = parsed.bg;
+        bibleBtn.target = '_blank';
+        bibleBtn.rel = 'noopener noreferrer';
+        bibleBtn.className = 'cta';
+        bibleBtn.textContent = currentLang === 'zh' ? '📖 在 BibleGateway 查看' : '📖 Open in BibleGateway';
+        elActions.appendChild(bibleBtn);
+      }
 
+      // Study question link (if available)
       if (parsed.sqStatus && parsed.sqStatus.available) {
         var sqBtn = document.createElement('a');
         sqBtn.href = exactSqHref(currentLang, parsed);
         sqBtn.className = 'cta cta-outline';
-        sqBtn.textContent = currentLang === 'zh' ? '❓ 打開學習問題' : '❓ Open Study Questions';
+        sqBtn.textContent = currentLang === 'zh' ? '❓ 開啟今日學習問題' : '❓ Open Today\'s Study Question';
         elActions.appendChild(sqBtn);
         if (elNote) {
           elNote.textContent = currentLang === 'zh'
-            ? '今天的閱讀已有對應學習問題，可直接進入目前選定語言的頁面。'
-            : 'Prepared study questions are available for today\'s reading in your selected language.';
+            ? '今日有對應學習問題。'
+            : 'Study question available for today.';
         }
       } else if (parsed.en === '📋 Review Day') {
         if (elNote) {
           elNote.textContent = currentLang === 'zh'
-            ? '今天可用來複習本週進度，並回看已經提供的書卷學習問題。'
-            : 'Use today to review the week\'s readings and revisit any study-question pages that are already available.';
+            ? '複習日：可回顧本週進度與現有問題集。'
+            : 'Review day: revisit this week\'s readings and any available question sets.';
         }
       } else {
         if (elNote) {
           elNote.textContent = currentLang === 'zh'
-            ? '這卷書的學習問題仍在整理中，可先瀏覽目前已提供的書卷。'
-            : 'Study questions for this book are still in progress. Browse the currently available sets first.';
+            ? '今日尚無學習問題。'
+            : 'No study question available for today.';
         }
-        var browseBtn = document.createElement('a');
-        browseBtn.href = '/bs/sq/';
-        browseBtn.className = 'cta cta-outline';
-        browseBtn.textContent = currentLang === 'zh' ? '❓ 瀏覽現有問題集' : '❓ Browse Available Questions';
-        elActions.appendChild(browseBtn);
       }
     }
 
