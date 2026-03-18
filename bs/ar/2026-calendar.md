@@ -187,23 +187,31 @@ title: 2026 Bible Reading Calendar
   function sqPanel(cardId, parsed, m, d) {
     var html = '<div id="sq-' + cardId + '" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #e2e8f0;">';
     var exact = parsed.code ? hq[parsed.code] : null;
-    if (parsed.abbr && parsed.sqStatus && parsed.sqStatus.available && parsed.sq && exact) {
-      html += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
-      html += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
-      html += '<p class="card-en" style="font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Exact prompts for ' + parsed.en + ':</p>';
-      html += '<p class="card-zh" style="display:none;font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">對應「' + parsed.zh + '」的學習提示：</p>';
-      html += '<ul class="card-en" style="margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
-      for (var i = 0; i < exact.en.length; i++) {
-        html += '<li style="margin-bottom:0.3rem;">' + exact.en[i] + '</li>';
+    if (parsed.abbr && parsed.sqStatus && parsed.sqStatus.available && parsed.sq) {
+      if (exact) {
+        html += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
+        html += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
+        html += '<p class="card-en" style="font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Exact prompts for ' + parsed.en + ':</p>';
+        html += '<p class="card-zh" style="display:none;font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">對應「' + parsed.zh + '」的學習提示：</p>';
+        html += '<ul class="card-en" style="margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+        for (var i = 0; i < exact.en.length; i++) {
+          html += '<li style="margin-bottom:0.3rem;">' + exact.en[i] + '</li>';
+        }
+        html += '</ul>';
+        html += '<ul class="card-zh" style="display:none;margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+        for (var k = 0; k < exact.zh.length; k++) {
+          html += '<li style="margin-bottom:0.3rem;">' + exact.zh[k] + '</li>';
+        }
+        html += '</ul>';
+        html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
+        html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
+      } else {
+        // Book-level question set exists, but exact prompts for this specific range are not yet populated.
+        html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Study questions are available for this book. Open the book page for the available question set while exact prompts for this range are being prepared.</p>';
+        html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">本書已有學習問題集，正在準備對應範圍的詳細提示。請打開書卷頁面查看現有問題集。</p>';
+        html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open ' + parsed.en + ' page →</a>';
+        html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開' + parsed.zh + '頁面 →</a>';
       }
-      html += '</ul>';
-      html += '<ul class="card-zh" style="display:none;margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
-      for (var k = 0; k < exact.zh.length; k++) {
-        html += '<li style="margin-bottom:0.3rem;">' + exact.zh[k] + '</li>';
-      }
-      html += '</ul>';
-      html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
-      html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
     } else if (parsed.en === '📋 Review Day') {
       var targets = reviewTargets(m, d);
       html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Use today to review this week\'s readings and revisit any linked study-question sets that are already available for the books you covered.</p>';
