@@ -100,7 +100,11 @@
     // Try multiple path variants to support different hosting base paths
     var candidates = [
       '/bs/sq/' + lang + '/' + slug + '.md',
+      '/bs/sq/' + lang + '/' + slug + '.html',
+      '/bs/sq/' + lang + '/' + slug + '/index.html',
+      '/bs/sq/' + lang + '/' + slug + '/',
       './bs/sq/' + lang + '/' + slug + '.md',
+      './bs/sq/' + lang + '/' + slug + '.html',
       'bs/sq/' + lang + '/' + slug + '.md'
     ];
 
@@ -126,6 +130,20 @@
       if (!result || !result.text) return null;
       var url = result.url;
       var text = result.text;
+      // If we received HTML (GitHub Pages / Jekyll likely serves the rendered HTML),
+      // extract the visible text before applying markdown-style regexes.
+      try {
+        if (typeof text === 'string' && /<\s*(!doctype|html|h[1-6]|div|p|section|article)[\s\S]*?>/i.test(text)) {
+          try {
+            if (typeof DOMParser !== 'undefined') {
+              var doc = new DOMParser().parseFromString(text, 'text/html');
+              text = (doc && doc.body) ? (doc.body.textContent || doc.body.innerText || text) : text;
+            } else if (typeof document !== 'undefined') {
+              var tmp = document.createElement('div'); tmp.innerHTML = text; text = tmp.textContent || tmp.innerText || text;
+            }
+          } catch (e) { /* fallback to raw text */ }
+        }
+      } catch (e) { /* ignore */ }
       // cache raw text
       _sqCache[url] = { rawText: text };
       var book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : abbr;
