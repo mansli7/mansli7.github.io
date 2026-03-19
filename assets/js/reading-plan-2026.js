@@ -368,6 +368,23 @@
         '誰曾剪除交鬼的，而後又找交鬼的求問？'
       ]
     }
+    ,
+    '1Sa29-31': {
+      en: [
+        'The Philistines gathered at Aphek to fight Israel; did the Philistine commanders allow David to go out with them?',
+        'Whom did David consult about whether he could pursue the Amalekites?',
+        'From the spoils David took from the Amalekites, how much did the fighting men and the guards each receive?',
+        'Saul and his three sons died in battle against whom?',
+        'Who killed Saul?'
+      ],
+      zh: [
+        '非利士人聚集到亞弗去和以色列打仗，非利士首領讓大衛和他們一同出戰嗎？',
+        '對於是否能追趕上亞瑪力人，大衛求問了誰？',
+        '大衛從亞瑪力人得到的擄物，上陣的和看守的各得多少？',
+        '掃羅和他的三個兒子死於和什麼人的爭戰？',
+        '誰使掃羅被殺？'
+      ]
+    }
   };
 /*
 "Ge41-44":{"en":["How old was Joseph when he governed the whole land of Egypt? When they first went to Egypt to buy grain, how many sons did Jacob send? Whom did Joseph keep in custody while the other brothers returned to bring their youngest brother? In whose bag was the lost cup found? Who was willing to become Joseph’s slave in place of another?"],"zh":null},
