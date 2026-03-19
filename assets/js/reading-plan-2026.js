@@ -331,6 +331,7 @@
       ]
     }
   };
+/*
 "Ge41-44":{"en":["How old was Joseph when he governed the whole land of Egypt? When they first went to Egypt to buy grain, how many sons did Jacob send? Whom did Joseph keep in custody while the other brothers returned to bring their youngest brother? In whose bag was the lost cup found? Who was willing to become Joseph’s slave in place of another?"],"zh":null},
 "Ge45-48":{"en":["Who do you think sent Joseph to Egypt? Who would go down to Egypt with Jacob and surely bring him back up again? How many people from Jacob’s family came to Egypt in total? How old was Jacob when he went down to Egypt? How many years did Jacob live? Which of Jacob’s sons received a double portion?"],"zh":null},
 "Ge49-50":{"en":["Which son received the greatest blessing from Jacob? After Jacob died, was he buried in Egypt? After his father’s death, did Joseph intend to repay his brothers for their evil deeds? Before his death, how did Joseph ask the Israelites to deal with his bones?"],"zh":null},
@@ -362,4 +363,5 @@
 "Nu33-36":{"en":["Think again: when the king of Moab summoned Balaam, why did Balaam go the second time? How many places did the Israelites camp at from leaving Egypt until entering Canaan? After entering Canaan, what happens if the inhabitants are not driven out? Into how many tribes was the land of Canaan divided as inheritance? How many cities did the Levites receive? How many of these were cities of refuge? What is the purpose of the cities of refuge? Can a daughter who receives an inheritance in one of the Israelite tribes marry someone from another tribe?"],"zh":null},
 "Dt1-4":{"en":["In which year, month, and day after the exodus did Moses proclaim the law in Moab east of the Jordan? To whom does judgment belong? Were the women and the men under twenty years of age counted in the Desert of Sinai? Were they allowed to enter Canaan? To whom had the LORD given the hill country of Seir as an inheritance? To whom had He given Ar? How many kings did Israel defeat east of the Jordan under Moses’ leadership, and who were they? Who was appointed to succeed Moses and lead Israel into Canaan? Were the Israelites allowed to add to or subtract from the commands the LORD gave them?"],"zh":null},
 "Dt5-8":{"en":["Is idolatry permitted? Who will be blessed by honoring their father and mother? What is the first commandment of the law? Which seven nations were Israel commanded to destroy completely when entering Canaan? Since those nations were more than Israel, how could Israel drive them out? Who used words from Deuteronomy chapter 8 to resist the devil’s temptation? Why did the LORD humble and test the Israelites in the wilderness?"],
+*/
 })();
