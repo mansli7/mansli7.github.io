@@ -234,7 +234,7 @@
     if (!parsed.sqStatus || !parsed.sqStatus.available) return Promise.resolve(null);
 
     // First try per-book JSON under /data/bs-sq/{en,zh}/{slug}.json (build-time artifact)
-    return fetchHqBook(parsed.abbr).then(function() {
+    var mainPromise = fetchHqBook(parsed.abbr).then(function() {
       var hqMapNow = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
       if (hqMapNow[code]) return { en: hqMapNow[code].en || null, zh: hqMapNow[code].zh || null };
       // Try exact-range prompts from book page; if missing, fall back to aggregated book prompts
@@ -256,6 +256,13 @@
         return Promise.all([fetchSqPrompts(parsed.abbr, '', 'en'), fetchSqPrompts(parsed.abbr, '', 'zh')]).then(function(full) { return { en: full[0], zh: full[1] }; });
       }).catch(function() { return null; });
     });
+
+    // Ensure callers are not left waiting indefinitely: add an overall timeout.
+    var timeoutMs = 8000; // 8 seconds
+    return Promise.race([
+      mainPromise,
+      new Promise(function(resolve) { setTimeout(function() { resolve(null); }, timeoutMs); })
+    ]);
   }
 
   // Load per-book HQ JSON (if present) and merge into in-memory hq map.
