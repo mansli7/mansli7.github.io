@@ -273,8 +273,9 @@
     if (!slug) return Promise.resolve();
     window.Mansli7Reading2026.hq = window.Mansli7Reading2026.hq || {};
     var hqMapNow = window.Mansli7Reading2026.hq;
-    // if any entry exists for this book already in hq map, assume loaded
-    for (var k in hqMapNow) { if (k.indexOf(abbr) === 0) return Promise.resolve(); }
+    // Do not assume the book is fully loaded just because some entries
+    // for the same `abbr` exist in the in-memory map. Always attempt to
+    // fetch per-book JSON files so missing ranges get merged correctly.
 
     // Prefer canonical absolute paths on the published site; try the
     // language-preferred file first (detect page or navigator lang),
