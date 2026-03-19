@@ -225,9 +225,10 @@
   // Get prompts for a reading code. Returns a Promise resolving to { en: [..], zh: [..] } or null
   function getPromptsFor(code) {
     if (!code) return Promise.resolve(null);
-    // If exact prompts exist in the in-memory map, return immediately
+    // If exact prompts exist in the in-memory map and both languages are present, return immediately.
+    // If one language (e.g. `zh`) is missing, continue to attempt loading per-book JSON so we can fill missing fields.
     var hqMap = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
-    if (hqMap[code]) return Promise.resolve({ en: hqMap[code].en || null, zh: hqMap[code].zh || null });
+    if (hqMap[code] && hqMap[code].en != null && hqMap[code].zh != null) return Promise.resolve({ en: hqMap[code].en || null, zh: hqMap[code].zh || null });
 
     var parsed = parse(code);
     if (!parsed || !parsed.abbr) return Promise.resolve(null);
