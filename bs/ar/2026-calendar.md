@@ -310,8 +310,10 @@ title: 2026 Bible Reading Calendar
     }
 
     // Study questions button + panel
-    var panelLabelEn = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Open Question Panel' : '📖 View Question Status';
-    var panelLabelZh = isReview || (parsed.sqStatus && parsed.sqStatus.available) ? '📖 打開問題面板' : '📖 查看問題狀態';
+    // Do not show the full "Open Question Panel" on Review days; only
+    // allow opening the panel when a question set is available.
+    var panelLabelEn = (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Open Question Panel' : '📖 View Question Status';
+    var panelLabelZh = (parsed.sqStatus && parsed.sqStatus.available) ? '📖 打開問題面板' : '📖 查看問題狀態';
     html += '<div style="margin-top:0.65rem;">';
     html += '<button type="button" id="sqbtn-' + cardId + '" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" aria-controls="sq-' + cardId + '" aria-label="Toggle study question details for ' + parsed.en.replace(/"/g, '&quot;') + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:0.25rem;">';
     html += '<span class="card-en">' + panelLabelEn + '</span>';
