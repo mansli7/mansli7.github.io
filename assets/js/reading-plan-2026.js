@@ -268,12 +268,22 @@
     // if any entry exists for this book already in hq map, assume loaded
     for (var k in hqMapNow) { if (k.indexOf(abbr) === 0) return Promise.resolve(); }
 
+    // Prefer canonical absolute paths on the published site; if the site is
+    // served under a project subpath, we will also try that prefix below.
     var candidates = [
       '/data/bs-sq/en/' + slug + '.json',
-      '/data/bs-sq/zh/' + slug + '.json',
-      'data/bs-sq/en/' + slug + '.json',
-      'data/bs-sq/zh/' + slug + '.json'
+      '/data/bs-sq/zh/' + slug + '.json'
     ];
+
+    // If the site appears to be hosted under a project subpath (e.g. /repo/...),
+    // try the project-prefixed absolute paths as well.
+    try {
+      var seg = (typeof location !== 'undefined' && location.pathname) ? (location.pathname.split('/')[1] || '') : '';
+      if (seg && seg.length && seg !== 'bs' && seg !== '') {
+        candidates.push('/' + seg + '/data/bs-sq/en/' + slug + '.json');
+        candidates.push('/' + seg + '/data/bs-sq/zh/' + slug + '.json');
+      }
+    } catch (e) { /* ignore */ }
 
     // try fetching both language files individually (parallel)
     return Promise.all(candidates.map(function(url) {
