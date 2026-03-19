@@ -1,0 +1,3 @@
+enerate_hq.js — extractor for bs/sq markdown to JSON
+Usage:
+  node generate_hq.js [lang] [book] > data/bs-sq/<lang>/<book>.json
