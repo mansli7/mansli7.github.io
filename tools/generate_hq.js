@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const file = path.join(__dirname,'mansli7.github.io','assets','js','reading-plan-2026.js');
+const file = path.join(__dirname,'..','assets','js','reading-plan-2026.js');
 const txt = fs.readFileSync(file,'utf8');
 function extractVar(name){
   const marker = 'var ' + name + ' =';
@@ -23,6 +23,49 @@ function evalObj(text){
 const r = evalObj(extractVar('r'));
 const n = evalObj(extractVar('n'));
 const sq = evalObj(extractVar('sq'));
+
+// CLI flags and positional compatibility
+const rawArgv = process.argv.slice(2);
+const opts = { lang: null, code: null, date: null, write: false, outDir: null, silent: false };
+// simple flag parser: --key value or --flag
+for(let i=0;i<rawArgv.length;i++){
+  const a = rawArgv[i];
+  if(a === '--lang' || a === '-l'){ opts.lang = rawArgv[++i]; }
+  else if(a === '--code' || a === '-c'){ opts.code = rawArgv[++i]; }
+  else if(a === '--date' || a === '-d'){ opts.date = rawArgv[++i]; }
+  else if(a === '--write' || a === '-w'){ opts.write = true; }
+  else if(a === '--out-dir' || a === '-o'){ opts.outDir = rawArgv[++i]; }
+  else if(a === '--silent' || a === '-s'){ opts.silent = true; }
+  else if(!opts.lang && (a==='en' || a==='zh')){ opts.lang = a; }
+  else if(!opts.code && !a.startsWith('-')){ // positional fallback: book or code
+    // if looks like a code (starts with letters+digits) keep as code, else book
+    opts.code = a;
+    // possible chapters next
+    if(rawArgv[i+1] && !rawArgv[i+1].startsWith('-')){ opts.code = opts.code + rawArgv[++i]; }
+  }
+}
+
+// convenience names
+const cliLang = opts.lang;
+const cliBook = opts.code;
+const cliChapters = null;
+
+function normalizeName(s){ return String(s||'').toLowerCase().replace(/[^0-9a-z]+/g,'').trim(); }
+function findAbbrFromArg(arg){
+  if(!arg) return null;
+  const a = String(arg).toLowerCase();
+  // exact abbr
+  if(n[a]) return a;
+  // match by slug or english/chinese name
+  const slugArg = String(arg).toLowerCase().replace(/[^0-9a-z\s-]/g,'').replace(/\s+/g,'-');
+  for(const k of Object.keys(n)){
+    const en = (n[k] && n[k][0])? normalizeName(n[k][0]) : '';
+    const zh = (n[k] && n[k][1])? normalizeName(n[k][1]) : '';
+    const slug = (n[k] && n[k][0])? n[k][0].toLowerCase().replace(/[^0-9a-z\s-]/g,'').replace(/\s+/g,'-') : '';
+    if(en === normalizeName(arg) || zh === normalizeName(arg) || slug === slugArg) return k;
+  }
+  return null;
+}
 function sqSlug(abbr){
   if(!abbr) return null;
   const book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : abbr;
@@ -32,11 +75,12 @@ function escapeRegExp(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')
 function extractPrompts(lang, abbr, chapters){
   try{
     const slug = sqSlug(abbr);
-    const p = path.join(__dirname,'mansli7.github.io','bs','sq',lang,slug+'.md');
+    const p = path.join(__dirname,'..','bs','sq',lang,slug+'.md');
     if(!fs.existsSync(p)) return null;
     let text = fs.readFileSync(p,'utf8');
-    const book = (n && n[abbr] && n[abbr][0]) ? n[abbr][0] : abbr;
+      const book = (n && n[abbr]) ? ((lang === 'zh' && n[abbr][1]) ? n[abbr][1] : n[abbr][0]) : abbr;
     const ch = (chapters||'').replace(/[—–]/g,'-').trim();
+    const extractRange = s => (s||'').replace(/[^\n0-9\-–—]/g,'').replace(/[—–]/g,'-');
 
     // Split the file into chunks separated by a line with only '---'
     const parts = text.split(/\n\s*---\s*\n/);
@@ -48,11 +92,26 @@ function extractPrompts(lang, abbr, chapters){
       if (!lines.length) continue;
       const heading = lines[0];
       // heading might be like "Genesis 1-4" or "Genesis 13–16"
-      if (heading.toLowerCase().indexOf(book.toLowerCase()) === 0) {
+      // allow minor Chinese character variants (e.g., 紀 vs 記)
+      const headingLower = heading.toLowerCase();
+      const bookLower = (book||'').toLowerCase();
+      const bookAlt1 = bookLower.replace(/\u7d00/g,'\u8a18'); // 紀 -> 記
+      const bookAlt2 = bookLower.replace(/\u8a18/g,'\u7d00'); // 記 -> 紀
+      const bookNoSuffix = bookLower.replace(/[\u8a18\u7d00]$/,''); // drop trailing 記/紀
+      const bookNoSuffixAlt = bookNoSuffix.replace(/\u7d00/g,'\u8a18');
+      if (
+        headingLower.indexOf(bookLower) === 0 ||
+        headingLower.indexOf(bookAlt1) === 0 ||
+        headingLower.indexOf(bookAlt2) === 0 ||
+        headingLower.indexOf(bookNoSuffix) === 0 ||
+        headingLower.indexOf(bookNoSuffixAlt) === 0
+      ) {
         // check chapters if provided
         if (ch) {
-          const hnorm = heading.replace(/\s+/g,' ').replace(/\u2013/g,'-').replace(/\u2014/g,'-').toLowerCase();
-          if (hnorm.indexOf(ch.replace(/\-/g,'-')) === -1) {
+            // normalize heading ranges (handle Chinese '章' and en/emdash variants)
+            const hnorm = extractRange(heading).replace(/\s+/g,'').replace(/\u2013/g,'-').replace(/\u2014/g,'-');
+            const cnorm = (ch||'').replace(/\s+/g,'');
+            if (cnorm && hnorm.indexOf(cnorm.replace(/\-/g,'-')) === -1) {
             // not the exact chapter heading we're looking for
             continue;
           }
@@ -74,11 +133,7 @@ function extractPrompts(lang, abbr, chapters){
     return null;
   } catch(e){ return null; }
 }
-// debug test
-try{
-  const dbg = extractPrompts('en','1Sa','25-28');
-  console.error('DEBUG 1Sa25-28 en ->', Array.isArray(dbg)?dbg.length:dbg);
-}catch(e){ console.error('DBGERR',e); }
+// debug test removed for clean output
 
 // build dates Jan 1 to Apr 9
 function datesRange(){
@@ -92,19 +147,120 @@ function datesRange(){
 }
 const dates = datesRange();
 const out = {};
+
+function gatherForToken(token){
+  const keys = Object.keys(n).sort((a,b)=>b.length-a.length);
+  let abbr=null; for(let k of keys){ if(token.indexOf(k)===0){ abbr=k; break; } }
+  if(!abbr) return null;
+  if(!sq[abbr]) return null;
+  const chapters = token.slice(abbr.length);
+  const en = extractPrompts('en',abbr, chapters);
+  const zh = extractPrompts('zh',abbr, chapters);
+  return { en, zh };
+}
+
 for(const [m,d] of dates){
   const key = m+'/'+d;
   const code = r[key];
   if(!code) continue;
   if(code==='Review') continue;
-  // find abbr like in parse: match longest n keys
-  const keys = Object.keys(n).sort((a,b)=>b.length-a.length);
-  let abbr=null; for(let k of keys){ if(code.indexOf(k)===0){ abbr=k; break; } }
-  if(!abbr) continue;
-  // only if sq available
-  if(!sq[abbr]) continue;
-  const en = extractPrompts('en',abbr, code.slice(abbr.length));
-  const zh = extractPrompts('zh',abbr, code.slice(abbr.length));
-  out[code] = { en: en, zh: zh };
+  const tokens = String(code).split(/\s*,\s*|\s*;\s*|\s+/).filter(Boolean);
+  for(const token of tokens){
+    const data = gatherForToken(token);
+    out[token] = data;
+  }
 }
-console.log(JSON.stringify(out, null, 2));
+
+function gatherForCodeList(codeList){
+  const res = {};
+  const tokens = String(codeList).split(/\s*,\s*|\s*;\s*|\s+/).filter(Boolean);
+  for(const t of tokens){ const d=gatherForToken(t); if(d) res[t]=d; else res[t]=null; }
+  return res;
+}
+
+// If CLI requested a specific book, filter by its abbr
+// helper: get calendar codes for a date string YYYY-MM-DD
+function codesForDate(dateStr){
+  const d = new Date(dateStr);
+  if(isNaN(d)) return null;
+  const key = (d.getMonth()+1)+'/'+d.getDate();
+  const code = r[key];
+  return code || null;
+}
+
+if(cliBook || opts.date){
+  const wanted = findAbbrFromArg(cliBook);
+  if(!wanted){
+    if(!opts.date){
+      if(!opts.silent) console.error('Could not resolve book from arg:', cliBook);
+      process.exit(2);
+    }
+  }
+  // If user asked by date, use calendar
+  if(opts.date){
+    const code = codesForDate(opts.date);
+    if(!code){ if(!opts.silent) console.error('No reading found for date',opts.date); process.exit(2); }
+    const readings = gatherForCodeList(code);
+    // optionally write per-day files
+    if(opts.write){
+      const outDir = opts.outDir || path.join(__dirname,'..','tmp');
+      fs.mkdirSync(outDir,{recursive:true});
+      const iso = opts.date;
+      const enPath = path.join(outDir, iso + '.en.json');
+      const zhPath = path.join(outDir, iso + '.zh.json');
+      const enObj = {}; const zhObj = {};
+      for(const k of Object.keys(readings)){
+        enObj[k] = readings[k] ? readings[k].en : null;
+        zhObj[k] = readings[k] ? readings[k].zh : null;
+      }
+      fs.writeFileSync(enPath, JSON.stringify({date:iso, codes:Object.keys(enObj), readings:enObj},null,2));
+      fs.writeFileSync(zhPath, JSON.stringify({date:iso, codes:Object.keys(zhObj), readings:zhObj},null,2));
+      if(!opts.silent) console.log('Wrote',enPath,zhPath);
+      process.exit(0);
+    } else {
+      // print readings; filter by lang if provided
+      if(cliLang){
+        const outp = {};
+        for(const k of Object.keys(readings)){ outp[k] = { [cliLang]: readings[k] ? readings[k][cliLang] : null }; }
+        console.log(JSON.stringify(outp,null,2));
+      } else {
+        console.log(JSON.stringify(readings,null,2));
+      }
+      process.exit(0);
+    }
+  }
+  // else cliBook path (existing behavior but code token may be full code)
+  const filtered = {};
+  function normalizeChaptersArg(s){
+    if(!s) return '';
+    return String(s).replace(/[—–]/g,'-').replace(/[^0-9\-]/g,'').replace(/\-+/g,'-').replace(/^-+|-+$/g,'');
+  }
+  const wantCh = normalizeChaptersArg(cliChapters);
+  for(const k of Object.keys(out)){
+    if(k.indexOf(wanted)===0){
+      if(wantCh){
+        const rem = k.slice(wanted.length);
+        const remNorm = normalizeChaptersArg(rem);
+        if(remNorm === wantCh) filtered[k]=out[k];
+      } else {
+        filtered[k]=out[k];
+      }
+    }
+  }
+  // If a language was requested, reduce each entry to only that language
+  if(cliLang){
+    for(const kk of Object.keys(filtered)){
+      filtered[kk] = { [cliLang]: (filtered[kk] && filtered[kk][cliLang]) ? filtered[kk][cliLang] : null };
+    }
+  }
+  console.log(JSON.stringify(filtered, null, 2));
+} else if(cliLang){
+  // If only lang specified, output only entries where that lang prompts exist
+  const filtered = {};
+  for(const k of Object.keys(out)){
+    if(out[k] && out[k][cliLang]) filtered[k] = { [cliLang]: out[k][cliLang] };
+  }
+  console.log(JSON.stringify(filtered, null, 2));
+} else {
+  console.log(JSON.stringify(out, null, 2));
+}

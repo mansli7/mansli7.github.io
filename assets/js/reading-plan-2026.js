@@ -233,16 +233,61 @@
     if (!parsed || !parsed.abbr) return Promise.resolve(null);
     if (!parsed.sqStatus || !parsed.sqStatus.available) return Promise.resolve(null);
 
-    // Try exact-range prompts from book page; if missing, fall back to aggregated book prompts
-    return Promise.all([fetchSqPrompts(parsed.abbr, parsed.chapters, 'en'), fetchSqPrompts(parsed.abbr, parsed.chapters, 'zh')]).then(function(results) {
-      var en = results[0];
-      var zh = results[1];
-      if (en || zh) return { en: en, zh: zh };
-      // fallback: fetch whole book prompts
-      return Promise.all([fetchSqPrompts(parsed.abbr, '', 'en'), fetchSqPrompts(parsed.abbr, '', 'zh')]).then(function(full) {
-        return { en: full[0], zh: full[1] };
+    // First try per-book JSON under /data/bs-sq/{en,zh}/{slug}.json (build-time artifact)
+    return fetchHqBook(parsed.abbr).then(function() {
+      var hqMapNow = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
+      if (hqMapNow[code]) return { en: hqMapNow[code].en || null, zh: hqMapNow[code].zh || null };
+      // Try exact-range prompts from book page; if missing, fall back to aggregated book prompts
+      return Promise.all([fetchSqPrompts(parsed.abbr, parsed.chapters, 'en'), fetchSqPrompts(parsed.abbr, parsed.chapters, 'zh')]).then(function(results) {
+        var en = results[0];
+        var zh = results[1];
+        if (en || zh) return { en: en, zh: zh };
+        // fallback: fetch whole book prompts
+        return Promise.all([fetchSqPrompts(parsed.abbr, '', 'en'), fetchSqPrompts(parsed.abbr, '', 'zh')]).then(function(full) {
+          return { en: full[0], zh: full[1] };
+        });
+      }).catch(function() { return null; });
+    }).catch(function() {
+      // if JSON load failed, continue with markdown fetch fallback
+      return Promise.all([fetchSqPrompts(parsed.abbr, parsed.chapters, 'en'), fetchSqPrompts(parsed.abbr, parsed.chapters, 'zh')]).then(function(results) {
+        var en = results[0];
+        var zh = results[1];
+        if (en || zh) return { en: en, zh: zh };
+        return Promise.all([fetchSqPrompts(parsed.abbr, '', 'en'), fetchSqPrompts(parsed.abbr, '', 'zh')]).then(function(full) { return { en: full[0], zh: full[1] }; });
+      }).catch(function() { return null; });
+    });
+  }
+
+  // Load per-book HQ JSON (if present) and merge into in-memory hq map.
+  function fetchHqBook(abbr) {
+    if (!abbr) return Promise.resolve();
+    var slug = sqBookSlug(abbr);
+    if (!slug) return Promise.resolve();
+    window.Mansli7Reading2026.hq = window.Mansli7Reading2026.hq || {};
+    var hqMapNow = window.Mansli7Reading2026.hq;
+    // if any entry exists for this book already in hq map, assume loaded
+    for (var k in hqMapNow) { if (k.indexOf(abbr) === 0) return Promise.resolve(); }
+
+    var candidates = [
+      '/data/bs-sq/en/' + slug + '.json',
+      '/data/bs-sq/zh/' + slug + '.json',
+      'data/bs-sq/en/' + slug + '.json',
+      'data/bs-sq/zh/' + slug + '.json'
+    ];
+
+    // try fetching both language files individually (parallel)
+    return Promise.all(candidates.map(function(url) {
+      return fetch(url).then(function(res) { if (!res.ok) throw new Error('no'); return res.json(); }).catch(function() { return null; });
+    })).then(function(results) {
+      // merge any non-null results into the hq map
+      results.forEach(function(obj) {
+        if (!obj) return;
+        Object.keys(obj).forEach(function(code) {
+          hqMapNow[code] = obj[code];
+        });
       });
-    }).catch(function() { return null; });
+      return;
+    });
   }
 
   window.Mansli7Reading2026 = {
