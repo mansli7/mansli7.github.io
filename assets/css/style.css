@@ -50,6 +50,15 @@ p, li, .ui-text { font-size: var(--type-base); line-height: var(--leading-normal
 
 /* Nav links: use base type for better readability across desktop and mobile */
 nav .nav-link, .nav-link { font-size: var(--type-base); line-height: var(--leading-normal); }
+
+/* Ensure specific nav item spans (Study Questions) use base size on desktop and mobile */
+nav .nav-link span.card-en,
+nav .nav-link span.card-zh,
+#mobileMenu .nav-link span.card-en,
+#mobileMenu .nav-link span.card-zh {
+  font-size: var(--type-base);
+  line-height: var(--leading-normal);
+}
 p  { line-height: 1.7; margin-bottom: 0.75rem; }
 ul, ol { padding-left: 1.3rem; margin: 0.5rem 0 0.75rem; }
 li { margin-bottom: .3rem; }
