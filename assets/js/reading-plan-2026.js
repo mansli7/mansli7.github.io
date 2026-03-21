@@ -143,10 +143,17 @@
     }
     candidates = uniq;
 
-    // If any candidate is cached, return it
+    // If any candidate is cached, return cached prompts if they were already parsed.
+    // Do not return `rawText` here because that is unparsed HTML/text and
+    // treating it as the prompts array causes rendering issues (single concatenated paragraph).
     for (var ci = 0; ci < candidates.length; ci++) {
       var cu = candidates[ci];
-      if (_sqCache[cu]) return Promise.resolve(_sqCache[cu].prompts || _sqCache[cu].rawText || null);
+      if (_sqCache[cu]) {
+        if (Object.prototype.hasOwnProperty.call(_sqCache[cu], 'prompts')) {
+          return Promise.resolve(_sqCache[cu].prompts);
+        }
+        // otherwise continue trying other candidates or fetch fresh
+      }
     }
 
     // Try fetching each candidate in sequence until one succeeds
