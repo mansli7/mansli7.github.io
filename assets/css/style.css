@@ -151,4 +151,39 @@ pre code { background: none; padding: 0; border: none; }
    all replaced by Tailwind utility classes in HTML.
    ============================================================ */
 
+/* Responsive typography — non-invasive overrides
+   Appended to improve readability on desktop and mobile.
+   These rules are intentionally conservative to avoid breaking layout.
+*/
+
+:root{
+  --base-font-size: 16px;
+}
+
+/* Slightly scalable base font while preserving existing line-height and family */
+body{
+  font-size: clamp(0.95rem, 1rem + 0.2vw, 1.0625rem); /* ~15.2px–17px */
+  line-height: 1.6; /* keep comfortable reading rhythm */
+}
+
+/* Optional long-form reading class -- use on article containers */
+.article-body{
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 1rem + 0.4vw, 1.0625rem);
+  line-height: 1.75;
+}
+
+/* Responsive headings (non-destructive if already defined) */
+h1{ font-size: clamp(1.8rem, 3vw, 2.6rem); line-height:1.2; }
+h2{ font-size: clamp(1.25rem, 2.2vw, 1.8rem); line-height:1.25; }
+
+/* Keep readable line-length on wide viewports */
+.container{ max-width: 75ch; margin: 0 auto; padding: 0 1rem; }
+
+/* Tweak for very small phones to keep readable minimum */
+@media (max-width: 420px){
+  :root{ --base-font-size: 15px; }
+  body{ font-size: clamp(0.98rem, 1rem, 1.02rem); }
+}
+
 /* PLACEHOLDER — file ends here */
