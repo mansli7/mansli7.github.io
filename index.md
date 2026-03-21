@@ -13,7 +13,7 @@ title: Home
     <p class="card-zh text-slate-600 leading-relaxed mb-3">耶穌說「我就是道路、真理、生命；若不藉著我，沒有人能到父那裡去。」— 約翰福音 14:6</p>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">Available: a year-long reading plan with linked study questions.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">已有：一年通讀聖經計劃，配合聖經思考問題。</p>
-    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">In development: in-depth book studies (e.g. Genesis), short articles (Chinese characters & the Bible; evolution and God's creation), bilingual Bible lookup, recommended resources (Chinese Bibles, Strong's numbers, maps), explanation of the site name, and program-generated reading-plan calendars.</p>
+    <p class="card-en text-sm text-slate-500 leading-relaxed mb-4">In development: in-depth book studies (for example, Genesis), short articles (Chinese characters & the Bible; evolution and God’s creation), bilingual scripture lookup (Chinese ↔ English), recommended resources and maps (Chinese Bibles, Strong's numbers), an explanation of the site name, and program-generated reading-plan calendars.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-4">在建：精讀書卷（例如創世記）、短文分享（漢字與聖經、進化論與神的創造）、中英經文查詢、網站推薦與地圖、網站名稱說明，以及用程序生成的讀經計劃日曆。</p>
     
   </section>
