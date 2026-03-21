@@ -97,6 +97,25 @@ title: 2026 Bible Reading Calendar
   // Use shared prompt map from reading-plan data (populated in assets/js/reading-plan-2026.js)
   var hq = readingPlan.hq || {};
 
+  // Helper: split long prompt text (or arrays) into discrete prompt strings.
+  function splitIntoPrompts(item, lang) {
+    if (!item) return [];
+    if (Array.isArray(item)) {
+      var out = [];
+      item.forEach(function(it) { out = out.concat(splitIntoPrompts(it, lang)); });
+      return out;
+    }
+    var s = String(item || '').trim();
+    if (!s) return [];
+    // Prefer explicit blank-line separators first
+    var blocks = s.split(/\n\s*\n/).map(function(b) { return b.trim(); }).filter(Boolean);
+    if (blocks.length > 1) return blocks;
+    // Then try sentence-like splitting on question/period punctuation (EN + ZH punctuation)
+    var parts = s.match(/[^?!。？]+[?!。？]?/g);
+    if (parts && parts.length > 1) return parts.map(function(p) { return p.trim(); }).filter(Boolean);
+    return [s];
+  }
+
   // ── Day-of-year counter ────────────────────────────────────────
   function dayOfYear(m, d) {
     var days = [0,31,28,31,30,31,30,31,31,30,31,30,31];
@@ -195,13 +214,15 @@ title: 2026 Bible Reading Calendar
         html += '<p class="card-en" style="font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Exact prompts for ' + parsed.en + ':</p>';
         html += '<p class="card-zh" style="display:none;font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">對應「' + parsed.zh + '」的學習提示：</p>';
         html += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
-        for (var i = 0; i < exact.en.length; i++) {
-          html += '<p style="margin:0 0 0.7rem;">' + exact.en[i] + '</p>';
+        var exactEnParts = splitIntoPrompts(exact.en, 'en');
+        for (var i = 0; i < exactEnParts.length; i++) {
+          html += '<p style="margin:0 0 0.7rem;">' + exactEnParts[i] + '</p>';
         }
         html += '</div>';
         html += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
-        for (var k = 0; k < exact.zh.length; k++) {
-          html += '<p style="margin:0 0 0.7rem;">' + exact.zh[k] + '</p>';
+        var exactZhParts = splitIntoPrompts(exact.zh, 'zh');
+        for (var k = 0; k < exactZhParts.length; k++) {
+          html += '<p style="margin:0 0 0.7rem;">' + exactZhParts[k] + '</p>';
         }
         html += '</div>';
         html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
@@ -371,12 +392,14 @@ title: 2026 Bible Reading Calendar
                 out += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
                 if (en && en.length) {
                   out += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
-                  en.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  var enPartsLoaded = splitIntoPrompts(en, 'en');
+                  enPartsLoaded.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
                   out += '</div>';
                 }
                 if (zh && zh.length) {
                   out += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
-                  zh.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  var zhPartsLoaded = splitIntoPrompts(zh, 'zh');
+                  zhPartsLoaded.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
                   out += '</div>';
                 }
                 out += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
