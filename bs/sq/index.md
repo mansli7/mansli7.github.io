@@ -150,6 +150,16 @@ title: Study Questions
     </div>
   </div>
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Chronicles</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 歷代志上</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Genealogies, David's rise, the ark, and preparations for the temple.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">家譜、大衛的興起、約櫃，以及為建殿的預備。</p>
+    <div class="flex gap-2">
+      <a href="en/1-chronicles" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/1-chronicles" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Kings</h3>
     <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 列王紀上</h3>
     <p class="card-en text-xs text-slate-400 mb-3">Solomon, the temple, the divided kingdom, and prophets.</p>
