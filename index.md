@@ -30,8 +30,8 @@ title: Home
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8" id="today-reading">
   <div class="mb-3">
-    <p class="flex items-center gap-3 mb-2"><span class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase">Today&#39;s Reading</span><span id="todayDateEn" class="text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
-    <p class="flex items-center gap-3 mb-2"><span class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase">今日讀經</span><span id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
+    <p class="flex items-center gap-3 mb-2"><span class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase">Today&#39;s Reading</span><span id="todayDateEn" class="card-en text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
+    <p class="flex items-center gap-3 mb-2"><span class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase">今日讀經</span><span id="todayDate" class="card-zh text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
   </div>
   <div id="todayRef" class="card-en text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
   <div id="todayRefZh" class="card-zh text-2xl font-bold text-slate-900 leading-tight mb-1">載入中…</div>
