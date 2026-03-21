@@ -41,10 +41,12 @@ h2 { font-size: clamp(1.35rem, 2vw, 1.75rem); margin-bottom: .3rem; margin-top: 
 h3 { font-size: 1.2rem; margin-top: 1.5rem; }
 
 /* Map semantic roles to the three-tier scale (more specific selectors to avoid layout breakage) */
-h1.card-en, h1.card-zh { font-size: var(--type-large); line-height: var(--leading-tight); font-weight:700; }
+h1.card-en, h1.card-zh { font-size: var(--type-medium); line-height: var(--leading-tight); font-weight:700; }
 h2, h3 { font-size: var(--type-medium); line-height:1.25; font-weight:700; }
 p, li, .ui-text { font-size: var(--type-base); line-height: var(--leading-normal); }
 .small { font-size: var(--type-small); line-height:1.3; }
+/* Promote small meta text to base for improved readability site-wide */
+.card-en.text-sm, .card-zh.text-sm { font-size: var(--type-base); line-height: var(--leading-normal); }
 p  { line-height: 1.7; margin-bottom: 0.75rem; }
 ul, ol { padding-left: 1.3rem; margin: 0.5rem 0 0.75rem; }
 li { margin-bottom: .3rem; }
