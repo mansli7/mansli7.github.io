@@ -24,7 +24,7 @@ title: Home
     <p class="card-en text-slate-600 leading-relaxed mb-3 text-base italic">All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.</p>
     <p class="card-en text-slate-400 text-sm text-right mb-0">— 2 Timothy 3:16–17</p>
     <p class="card-zh text-slate-600 leading-relaxed mb-3">聖經都是神所默示的，於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。</p>
-    <p class="card-zh text-slate-400 text-sm text-right mb-0">— 提摩太後書 3:16–17</p>
+    <p class="card-zh text-slate-600 text-sm text-right mb-3">— 提摩太後書 3:16–17</p>
   </aside>
 </div>
 
