@@ -30,11 +30,9 @@ title: Home
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8" id="today-reading">
   <div class="mb-3">
-    <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Today&#39;s Reading</p>
-    <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">今日讀經</p>
-    
+    <p class="flex items-center gap-3 mb-2"><span class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase">Today&#39;s Reading</span><span id="todayDateEn" class="text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
+    <p class="flex items-center gap-3 mb-2"><span class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase">今日讀經</span><span id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase"></span></p>
   </div>
-  <div id="todayDate" class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-2"></div>
   <div id="todayRef" class="card-en text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
   <div id="todayRefZh" class="card-zh text-2xl font-bold text-slate-900 leading-tight mb-1">載入中…</div>
   <div id="todayNote" class="text-sm text-slate-500 mb-4"></div>
@@ -45,9 +43,15 @@ title: Home
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">主要入口</p>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <div class="text-3xl mb-4">📅</div>
-    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Calendar First</h3>
-    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">先看月曆</h3>
+      <div class="flex items-center mb-4">
+        <div class="text-3xl mr-3">📅</div>
+        <div>
+          <div class="flex items-center">
+            <h3 class="card-zh font-bold text-slate-900" style="font-size:1rem;margin-top:0;">先看月曆</h3>
+          </div>
+          <h3 class="card-en font-bold text-slate-900 mt-1" style="font-size:1rem;margin-top:0;">Calendar First</h3>
+        </div>
+      </div>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">The main reading experience: one day at a time, with study-question access built into each card.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">這是主要讀經方式: 一天一張卡片，並直接連到對應的學習問題。</p>
     <a href="/bs/ar/2026-calendar" class="cta card-en">Open Calendar →</a>
@@ -55,9 +59,15 @@ title: Home
   </div>
 
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <div class="text-3xl mb-4">❓</div>
-    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Book Study Questions</h3>
-    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">書卷學習問題</h3>
+    <div class="flex items-center mb-4">
+      <div class="text-3xl mr-3">❓</div>
+      <div>
+        <div class="flex items-center">
+          <h3 class="card-zh font-bold text-slate-900" style="font-size:1rem;margin-top:0;">書卷學習問題</h3>
+        </div>
+        <h3 class="card-en font-bold text-slate-900 mt-1" style="font-size:1rem;margin-top:0;">Book Study Questions</h3>
+      </div>
+    </div>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">Browse full question sets by book for deeper individual study, journaling, or group discussion.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">按書卷瀏覽完整問題集，適合個人默想、筆記整理或小組討論。</p>
     <a href="/bs/sq/" class="cta card-en">Explore Questions →</a>
@@ -65,9 +75,15 @@ title: Home
   </div>
 
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <div class="text-3xl mb-4">⬇️</div>
-    <h3 class="card-en font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">Downloads</h3>
-    <h3 class="card-zh font-bold text-slate-900 mb-2" style="font-size:1rem;margin-top:0;">下載</h3>
+    <div class="flex items-center mb-4">
+      <div class="text-3xl mr-3">⬇️</div>
+      <div>
+        <div class="flex items-center">
+          <h3 class="card-zh font-bold text-slate-900" style="font-size:1rem;margin-top:0;">下載</h3>
+        </div>
+        <h3 class="card-en font-bold text-slate-900 mt-1" style="font-size:1rem;margin-top:0;">Downloads</h3>
+      </div>
+    </div>
     <p class="card-en text-sm text-slate-500 leading-relaxed mb-5">Download the original Excel plans and portable study material for offline use or printing.</p>
     <p class="card-zh text-sm text-slate-500 leading-relaxed mb-5">下載原始 Excel 計劃與可攜式學習資料，方便離線使用或列印。</p>
     <a href="/downloads/" class="cta card-en">Open Downloads →</a>

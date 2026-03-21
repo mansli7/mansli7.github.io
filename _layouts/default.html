@@ -359,6 +359,7 @@
     var key = (now.getMonth() + 1) + '/' + now.getDate();
     var code = r[key];
     var elDate = document.getElementById('todayDate');
+    var elDateEn = document.getElementById('todayDateEn');
     var elRef = document.getElementById('todayRef');
     var elRefZh = document.getElementById('todayRefZh');
     var elNote = document.getElementById('todayNote');
@@ -366,14 +367,16 @@
 
     function renderWidget() {
       var currentLang = langApi && langApi.getCurrentLang ? langApi.getCurrentLang() : 'en';
-      if (!elDate || !elActions || !elRef || !elRefZh) return;
+      if (!elActions || !elRef || !elRefZh) return;
 
       elActions.textContent = '';
       if (elNote) elNote.textContent = '';
       // Show weekday plus year, month and day
-      elDate.textContent = currentLang === 'zh'
+      var dateText = currentLang === 'zh'
         ? new Intl.DateTimeFormat('zh-Hant', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(now)
         : new Intl.DateTimeFormat('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(now);
+      if (elDate) elDate.textContent = dateText;
+      if (elDateEn) elDateEn.textContent = dateText;
 
       if (!code) {
         elRef.textContent = 'No reading scheduled for today';
