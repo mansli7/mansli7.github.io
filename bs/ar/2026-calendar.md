@@ -205,34 +205,34 @@ title: 2026 Bible Reading Calendar
   // ── Build the study question panel HTML ───────────────────────
   function sqPanel(cardId, parsed, m, d) {
     // include data-code so panels can be populated asynchronously after render
-    var html = '<div id="sq-' + cardId + '" data-code="' + (parsed.code ? encodeURIComponent(parsed.code) : '') + '" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #e2e8f0;">';
+    var html = '<div id="sq-' + cardId + '" data-code="' + (parsed.code ? encodeURIComponent(parsed.code) : '') + '" class="sq-panel">';
     var exact = parsed.code ? hq[parsed.code] : null;
     if (parsed.abbr && parsed.sqStatus && parsed.sqStatus.available && parsed.sq) {
       if (exact) {
-        html += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
-        html += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
-        html += '<p class="card-en" style="font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Exact prompts for ' + parsed.en + ':</p>';
-        html += '<p class="card-zh" style="display:none;font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">對應「' + parsed.zh + '」的學習提示：</p>';
-        html += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+        html += '<p class="card-en sq-title">Study Questions</p>';
+        html += '<p class="card-zh sq-title" style="display:none;">學習問題</p>';
+        html += '<p class="card-en sq-sub">Exact prompts for ' + parsed.en + ':</p>';
+        html += '<p class="card-zh sq-sub" style="display:none;">對應「' + parsed.zh + '」的學習提示：</p>';
+        html += '<div class="card-en">';
         var exactEnParts = splitIntoPrompts(exact.en, 'en');
         for (var i = 0; i < exactEnParts.length; i++) {
-          html += '<p style="margin:0 0 0.7rem;">' + exactEnParts[i] + '</p>';
+          html += '<p class="sq-para">' + exactEnParts[i] + '</p>';
         }
         html += '</div>';
-        html += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+        html += '<div class="card-zh" style="display:none;">';
         var exactZhParts = splitIntoPrompts(exact.zh, 'zh');
         for (var k = 0; k < exactZhParts.length; k++) {
-          html += '<p style="margin:0 0 0.7rem;">' + exactZhParts[k] + '</p>';
+          html += '<p class="sq-para">' + exactZhParts[k] + '</p>';
         }
         html += '</div>';
-        html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
-        html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
+        html += '<a class="card-en cal-bg-link" href="' + exactSqHref('en', parsed) + '">Open full ' + parsed.en + ' page →</a>';
+        html += '<a class="card-zh cal-bg-link" href="' + exactSqHref('zh', parsed) + '" style="display:none;">打開完整' + parsed.zh + '頁面 →</a>';
       } else {
         // Book-level question set exists, but exact prompts for this specific range are not yet populated.
-        html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">Study questions are available for this book. Open the book page for the available question set while exact prompts for this range are being prepared.</p>';
-        html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.6rem;">本書已有學習問題集，正在準備對應範圍的詳細提示。請打開書卷頁面查看現有問題集。</p>';
-        html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open ' + parsed.en + ' page →</a>';
-        html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開' + parsed.zh + '頁面 →</a>';
+        html += '<p class="card-en sq-sub">Study questions are available for this book. Open the book page for the available question set while exact prompts for this range are being prepared.</p>';
+        html += '<p class="card-zh sq-sub" style="display:none;">本書已有學習問題集，正在準備對應範圍的詳細提示。請打開書卷頁面查看現有問題集。</p>';
+        html += '<a class="card-en cal-bg-link" href="' + exactSqHref('en', parsed) + '">Open ' + parsed.en + ' page →</a>';
+        html += '<a class="card-zh cal-bg-link" href="' + exactSqHref('zh', parsed) + '" style="display:none;">打開' + parsed.zh + '頁面 →</a>';
       }
     } else if (parsed.en === '📋 Review Day') {
       var targets = reviewTargets(m, d);
@@ -241,13 +241,13 @@ title: 2026 Bible Reading Calendar
       if (targets.length) {
         html += '<div style="display:flex;flex-wrap:wrap;gap:0.45rem;">';
         for (var j = 0; j < targets.length; j++) {
-          html += '<a class="card-en" href="/bs/sq/en/' + targets[j].slug + '" style="font-size:0.74rem;color:#0f172a;background:#eef2ff;border:1px solid #c7d2fe;padding:0.32rem 0.55rem;border-radius:9999px;text-decoration:none;font-weight:600;">' + targets[j].en + '</a>';
-          html += '<a class="card-zh" href="/bs/sq/zh/' + targets[j].slug + '" style="display:none;font-size:0.74rem;color:#0f172a;background:#eef2ff;border:1px solid #c7d2fe;padding:0.32rem 0.55rem;border-radius:9999px;text-decoration:none;font-weight:600;">' + targets[j].zh + '</a>';
+          html += '<a class="card-en cal-chip" href="/bs/sq/en/' + targets[j].slug + '">' + targets[j].en + '</a>';
+          html += '<a class="card-zh cal-chip" href="/bs/sq/zh/' + targets[j].slug + '" style="display:none;">' + targets[j].zh + '</a>';
         }
         html += '</div>';
       } else {
-        html += '<p class="card-en" style="font-size:0.82rem;color:#94a3b8;margin:0;">This week\'s readings do not yet have linked question sets. Use the day for rereading, prayer, and notes.</p>';
-        html += '<p class="card-zh" style="display:none;font-size:0.82rem;color:#94a3b8;margin:0;">本週的閱讀目前還沒有對應的問題集，今天可用來重讀經文、禱告並整理筆記。</p>';
+        html += '<p class="card-en sq-sub">This week\'s readings do not yet have linked question sets. Use the day for rereading, prayer, and notes.</p>';
+        html += '<p class="card-zh sq-sub" style="display:none;">本週的閱讀目前還沒有對應的問題集，今天可用來重讀經文、禱告並整理筆記。</p>';
       }
     } else {
       html += '<p class="card-en" style="font-size:0.82rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">A prepared question set for ' + parsed.en + ' is not live yet. Today\'s reading still stays on the calendar, and completed sets currently cover ' + sqCoverage.availableRangeEn + '.</p>';
@@ -288,46 +288,48 @@ title: 2026 Bible Reading Calendar
 
     var bgUrlForCard = parsed.abbr ? readingPlan.bgUrl(parsed.abbr, parsed.chapters, langZh ? 'CUV' : 'NIV', langZh ? 'zh' : 'en') : parsed.bg;
     var bgl = bgUrlForCard
-      ? '<a href="' + bgUrlForCard + '" target="_blank" rel="noopener" title="Open in BibleGateway" style="font-size:0.75rem;color:#6366f1;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:3px;margin-top:2px;">↗ BibleGateway</a>'
+      ? '<a href="' + bgUrlForCard + '" target="_blank" rel="noopener" title="Open in BibleGateway" class="cal-bg-link">↗ BibleGateway</a>'
       : '';
 
-    var html = '<div' + (isToday ? ' data-today="true"' : '') + ' style="background:#fff;border-radius:16px;overflow:hidden;transition:box-shadow 200ms;' + borderStyle + shadowStyle + '" onmouseover="this.style.boxShadow=\'0 6px 20px rgba(0,0,0,0.1)\'" onmouseout="this.style.boxShadow=\'' + (isToday ? '0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08)' : '0 1px 4px rgba(0,0,0,0.06)') + '\'">';
+    var html = '<div class="cal-card"' + (isToday ? ' data-today="true"' : '') + ' style="' + borderStyle + shadowStyle + '" onmouseover="this.style.boxShadow=\'0 6px 20px rgba(0,0,0,0.1)\'" onmouseout="this.style.boxShadow=\'' + (isToday ? '0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08)' : '0 1px 4px rgba(0,0,0,0.06)') + '\'">';
 
     // Color strip + date
-    html += '<div style="' + stripColor + 'padding:0.5rem 0.85rem;display:flex;align-items:center;justify-content:space-between;">';
+    html += '<div class="cal-strip" style="' + stripColor + '">';
     html += '<div style="display:flex;flex-direction:column;gap:0.08rem;">';
-    html += '<span class="card-en" style="font-size:0.7rem;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:0.05em;">' + MONTHS[m-1].slice(0,3).toUpperCase() + ' ' + d + ' · ' + weekday.en.toUpperCase() + '</span>';
-    html += '<span class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:0.03em;">' + MONTHS_ZH[m-1] + ' ' + d + ' 日 · ' + weekday.zh + '</span>';
+    html += '<span class="card-en cal-strip-month">' + MONTHS[m-1].slice(0,3).toUpperCase() + ' ' + d + ' · ' + weekday.en.toUpperCase() + '</span>';
+    html += '<span class="card-zh cal-strip-month" style="display:none;">' + MONTHS_ZH[m-1] + ' ' + d + ' 日 · ' + weekday.zh + '</span>';
     html += '</div>';
-    html += '<span class="card-en" style="font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.75);">Day ' + dayNum + ' / 365</span>';
-    html += '<span class="card-zh" style="display:none;font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.75);">第 ' + dayNum + ' / 365 天</span>';
+    html += '<span class="card-en cal-strip-daycount">Day ' + dayNum + ' / 365</span>';
+    html += '<span class="card-zh cal-strip-daycount" style="display:none;">第 ' + dayNum + ' / 365 天</span>';
     html += '</div>';
 
     // Card body
-    html += '<div style="padding:0.85rem;">';
+    html += '<div class="cal-body">';
 
     // EN reading
     html += '<div class="card-en">';
-    html += '<p style="font-size:0.92rem;font-weight:700;color:#0f172a;margin:0 0 0.2rem;line-height:1.3;">' + parsed.en + '</p>';
+    html += '<p class="cal-title">' + parsed.en + '</p>';
     if (!isReview) {
-      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? 'Question set ready' : 'Question set coming soon') + '</span>';
+      var badgeClass = (parsed.sqStatus && parsed.sqStatus.available) ? 'cal-badge ready' : 'cal-badge soon';
+      html += '<span class="' + badgeClass + '">' + (parsed.sqStatus && parsed.sqStatus.available ? 'Question set ready' : 'Question set coming soon') + '</span>';
     }
     html += bgl;
     html += '</div>';
 
     // ZH reading
     html += '<div class="card-zh" style="display:none;">';
-    html += '<p style="font-size:0.92rem;font-weight:700;color:#0f172a;margin:0 0 0.2rem;line-height:1.3;">' + parsed.zh + '</p>';
+    html += '<p class="cal-title">' + parsed.zh + '</p>';
     if (!isReview) {
-      html += '<span style="display:inline-block;font-size:0.64rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;background:' + (parsed.sqStatus && parsed.sqStatus.available ? '#dcfce7' : '#fef3c7') + ';color:' + (parsed.sqStatus && parsed.sqStatus.available ? '#166534' : '#b45309') + ';padding:0.14rem 0.45rem;border-radius:9999px;margin:0 0 0.35rem;">' + (parsed.sqStatus && parsed.sqStatus.available ? '問題集已提供' : '問題集即將提供') + '</span>';
+      var badgeClassZh = (parsed.sqStatus && parsed.sqStatus.available) ? 'cal-badge ready' : 'cal-badge soon';
+      html += '<span class="' + badgeClassZh + '">' + (parsed.sqStatus && parsed.sqStatus.available ? '問題集已提供' : '問題集即將提供') + '</span>';
     }
     html += bgl;
     html += '</div>';
 
     // Today badge
     if (isToday) {
-      html += '<span class="card-en" style="display:inline-block;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">Today</span>';
-      html += '<span class="card-zh" style="display:none;font-size:0.65rem;font-weight:700;background:#fef3c7;color:#b45309;padding:0.15rem 0.5rem;border-radius:99px;margin-top:0.4rem;letter-spacing:0.05em;">今日</span>';
+      html += '<span class="card-en cal-today-badge">Today</span>';
+      html += '<span class="card-zh cal-today-badge" style="display:none;">今日</span>';
     }
 
       // Study questions button + panel
@@ -337,7 +339,7 @@ title: 2026 Bible Reading Calendar
         var panelLabelEn = (parsed.sqStatus && parsed.sqStatus.available) ? '📖 Open Question Panel' : '📖 View Question Status';
         var panelLabelZh = (parsed.sqStatus && parsed.sqStatus.available) ? '📖 打開問題面板' : '📖 查看問題狀態';
         html += '<div style="margin-top:0.65rem;">';
-        html += '<button type="button" id="sqbtn-' + cardId + '" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" aria-controls="sq-' + cardId + '" aria-label="Toggle study question details for ' + parsed.en.replace(/"/g, '&quot;') + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:0.25rem;">';
+        html += '<button type="button" id="sqbtn-' + cardId + '" class="cal-sq-btn" onclick="toggleSQ(\'' + cardId + '\')" aria-expanded="false" aria-controls="sq-' + cardId + '" aria-label="Toggle study question details for ' + parsed.en.replace(/"/g, '&quot;') + '">';
         html += '<span class="card-en">' + panelLabelEn + '</span>';
         html += '<span class="card-zh" style="display:none;">' + panelLabelZh + '</span>';
         html += '<span class="sq-chevron">▾</span>';
@@ -362,7 +364,7 @@ title: 2026 Bible Reading Calendar
       var card = buildCard(m, d);
       if (card) html += card;
     }
-    if (!html) html = '<p class="card-en" style="color:#94a3b8;font-size:0.9rem;">No readings are scheduled for this month.</p><p class="card-zh" style="display:none;color:#94a3b8;font-size:0.9rem;">這個月份目前沒有安排讀經內容。</p>';
+    if (!html) html = '<p class="card-en sq-sub">No readings are scheduled for this month.</p><p class="card-zh sq-sub" style="display:none;">這個月份目前沒有安排讀經內容。</p>';
     grid.innerHTML = html;
 
     // After inserting cards, populate any panels that lack exact prompts by fetching from book pages
@@ -379,31 +381,33 @@ title: 2026 Bible Reading Calendar
             if (exact) return; // already populated inline
 
             // show loading indicator
-            var enPlaceholder = '<p class="card-en" style="font-size:0.82rem;color:#64748b;">Loading prompts…</p>';
-            var zhPlaceholder = '<p class="card-zh" style="display:none;font-size:0.82rem;color:#64748b;">載入問題…</p>';
+            var enPlaceholder = '<p class="card-en sq-loading">Loading prompts…</p>';
+            var zhPlaceholder = '<p class="card-zh sq-loading" style="display:none;">載入問題…</p>';
             panel.innerHTML = enPlaceholder + zhPlaceholder;
 
+            console.log('[reading-plan] populate panel for', code);
             window.Mansli7Reading2026.getPromptsFor(code).then(function(res) {
+              console.log('[reading-plan] getPromptsFor result for', code, res);
               if (!res) return;
               var en = res.en, zh = res.zh;
               if ((en && en.length) || (zh && zh.length)) {
                 var out = '';
-                out += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
-                out += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
+                out += '<p class="card-en sq-title">Study Questions</p>';
+                out += '<p class="card-zh sq-title" style="display:none;">學習問題</p>';
                 if (en && en.length) {
-                  out += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+                  out += '<div class="card-en">';
                   var enPartsLoaded = splitIntoPrompts(en, 'en');
-                  enPartsLoaded.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  enPartsLoaded.forEach(function(p){ out += '<p class="sq-para">' + p + '</p>'; });
                   out += '</div>';
                 }
                 if (zh && zh.length) {
-                  out += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+                  out += '<div class="card-zh" style="display:none;">';
                   var zhPartsLoaded = splitIntoPrompts(zh, 'zh');
-                  zhPartsLoaded.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  zhPartsLoaded.forEach(function(p){ out += '<p class="sq-para">' + p + '</p>'; });
                   out += '</div>';
                 }
-                out += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
-                out += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
+                out += '<a class="card-en cal-bg-link" href="' + exactSqHref('en', parsed) + '">Open full ' + parsed.en + ' page →</a>';
+                out += '<a class="card-zh cal-bg-link" href="' + exactSqHref('zh', parsed) + '" style="display:none;">打開完整' + parsed.zh + '頁面 →</a>';
                 panel.innerHTML = out;
               } else {
                 // leave the existing book-level message (already present in HTML)
