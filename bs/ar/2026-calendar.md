@@ -194,16 +194,16 @@ title: 2026 Bible Reading Calendar
         html += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
         html += '<p class="card-en" style="font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">Exact prompts for ' + parsed.en + ':</p>';
         html += '<p class="card-zh" style="display:none;font-size:0.8rem;color:#64748b;line-height:1.5;margin-bottom:0.55rem;">對應「' + parsed.zh + '」的學習提示：</p>';
-        html += '<ul class="card-en" style="margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+        html += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
         for (var i = 0; i < exact.en.length; i++) {
-          html += '<li style="margin-bottom:0.3rem;">' + exact.en[i] + '</li>';
+          html += '<p style="margin:0 0 0.7rem;">' + exact.en[i] + '</p>';
         }
-        html += '</ul>';
-        html += '<ul class="card-zh" style="display:none;margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
+        html += '</div>';
+        html += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
         for (var k = 0; k < exact.zh.length; k++) {
-          html += '<li style="margin-bottom:0.3rem;">' + exact.zh[k] + '</li>';
+          html += '<p style="margin:0 0 0.7rem;">' + exact.zh[k] + '</p>';
         }
-        html += '</ul>';
+        html += '</div>';
         html += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
         html += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
       } else {
@@ -370,14 +370,14 @@ title: 2026 Bible Reading Calendar
                 out += '<p class="card-en" style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">Study Questions</p>';
                 out += '<p class="card-zh" style="display:none;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;color:#94a3b8;text-transform:uppercase;margin-bottom:0.5rem;">學習問題</p>';
                 if (en && en.length) {
-                  out += '<ul class="card-en" style="margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
-                  en.forEach(function(p){ out += '<li style="margin-bottom:0.3rem;">' + p + '</li>'; });
-                  out += '</ul>';
+                  out += '<div class="card-en" style="margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+                  en.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  out += '</div>';
                 }
                 if (zh && zh.length) {
-                  out += '<ul class="card-zh" style="display:none;margin:0 0 0.7rem 1rem;padding:0;color:#0f172a;font-size:0.8rem;line-height:1.55;">';
-                  zh.forEach(function(p){ out += '<li style="margin-bottom:0.3rem;">' + p + '</li>'; });
-                  out += '</ul>';
+                  out += '<div class="card-zh" style="display:none;margin:0 0 0.7rem 0;padding:0;color:#0f172a;font-size:0.9rem;line-height:1.7;">';
+                  zh.forEach(function(p){ out += '<p style="margin:0 0 0.7rem;">' + p + '</p>'; });
+                  out += '</div>';
                 }
                 out += '<a class="card-en" href="' + exactSqHref('en', parsed) + '" style="font-size:0.78rem;color:#6366f1;font-weight:600;">Open full ' + parsed.en + ' page →</a>';
                 out += '<a class="card-zh" href="' + exactSqHref('zh', parsed) + '" style="display:none;font-size:0.78rem;color:#6366f1;font-weight:600;">打開完整' + parsed.zh + '頁面 →</a>';
