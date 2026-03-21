@@ -231,4 +231,15 @@ h2{ font-size: clamp(1.25rem, 2.2vw, 1.8rem); line-height:1.25; }
   h1.card-en, h1.card-zh { font-size: var(--type-medium) !important; }
 }
 
+/* Stronger small-viewport normalization: ensure h1/h2/h3 and common large text use the same readable size on phones */
+@media (max-width: 420px) {
+  h1, h2, h3,
+  h1.card-en, h1.card-zh,
+  .card-en.text-2xl, .card-zh.text-2xl,
+  .sq-unit-heading {
+    font-size: var(--type-medium) !important;
+    line-height: var(--leading-tight) !important;
+  }
+}
+
 /* PLACEHOLDER — file ends here */
