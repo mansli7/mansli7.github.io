@@ -42,7 +42,10 @@
         <button id="loadBook" style="padding:8px 10px;background:#2563eb;color:#fff;border-radius:8px;border:none">Load</button>
       </div>
 
-      <div class="books" id="books"></div>
+      <div style="margin-top:12px">
+        <label for="book-select" style="display:block;font-size:13px;color:#475569;margin-bottom:6px">Select Book</label>
+        <select id="book-select" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8"></select>
+      </div>
       <div class="chapters" id="chapters"></div>
       <div class="verses panel" id="verses" style="margin-top:12px;padding:12px"></div>
     </div>
@@ -63,15 +66,20 @@
     let currentBook = null;
     let bookData = null;
 
-    function renderBookList(filter){
-      booksEl.innerHTML='';
+    function populateBookSelect(filter){
+      const sel = document.getElementById('book-select'); sel.innerHTML = '';
+      const ntIndex = bookOrder.indexOf('matthew');
+      const otGroup = document.createElement('optgroup'); otGroup.label = 'Old Testament';
+      const ntGroup = document.createElement('optgroup'); ntGroup.label = 'New Testament';
       for(let i=0;i<bookOrder.length;i++){
         const id = bookOrder[i]; const name = displayNames[i];
         if(filter && !name.toLowerCase().includes(filter.toLowerCase())) continue;
-        const el = document.createElement('div'); el.className='book'; el.textContent = name; el.dataset.book = id;
-        el.onclick = ()=>{ loadBook(id); };
-        booksEl.appendChild(el);
+        const opt = document.createElement('option'); opt.value = id; opt.textContent = name;
+        if(i < ntIndex) otGroup.appendChild(opt); else ntGroup.appendChild(opt);
       }
+      if(otGroup.children.length) sel.appendChild(otGroup);
+      if(ntGroup.children.length) sel.appendChild(ntGroup);
+      sel.onchange = ()=>{ const v = sel.value; if(v) loadBook(v); };
     }
 
     async function loadBook(bookId){
@@ -117,11 +125,11 @@
 
     function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-    loadBookBtn.addEventListener('click', ()=>{ const fname = bookFilter.value.trim(); if(!fname) return; const found = bookOrder.find(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b)); if(found) loadBook(found); else { renderBookList(fname); } });
-    bookFilter.addEventListener('input', ()=> renderBookList(bookFilter.value.trim()));
+    loadBookBtn.addEventListener('click', ()=>{ const fname = bookFilter.value.trim(); if(!fname) return; const found = bookOrder.find(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b)); if(found) { document.getElementById('book-select').value = found; loadBook(found); } else { populateBookSelect(fname); } });
+    bookFilter.addEventListener('input', ()=> populateBookSelect(bookFilter.value.trim()));
 
     // initial render
-    renderBookList('');
+    populateBookSelect('');
   </script>
 </body>
 </html>
