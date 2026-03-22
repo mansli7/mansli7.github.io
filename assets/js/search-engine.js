@@ -141,11 +141,30 @@ window.SearchEngine = (function(){
   function loadBook(version, book_id){
     const key = `${version}:${book_id}`;
     if(booksCache[key]) return booksCache[key];
-    const url = `/data/bible/${version.toLowerCase().split(':').pop()}/${version}/${book_id}.json`;
-    // try alternative path if file placed differently
-    const alt = `/data/bible/en/${version}/${book_id}.json`;
-    const p = fetch(url).then(r=>{ if(!r.ok) return fetch(alt); return r;}).then(r=>r.json());
-    booksCache[key]=p; return p;
+    // Try a set of candidate URLs (primary is the canonical path we use in the repo)
+    const candidates = [
+      `/data/bible/en/${version}/${book_id}.json`,
+      `/data/bible/en/${version}/${book_id}.js`,
+      `/data/bible/${version.toLowerCase()}/${version}/${book_id}.json`,
+      `/data/bible/${version.toLowerCase()}/${book_id}.json`,
+      `/data/bible/en/${book_id}.json`
+    ];
+
+    async function tryFetch(i=0){
+      if(i>=candidates.length) throw new Error('Book not found: '+book_id);
+      const url = candidates[i];
+      try{
+        const res = await fetch(url);
+        if(!res.ok) return tryFetch(i+1);
+        return res.json();
+      }catch(e){
+        return tryFetch(i+1);
+      }
+    }
+
+    const p = tryFetch();
+    booksCache[key]=p;
+    return p;
   }
 
   async function search(query, version){
