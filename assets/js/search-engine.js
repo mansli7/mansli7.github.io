@@ -236,7 +236,9 @@ window.SearchEngine = (function(){
       for(const book of Object.keys(byBook)){
         const arr = await loadBook(version, book);
         // map id->verse
-        const map = {}; arr.forEach(v=> map[v.id]=v);
+        const map = {};
+        if(Array.isArray(arr)) arr.forEach(v=> map[v.id]=v);
+        else if(arr && typeof arr === 'object') Object.values(arr).forEach(v=>{ if(v && v.id) map[v.id]=v; });
         for(const id of byBook[book]){ if(map[id]) verses.push(map[id]); }
       }
 
@@ -287,7 +289,9 @@ window.SearchEngine = (function(){
     const results = [];
     for(const book of Object.keys(byBook)){
       const arr = await loadBook(version, book);
-      const map = {}; arr.forEach(v=> map[v.id]=v);
+      const map = {};
+      if(Array.isArray(arr)) arr.forEach(v=> map[v.id]=v);
+      else if(arr && typeof arr === 'object') Object.values(arr).forEach(v=>{ if(v && v.id) map[v.id]=v; });
       for(const id of byBook[book]) if(map[id]) results.push(map[id]);
     }
     // compute simple ranking score for token-only results
