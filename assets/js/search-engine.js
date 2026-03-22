@@ -190,7 +190,22 @@ window.SearchEngine = (function(){
         console.warn('SearchEngine: failed to load', url, 'status', res.status);
         throw new Error('Book not found: '+book_id+' (tried '+url+')');
       }
-      return res.json();
+      const data = await res.json();
+      // normalize to an array of verse objects
+      if(Array.isArray(data)) return data;
+      if(data && Array.isArray(data.verses)) return data.verses;
+      // some files may embed verses under other keys; try common possibilities
+      if(data && Array.isArray(data.v)) return data.v;
+      // fallback: if object has numeric keys, convert to array
+      if(data && typeof data === 'object'){
+        const arr = [];
+        for(const k of Object.keys(data)){
+          if(/^\d+$/.test(k) && data[k] && typeof data[k] === 'object') arr.push(data[k]);
+        }
+        if(arr.length) return arr;
+      }
+      // as a last resort, return an empty array to avoid runtime errors
+      return [];
     }
 
     const p = tryFetch().catch(e=>{ console.error('SearchEngine: loadBook error', e); throw e; });
@@ -228,12 +243,12 @@ window.SearchEngine = (function(){
         // now apply phrase/regex filters sequentially
         let results = verses;
         for(const t of tokens){
+          if(!t) continue;
           if(t.type==='phrase'){
-            const need = t.val.toLowerCase();
-            results = results.filter(v => v.text_norm && v.text_norm.includes(need));
+            const need = t.val ? String(t.val).toLowerCase() : '';
+            if(need) results = results.filter(v => v.text_norm && v.text_norm.includes(need));
           } else if(t.type==='regex'){
-            const re = new RegExp(t.val);
-            results = results.filter(v => re.test(v.text));
+            if(t.val){ const re = new RegExp(t.val); results = results.filter(v => re.test(v.text)); }
           }
         }
         // compute simple ranking score
@@ -243,8 +258,9 @@ window.SearchEngine = (function(){
           const qwords = tokens.filter(t=>t.type==='word').map(t=>t.val);
           for(const w of qwords) if(v.tokens && v.tokens.includes(w)) score += 1;
           // phrase boost
-          for(const t of tokens) if(t.type==='phrase'){
-            if(v.text_norm && v.text_norm.includes(t.val.toLowerCase())) score += 5;
+          for(const t of tokens) if(t && t.type==='phrase'){
+            const p = t.val ? String(t.val).toLowerCase() : '';
+            if(p && v.text_norm && v.text_norm.includes(p)) score += 5;
           }
           // regex boost
           for(const t of tokens) if(t.type==='regex'){
