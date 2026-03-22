@@ -34,6 +34,31 @@ title: Search
       <a href="/tech/" class="search-shortcut">💻 Technology</a>
     </div>
   </div>
+
+  <!-- Bible Verse Search Card -->
+  <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 mb-8">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px">
+      <div>
+        <p class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-1">Bible</p>
+        <h2 style="margin:0;font-size:1.25rem;">📖 Bible Verse Search</h2>
+        <p class="text-slate-500" style="margin-top:6px">Search verses across the KJV corpus. Supports boolean &amp;, |, ~, quoted phrases and /regex/.</p>
+      </div>
+      <div style="color:#94a3b8;font-size:13px">Static demo</div>
+    </div>
+
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+      <input id="bible-q" type="text" placeholder='e.g. "in the beginning" or faith & hope or /love/' style="flex:1;padding:10px 12px;border:1px solid #e6eef8;border-radius:8px;font-size:15px">
+      <select id="bible-version" style="padding:10px;border-radius:8px;border:1px solid #e6eef8">
+        <option value="KJV" selected>KJV</option>
+        <option value="CUV1919">CUV1919 (coming)</option>
+      </select>
+      <button id="bible-run" style="background:#2563eb;color:#fff;border:none;padding:10px 14px;border-radius:8px;">Search</button>
+      <button id="bible-clear" style="background:#64748b;color:#fff;border:none;padding:10px 14px;border-radius:8px;">Clear</button>
+    </div>
+
+    <div id="bible-results"></div>
+    <div id="bible-pager" style="display:flex;align-items:center;gap:8px;justify-content:center;margin-top:12px"></div>
+  </div>
 </div>
 
 <style>
@@ -274,6 +299,78 @@ if (queryParam) {
   document.getElementById('searchInput').value = queryParam;
   performSearch(queryParam);
 }
+</script>
+
+<!-- Load bible search engine and wire the UI -->
+<script src="/assets/js/search-engine.js"></script>
+<script>
+(function(){
+  const pageSize = 10;
+  let currentResults = [];
+  let page = 0;
+
+  const qEl = document.getElementById('bible-q');
+  const runBtn = document.getElementById('bible-run');
+  const clearBtn = document.getElementById('bible-clear');
+  const versionSel = document.getElementById('bible-version');
+  const resultsEl = document.getElementById('bible-results');
+  const pagerEl = document.getElementById('bible-pager');
+
+  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function escapeRegExp(s){ return String(s).replace(/[.*+?^${}()|[\\]\\]/g, '\\$&'); }
+
+  function buildHighlightRegex(q){
+    const hl = [];
+    try{
+      const phraseMatches = q.match(/"([^\"]+)"/g) || [];
+      for(const p of phraseMatches) hl.push(escapeRegExp(p.replace(/"/g,'')));
+      const regexMatches = q.match(/\/(.+?)\//g) || [];
+      for(const r of regexMatches) hl.push(r.slice(1,-1));
+      const words = q.replace(/"[^\"]+"/g,'').replace(/\/.+?\//g,'').split(/\s+/).filter(Boolean);
+      for(const w of words){ if(/^[&|~()]+$/.test(w)) continue; hl.push('\\b'+escapeRegExp(w)+'\\b'); }
+    }catch(e){ }
+    return hl.length ? new RegExp('(' + hl.join('|') + ')', 'ig') : null;
+  }
+
+  function renderPage(){
+    resultsEl.innerHTML = '';
+    if(!currentResults.length){ resultsEl.innerHTML = '<div style="padding:14px;background:#fff;border:1px solid #e6eef8;border-radius:12px;color:#64748b;text-align:center">No results</div>'; pagerEl.innerHTML=''; return; }
+    const start = page * pageSize; const slice = currentResults.slice(start, start+pageSize);
+    const info = document.createElement('div'); info.style.color='#6b7280'; info.style.marginBottom='8px'; info.textContent = `Found ${currentResults.length} verses`;
+    resultsEl.appendChild(info);
+    const hlRe = buildHighlightRegex(qEl.value || '');
+    for(const v of slice){
+      const card = document.createElement('div'); card.style.padding='12px'; card.style.marginBottom='8px'; card.style.background='#fff'; card.style.border='1px solid #eef2ff'; card.style.borderRadius='8px';
+      const title = document.createElement('strong'); title.textContent = `${v.book} ${v.chapter}:${v.verse}`;
+      const p = document.createElement('div'); p.innerHTML = escapeHtml(v.text);
+      if(hlRe) p.innerHTML = p.innerHTML.replace(hlRe, '<mark>$1</mark>');
+      card.appendChild(title); card.appendChild(p); resultsEl.appendChild(card);
+    }
+    const totalPages = Math.ceil(currentResults.length / pageSize);
+    pagerEl.innerHTML = '';
+    if(totalPages>1){
+      const prev = document.createElement('button'); prev.textContent='Prev'; prev.disabled = page===0; prev.onclick = ()=>{ page--; renderPage(); };
+      const next = document.createElement('button'); next.textContent='Next'; next.disabled = page+1>=totalPages; next.onclick = ()=>{ page++; renderPage(); };
+      const info2 = document.createElement('span'); info2.textContent = `Page ${page+1}/${totalPages}`; info2.style.margin='0 8px';
+      pagerEl.appendChild(prev); pagerEl.appendChild(info2); pagerEl.appendChild(next);
+    }
+  }
+
+  async function doSearch(){
+    const q = qEl.value.trim(); if(!q) return;
+    const ver = versionSel.value || 'KJV';
+    runBtn.disabled = true; runBtn.textContent = 'Searching...';
+    try{
+      currentResults = await SearchEngine.search(q, ver);
+      page = 0; renderPage();
+    }catch(e){ resultsEl.innerHTML = `<div style="padding:14px;background:#fff;border:1px solid #fee2e2;border-radius:12px;color:#dc2626">Search failed: ${escapeHtml(e.message||e)}</div>`; pagerEl.innerHTML=''; }
+    runBtn.disabled = false; runBtn.textContent = 'Search';
+  }
+
+  runBtn.addEventListener('click', doSearch);
+  qEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter') doSearch(); });
+  clearBtn.addEventListener('click', ()=>{ qEl.value=''; currentResults=[]; page=0; resultsEl.innerHTML=''; pagerEl.innerHTML=''; });
+})();
 </script>
 
 ---
