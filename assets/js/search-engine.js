@@ -5,6 +5,7 @@
 window.SearchEngine = (function(){
   const indexes = {}; // version -> merged tokenIndex (token -> [ids])
   const booksCache = {}; // version:book_id -> Promise that resolves to array of verses
+  let globalBibleIndex = null;
   const bookOrder = [
     'genesis','exodus','leviticus','numbers','deuteronomy','joshua','judges','ruth',
     '1-samuel','2-samuel','1-kings','2-kings','1-chronicles','2-chronicles','ezra','nehemiah','esther',
@@ -22,6 +23,7 @@ window.SearchEngine = (function(){
     // load global index to find books for this version
     const idxRes = await fetch('/data/bible/index.json');
     const idx = await idxRes.json();
+    globalBibleIndex = idx;
     const books = idx.books.filter(b=>b.version===version);
     const tokenMap = Object.create(null);
     // fetch per-book token files in parallel
@@ -179,8 +181,14 @@ window.SearchEngine = (function(){
   function loadBook(version, book_id){
     const key = `${version}:${book_id}`;
     if(booksCache[key]) return booksCache[key];
-    // Only attempt the canonical path used in the repository to avoid incorrect fallbacks
-    const canonical = `/data/bible/en/${version}/${book_id}.json`;
+    // Attempt to find the canonical path from the global index (handles zh/CUV)
+    let canonical = `/data/bible/en/${version}/${book_id}.json`;
+    try{
+      if(globalBibleIndex && Array.isArray(globalBibleIndex.books)){
+        const found = globalBibleIndex.books.find(b=>b.id===book_id && b.version===version) || globalBibleIndex.books.find(b=>b.id===book_id);
+        if(found && found.path) canonical = found.path;
+      }
+    }catch(e){ /* ignore and fallback */ }
 
     async function tryFetch(){
       const url = canonical;
