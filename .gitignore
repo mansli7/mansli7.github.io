@@ -16,3 +16,5 @@ node_modules/
 .vscode/
 *.swp
 /tmp/
+# Raw source files for data processing (keep out of Pages)
+data/raw/
