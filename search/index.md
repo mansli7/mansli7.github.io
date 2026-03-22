@@ -50,7 +50,7 @@ title: Search
       <input id="bible-q" type="text" placeholder='e.g. "in the beginning" or faith & hope or /love/' style="flex:1;padding:10px 12px;border:1px solid #e6eef8;border-radius:8px;font-size:15px">
       <select id="bible-version" style="padding:10px;border-radius:8px;border:1px solid #e6eef8">
         <option value="KJV" selected>KJV</option>
-        <option value="CUV">CUV1919</option>
+        <option value="CUV">CUV1919 (coming)</option>
       </select>
       <button id="bible-run" style="background:#2563eb;color:#fff;border:none;padding:10px 14px;border-radius:8px;">Search</button>
       <button id="bible-clear" style="background:#64748b;color:#fff;border:none;padding:10px 14px;border-radius:8px;">Clear</button>
