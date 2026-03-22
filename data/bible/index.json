@@ -268,7 +268,7 @@
       "testament": "OT",
       "language": "zh",
       "version": "CUV",
-      "path": "/data/bible/zh/CUV/gen.json"
+      "path": "/data/bible/en/KJV/gen.json"
     },
     {
       "id": "hab",
@@ -358,7 +358,7 @@
       "testament": "OT",
       "language": "zh",
       "version": "CUV",
-      "path": "/data/bible/zh/CUV/job.json"
+      "path": "/data/bible/en/KJV/job.json"
     },
     {
       "id": "joe",
