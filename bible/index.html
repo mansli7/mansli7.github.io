@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bible Reader — mansli7</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Arial;margin:18px;background:#f8fafc;color:#0f172a}
+    .wrap{max-width:900px;margin:0 auto}
+    .panel{background:#fff;padding:16px;border-radius:12px;border:1px solid #e6eef8}
+    .row{display:flex;gap:8px;align-items:center}
+    select,input{padding:8px;border-radius:8px;border:1px solid #e6eef8}
+    .books{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+    .book{padding:8px 10px;background:#fff;border:1px solid #eef2ff;border-radius:8px;cursor:pointer}
+    .book.active{background:#eef2ff;border-color:#c7d2fe}
+    .chapters{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
+    .chapter{padding:6px 8px;background:#fff;border:1px solid #eef2ff;border-radius:6px;cursor:pointer}
+    .chapter.active{background:#eef2ff;border-color:#c7d2fe}
+    .verses{margin-top:12px}
+    .verse{padding:8px;border-bottom:1px solid #f1f5f9}
+    .verse strong{display:inline-block;width:140px}
+    mark{background:#fff59d}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <div class="row">
+        <h2 style="margin:0">📖 Bible Reader</h2>
+        <div style="margin-left:auto;color:#64748b;font-size:13px">Read KJV now — other versions coming</div>
+      </div>
+
+      <div style="margin-top:12px" class="row">
+        <label for="version">Version</label>
+        <select id="version">
+          <option value="KJV" selected>KJV</option>
+          <option value="ESV">ESV (coming)</option>
+          <option value="CUV1919">CUV1919 (coming)</option>
+        </select>
+        <input id="bookFilter" placeholder="Filter books (Genesis, John...)" style="flex:1;margin-left:8px">
+        <button id="loadBook" style="padding:8px 10px;background:#2563eb;color:#fff;border-radius:8px;border:none">Load</button>
+      </div>
+
+      <div class="books" id="books"></div>
+      <div class="chapters" id="chapters"></div>
+      <div class="verses panel" id="verses" style="margin-top:12px;padding:12px"></div>
+    </div>
+  </div>
+
+  <script>
+    // canonical book order and display names
+    const bookOrder = ['genesis','exodus','leviticus','numbers','deuteronomy','joshua','judges','ruth','1-samuel','2-samuel','1-kings','2-kings','1-chronicles','2-chronicles','ezra','nehemiah','esther','job','psalm','proverbs','ecclesiastes','song-of-solomon','isaiah','jeremiah','lamentations','ezekiel','daniel','hosea','joel','amos','obadiah','jonah','micah','nahum','habakkuk','zephaniah','haggai','zechariah','malachi','matthew','mark','luke','john','acts','romans','1-corinthians','2-corinthians','galatians','ephesians','philippians','colossians','1-thessalonians','2-thessalonians','1-timothy','2-timothy','titus','philemon','hebrews','james','1-peter','2-peter','1-john','2-john','3-john','jude','revelation'];
+    const displayNames = bookOrder.map(b=>b.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join(' '));
+
+    const booksEl = document.getElementById('books');
+    const chaptersEl = document.getElementById('chapters');
+    const versesEl = document.getElementById('verses');
+    const versionEl = document.getElementById('version');
+    const bookFilter = document.getElementById('bookFilter');
+    const loadBookBtn = document.getElementById('loadBook');
+
+    let currentBook = null;
+    let bookData = null;
+
+    function renderBookList(filter){
+      booksEl.innerHTML='';
+      for(let i=0;i<bookOrder.length;i++){
+        const id = bookOrder[i]; const name = displayNames[i];
+        if(filter && !name.toLowerCase().includes(filter.toLowerCase())) continue;
+        const el = document.createElement('div'); el.className='book'; el.textContent = name; el.dataset.book = id;
+        el.onclick = ()=>{ loadBook(id); };
+        booksEl.appendChild(el);
+      }
+    }
+
+    async function loadBook(bookId){
+      currentBook = bookId;
+      const ver = versionEl.value || 'KJV';
+      const url = `/data/bible/en/${ver}/${bookId}.json`;
+      try{
+        const res = await fetch(url);
+        if(!res.ok) throw new Error('Not found');
+        const arr = await res.json();
+        bookData = arr;
+        // highlight active book
+        document.querySelectorAll('.book').forEach(el=>el.classList.toggle('active', el.dataset.book===bookId));
+        renderChapters();
+      }catch(e){ versesEl.innerHTML = `<div style="color:#dc2626">Failed to load ${bookId} (${e.message})</div>`; }
+    }
+
+    function renderChapters(){
+      chaptersEl.innerHTML='';
+      if(!bookData) return;
+      // group verses by chapter
+      const chapters = {};
+      for(const v of bookData){ chapters[v.chapter] = (chapters[v.chapter]||0)+1; }
+      for(const ch of Object.keys(chapters).sort((a,b)=>a-b)){
+        const el = document.createElement('div'); el.className='chapter'; el.textContent = ch; el.dataset.ch = ch;
+        el.onclick = ()=> renderChapter(parseInt(ch,10));
+        chaptersEl.appendChild(el);
+      }
+    }
+
+    function renderChapter(ch){
+      if(!bookData) return;
+      const verses = bookData.filter(v=>v.chapter===ch);
+      versesEl.innerHTML = '';
+      for(const v of verses){
+        const d = document.createElement('div'); d.className='verse';
+        d.innerHTML = `<strong>${v.book} ${v.chapter}:${v.verse}</strong> <span>${escapeHtml(v.text)}</span>`;
+        versesEl.appendChild(d);
+      }
+      // mark active chapter
+      document.querySelectorAll('.chapter').forEach(el=>el.classList.toggle('active', el.dataset.ch==ch));
+    }
+
+    function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    loadBookBtn.addEventListener('click', ()=>{ const fname = bookFilter.value.trim(); if(!fname) return; const found = bookOrder.find(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b)); if(found) loadBook(found); else { renderBookList(fname); } });
+    bookFilter.addEventListener('input', ()=> renderBookList(bookFilter.value.trim()));
+
+    // initial render
+    renderBookList('');
+  </script>
+</body>
+</html>
