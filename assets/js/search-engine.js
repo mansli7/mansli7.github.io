@@ -3,7 +3,7 @@
 //      SearchEngine.search(query, version, cb)
 
 window.SearchEngine = (function(){
-  const indexes = {}; // version -> tokenIndex
+  const indexes = {}; // version -> merged tokenIndex (token -> [ids])
   const booksCache = {}; // version:book_id -> Promise that resolves to array of verses
   const bookOrder = [
     'genesis','exodus','leviticus','numbers','deuteronomy','joshua','judges','ruth',
@@ -16,9 +16,37 @@ window.SearchEngine = (function(){
   ];
   const bookOrderMap = Object.fromEntries(bookOrder.map((b,i)=>[b,i]));
 
-  function loadIndex(version, url){
-    if(indexes[version]) return Promise.resolve(indexes[version]);
-    return fetch(url).then(r=>r.json()).then(data=>{ indexes[version]=data; return data; });
+  // Load and merge per-book token files for a given version (lazy: token files, not full book JSONs)
+  async function loadTokenIndexesForVersion(version){
+    if(indexes[version]) return indexes[version];
+    // load global index to find books for this version
+    const idxRes = await fetch('/data/bible/index.json');
+    const idx = await idxRes.json();
+    const books = idx.books.filter(b=>b.version===version);
+    const tokenMap = Object.create(null);
+    // fetch per-book token files in parallel
+    const loads = books.map(async b=>{
+      const parts = b.path.split('/').filter(Boolean); // data,bible,lang,ver,book.json
+      const lang = parts[2] || 'en';
+      const ver = parts[3] || version;
+      const bookfname = parts[4] || (b.id + '-tokens.json');
+      const bookid = b.id;
+      const tokenUrl = `/data/bible/${lang}/${ver}/${bookid}-tokens.json`;
+      try{
+        const res = await fetch(tokenUrl);
+        if(!res.ok) return;
+        const tjson = await res.json();
+        for(const [tok, ids] of Object.entries(tjson.tokens||{})){
+          if(!tokenMap[tok]) tokenMap[tok]=[];
+          tokenMap[tok].push(...ids);
+        }
+      }catch(e){ console.debug('token load failed', tokenUrl, e); }
+    });
+    await Promise.all(loads);
+    // dedupe id arrays
+    for(const k of Object.keys(tokenMap)) tokenMap[k] = Array.from(new Set(tokenMap[k]));
+    indexes[version] = tokenMap;
+    return tokenMap;
   }
 
   function tokenizeQuery(q){
@@ -161,7 +189,7 @@ window.SearchEngine = (function(){
   }
 
   async function search(query, version){
-    const idx = await loadIndex(version, `/data/bible/index/en/${version}-tokens.json`);
+    const idx = await loadTokenIndexesForVersion(version);
     const tokens = tokenizeQuery(query);
     const rpn = toRPN(tokens);
     const expr = evalRPN(rpn, idx);
