@@ -1,0 +1,1803 @@
+{
+  "book": "Jonah",
+  "book_id": "jon",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "now": [
+      "jon-1-1",
+      "jon-1-17",
+      "jon-3-3",
+      "jon-4-3"
+    ],
+    "the": [
+      "jon-1-1",
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-1-15",
+      "jon-1-16",
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-2",
+      "jon-2-3",
+      "jon-2-5",
+      "jon-2-6",
+      "jon-2-7",
+      "jon-2-9",
+      "jon-2-10",
+      "jon-3-1",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-3-8",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-4",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-9",
+      "jon-4-10"
+    ],
+    "word": [
+      "jon-1-1",
+      "jon-3-1",
+      "jon-3-3",
+      "jon-3-6"
+    ],
+    "of": [
+      "jon-1-1",
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-8",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-2",
+      "jon-2-3",
+      "jon-2-4",
+      "jon-2-6",
+      "jon-2-9",
+      "jon-3-1",
+      "jon-3-3",
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-8"
+    ],
+    "lord": [
+      "jon-1-1",
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-14",
+      "jon-1-16",
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-2",
+      "jon-2-6",
+      "jon-2-7",
+      "jon-2-9",
+      "jon-2-10",
+      "jon-3-1",
+      "jon-3-3",
+      "jon-4-2",
+      "jon-4-3",
+      "jon-4-4",
+      "jon-4-6",
+      "jon-4-10"
+    ],
+    "came": [
+      "jon-1-1",
+      "jon-1-6",
+      "jon-2-7",
+      "jon-3-1",
+      "jon-3-6",
+      "jon-4-8",
+      "jon-4-10"
+    ],
+    "unto": [
+      "jon-1-1",
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-8",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-14",
+      "jon-1-16",
+      "jon-2-1",
+      "jon-2-2",
+      "jon-2-7",
+      "jon-2-9",
+      "jon-2-10",
+      "jon-3-1",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-3-6",
+      "jon-3-8",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-9"
+    ],
+    "jonah": [
+      "jon-1-1",
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-7",
+      "jon-1-15",
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-10",
+      "jon-3-1",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-4-1",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-8",
+      "jon-4-9"
+    ],
+    "son": [
+      "jon-1-1"
+    ],
+    "amittai": [
+      "jon-1-1"
+    ],
+    "saying": [
+      "jon-1-1",
+      "jon-3-1",
+      "jon-3-7",
+      "jon-4-2"
+    ],
+    "arise": [
+      "jon-1-2",
+      "jon-1-6",
+      "jon-3-2",
+      "jon-4-8"
+    ],
+    "go": [
+      "jon-1-2",
+      "jon-1-3",
+      "jon-3-2"
+    ],
+    "to": [
+      "jon-1-2",
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-13",
+      "jon-1-17",
+      "jon-2-5",
+      "jon-2-6",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-3-5",
+      "jon-3-7",
+      "jon-4-2",
+      "jon-4-3",
+      "jon-4-4",
+      "jon-4-6",
+      "jon-4-8",
+      "jon-4-9"
+    ],
+    "nineveh": [
+      "jon-1-2",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-4-11"
+    ],
+    "that": [
+      "jon-1-2",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-2-8",
+      "jon-2-9",
+      "jon-3-2",
+      "jon-3-8",
+      "jon-3-9",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-11"
+    ],
+    "great": [
+      "jon-1-2",
+      "jon-1-4",
+      "jon-1-12",
+      "jon-1-17",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-4-2",
+      "jon-4-11"
+    ],
+    "city": [
+      "jon-1-2",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-4-5",
+      "jon-4-11"
+    ],
+    "and": [
+      "jon-1-2",
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-1-15",
+      "jon-1-16",
+      "jon-1-17",
+      "jon-2-2",
+      "jon-2-3",
+      "jon-2-7",
+      "jon-2-10",
+      "jon-3-1",
+      "jon-3-2",
+      "jon-3-3",
+      "jon-3-4",
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-3-8",
+      "jon-3-9",
+      "jon-3-10",
+      "jon-4-1",
+      "jon-4-2",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-9",
+      "jon-4-10",
+      "jon-4-11"
+    ],
+    "cry": [
+      "jon-1-2",
+      "jon-3-8"
+    ],
+    "against": [
+      "jon-1-2",
+      "jon-1-13"
+    ],
+    "it": [
+      "jon-1-2",
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-2-10",
+      "jon-3-2",
+      "jon-3-7",
+      "jon-3-10",
+      "jon-4-1",
+      "jon-4-3",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-10"
+    ],
+    "for": [
+      "jon-1-2",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-2-3",
+      "jon-2-6",
+      "jon-3-6",
+      "jon-4-2",
+      "jon-4-3",
+      "jon-4-8",
+      "jon-4-9",
+      "jon-4-10"
+    ],
+    "their": [
+      "jon-1-2",
+      "jon-2-8",
+      "jon-3-8",
+      "jon-3-10",
+      "jon-4-11"
+    ],
+    "wickedness": [
+      "jon-1-2"
+    ],
+    "is": [
+      "jon-1-2",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-12",
+      "jon-2-9",
+      "jon-3-8",
+      "jon-4-3",
+      "jon-4-8"
+    ],
+    "come": [
+      "jon-1-2",
+      "jon-1-7",
+      "jon-4-6"
+    ],
+    "up": [
+      "jon-1-2",
+      "jon-1-3",
+      "jon-1-12",
+      "jon-1-15",
+      "jon-1-17",
+      "jon-2-6",
+      "jon-4-6",
+      "jon-4-10"
+    ],
+    "before": [
+      "jon-1-2",
+      "jon-4-2"
+    ],
+    "me": [
+      "jon-1-2",
+      "jon-1-12",
+      "jon-2-2",
+      "jon-2-3",
+      "jon-2-5",
+      "jon-2-6",
+      "jon-2-7",
+      "jon-4-3",
+      "jon-4-8"
+    ],
+    "but": [
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-13",
+      "jon-2-9",
+      "jon-3-8",
+      "jon-4-1",
+      "jon-4-7"
+    ],
+    "rose": [
+      "jon-1-3",
+      "jon-4-7"
+    ],
+    "flee": [
+      "jon-1-3"
+    ],
+    "tarshish": [
+      "jon-1-3",
+      "jon-4-2"
+    ],
+    "from": [
+      "jon-1-3",
+      "jon-1-10",
+      "jon-1-15",
+      "jon-2-6",
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-8",
+      "jon-3-9",
+      "jon-3-10",
+      "jon-4-3",
+      "jon-4-6"
+    ],
+    "presence": [
+      "jon-1-3",
+      "jon-1-10"
+    ],
+    "went": [
+      "jon-1-3",
+      "jon-2-6",
+      "jon-3-3",
+      "jon-4-5"
+    ],
+    "down": [
+      "jon-1-3",
+      "jon-1-5",
+      "jon-2-6"
+    ],
+    "joppa": [
+      "jon-1-3"
+    ],
+    "he": [
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-12",
+      "jon-2-2",
+      "jon-3-4",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-3-10",
+      "jon-4-1",
+      "jon-4-2",
+      "jon-4-5",
+      "jon-4-8",
+      "jon-4-9"
+    ],
+    "found": [
+      "jon-1-3"
+    ],
+    "a": [
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-16",
+      "jon-1-17",
+      "jon-3-4",
+      "jon-3-5",
+      "jon-4-2",
+      "jon-4-5",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-10"
+    ],
+    "ship": [
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5"
+    ],
+    "going": [
+      "jon-1-3"
+    ],
+    "so": [
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-12",
+      "jon-1-15",
+      "jon-3-3",
+      "jon-3-5",
+      "jon-4-5",
+      "jon-4-6"
+    ],
+    "paid": [
+      "jon-1-3"
+    ],
+    "fare": [
+      "jon-1-3"
+    ],
+    "thereof": [
+      "jon-1-3"
+    ],
+    "into": [
+      "jon-1-3",
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-12",
+      "jon-1-15",
+      "jon-2-3",
+      "jon-2-7",
+      "jon-3-4"
+    ],
+    "with": [
+      "jon-1-3",
+      "jon-2-6",
+      "jon-2-9",
+      "jon-3-6",
+      "jon-3-8"
+    ],
+    "them": [
+      "jon-1-3",
+      "jon-1-5",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-12",
+      "jon-1-13",
+      "jon-3-5",
+      "jon-3-7",
+      "jon-3-8",
+      "jon-3-10"
+    ],
+    "sent": [
+      "jon-1-4"
+    ],
+    "out": [
+      "jon-1-4",
+      "jon-2-1",
+      "jon-2-2",
+      "jon-2-4",
+      "jon-2-10",
+      "jon-4-5"
+    ],
+    "wind": [
+      "jon-1-4",
+      "jon-4-8"
+    ],
+    "sea": [
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-9",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-13",
+      "jon-1-15"
+    ],
+    "there": [
+      "jon-1-4",
+      "jon-4-5"
+    ],
+    "was": [
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-11",
+      "jon-1-13",
+      "jon-1-17",
+      "jon-2-6",
+      "jon-3-3",
+      "jon-4-1",
+      "jon-4-2",
+      "jon-4-6"
+    ],
+    "mighty": [
+      "jon-1-4"
+    ],
+    "tempest": [
+      "jon-1-4",
+      "jon-1-12"
+    ],
+    "in": [
+      "jon-1-4",
+      "jon-1-5",
+      "jon-1-17",
+      "jon-2-3",
+      "jon-2-7",
+      "jon-3-6",
+      "jon-3-8",
+      "jon-4-2",
+      "jon-4-5",
+      "jon-4-8",
+      "jon-4-10"
+    ],
+    "like": [
+      "jon-1-4"
+    ],
+    "be": [
+      "jon-1-4",
+      "jon-1-6",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-3-4",
+      "jon-3-7",
+      "jon-3-8",
+      "jon-4-4",
+      "jon-4-6",
+      "jon-4-9"
+    ],
+    "broken": [
+      "jon-1-4"
+    ],
+    "then": [
+      "jon-1-5",
+      "jon-1-8",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-16",
+      "jon-2-1",
+      "jon-2-4",
+      "jon-4-4",
+      "jon-4-10"
+    ],
+    "mariners": [
+      "jon-1-5"
+    ],
+    "were": [
+      "jon-1-5",
+      "jon-1-10",
+      "jon-2-5"
+    ],
+    "afraid": [
+      "jon-1-5",
+      "jon-1-10"
+    ],
+    "cried": [
+      "jon-1-5",
+      "jon-1-14",
+      "jon-2-2",
+      "jon-3-4"
+    ],
+    "every": [
+      "jon-1-5",
+      "jon-1-7",
+      "jon-3-8"
+    ],
+    "man": [
+      "jon-1-5",
+      "jon-1-14",
+      "jon-3-7",
+      "jon-3-8"
+    ],
+    "his": [
+      "jon-1-5",
+      "jon-1-7",
+      "jon-2-1",
+      "jon-3-6",
+      "jon-3-7",
+      "jon-3-8",
+      "jon-3-9",
+      "jon-4-6"
+    ],
+    "god": [
+      "jon-1-5",
+      "jon-1-6",
+      "jon-1-9",
+      "jon-2-1",
+      "jon-2-6",
+      "jon-3-5",
+      "jon-3-8",
+      "jon-3-9",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8",
+      "jon-4-9"
+    ],
+    "cast": [
+      "jon-1-5",
+      "jon-1-7",
+      "jon-1-12",
+      "jon-1-15",
+      "jon-2-3",
+      "jon-2-4"
+    ],
+    "forth": [
+      "jon-1-5",
+      "jon-1-12",
+      "jon-1-15"
+    ],
+    "wares": [
+      "jon-1-5"
+    ],
+    "lighten": [
+      "jon-1-5"
+    ],
+    "gone": [
+      "jon-1-5"
+    ],
+    "sides": [
+      "jon-1-5"
+    ],
+    "lay": [
+      "jon-1-5",
+      "jon-1-14"
+    ],
+    "fast": [
+      "jon-1-5",
+      "jon-3-5"
+    ],
+    "asleep": [
+      "jon-1-5"
+    ],
+    "shipmaster": [
+      "jon-1-6"
+    ],
+    "him": [
+      "jon-1-6",
+      "jon-1-8",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-15",
+      "jon-3-6",
+      "jon-4-5",
+      "jon-4-6"
+    ],
+    "said": [
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-9",
+      "jon-1-10",
+      "jon-1-11",
+      "jon-1-12",
+      "jon-1-14",
+      "jon-2-2",
+      "jon-2-4",
+      "jon-3-4",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-4",
+      "jon-4-8",
+      "jon-4-9",
+      "jon-4-10"
+    ],
+    "what": [
+      "jon-1-6",
+      "jon-1-8",
+      "jon-1-11",
+      "jon-4-5"
+    ],
+    "meanest": [
+      "jon-1-6"
+    ],
+    "thou": [
+      "jon-1-6",
+      "jon-1-8",
+      "jon-1-10",
+      "jon-1-14",
+      "jon-2-2",
+      "jon-2-3",
+      "jon-2-6",
+      "jon-4-2",
+      "jon-4-4",
+      "jon-4-9",
+      "jon-4-10"
+    ],
+    "o": [
+      "jon-1-6",
+      "jon-1-14",
+      "jon-2-6",
+      "jon-4-2",
+      "jon-4-3"
+    ],
+    "sleeper": [
+      "jon-1-6"
+    ],
+    "call": [
+      "jon-1-6"
+    ],
+    "upon": [
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-12",
+      "jon-1-14",
+      "jon-2-10",
+      "jon-4-8"
+    ],
+    "thy": [
+      "jon-1-6",
+      "jon-1-8",
+      "jon-2-3",
+      "jon-2-4"
+    ],
+    "if": [
+      "jon-1-6",
+      "jon-3-9"
+    ],
+    "will": [
+      "jon-1-6",
+      "jon-2-4",
+      "jon-2-9",
+      "jon-3-9"
+    ],
+    "think": [
+      "jon-1-6"
+    ],
+    "us": [
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-11",
+      "jon-1-14"
+    ],
+    "we": [
+      "jon-1-6",
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-11",
+      "jon-1-14",
+      "jon-3-9"
+    ],
+    "perish": [
+      "jon-1-6",
+      "jon-1-14",
+      "jon-3-9"
+    ],
+    "not": [
+      "jon-1-6",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-3-7",
+      "jon-3-9",
+      "jon-3-10",
+      "jon-4-2",
+      "jon-4-10",
+      "jon-4-11"
+    ],
+    "they": [
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-11",
+      "jon-1-13",
+      "jon-1-14",
+      "jon-1-15",
+      "jon-2-8",
+      "jon-3-10"
+    ],
+    "one": [
+      "jon-1-7",
+      "jon-3-8"
+    ],
+    "fellow": [
+      "jon-1-7"
+    ],
+    "let": [
+      "jon-1-7",
+      "jon-1-14",
+      "jon-3-7",
+      "jon-3-8"
+    ],
+    "lots": [
+      "jon-1-7"
+    ],
+    "may": [
+      "jon-1-7",
+      "jon-1-11"
+    ],
+    "know": [
+      "jon-1-7",
+      "jon-1-12"
+    ],
+    "whose": [
+      "jon-1-7",
+      "jon-1-8"
+    ],
+    "cause": [
+      "jon-1-7",
+      "jon-1-8"
+    ],
+    "this": [
+      "jon-1-7",
+      "jon-1-8",
+      "jon-1-10",
+      "jon-1-12",
+      "jon-1-14",
+      "jon-4-2"
+    ],
+    "evil": [
+      "jon-1-7",
+      "jon-1-8",
+      "jon-3-8",
+      "jon-3-10",
+      "jon-4-2"
+    ],
+    "lot": [
+      "jon-1-7"
+    ],
+    "fell": [
+      "jon-1-7"
+    ],
+    "tell": [
+      "jon-1-8",
+      "jon-3-9"
+    ],
+    "pray": [
+      "jon-1-8",
+      "jon-4-2"
+    ],
+    "thee": [
+      "jon-1-8",
+      "jon-1-11",
+      "jon-1-14",
+      "jon-2-7",
+      "jon-2-9",
+      "jon-3-2",
+      "jon-4-2",
+      "jon-4-3"
+    ],
+    "thine": [
+      "jon-1-8",
+      "jon-2-7"
+    ],
+    "occupation": [
+      "jon-1-8"
+    ],
+    "whence": [
+      "jon-1-8"
+    ],
+    "comest": [
+      "jon-1-8"
+    ],
+    "country": [
+      "jon-1-8",
+      "jon-4-2"
+    ],
+    "people": [
+      "jon-1-8",
+      "jon-3-5"
+    ],
+    "art": [
+      "jon-1-8",
+      "jon-4-2"
+    ],
+    "i": [
+      "jon-1-9",
+      "jon-1-12",
+      "jon-2-2",
+      "jon-2-4",
+      "jon-2-6",
+      "jon-2-7",
+      "jon-2-9",
+      "jon-3-2",
+      "jon-4-2",
+      "jon-4-3",
+      "jon-4-9",
+      "jon-4-11"
+    ],
+    "am": [
+      "jon-1-9",
+      "jon-2-4"
+    ],
+    "an": [
+      "jon-1-9",
+      "jon-3-3"
+    ],
+    "hebrew": [
+      "jon-1-9"
+    ],
+    "fear": [
+      "jon-1-9"
+    ],
+    "heaven": [
+      "jon-1-9"
+    ],
+    "which": [
+      "jon-1-9",
+      "jon-4-10"
+    ],
+    "hath": [
+      "jon-1-9"
+    ],
+    "made": [
+      "jon-1-9",
+      "jon-1-16",
+      "jon-4-5",
+      "jon-4-6"
+    ],
+    "dry": [
+      "jon-1-9",
+      "jon-2-10"
+    ],
+    "land": [
+      "jon-1-9",
+      "jon-1-13",
+      "jon-2-10"
+    ],
+    "men": [
+      "jon-1-10",
+      "jon-1-13",
+      "jon-1-16"
+    ],
+    "exceedingly": [
+      "jon-1-10",
+      "jon-1-16",
+      "jon-4-1"
+    ],
+    "why": [
+      "jon-1-10"
+    ],
+    "hast": [
+      "jon-1-10",
+      "jon-1-14",
+      "jon-2-6",
+      "jon-4-10"
+    ],
+    "done": [
+      "jon-1-10",
+      "jon-1-14"
+    ],
+    "knew": [
+      "jon-1-10",
+      "jon-4-2"
+    ],
+    "fled": [
+      "jon-1-10",
+      "jon-4-2"
+    ],
+    "because": [
+      "jon-1-10"
+    ],
+    "had": [
+      "jon-1-10",
+      "jon-1-17",
+      "jon-3-10",
+      "jon-4-10"
+    ],
+    "told": [
+      "jon-1-10"
+    ],
+    "shall": [
+      "jon-1-11",
+      "jon-1-12",
+      "jon-3-4"
+    ],
+    "do": [
+      "jon-1-11",
+      "jon-3-10",
+      "jon-4-9"
+    ],
+    "calm": [
+      "jon-1-11",
+      "jon-1-12"
+    ],
+    "wrought": [
+      "jon-1-11",
+      "jon-1-13"
+    ],
+    "tempestuous": [
+      "jon-1-11",
+      "jon-1-13"
+    ],
+    "take": [
+      "jon-1-12",
+      "jon-4-3"
+    ],
+    "you": [
+      "jon-1-12"
+    ],
+    "my": [
+      "jon-1-12",
+      "jon-2-2",
+      "jon-2-5",
+      "jon-2-6",
+      "jon-2-7",
+      "jon-4-2",
+      "jon-4-3"
+    ],
+    "sake": [
+      "jon-1-12"
+    ],
+    "nevertheless": [
+      "jon-1-13"
+    ],
+    "rowed": [
+      "jon-1-13"
+    ],
+    "hard": [
+      "jon-1-13"
+    ],
+    "bring": [
+      "jon-1-13"
+    ],
+    "could": [
+      "jon-1-13"
+    ],
+    "wherefore": [
+      "jon-1-14"
+    ],
+    "beseech": [
+      "jon-1-14",
+      "jon-4-3"
+    ],
+    "s": [
+      "jon-1-14",
+      "jon-2-1",
+      "jon-3-4"
+    ],
+    "life": [
+      "jon-1-14",
+      "jon-2-6",
+      "jon-4-3"
+    ],
+    "innocent": [
+      "jon-1-14"
+    ],
+    "blood": [
+      "jon-1-14"
+    ],
+    "as": [
+      "jon-1-14"
+    ],
+    "pleased": [
+      "jon-1-14"
+    ],
+    "took": [
+      "jon-1-15"
+    ],
+    "ceased": [
+      "jon-1-15"
+    ],
+    "her": [
+      "jon-1-15",
+      "jon-2-6"
+    ],
+    "raging": [
+      "jon-1-15"
+    ],
+    "feared": [
+      "jon-1-16"
+    ],
+    "offered": [
+      "jon-1-16"
+    ],
+    "sacrifice": [
+      "jon-1-16",
+      "jon-2-9"
+    ],
+    "vows": [
+      "jon-1-16"
+    ],
+    "prepared": [
+      "jon-1-17",
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-8"
+    ],
+    "fish": [
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-10"
+    ],
+    "swallow": [
+      "jon-1-17"
+    ],
+    "belly": [
+      "jon-1-17",
+      "jon-2-1",
+      "jon-2-2"
+    ],
+    "three": [
+      "jon-1-17",
+      "jon-3-3"
+    ],
+    "days": [
+      "jon-1-17",
+      "jon-3-3",
+      "jon-3-4"
+    ],
+    "nights": [
+      "jon-1-17"
+    ],
+    "prayed": [
+      "jon-2-1",
+      "jon-4-2"
+    ],
+    "by": [
+      "jon-2-2",
+      "jon-3-7"
+    ],
+    "reason": [
+      "jon-2-2"
+    ],
+    "mine": [
+      "jon-2-2"
+    ],
+    "affliction": [
+      "jon-2-2"
+    ],
+    "heard": [
+      "jon-2-2"
+    ],
+    "hell": [
+      "jon-2-2"
+    ],
+    "heardest": [
+      "jon-2-2"
+    ],
+    "voice": [
+      "jon-2-2",
+      "jon-2-9"
+    ],
+    "hadst": [
+      "jon-2-3"
+    ],
+    "deep": [
+      "jon-2-3"
+    ],
+    "midst": [
+      "jon-2-3"
+    ],
+    "seas": [
+      "jon-2-3"
+    ],
+    "floods": [
+      "jon-2-3"
+    ],
+    "compassed": [
+      "jon-2-3",
+      "jon-2-5"
+    ],
+    "about": [
+      "jon-2-3",
+      "jon-2-5",
+      "jon-2-6"
+    ],
+    "all": [
+      "jon-2-3"
+    ],
+    "billows": [
+      "jon-2-3"
+    ],
+    "waves": [
+      "jon-2-3"
+    ],
+    "passed": [
+      "jon-2-3"
+    ],
+    "over": [
+      "jon-2-3",
+      "jon-4-6"
+    ],
+    "sight": [
+      "jon-2-4"
+    ],
+    "yet": [
+      "jon-2-4",
+      "jon-2-6",
+      "jon-3-4",
+      "jon-4-2"
+    ],
+    "look": [
+      "jon-2-4"
+    ],
+    "again": [
+      "jon-2-4"
+    ],
+    "toward": [
+      "jon-2-4"
+    ],
+    "holy": [
+      "jon-2-4",
+      "jon-2-7"
+    ],
+    "temple": [
+      "jon-2-4",
+      "jon-2-7"
+    ],
+    "waters": [
+      "jon-2-5"
+    ],
+    "even": [
+      "jon-2-5",
+      "jon-3-5",
+      "jon-4-9"
+    ],
+    "soul": [
+      "jon-2-5",
+      "jon-2-7"
+    ],
+    "depth": [
+      "jon-2-5"
+    ],
+    "closed": [
+      "jon-2-5"
+    ],
+    "round": [
+      "jon-2-5"
+    ],
+    "weeds": [
+      "jon-2-5"
+    ],
+    "wrapped": [
+      "jon-2-5"
+    ],
+    "head": [
+      "jon-2-5",
+      "jon-4-6",
+      "jon-4-8"
+    ],
+    "bottoms": [
+      "jon-2-6"
+    ],
+    "mountains": [
+      "jon-2-6"
+    ],
+    "earth": [
+      "jon-2-6"
+    ],
+    "bars": [
+      "jon-2-6"
+    ],
+    "ever": [
+      "jon-2-6"
+    ],
+    "brought": [
+      "jon-2-6"
+    ],
+    "corruption": [
+      "jon-2-6"
+    ],
+    "when": [
+      "jon-2-7",
+      "jon-4-2",
+      "jon-4-7",
+      "jon-4-8"
+    ],
+    "fainted": [
+      "jon-2-7",
+      "jon-4-8"
+    ],
+    "within": [
+      "jon-2-7"
+    ],
+    "remembered": [
+      "jon-2-7"
+    ],
+    "prayer": [
+      "jon-2-7"
+    ],
+    "observe": [
+      "jon-2-8"
+    ],
+    "lying": [
+      "jon-2-8"
+    ],
+    "vanities": [
+      "jon-2-8"
+    ],
+    "forsake": [
+      "jon-2-8"
+    ],
+    "own": [
+      "jon-2-8"
+    ],
+    "mercy": [
+      "jon-2-8"
+    ],
+    "thanksgiving": [
+      "jon-2-9"
+    ],
+    "pay": [
+      "jon-2-9"
+    ],
+    "have": [
+      "jon-2-9"
+    ],
+    "vowed": [
+      "jon-2-9"
+    ],
+    "salvation": [
+      "jon-2-9"
+    ],
+    "spake": [
+      "jon-2-10"
+    ],
+    "vomited": [
+      "jon-2-10"
+    ],
+    "second": [
+      "jon-3-1"
+    ],
+    "time": [
+      "jon-3-1"
+    ],
+    "preach": [
+      "jon-3-2"
+    ],
+    "preaching": [
+      "jon-3-2"
+    ],
+    "bid": [
+      "jon-3-2"
+    ],
+    "arose": [
+      "jon-3-3",
+      "jon-3-6"
+    ],
+    "according": [
+      "jon-3-3"
+    ],
+    "exceeding": [
+      "jon-3-3",
+      "jon-4-6"
+    ],
+    "journey": [
+      "jon-3-3",
+      "jon-3-4"
+    ],
+    "began": [
+      "jon-3-4"
+    ],
+    "enter": [
+      "jon-3-4"
+    ],
+    "day": [
+      "jon-3-4",
+      "jon-4-7"
+    ],
+    "forty": [
+      "jon-3-4"
+    ],
+    "overthrown": [
+      "jon-3-4"
+    ],
+    "believed": [
+      "jon-3-5"
+    ],
+    "proclaimed": [
+      "jon-3-5",
+      "jon-3-7"
+    ],
+    "put": [
+      "jon-3-5"
+    ],
+    "on": [
+      "jon-3-5",
+      "jon-4-5",
+      "jon-4-10"
+    ],
+    "sackcloth": [
+      "jon-3-5",
+      "jon-3-6",
+      "jon-3-8"
+    ],
+    "greatest": [
+      "jon-3-5"
+    ],
+    "least": [
+      "jon-3-5"
+    ],
+    "king": [
+      "jon-3-6",
+      "jon-3-7"
+    ],
+    "throne": [
+      "jon-3-6"
+    ],
+    "laid": [
+      "jon-3-6"
+    ],
+    "robe": [
+      "jon-3-6"
+    ],
+    "covered": [
+      "jon-3-6",
+      "jon-3-8"
+    ],
+    "sat": [
+      "jon-3-6",
+      "jon-4-5"
+    ],
+    "ashes": [
+      "jon-3-6"
+    ],
+    "caused": [
+      "jon-3-7"
+    ],
+    "published": [
+      "jon-3-7"
+    ],
+    "through": [
+      "jon-3-7"
+    ],
+    "decree": [
+      "jon-3-7"
+    ],
+    "nobles": [
+      "jon-3-7"
+    ],
+    "neither": [
+      "jon-3-7",
+      "jon-4-10"
+    ],
+    "nor": [
+      "jon-3-7"
+    ],
+    "beast": [
+      "jon-3-7",
+      "jon-3-8"
+    ],
+    "herd": [
+      "jon-3-7"
+    ],
+    "flock": [
+      "jon-3-7"
+    ],
+    "taste": [
+      "jon-3-7"
+    ],
+    "any": [
+      "jon-3-7"
+    ],
+    "thing": [
+      "jon-3-7"
+    ],
+    "feed": [
+      "jon-3-7"
+    ],
+    "drink": [
+      "jon-3-7"
+    ],
+    "water": [
+      "jon-3-7"
+    ],
+    "mightily": [
+      "jon-3-8"
+    ],
+    "yea": [
+      "jon-3-8"
+    ],
+    "turn": [
+      "jon-3-8",
+      "jon-3-9"
+    ],
+    "way": [
+      "jon-3-8",
+      "jon-3-10"
+    ],
+    "violence": [
+      "jon-3-8"
+    ],
+    "hands": [
+      "jon-3-8"
+    ],
+    "who": [
+      "jon-3-9"
+    ],
+    "can": [
+      "jon-3-9"
+    ],
+    "repent": [
+      "jon-3-9"
+    ],
+    "away": [
+      "jon-3-9"
+    ],
+    "fierce": [
+      "jon-3-9"
+    ],
+    "anger": [
+      "jon-3-9",
+      "jon-4-2"
+    ],
+    "saw": [
+      "jon-3-10"
+    ],
+    "works": [
+      "jon-3-10"
+    ],
+    "turned": [
+      "jon-3-10"
+    ],
+    "repented": [
+      "jon-3-10"
+    ],
+    "would": [
+      "jon-3-10",
+      "jon-4-5"
+    ],
+    "did": [
+      "jon-3-10",
+      "jon-4-8"
+    ],
+    "displeased": [
+      "jon-4-1"
+    ],
+    "very": [
+      "jon-4-1"
+    ],
+    "angry": [
+      "jon-4-1",
+      "jon-4-4",
+      "jon-4-9"
+    ],
+    "therefore": [
+      "jon-4-2",
+      "jon-4-3"
+    ],
+    "gracious": [
+      "jon-4-2"
+    ],
+    "merciful": [
+      "jon-4-2"
+    ],
+    "slow": [
+      "jon-4-2"
+    ],
+    "kindness": [
+      "jon-4-2"
+    ],
+    "repentest": [
+      "jon-4-2"
+    ],
+    "better": [
+      "jon-4-3",
+      "jon-4-8"
+    ],
+    "die": [
+      "jon-4-3",
+      "jon-4-8"
+    ],
+    "than": [
+      "jon-4-3",
+      "jon-4-8",
+      "jon-4-11"
+    ],
+    "live": [
+      "jon-4-3",
+      "jon-4-8"
+    ],
+    "doest": [
+      "jon-4-4",
+      "jon-4-9"
+    ],
+    "well": [
+      "jon-4-4",
+      "jon-4-9"
+    ],
+    "east": [
+      "jon-4-5",
+      "jon-4-8"
+    ],
+    "side": [
+      "jon-4-5"
+    ],
+    "booth": [
+      "jon-4-5"
+    ],
+    "under": [
+      "jon-4-5"
+    ],
+    "shadow": [
+      "jon-4-5",
+      "jon-4-6"
+    ],
+    "till": [
+      "jon-4-5"
+    ],
+    "might": [
+      "jon-4-5",
+      "jon-4-6"
+    ],
+    "see": [
+      "jon-4-5"
+    ],
+    "become": [
+      "jon-4-5"
+    ],
+    "gourd": [
+      "jon-4-6",
+      "jon-4-7",
+      "jon-4-9",
+      "jon-4-10"
+    ],
+    "deliver": [
+      "jon-4-6"
+    ],
+    "grief": [
+      "jon-4-6"
+    ],
+    "glad": [
+      "jon-4-6"
+    ],
+    "worm": [
+      "jon-4-7"
+    ],
+    "morning": [
+      "jon-4-7"
+    ],
+    "next": [
+      "jon-4-7"
+    ],
+    "smote": [
+      "jon-4-7"
+    ],
+    "withered": [
+      "jon-4-7"
+    ],
+    "pass": [
+      "jon-4-8"
+    ],
+    "sun": [
+      "jon-4-8"
+    ],
+    "vehement": [
+      "jon-4-8"
+    ],
+    "beat": [
+      "jon-4-8"
+    ],
+    "wished": [
+      "jon-4-8"
+    ],
+    "himself": [
+      "jon-4-8"
+    ],
+    "death": [
+      "jon-4-9"
+    ],
+    "pity": [
+      "jon-4-10"
+    ],
+    "laboured": [
+      "jon-4-10"
+    ],
+    "madest": [
+      "jon-4-10"
+    ],
+    "grow": [
+      "jon-4-10"
+    ],
+    "night": [
+      "jon-4-10"
+    ],
+    "perished": [
+      "jon-4-10"
+    ],
+    "should": [
+      "jon-4-11"
+    ],
+    "spare": [
+      "jon-4-11"
+    ],
+    "wherein": [
+      "jon-4-11"
+    ],
+    "are": [
+      "jon-4-11"
+    ],
+    "more": [
+      "jon-4-11"
+    ],
+    "sixscore": [
+      "jon-4-11"
+    ],
+    "thousand": [
+      "jon-4-11"
+    ],
+    "persons": [
+      "jon-4-11"
+    ],
+    "cannot": [
+      "jon-4-11"
+    ],
+    "discern": [
+      "jon-4-11"
+    ],
+    "between": [
+      "jon-4-11"
+    ],
+    "right": [
+      "jon-4-11"
+    ],
+    "hand": [
+      "jon-4-11"
+    ],
+    "left": [
+      "jon-4-11"
+    ],
+    "also": [
+      "jon-4-11"
+    ],
+    "much": [
+      "jon-4-11"
+    ],
+    "cattle": [
+      "jon-4-11"
+    ]
+  }
+}

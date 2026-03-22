@@ -1,0 +1,2301 @@
+{
+  "book": "Malachi",
+  "book_id": "mal",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "mal-1-1",
+      "mal-1-2",
+      "mal-1-3",
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-9",
+      "mal-2-10",
+      "mal-2-11",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-13",
+      "mal-3-14",
+      "mal-3-15",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-3-18",
+      "mal-4-1",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-4",
+      "mal-4-5",
+      "mal-4-6"
+    ],
+    "burden": [
+      "mal-1-1"
+    ],
+    "of": [
+      "mal-1-1",
+      "mal-1-3",
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-10",
+      "mal-2-11",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-4",
+      "mal-4-5",
+      "mal-4-6"
+    ],
+    "word": [
+      "mal-1-1"
+    ],
+    "lord": [
+      "mal-1-1",
+      "mal-1-2",
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-11",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-2-14",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-13",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-3",
+      "mal-4-5"
+    ],
+    "to": [
+      "mal-1-1",
+      "mal-2-2",
+      "mal-2-5",
+      "mal-2-8",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-10",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-4-6"
+    ],
+    "israel": [
+      "mal-1-1",
+      "mal-1-5",
+      "mal-2-11",
+      "mal-2-16",
+      "mal-4-4"
+    ],
+    "by": [
+      "mal-1-1",
+      "mal-1-9",
+      "mal-2-10"
+    ],
+    "malachi": [
+      "mal-1-1"
+    ],
+    "i": [
+      "mal-1-2",
+      "mal-1-3",
+      "mal-1-4",
+      "mal-1-6",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-9",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-17",
+      "mal-4-3",
+      "mal-4-4",
+      "mal-4-5",
+      "mal-4-6"
+    ],
+    "have": [
+      "mal-1-2",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-10",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-8",
+      "mal-2-9",
+      "mal-2-10",
+      "mal-2-13",
+      "mal-2-17",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-9",
+      "mal-3-13",
+      "mal-3-14"
+    ],
+    "loved": [
+      "mal-1-2",
+      "mal-2-11"
+    ],
+    "you": [
+      "mal-1-2",
+      "mal-1-6",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-2-1",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-9",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-12",
+      "mal-4-2",
+      "mal-4-5"
+    ],
+    "saith": [
+      "mal-1-2",
+      "mal-1-4",
+      "mal-1-6",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-8",
+      "mal-2-16",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-13",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-3"
+    ],
+    "yet": [
+      "mal-1-2",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-2-17",
+      "mal-3-8",
+      "mal-3-13"
+    ],
+    "ye": [
+      "mal-1-2",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-10",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-2-1",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-8",
+      "mal-2-9",
+      "mal-2-13",
+      "mal-2-14",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-9",
+      "mal-3-10",
+      "mal-3-12",
+      "mal-3-13",
+      "mal-3-14",
+      "mal-3-18",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-4"
+    ],
+    "say": [
+      "mal-1-2",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-12",
+      "mal-2-14",
+      "mal-2-17",
+      "mal-3-8",
+      "mal-3-13"
+    ],
+    "wherein": [
+      "mal-1-2",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-2-17",
+      "mal-3-7",
+      "mal-3-8"
+    ],
+    "hast": [
+      "mal-1-2",
+      "mal-2-14"
+    ],
+    "thou": [
+      "mal-1-2",
+      "mal-2-14"
+    ],
+    "us": [
+      "mal-1-2",
+      "mal-1-9",
+      "mal-2-10"
+    ],
+    "was": [
+      "mal-1-2",
+      "mal-1-13",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-3-16"
+    ],
+    "not": [
+      "mal-1-2",
+      "mal-1-8",
+      "mal-2-2",
+      "mal-2-6",
+      "mal-2-9",
+      "mal-2-10",
+      "mal-2-13",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-3-5",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-18"
+    ],
+    "esau": [
+      "mal-1-2",
+      "mal-1-3"
+    ],
+    "jacob": [
+      "mal-1-2",
+      "mal-2-12",
+      "mal-3-6"
+    ],
+    "s": [
+      "mal-1-2",
+      "mal-2-7",
+      "mal-3-2"
+    ],
+    "brother": [
+      "mal-1-2",
+      "mal-2-10"
+    ],
+    "and": [
+      "mal-1-3",
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-1",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-9",
+      "mal-2-11",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-14",
+      "mal-3-15",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-3-18",
+      "mal-4-1",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-4",
+      "mal-4-5",
+      "mal-4-6"
+    ],
+    "hated": [
+      "mal-1-3"
+    ],
+    "laid": [
+      "mal-1-3"
+    ],
+    "his": [
+      "mal-1-3",
+      "mal-1-6",
+      "mal-1-12",
+      "mal-1-14",
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-10",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-5",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-2"
+    ],
+    "mountains": [
+      "mal-1-3"
+    ],
+    "heritage": [
+      "mal-1-3"
+    ],
+    "waste": [
+      "mal-1-3"
+    ],
+    "for": [
+      "mal-1-3",
+      "mal-1-4",
+      "mal-1-8",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-14",
+      "mal-2-1",
+      "mal-2-5",
+      "mal-2-7",
+      "mal-2-11",
+      "mal-2-16",
+      "mal-3-2",
+      "mal-3-6",
+      "mal-3-9",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-16",
+      "mal-4-1",
+      "mal-4-3",
+      "mal-4-4"
+    ],
+    "dragons": [
+      "mal-1-3"
+    ],
+    "wilderness": [
+      "mal-1-3"
+    ],
+    "whereas": [
+      "mal-1-4"
+    ],
+    "edom": [
+      "mal-1-4"
+    ],
+    "we": [
+      "mal-1-4",
+      "mal-1-6",
+      "mal-1-7",
+      "mal-2-10",
+      "mal-2-17",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-13",
+      "mal-3-14",
+      "mal-3-15"
+    ],
+    "are": [
+      "mal-1-4",
+      "mal-2-8",
+      "mal-3-6",
+      "mal-3-7",
+      "mal-3-9",
+      "mal-3-15"
+    ],
+    "impoverished": [
+      "mal-1-4"
+    ],
+    "but": [
+      "mal-1-4",
+      "mal-1-12",
+      "mal-1-14",
+      "mal-2-8",
+      "mal-2-9",
+      "mal-3-2",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-4-2"
+    ],
+    "will": [
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-17",
+      "mal-4-5"
+    ],
+    "return": [
+      "mal-1-4",
+      "mal-3-7",
+      "mal-3-18"
+    ],
+    "build": [
+      "mal-1-4"
+    ],
+    "desolate": [
+      "mal-1-4"
+    ],
+    "places": [
+      "mal-1-4"
+    ],
+    "thus": [
+      "mal-1-4",
+      "mal-1-13"
+    ],
+    "hosts": [
+      "mal-1-4",
+      "mal-1-6",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-12",
+      "mal-2-16",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-14",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-3"
+    ],
+    "they": [
+      "mal-1-4",
+      "mal-2-7",
+      "mal-3-3",
+      "mal-3-15",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-3"
+    ],
+    "shall": [
+      "mal-1-4",
+      "mal-1-5",
+      "mal-1-11",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-12",
+      "mal-3-17",
+      "mal-3-18",
+      "mal-4-1",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-6"
+    ],
+    "throw": [
+      "mal-1-4"
+    ],
+    "down": [
+      "mal-1-4",
+      "mal-1-11",
+      "mal-4-3"
+    ],
+    "call": [
+      "mal-1-4",
+      "mal-3-12",
+      "mal-3-15"
+    ],
+    "them": [
+      "mal-1-4",
+      "mal-2-2",
+      "mal-2-5",
+      "mal-2-17",
+      "mal-3-3",
+      "mal-3-7",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-1"
+    ],
+    "border": [
+      "mal-1-4",
+      "mal-1-5"
+    ],
+    "wickedness": [
+      "mal-1-4",
+      "mal-3-15"
+    ],
+    "people": [
+      "mal-1-4",
+      "mal-2-9"
+    ],
+    "against": [
+      "mal-1-4",
+      "mal-2-10",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-3-5",
+      "mal-3-13"
+    ],
+    "whom": [
+      "mal-1-4",
+      "mal-2-14",
+      "mal-3-1"
+    ],
+    "hath": [
+      "mal-1-4",
+      "mal-1-9",
+      "mal-1-14",
+      "mal-2-10",
+      "mal-2-11",
+      "mal-2-14"
+    ],
+    "indignation": [
+      "mal-1-4"
+    ],
+    "ever": [
+      "mal-1-4"
+    ],
+    "your": [
+      "mal-1-5",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-13",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-13",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-7",
+      "mal-3-11",
+      "mal-3-13",
+      "mal-4-3"
+    ],
+    "eyes": [
+      "mal-1-5"
+    ],
+    "see": [
+      "mal-1-5"
+    ],
+    "be": [
+      "mal-1-5",
+      "mal-1-6",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-11",
+      "mal-1-14",
+      "mal-2-4",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-10",
+      "mal-3-12",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-3"
+    ],
+    "magnified": [
+      "mal-1-5"
+    ],
+    "from": [
+      "mal-1-5",
+      "mal-1-11",
+      "mal-2-6",
+      "mal-3-5",
+      "mal-3-7"
+    ],
+    "a": [
+      "mal-1-6",
+      "mal-1-11",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-11",
+      "mal-2-15",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-5",
+      "mal-3-8",
+      "mal-3-9",
+      "mal-3-10",
+      "mal-3-12",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-4-6"
+    ],
+    "son": [
+      "mal-1-6",
+      "mal-3-17"
+    ],
+    "honoureth": [
+      "mal-1-6"
+    ],
+    "father": [
+      "mal-1-6",
+      "mal-2-10"
+    ],
+    "servant": [
+      "mal-1-6",
+      "mal-4-4"
+    ],
+    "master": [
+      "mal-1-6",
+      "mal-2-12"
+    ],
+    "if": [
+      "mal-1-6",
+      "mal-1-8",
+      "mal-2-2",
+      "mal-3-10"
+    ],
+    "then": [
+      "mal-1-6",
+      "mal-3-4",
+      "mal-3-16",
+      "mal-3-18"
+    ],
+    "where": [
+      "mal-1-6",
+      "mal-2-17"
+    ],
+    "is": [
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-8",
+      "mal-1-10",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-1",
+      "mal-2-7",
+      "mal-2-11",
+      "mal-2-14",
+      "mal-2-17",
+      "mal-3-2",
+      "mal-3-14"
+    ],
+    "mine": [
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-10",
+      "mal-3-7",
+      "mal-3-10",
+      "mal-3-17"
+    ],
+    "honour": [
+      "mal-1-6"
+    ],
+    "my": [
+      "mal-1-6",
+      "mal-1-11",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-9",
+      "mal-3-1",
+      "mal-3-17",
+      "mal-4-2",
+      "mal-4-4"
+    ],
+    "fear": [
+      "mal-1-6",
+      "mal-2-5",
+      "mal-3-5",
+      "mal-4-2"
+    ],
+    "unto": [
+      "mal-1-6",
+      "mal-1-8",
+      "mal-1-9",
+      "mal-1-11",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-4",
+      "mal-2-12",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-7",
+      "mal-4-2",
+      "mal-4-4"
+    ],
+    "o": [
+      "mal-1-6",
+      "mal-2-1"
+    ],
+    "priests": [
+      "mal-1-6",
+      "mal-2-1"
+    ],
+    "that": [
+      "mal-1-6",
+      "mal-1-7",
+      "mal-1-9",
+      "mal-1-10",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-2-4",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-3",
+      "mal-3-5",
+      "mal-3-10",
+      "mal-3-14",
+      "mal-3-15",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-3-18",
+      "mal-4-1",
+      "mal-4-2",
+      "mal-4-3"
+    ],
+    "despise": [
+      "mal-1-6"
+    ],
+    "name": [
+      "mal-1-6",
+      "mal-1-11",
+      "mal-1-14",
+      "mal-2-2",
+      "mal-2-5",
+      "mal-3-16",
+      "mal-4-2"
+    ],
+    "despised": [
+      "mal-1-6"
+    ],
+    "thy": [
+      "mal-1-6",
+      "mal-1-8",
+      "mal-2-14"
+    ],
+    "offer": [
+      "mal-1-7",
+      "mal-1-8",
+      "mal-3-3"
+    ],
+    "polluted": [
+      "mal-1-7",
+      "mal-1-12"
+    ],
+    "bread": [
+      "mal-1-7"
+    ],
+    "upon": [
+      "mal-1-7",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-3-16"
+    ],
+    "altar": [
+      "mal-1-7",
+      "mal-1-10",
+      "mal-2-13"
+    ],
+    "thee": [
+      "mal-1-7",
+      "mal-1-8",
+      "mal-2-14",
+      "mal-3-8",
+      "mal-3-13"
+    ],
+    "in": [
+      "mal-1-7",
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-1-14",
+      "mal-2-6",
+      "mal-2-9",
+      "mal-2-11",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-5",
+      "mal-3-8",
+      "mal-3-10",
+      "mal-3-11",
+      "mal-3-17",
+      "mal-4-2",
+      "mal-4-3",
+      "mal-4-4"
+    ],
+    "table": [
+      "mal-1-7",
+      "mal-1-12"
+    ],
+    "contemptible": [
+      "mal-1-7",
+      "mal-1-12",
+      "mal-2-9"
+    ],
+    "blind": [
+      "mal-1-8"
+    ],
+    "sacrifice": [
+      "mal-1-8"
+    ],
+    "it": [
+      "mal-1-8",
+      "mal-1-12",
+      "mal-1-13",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-2-13",
+      "mal-3-10",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-4-1"
+    ],
+    "evil": [
+      "mal-1-8",
+      "mal-2-17"
+    ],
+    "lame": [
+      "mal-1-8",
+      "mal-1-13"
+    ],
+    "sick": [
+      "mal-1-8",
+      "mal-1-13"
+    ],
+    "now": [
+      "mal-1-8",
+      "mal-1-9",
+      "mal-2-1",
+      "mal-3-10",
+      "mal-3-15"
+    ],
+    "governor": [
+      "mal-1-8"
+    ],
+    "he": [
+      "mal-1-8",
+      "mal-1-9",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-11",
+      "mal-2-13",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-1",
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-11",
+      "mal-4-6"
+    ],
+    "pleased": [
+      "mal-1-8"
+    ],
+    "with": [
+      "mal-1-8",
+      "mal-2-3",
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-6",
+      "mal-2-13",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-9",
+      "mal-4-2",
+      "mal-4-4",
+      "mal-4-6"
+    ],
+    "or": [
+      "mal-1-8",
+      "mal-2-13",
+      "mal-2-17"
+    ],
+    "accept": [
+      "mal-1-8",
+      "mal-1-10",
+      "mal-1-13"
+    ],
+    "person": [
+      "mal-1-8"
+    ],
+    "pray": [
+      "mal-1-9"
+    ],
+    "beseech": [
+      "mal-1-9"
+    ],
+    "god": [
+      "mal-1-9",
+      "mal-2-10",
+      "mal-2-11",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-8",
+      "mal-3-14",
+      "mal-3-15",
+      "mal-3-18"
+    ],
+    "gracious": [
+      "mal-1-9"
+    ],
+    "this": [
+      "mal-1-9",
+      "mal-1-13",
+      "mal-2-1",
+      "mal-2-4",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-3-9",
+      "mal-4-3"
+    ],
+    "been": [
+      "mal-1-9",
+      "mal-2-9",
+      "mal-2-14",
+      "mal-3-13"
+    ],
+    "means": [
+      "mal-1-9"
+    ],
+    "regard": [
+      "mal-1-9"
+    ],
+    "persons": [
+      "mal-1-9"
+    ],
+    "who": [
+      "mal-1-10",
+      "mal-3-2"
+    ],
+    "there": [
+      "mal-1-10",
+      "mal-3-10"
+    ],
+    "even": [
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-12",
+      "mal-2-2",
+      "mal-2-3",
+      "mal-3-1",
+      "mal-3-7",
+      "mal-3-9",
+      "mal-3-15"
+    ],
+    "among": [
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-14"
+    ],
+    "would": [
+      "mal-1-10"
+    ],
+    "shut": [
+      "mal-1-10"
+    ],
+    "doors": [
+      "mal-1-10"
+    ],
+    "nought": [
+      "mal-1-10"
+    ],
+    "neither": [
+      "mal-1-10",
+      "mal-3-11",
+      "mal-4-1"
+    ],
+    "do": [
+      "mal-1-10",
+      "mal-2-2",
+      "mal-2-10",
+      "mal-4-1",
+      "mal-4-3"
+    ],
+    "kindle": [
+      "mal-1-10"
+    ],
+    "fire": [
+      "mal-1-10",
+      "mal-3-2"
+    ],
+    "on": [
+      "mal-1-10"
+    ],
+    "no": [
+      "mal-1-10"
+    ],
+    "pleasure": [
+      "mal-1-10"
+    ],
+    "an": [
+      "mal-1-10",
+      "mal-1-13",
+      "mal-2-11",
+      "mal-2-12",
+      "mal-3-3",
+      "mal-4-1"
+    ],
+    "offering": [
+      "mal-1-10",
+      "mal-1-11",
+      "mal-1-13",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-3-3",
+      "mal-3-4"
+    ],
+    "at": [
+      "mal-1-10",
+      "mal-1-13",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-13"
+    ],
+    "hand": [
+      "mal-1-10",
+      "mal-1-13",
+      "mal-2-13"
+    ],
+    "rising": [
+      "mal-1-11"
+    ],
+    "sun": [
+      "mal-1-11",
+      "mal-4-2"
+    ],
+    "going": [
+      "mal-1-11"
+    ],
+    "same": [
+      "mal-1-11"
+    ],
+    "great": [
+      "mal-1-11",
+      "mal-1-14",
+      "mal-4-5"
+    ],
+    "gentiles": [
+      "mal-1-11"
+    ],
+    "every": [
+      "mal-1-11",
+      "mal-2-10",
+      "mal-2-17"
+    ],
+    "place": [
+      "mal-1-11"
+    ],
+    "incense": [
+      "mal-1-11"
+    ],
+    "offered": [
+      "mal-1-11"
+    ],
+    "pure": [
+      "mal-1-11"
+    ],
+    "heathen": [
+      "mal-1-11",
+      "mal-1-14"
+    ],
+    "profaned": [
+      "mal-1-12",
+      "mal-2-11"
+    ],
+    "fruit": [
+      "mal-1-12",
+      "mal-3-11"
+    ],
+    "thereof": [
+      "mal-1-12"
+    ],
+    "meat": [
+      "mal-1-12",
+      "mal-3-10"
+    ],
+    "said": [
+      "mal-1-13",
+      "mal-3-7",
+      "mal-3-14"
+    ],
+    "also": [
+      "mal-1-13",
+      "mal-2-9"
+    ],
+    "behold": [
+      "mal-1-13",
+      "mal-2-3",
+      "mal-3-1",
+      "mal-4-1",
+      "mal-4-5"
+    ],
+    "what": [
+      "mal-1-13",
+      "mal-3-13",
+      "mal-3-14"
+    ],
+    "weariness": [
+      "mal-1-13"
+    ],
+    "snuffed": [
+      "mal-1-13"
+    ],
+    "brought": [
+      "mal-1-13"
+    ],
+    "which": [
+      "mal-1-13",
+      "mal-1-14",
+      "mal-2-11",
+      "mal-4-4"
+    ],
+    "torn": [
+      "mal-1-13"
+    ],
+    "should": [
+      "mal-1-13",
+      "mal-2-7"
+    ],
+    "cursed": [
+      "mal-1-14",
+      "mal-2-2",
+      "mal-3-9"
+    ],
+    "deceiver": [
+      "mal-1-14"
+    ],
+    "flock": [
+      "mal-1-14"
+    ],
+    "male": [
+      "mal-1-14"
+    ],
+    "voweth": [
+      "mal-1-14"
+    ],
+    "sacrificeth": [
+      "mal-1-14"
+    ],
+    "corrupt": [
+      "mal-1-14",
+      "mal-2-3"
+    ],
+    "thing": [
+      "mal-1-14"
+    ],
+    "am": [
+      "mal-1-14",
+      "mal-3-6"
+    ],
+    "king": [
+      "mal-1-14"
+    ],
+    "dreadful": [
+      "mal-1-14",
+      "mal-4-5"
+    ],
+    "commandment": [
+      "mal-2-1",
+      "mal-2-4"
+    ],
+    "hear": [
+      "mal-2-2"
+    ],
+    "lay": [
+      "mal-2-2"
+    ],
+    "heart": [
+      "mal-2-2",
+      "mal-4-6"
+    ],
+    "give": [
+      "mal-2-2"
+    ],
+    "glory": [
+      "mal-2-2"
+    ],
+    "send": [
+      "mal-2-2",
+      "mal-3-1",
+      "mal-4-5"
+    ],
+    "curse": [
+      "mal-2-2",
+      "mal-3-9",
+      "mal-4-6"
+    ],
+    "blessings": [
+      "mal-2-2"
+    ],
+    "yea": [
+      "mal-2-2",
+      "mal-3-15",
+      "mal-4-1"
+    ],
+    "already": [
+      "mal-2-2"
+    ],
+    "because": [
+      "mal-2-2",
+      "mal-2-14"
+    ],
+    "seed": [
+      "mal-2-3",
+      "mal-2-15"
+    ],
+    "spread": [
+      "mal-2-3"
+    ],
+    "dung": [
+      "mal-2-3"
+    ],
+    "faces": [
+      "mal-2-3"
+    ],
+    "solemn": [
+      "mal-2-3"
+    ],
+    "feasts": [
+      "mal-2-3"
+    ],
+    "one": [
+      "mal-2-3",
+      "mal-2-10",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-2-17",
+      "mal-3-16"
+    ],
+    "take": [
+      "mal-2-3",
+      "mal-2-15",
+      "mal-2-16"
+    ],
+    "away": [
+      "mal-2-3",
+      "mal-2-6",
+      "mal-2-16",
+      "mal-3-7"
+    ],
+    "know": [
+      "mal-2-4"
+    ],
+    "sent": [
+      "mal-2-4"
+    ],
+    "covenant": [
+      "mal-2-4",
+      "mal-2-5",
+      "mal-2-8",
+      "mal-2-10",
+      "mal-2-14",
+      "mal-3-1"
+    ],
+    "might": [
+      "mal-2-4",
+      "mal-2-15"
+    ],
+    "levi": [
+      "mal-2-4",
+      "mal-2-8",
+      "mal-3-3"
+    ],
+    "him": [
+      "mal-2-5",
+      "mal-2-12",
+      "mal-2-17",
+      "mal-3-16",
+      "mal-3-17",
+      "mal-3-18",
+      "mal-4-4"
+    ],
+    "life": [
+      "mal-2-5"
+    ],
+    "peace": [
+      "mal-2-5",
+      "mal-2-6"
+    ],
+    "gave": [
+      "mal-2-5"
+    ],
+    "wherewith": [
+      "mal-2-5"
+    ],
+    "feared": [
+      "mal-2-5",
+      "mal-3-16"
+    ],
+    "me": [
+      "mal-2-5",
+      "mal-2-6",
+      "mal-3-1",
+      "mal-3-5",
+      "mal-3-7",
+      "mal-3-8",
+      "mal-3-9",
+      "mal-3-10",
+      "mal-3-13"
+    ],
+    "afraid": [
+      "mal-2-5"
+    ],
+    "before": [
+      "mal-2-5",
+      "mal-2-9",
+      "mal-3-1",
+      "mal-3-11",
+      "mal-3-14",
+      "mal-3-16",
+      "mal-4-5"
+    ],
+    "law": [
+      "mal-2-6",
+      "mal-2-7",
+      "mal-2-8",
+      "mal-2-9",
+      "mal-4-4"
+    ],
+    "truth": [
+      "mal-2-6"
+    ],
+    "mouth": [
+      "mal-2-6",
+      "mal-2-7"
+    ],
+    "iniquity": [
+      "mal-2-6"
+    ],
+    "found": [
+      "mal-2-6"
+    ],
+    "lips": [
+      "mal-2-6",
+      "mal-2-7"
+    ],
+    "walked": [
+      "mal-2-6",
+      "mal-3-14"
+    ],
+    "equity": [
+      "mal-2-6"
+    ],
+    "did": [
+      "mal-2-6",
+      "mal-2-15"
+    ],
+    "turn": [
+      "mal-2-6",
+      "mal-3-5",
+      "mal-4-6"
+    ],
+    "many": [
+      "mal-2-6",
+      "mal-2-8"
+    ],
+    "priest": [
+      "mal-2-7"
+    ],
+    "keep": [
+      "mal-2-7"
+    ],
+    "knowledge": [
+      "mal-2-7"
+    ],
+    "seek": [
+      "mal-2-7",
+      "mal-2-15",
+      "mal-3-1"
+    ],
+    "messenger": [
+      "mal-2-7",
+      "mal-3-1"
+    ],
+    "departed": [
+      "mal-2-8"
+    ],
+    "out": [
+      "mal-2-8",
+      "mal-2-12",
+      "mal-2-13",
+      "mal-3-10"
+    ],
+    "way": [
+      "mal-2-8",
+      "mal-3-1"
+    ],
+    "caused": [
+      "mal-2-8"
+    ],
+    "stumble": [
+      "mal-2-8"
+    ],
+    "corrupted": [
+      "mal-2-8"
+    ],
+    "therefore": [
+      "mal-2-9",
+      "mal-2-15",
+      "mal-2-16",
+      "mal-3-6"
+    ],
+    "made": [
+      "mal-2-9"
+    ],
+    "base": [
+      "mal-2-9"
+    ],
+    "all": [
+      "mal-2-9",
+      "mal-2-10",
+      "mal-3-10",
+      "mal-3-12",
+      "mal-4-1",
+      "mal-4-4"
+    ],
+    "according": [
+      "mal-2-9"
+    ],
+    "as": [
+      "mal-2-9",
+      "mal-3-3",
+      "mal-3-4",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-2"
+    ],
+    "kept": [
+      "mal-2-9",
+      "mal-3-7",
+      "mal-3-14"
+    ],
+    "ways": [
+      "mal-2-9"
+    ],
+    "partial": [
+      "mal-2-9"
+    ],
+    "created": [
+      "mal-2-10"
+    ],
+    "why": [
+      "mal-2-10"
+    ],
+    "deal": [
+      "mal-2-10",
+      "mal-2-15",
+      "mal-2-16"
+    ],
+    "treacherously": [
+      "mal-2-10",
+      "mal-2-11",
+      "mal-2-14",
+      "mal-2-15",
+      "mal-2-16"
+    ],
+    "man": [
+      "mal-2-10",
+      "mal-2-12",
+      "mal-3-8",
+      "mal-3-17"
+    ],
+    "profaning": [
+      "mal-2-10"
+    ],
+    "our": [
+      "mal-2-10"
+    ],
+    "fathers": [
+      "mal-2-10",
+      "mal-3-7",
+      "mal-4-6"
+    ],
+    "judah": [
+      "mal-2-11",
+      "mal-3-4"
+    ],
+    "dealt": [
+      "mal-2-11",
+      "mal-2-14"
+    ],
+    "abomination": [
+      "mal-2-11"
+    ],
+    "committed": [
+      "mal-2-11"
+    ],
+    "jerusalem": [
+      "mal-2-11",
+      "mal-3-4"
+    ],
+    "holiness": [
+      "mal-2-11"
+    ],
+    "married": [
+      "mal-2-11"
+    ],
+    "daughter": [
+      "mal-2-11"
+    ],
+    "strange": [
+      "mal-2-11"
+    ],
+    "cut": [
+      "mal-2-12"
+    ],
+    "off": [
+      "mal-2-12"
+    ],
+    "doeth": [
+      "mal-2-12",
+      "mal-2-17"
+    ],
+    "scholar": [
+      "mal-2-12"
+    ],
+    "tabernacles": [
+      "mal-2-12"
+    ],
+    "offereth": [
+      "mal-2-12"
+    ],
+    "done": [
+      "mal-2-13"
+    ],
+    "again": [
+      "mal-2-13"
+    ],
+    "covering": [
+      "mal-2-13"
+    ],
+    "tears": [
+      "mal-2-13"
+    ],
+    "weeping": [
+      "mal-2-13"
+    ],
+    "crying": [
+      "mal-2-13"
+    ],
+    "insomuch": [
+      "mal-2-13"
+    ],
+    "regardeth": [
+      "mal-2-13"
+    ],
+    "any": [
+      "mal-2-13"
+    ],
+    "more": [
+      "mal-2-13"
+    ],
+    "receiveth": [
+      "mal-2-13"
+    ],
+    "good": [
+      "mal-2-13",
+      "mal-2-17"
+    ],
+    "wherefore": [
+      "mal-2-14",
+      "mal-2-15"
+    ],
+    "witness": [
+      "mal-2-14",
+      "mal-3-5"
+    ],
+    "between": [
+      "mal-2-14",
+      "mal-3-18"
+    ],
+    "wife": [
+      "mal-2-14",
+      "mal-2-15"
+    ],
+    "youth": [
+      "mal-2-14",
+      "mal-2-15"
+    ],
+    "she": [
+      "mal-2-14"
+    ],
+    "companion": [
+      "mal-2-14"
+    ],
+    "make": [
+      "mal-2-15",
+      "mal-3-17"
+    ],
+    "had": [
+      "mal-2-15"
+    ],
+    "residue": [
+      "mal-2-15"
+    ],
+    "spirit": [
+      "mal-2-15",
+      "mal-2-16"
+    ],
+    "godly": [
+      "mal-2-15"
+    ],
+    "heed": [
+      "mal-2-15",
+      "mal-2-16"
+    ],
+    "let": [
+      "mal-2-15"
+    ],
+    "none": [
+      "mal-2-15"
+    ],
+    "hateth": [
+      "mal-2-16"
+    ],
+    "putting": [
+      "mal-2-16"
+    ],
+    "covereth": [
+      "mal-2-16"
+    ],
+    "violence": [
+      "mal-2-16"
+    ],
+    "garment": [
+      "mal-2-16"
+    ],
+    "wearied": [
+      "mal-2-17"
+    ],
+    "words": [
+      "mal-2-17",
+      "mal-3-13"
+    ],
+    "when": [
+      "mal-2-17",
+      "mal-3-2",
+      "mal-3-17"
+    ],
+    "sight": [
+      "mal-2-17"
+    ],
+    "delighteth": [
+      "mal-2-17"
+    ],
+    "judgment": [
+      "mal-2-17",
+      "mal-3-5"
+    ],
+    "prepare": [
+      "mal-3-1"
+    ],
+    "suddenly": [
+      "mal-3-1"
+    ],
+    "come": [
+      "mal-3-1",
+      "mal-3-5",
+      "mal-4-6"
+    ],
+    "temple": [
+      "mal-3-1"
+    ],
+    "delight": [
+      "mal-3-1"
+    ],
+    "may": [
+      "mal-3-2",
+      "mal-3-3",
+      "mal-3-10"
+    ],
+    "abide": [
+      "mal-3-2"
+    ],
+    "day": [
+      "mal-3-2",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-3",
+      "mal-4-5"
+    ],
+    "coming": [
+      "mal-3-2",
+      "mal-4-5"
+    ],
+    "stand": [
+      "mal-3-2"
+    ],
+    "appeareth": [
+      "mal-3-2"
+    ],
+    "like": [
+      "mal-3-2"
+    ],
+    "refiner": [
+      "mal-3-2",
+      "mal-3-3"
+    ],
+    "fullers": [
+      "mal-3-2"
+    ],
+    "soap": [
+      "mal-3-2"
+    ],
+    "sit": [
+      "mal-3-3"
+    ],
+    "purifier": [
+      "mal-3-3"
+    ],
+    "silver": [
+      "mal-3-3"
+    ],
+    "purify": [
+      "mal-3-3"
+    ],
+    "sons": [
+      "mal-3-3",
+      "mal-3-6"
+    ],
+    "purge": [
+      "mal-3-3"
+    ],
+    "gold": [
+      "mal-3-3"
+    ],
+    "righteousness": [
+      "mal-3-3",
+      "mal-4-2"
+    ],
+    "pleasant": [
+      "mal-3-4"
+    ],
+    "days": [
+      "mal-3-4",
+      "mal-3-7"
+    ],
+    "old": [
+      "mal-3-4"
+    ],
+    "former": [
+      "mal-3-4"
+    ],
+    "years": [
+      "mal-3-4"
+    ],
+    "near": [
+      "mal-3-5"
+    ],
+    "swift": [
+      "mal-3-5"
+    ],
+    "sorcerers": [
+      "mal-3-5"
+    ],
+    "adulterers": [
+      "mal-3-5"
+    ],
+    "false": [
+      "mal-3-5"
+    ],
+    "swearers": [
+      "mal-3-5"
+    ],
+    "those": [
+      "mal-3-5"
+    ],
+    "oppress": [
+      "mal-3-5"
+    ],
+    "hireling": [
+      "mal-3-5"
+    ],
+    "wages": [
+      "mal-3-5"
+    ],
+    "widow": [
+      "mal-3-5"
+    ],
+    "fatherless": [
+      "mal-3-5"
+    ],
+    "aside": [
+      "mal-3-5"
+    ],
+    "stranger": [
+      "mal-3-5"
+    ],
+    "right": [
+      "mal-3-5"
+    ],
+    "change": [
+      "mal-3-6"
+    ],
+    "consumed": [
+      "mal-3-6"
+    ],
+    "gone": [
+      "mal-3-7"
+    ],
+    "ordinances": [
+      "mal-3-7"
+    ],
+    "rob": [
+      "mal-3-8"
+    ],
+    "robbed": [
+      "mal-3-8",
+      "mal-3-9"
+    ],
+    "tithes": [
+      "mal-3-8",
+      "mal-3-10"
+    ],
+    "offerings": [
+      "mal-3-8"
+    ],
+    "whole": [
+      "mal-3-9"
+    ],
+    "nation": [
+      "mal-3-9"
+    ],
+    "bring": [
+      "mal-3-10"
+    ],
+    "into": [
+      "mal-3-10"
+    ],
+    "storehouse": [
+      "mal-3-10"
+    ],
+    "house": [
+      "mal-3-10"
+    ],
+    "prove": [
+      "mal-3-10"
+    ],
+    "herewith": [
+      "mal-3-10"
+    ],
+    "open": [
+      "mal-3-10"
+    ],
+    "windows": [
+      "mal-3-10"
+    ],
+    "heaven": [
+      "mal-3-10"
+    ],
+    "pour": [
+      "mal-3-10"
+    ],
+    "blessing": [
+      "mal-3-10"
+    ],
+    "room": [
+      "mal-3-10"
+    ],
+    "enough": [
+      "mal-3-10"
+    ],
+    "receive": [
+      "mal-3-10"
+    ],
+    "rebuke": [
+      "mal-3-11"
+    ],
+    "devourer": [
+      "mal-3-11"
+    ],
+    "sakes": [
+      "mal-3-11"
+    ],
+    "destroy": [
+      "mal-3-11"
+    ],
+    "fruits": [
+      "mal-3-11"
+    ],
+    "ground": [
+      "mal-3-11"
+    ],
+    "vine": [
+      "mal-3-11"
+    ],
+    "cast": [
+      "mal-3-11"
+    ],
+    "her": [
+      "mal-3-11"
+    ],
+    "time": [
+      "mal-3-11"
+    ],
+    "field": [
+      "mal-3-11"
+    ],
+    "nations": [
+      "mal-3-12"
+    ],
+    "blessed": [
+      "mal-3-12"
+    ],
+    "delightsome": [
+      "mal-3-12"
+    ],
+    "land": [
+      "mal-3-12"
+    ],
+    "stout": [
+      "mal-3-13"
+    ],
+    "spoken": [
+      "mal-3-13"
+    ],
+    "so": [
+      "mal-3-13"
+    ],
+    "much": [
+      "mal-3-13"
+    ],
+    "vain": [
+      "mal-3-14"
+    ],
+    "serve": [
+      "mal-3-14"
+    ],
+    "profit": [
+      "mal-3-14"
+    ],
+    "ordinance": [
+      "mal-3-14"
+    ],
+    "mournfully": [
+      "mal-3-14"
+    ],
+    "proud": [
+      "mal-3-15",
+      "mal-4-1"
+    ],
+    "happy": [
+      "mal-3-15"
+    ],
+    "work": [
+      "mal-3-15"
+    ],
+    "set": [
+      "mal-3-15"
+    ],
+    "up": [
+      "mal-3-15",
+      "mal-3-17",
+      "mal-4-1",
+      "mal-4-2"
+    ],
+    "tempt": [
+      "mal-3-15"
+    ],
+    "delivered": [
+      "mal-3-15"
+    ],
+    "spake": [
+      "mal-3-16"
+    ],
+    "often": [
+      "mal-3-16"
+    ],
+    "another": [
+      "mal-3-16"
+    ],
+    "hearkened": [
+      "mal-3-16"
+    ],
+    "heard": [
+      "mal-3-16"
+    ],
+    "book": [
+      "mal-3-16"
+    ],
+    "remembrance": [
+      "mal-3-16"
+    ],
+    "written": [
+      "mal-3-16"
+    ],
+    "thought": [
+      "mal-3-16"
+    ],
+    "jewels": [
+      "mal-3-17"
+    ],
+    "spare": [
+      "mal-3-17"
+    ],
+    "spareth": [
+      "mal-3-17"
+    ],
+    "own": [
+      "mal-3-17"
+    ],
+    "serveth": [
+      "mal-3-17",
+      "mal-3-18"
+    ],
+    "discern": [
+      "mal-3-18"
+    ],
+    "righteous": [
+      "mal-3-18"
+    ],
+    "wicked": [
+      "mal-3-18",
+      "mal-4-3"
+    ],
+    "cometh": [
+      "mal-4-1"
+    ],
+    "burn": [
+      "mal-4-1"
+    ],
+    "oven": [
+      "mal-4-1"
+    ],
+    "wickedly": [
+      "mal-4-1"
+    ],
+    "stubble": [
+      "mal-4-1"
+    ],
+    "leave": [
+      "mal-4-1"
+    ],
+    "root": [
+      "mal-4-1"
+    ],
+    "nor": [
+      "mal-4-1"
+    ],
+    "branch": [
+      "mal-4-1"
+    ],
+    "arise": [
+      "mal-4-2"
+    ],
+    "healing": [
+      "mal-4-2"
+    ],
+    "wings": [
+      "mal-4-2"
+    ],
+    "go": [
+      "mal-4-2"
+    ],
+    "forth": [
+      "mal-4-2"
+    ],
+    "grow": [
+      "mal-4-2"
+    ],
+    "calves": [
+      "mal-4-2"
+    ],
+    "stall": [
+      "mal-4-2"
+    ],
+    "tread": [
+      "mal-4-3"
+    ],
+    "ashes": [
+      "mal-4-3"
+    ],
+    "under": [
+      "mal-4-3"
+    ],
+    "soles": [
+      "mal-4-3"
+    ],
+    "feet": [
+      "mal-4-3"
+    ],
+    "remember": [
+      "mal-4-4"
+    ],
+    "moses": [
+      "mal-4-4"
+    ],
+    "commanded": [
+      "mal-4-4"
+    ],
+    "horeb": [
+      "mal-4-4"
+    ],
+    "statutes": [
+      "mal-4-4"
+    ],
+    "judgments": [
+      "mal-4-4"
+    ],
+    "elijah": [
+      "mal-4-5"
+    ],
+    "prophet": [
+      "mal-4-5"
+    ],
+    "children": [
+      "mal-4-6"
+    ],
+    "their": [
+      "mal-4-6"
+    ],
+    "lest": [
+      "mal-4-6"
+    ],
+    "smite": [
+      "mal-4-6"
+    ],
+    "earth": [
+      "mal-4-6"
+    ]
+  }
+}

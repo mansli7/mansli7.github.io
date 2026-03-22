@@ -1,0 +1,2161 @@
+{
+  "book": "Habakkuk",
+  "book_id": "hab",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "hab-1-1",
+      "hab-1-4",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-10",
+      "hab-1-13",
+      "hab-1-14",
+      "hab-1-15",
+      "hab-1-17",
+      "hab-2-1",
+      "hab-2-2",
+      "hab-2-3",
+      "hab-2-4",
+      "hab-2-8",
+      "hab-2-9",
+      "hab-2-11",
+      "hab-2-13",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-2-18",
+      "hab-2-19",
+      "hab-2-20",
+      "hab-3-1",
+      "hab-3-2",
+      "hab-3-3",
+      "hab-3-4",
+      "hab-3-5",
+      "hab-3-6",
+      "hab-3-7",
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-10",
+      "hab-3-11",
+      "hab-3-12",
+      "hab-3-13",
+      "hab-3-14",
+      "hab-3-15",
+      "hab-3-16",
+      "hab-3-17",
+      "hab-3-18",
+      "hab-3-19"
+    ],
+    "burden": [
+      "hab-1-1"
+    ],
+    "which": [
+      "hab-1-1",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-2-4",
+      "hab-2-6",
+      "hab-2-17"
+    ],
+    "habakkuk": [
+      "hab-1-1",
+      "hab-3-1"
+    ],
+    "prophet": [
+      "hab-1-1",
+      "hab-3-1"
+    ],
+    "did": [
+      "hab-1-1",
+      "hab-3-6",
+      "hab-3-7"
+    ],
+    "see": [
+      "hab-1-1",
+      "hab-2-1"
+    ],
+    "o": [
+      "hab-1-2",
+      "hab-1-12",
+      "hab-3-2"
+    ],
+    "lord": [
+      "hab-1-2",
+      "hab-1-12",
+      "hab-2-2",
+      "hab-2-13",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-20",
+      "hab-3-2",
+      "hab-3-8",
+      "hab-3-18",
+      "hab-3-19"
+    ],
+    "how": [
+      "hab-1-2",
+      "hab-2-6"
+    ],
+    "long": [
+      "hab-1-2",
+      "hab-2-6"
+    ],
+    "shall": [
+      "hab-1-2",
+      "hab-1-6",
+      "hab-1-7",
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-10",
+      "hab-1-11",
+      "hab-1-12",
+      "hab-1-17",
+      "hab-2-1",
+      "hab-2-3",
+      "hab-2-4",
+      "hab-2-6",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-11",
+      "hab-2-13",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-2-19",
+      "hab-3-17"
+    ],
+    "i": [
+      "hab-1-2",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-2-1",
+      "hab-3-2",
+      "hab-3-7",
+      "hab-3-16",
+      "hab-3-18"
+    ],
+    "cry": [
+      "hab-1-2",
+      "hab-2-11"
+    ],
+    "and": [
+      "hab-1-2",
+      "hab-1-3",
+      "hab-1-4",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-1-7",
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-10",
+      "hab-1-11",
+      "hab-1-12",
+      "hab-1-13",
+      "hab-1-14",
+      "hab-1-15",
+      "hab-1-16",
+      "hab-1-17",
+      "hab-2-1",
+      "hab-2-2",
+      "hab-2-3",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-10",
+      "hab-2-11",
+      "hab-2-12",
+      "hab-2-13",
+      "hab-2-15",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-2-18",
+      "hab-2-19",
+      "hab-3-2",
+      "hab-3-3",
+      "hab-3-4",
+      "hab-3-5",
+      "hab-3-6",
+      "hab-3-7",
+      "hab-3-8",
+      "hab-3-10",
+      "hab-3-11",
+      "hab-3-16",
+      "hab-3-17",
+      "hab-3-19"
+    ],
+    "thou": [
+      "hab-1-2",
+      "hab-1-3",
+      "hab-1-12",
+      "hab-1-13",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-10",
+      "hab-2-15",
+      "hab-2-16",
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-12",
+      "hab-3-13",
+      "hab-3-14",
+      "hab-3-15"
+    ],
+    "wilt": [
+      "hab-1-2"
+    ],
+    "not": [
+      "hab-1-2",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-1-12",
+      "hab-1-13",
+      "hab-1-17",
+      "hab-2-3",
+      "hab-2-4",
+      "hab-2-6",
+      "hab-2-7",
+      "hab-2-13",
+      "hab-3-17"
+    ],
+    "hear": [
+      "hab-1-2"
+    ],
+    "even": [
+      "hab-1-2",
+      "hab-3-9",
+      "hab-3-13"
+    ],
+    "out": [
+      "hab-1-2",
+      "hab-2-11",
+      "hab-3-4",
+      "hab-3-13",
+      "hab-3-14"
+    ],
+    "unto": [
+      "hab-1-2",
+      "hab-1-10",
+      "hab-1-11",
+      "hab-1-16",
+      "hab-2-1",
+      "hab-2-5",
+      "hab-2-7",
+      "hab-2-15",
+      "hab-2-16",
+      "hab-2-19",
+      "hab-3-13",
+      "hab-3-16"
+    ],
+    "thee": [
+      "hab-1-2",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-3-10"
+    ],
+    "of": [
+      "hab-1-2",
+      "hab-1-6",
+      "hab-1-7",
+      "hab-1-13",
+      "hab-1-14",
+      "hab-1-15",
+      "hab-2-8",
+      "hab-2-9",
+      "hab-2-11",
+      "hab-2-13",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-2-18",
+      "hab-2-19",
+      "hab-3-1",
+      "hab-3-2",
+      "hab-3-3",
+      "hab-3-4",
+      "hab-3-7",
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-10",
+      "hab-3-11",
+      "hab-3-13",
+      "hab-3-14",
+      "hab-3-15",
+      "hab-3-16",
+      "hab-3-17",
+      "hab-3-18"
+    ],
+    "violence": [
+      "hab-1-2",
+      "hab-1-3",
+      "hab-1-9",
+      "hab-2-8",
+      "hab-2-17"
+    ],
+    "save": [
+      "hab-1-2"
+    ],
+    "why": [
+      "hab-1-3"
+    ],
+    "dost": [
+      "hab-1-3"
+    ],
+    "shew": [
+      "hab-1-3"
+    ],
+    "me": [
+      "hab-1-3",
+      "hab-2-1",
+      "hab-2-2",
+      "hab-3-14",
+      "hab-3-19"
+    ],
+    "iniquity": [
+      "hab-1-3",
+      "hab-1-13",
+      "hab-2-12"
+    ],
+    "cause": [
+      "hab-1-3"
+    ],
+    "to": [
+      "hab-1-3",
+      "hab-1-6",
+      "hab-1-8",
+      "hab-1-13",
+      "hab-1-17",
+      "hab-2-1",
+      "hab-2-6",
+      "hab-2-9",
+      "hab-2-10",
+      "hab-2-12",
+      "hab-2-15",
+      "hab-2-18",
+      "hab-2-19",
+      "hab-3-9",
+      "hab-3-14",
+      "hab-3-19"
+    ],
+    "behold": [
+      "hab-1-3",
+      "hab-1-5",
+      "hab-1-13",
+      "hab-2-4",
+      "hab-2-13",
+      "hab-2-19"
+    ],
+    "grievance": [
+      "hab-1-3"
+    ],
+    "for": [
+      "hab-1-3",
+      "hab-1-4",
+      "hab-1-5",
+      "hab-1-6",
+      "hab-1-9",
+      "hab-1-10",
+      "hab-1-12",
+      "hab-2-3",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-11",
+      "hab-2-13",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-17",
+      "hab-3-13"
+    ],
+    "spoiling": [
+      "hab-1-3"
+    ],
+    "are": [
+      "hab-1-3",
+      "hab-1-6",
+      "hab-1-7",
+      "hab-1-8",
+      "hab-1-15",
+      "hab-3-6"
+    ],
+    "before": [
+      "hab-1-3",
+      "hab-2-20",
+      "hab-3-5"
+    ],
+    "there": [
+      "hab-1-3",
+      "hab-2-19",
+      "hab-3-4",
+      "hab-3-17"
+    ],
+    "that": [
+      "hab-1-3",
+      "hab-1-6",
+      "hab-1-8",
+      "hab-1-13",
+      "hab-1-14",
+      "hab-2-2",
+      "hab-2-6",
+      "hab-2-7",
+      "hab-2-8",
+      "hab-2-9",
+      "hab-2-12",
+      "hab-2-13",
+      "hab-2-15",
+      "hab-2-17",
+      "hab-2-18",
+      "hab-2-19",
+      "hab-3-8",
+      "hab-3-16"
+    ],
+    "raise": [
+      "hab-1-3",
+      "hab-1-6"
+    ],
+    "up": [
+      "hab-1-3",
+      "hab-1-6",
+      "hab-1-9",
+      "hab-1-15",
+      "hab-2-4",
+      "hab-2-6",
+      "hab-2-7",
+      "hab-3-10",
+      "hab-3-16"
+    ],
+    "strife": [
+      "hab-1-3"
+    ],
+    "contention": [
+      "hab-1-3"
+    ],
+    "therefore": [
+      "hab-1-4",
+      "hab-1-15",
+      "hab-1-16",
+      "hab-1-17"
+    ],
+    "law": [
+      "hab-1-4"
+    ],
+    "is": [
+      "hab-1-4",
+      "hab-1-13",
+      "hab-1-16",
+      "hab-2-3",
+      "hab-2-4",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-13",
+      "hab-2-19",
+      "hab-2-20",
+      "hab-3-19"
+    ],
+    "slacked": [
+      "hab-1-4"
+    ],
+    "judgment": [
+      "hab-1-4",
+      "hab-1-7",
+      "hab-1-12"
+    ],
+    "doth": [
+      "hab-1-4"
+    ],
+    "never": [
+      "hab-1-4"
+    ],
+    "go": [
+      "hab-1-4"
+    ],
+    "forth": [
+      "hab-1-4",
+      "hab-3-5",
+      "hab-3-13"
+    ],
+    "wicked": [
+      "hab-1-4",
+      "hab-1-13",
+      "hab-3-13"
+    ],
+    "compass": [
+      "hab-1-4"
+    ],
+    "about": [
+      "hab-1-4"
+    ],
+    "righteous": [
+      "hab-1-4",
+      "hab-1-13"
+    ],
+    "wrong": [
+      "hab-1-4"
+    ],
+    "proceedeth": [
+      "hab-1-4"
+    ],
+    "ye": [
+      "hab-1-5"
+    ],
+    "among": [
+      "hab-1-5"
+    ],
+    "heathen": [
+      "hab-1-5",
+      "hab-3-12"
+    ],
+    "regard": [
+      "hab-1-5"
+    ],
+    "wonder": [
+      "hab-1-5"
+    ],
+    "marvellously": [
+      "hab-1-5"
+    ],
+    "will": [
+      "hab-1-5",
+      "hab-2-1",
+      "hab-2-3",
+      "hab-3-16",
+      "hab-3-18",
+      "hab-3-19"
+    ],
+    "work": [
+      "hab-1-5",
+      "hab-2-18",
+      "hab-3-2"
+    ],
+    "a": [
+      "hab-1-5",
+      "hab-1-10",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-12",
+      "hab-2-18",
+      "hab-3-1",
+      "hab-3-14"
+    ],
+    "in": [
+      "hab-1-5",
+      "hab-1-15",
+      "hab-2-4",
+      "hab-2-13",
+      "hab-2-19",
+      "hab-2-20",
+      "hab-3-2",
+      "hab-3-7",
+      "hab-3-11",
+      "hab-3-12",
+      "hab-3-16",
+      "hab-3-17",
+      "hab-3-18"
+    ],
+    "your": [
+      "hab-1-5"
+    ],
+    "days": [
+      "hab-1-5"
+    ],
+    "believe": [
+      "hab-1-5"
+    ],
+    "though": [
+      "hab-1-5",
+      "hab-2-3"
+    ],
+    "it": [
+      "hab-1-5",
+      "hab-1-10",
+      "hab-2-2",
+      "hab-2-3",
+      "hab-2-11",
+      "hab-2-13",
+      "hab-2-18",
+      "hab-2-19"
+    ],
+    "be": [
+      "hab-1-5",
+      "hab-1-10",
+      "hab-2-5",
+      "hab-2-7",
+      "hab-2-9",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-3-17"
+    ],
+    "told": [
+      "hab-1-5"
+    ],
+    "you": [
+      "hab-1-5"
+    ],
+    "lo": [
+      "hab-1-6"
+    ],
+    "chaldeans": [
+      "hab-1-6"
+    ],
+    "bitter": [
+      "hab-1-6"
+    ],
+    "hasty": [
+      "hab-1-6"
+    ],
+    "nation": [
+      "hab-1-6"
+    ],
+    "march": [
+      "hab-1-6",
+      "hab-3-12"
+    ],
+    "through": [
+      "hab-1-6",
+      "hab-3-12",
+      "hab-3-14",
+      "hab-3-15"
+    ],
+    "breadth": [
+      "hab-1-6"
+    ],
+    "land": [
+      "hab-1-6",
+      "hab-2-8",
+      "hab-2-17",
+      "hab-3-7",
+      "hab-3-12"
+    ],
+    "possess": [
+      "hab-1-6"
+    ],
+    "dwellingplaces": [
+      "hab-1-6"
+    ],
+    "theirs": [
+      "hab-1-6"
+    ],
+    "they": [
+      "hab-1-7",
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-10",
+      "hab-1-15",
+      "hab-1-16",
+      "hab-1-17",
+      "hab-2-7",
+      "hab-3-10",
+      "hab-3-11",
+      "hab-3-14"
+    ],
+    "terrible": [
+      "hab-1-7"
+    ],
+    "dreadful": [
+      "hab-1-7"
+    ],
+    "their": [
+      "hab-1-7",
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-15",
+      "hab-1-16",
+      "hab-1-17",
+      "hab-2-15",
+      "hab-3-11",
+      "hab-3-14"
+    ],
+    "dignity": [
+      "hab-1-7"
+    ],
+    "proceed": [
+      "hab-1-7"
+    ],
+    "themselves": [
+      "hab-1-7",
+      "hab-1-8",
+      "hab-2-13"
+    ],
+    "horses": [
+      "hab-1-8",
+      "hab-3-8",
+      "hab-3-15"
+    ],
+    "also": [
+      "hab-1-8",
+      "hab-2-5",
+      "hab-2-15",
+      "hab-2-16"
+    ],
+    "swifter": [
+      "hab-1-8"
+    ],
+    "than": [
+      "hab-1-8",
+      "hab-1-13"
+    ],
+    "leopards": [
+      "hab-1-8"
+    ],
+    "more": [
+      "hab-1-8",
+      "hab-1-13"
+    ],
+    "fierce": [
+      "hab-1-8"
+    ],
+    "evening": [
+      "hab-1-8"
+    ],
+    "wolves": [
+      "hab-1-8"
+    ],
+    "horsemen": [
+      "hab-1-8"
+    ],
+    "spread": [
+      "hab-1-8"
+    ],
+    "come": [
+      "hab-1-8",
+      "hab-1-9",
+      "hab-2-3"
+    ],
+    "from": [
+      "hab-1-8",
+      "hab-1-12",
+      "hab-2-9",
+      "hab-3-3",
+      "hab-3-17"
+    ],
+    "far": [
+      "hab-1-8"
+    ],
+    "fly": [
+      "hab-1-8"
+    ],
+    "as": [
+      "hab-1-8",
+      "hab-1-9",
+      "hab-1-14",
+      "hab-2-5",
+      "hab-2-14",
+      "hab-3-4",
+      "hab-3-14"
+    ],
+    "eagle": [
+      "hab-1-8"
+    ],
+    "hasteth": [
+      "hab-1-8"
+    ],
+    "eat": [
+      "hab-1-8"
+    ],
+    "all": [
+      "hab-1-9",
+      "hab-1-15",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-8",
+      "hab-2-17",
+      "hab-2-19",
+      "hab-2-20"
+    ],
+    "faces": [
+      "hab-1-9"
+    ],
+    "sup": [
+      "hab-1-9"
+    ],
+    "east": [
+      "hab-1-9"
+    ],
+    "wind": [
+      "hab-1-9"
+    ],
+    "gather": [
+      "hab-1-9",
+      "hab-1-15"
+    ],
+    "captivity": [
+      "hab-1-9"
+    ],
+    "sand": [
+      "hab-1-9"
+    ],
+    "scoff": [
+      "hab-1-10"
+    ],
+    "at": [
+      "hab-1-10",
+      "hab-2-3",
+      "hab-2-5",
+      "hab-2-19",
+      "hab-3-5",
+      "hab-3-11",
+      "hab-3-16"
+    ],
+    "kings": [
+      "hab-1-10"
+    ],
+    "princes": [
+      "hab-1-10"
+    ],
+    "scorn": [
+      "hab-1-10"
+    ],
+    "them": [
+      "hab-1-10",
+      "hab-1-12",
+      "hab-1-13",
+      "hab-1-14",
+      "hab-1-15",
+      "hab-1-16",
+      "hab-2-7",
+      "hab-2-17",
+      "hab-3-16"
+    ],
+    "deride": [
+      "hab-1-10"
+    ],
+    "every": [
+      "hab-1-10"
+    ],
+    "strong": [
+      "hab-1-10"
+    ],
+    "hold": [
+      "hab-1-10"
+    ],
+    "heap": [
+      "hab-1-10",
+      "hab-3-15"
+    ],
+    "dust": [
+      "hab-1-10"
+    ],
+    "take": [
+      "hab-1-10",
+      "hab-1-15",
+      "hab-2-6"
+    ],
+    "then": [
+      "hab-1-11"
+    ],
+    "his": [
+      "hab-1-11",
+      "hab-2-4",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-9",
+      "hab-2-15",
+      "hab-2-18",
+      "hab-2-20",
+      "hab-3-3",
+      "hab-3-4",
+      "hab-3-5",
+      "hab-3-6",
+      "hab-3-10",
+      "hab-3-14",
+      "hab-3-16"
+    ],
+    "mind": [
+      "hab-1-11"
+    ],
+    "change": [
+      "hab-1-11"
+    ],
+    "he": [
+      "hab-1-11",
+      "hab-1-13",
+      "hab-2-1",
+      "hab-2-2",
+      "hab-2-5",
+      "hab-2-9",
+      "hab-3-4",
+      "hab-3-6",
+      "hab-3-16",
+      "hab-3-19"
+    ],
+    "pass": [
+      "hab-1-11"
+    ],
+    "over": [
+      "hab-1-11",
+      "hab-1-14",
+      "hab-2-19"
+    ],
+    "offend": [
+      "hab-1-11"
+    ],
+    "imputing": [
+      "hab-1-11"
+    ],
+    "this": [
+      "hab-1-11"
+    ],
+    "power": [
+      "hab-1-11",
+      "hab-2-9",
+      "hab-3-4"
+    ],
+    "god": [
+      "hab-1-11",
+      "hab-1-12",
+      "hab-3-3",
+      "hab-3-18",
+      "hab-3-19"
+    ],
+    "art": [
+      "hab-1-12",
+      "hab-1-13",
+      "hab-2-16"
+    ],
+    "everlasting": [
+      "hab-1-12",
+      "hab-3-6"
+    ],
+    "my": [
+      "hab-1-12",
+      "hab-2-1",
+      "hab-3-16",
+      "hab-3-18",
+      "hab-3-19"
+    ],
+    "mine": [
+      "hab-1-12",
+      "hab-3-19"
+    ],
+    "holy": [
+      "hab-1-12",
+      "hab-2-20",
+      "hab-3-3"
+    ],
+    "one": [
+      "hab-1-12",
+      "hab-3-3"
+    ],
+    "we": [
+      "hab-1-12"
+    ],
+    "die": [
+      "hab-1-12"
+    ],
+    "hast": [
+      "hab-1-12",
+      "hab-2-8",
+      "hab-2-10"
+    ],
+    "ordained": [
+      "hab-1-12"
+    ],
+    "mighty": [
+      "hab-1-12"
+    ],
+    "established": [
+      "hab-1-12"
+    ],
+    "correction": [
+      "hab-1-12"
+    ],
+    "purer": [
+      "hab-1-13"
+    ],
+    "eyes": [
+      "hab-1-13"
+    ],
+    "evil": [
+      "hab-1-13",
+      "hab-2-9"
+    ],
+    "canst": [
+      "hab-1-13"
+    ],
+    "look": [
+      "hab-1-13",
+      "hab-2-15"
+    ],
+    "on": [
+      "hab-1-13",
+      "hab-2-9",
+      "hab-2-15",
+      "hab-2-16",
+      "hab-3-10",
+      "hab-3-19"
+    ],
+    "wherefore": [
+      "hab-1-13"
+    ],
+    "lookest": [
+      "hab-1-13"
+    ],
+    "upon": [
+      "hab-1-13",
+      "hab-2-1",
+      "hab-2-2",
+      "hab-3-1",
+      "hab-3-8",
+      "hab-3-19"
+    ],
+    "deal": [
+      "hab-1-13"
+    ],
+    "treacherously": [
+      "hab-1-13"
+    ],
+    "holdest": [
+      "hab-1-13"
+    ],
+    "thy": [
+      "hab-1-13",
+      "hab-2-10",
+      "hab-2-15",
+      "hab-2-16",
+      "hab-3-2",
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-11",
+      "hab-3-13"
+    ],
+    "tongue": [
+      "hab-1-13"
+    ],
+    "when": [
+      "hab-1-13",
+      "hab-2-1",
+      "hab-3-16"
+    ],
+    "devoureth": [
+      "hab-1-13"
+    ],
+    "man": [
+      "hab-1-13",
+      "hab-2-5"
+    ],
+    "makest": [
+      "hab-1-14",
+      "hab-2-15"
+    ],
+    "men": [
+      "hab-1-14",
+      "hab-2-8",
+      "hab-2-17"
+    ],
+    "fishes": [
+      "hab-1-14"
+    ],
+    "sea": [
+      "hab-1-14",
+      "hab-2-14",
+      "hab-3-8",
+      "hab-3-15"
+    ],
+    "creeping": [
+      "hab-1-14"
+    ],
+    "things": [
+      "hab-1-14"
+    ],
+    "have": [
+      "hab-1-14",
+      "hab-3-2"
+    ],
+    "no": [
+      "hab-1-14",
+      "hab-2-19",
+      "hab-3-17"
+    ],
+    "ruler": [
+      "hab-1-14"
+    ],
+    "with": [
+      "hab-1-15",
+      "hab-2-6",
+      "hab-2-12",
+      "hab-2-14",
+      "hab-2-16",
+      "hab-2-19",
+      "hab-3-9",
+      "hab-3-13",
+      "hab-3-14",
+      "hab-3-15",
+      "hab-3-16"
+    ],
+    "angle": [
+      "hab-1-15"
+    ],
+    "catch": [
+      "hab-1-15"
+    ],
+    "net": [
+      "hab-1-15",
+      "hab-1-16",
+      "hab-1-17"
+    ],
+    "drag": [
+      "hab-1-15",
+      "hab-1-16"
+    ],
+    "rejoice": [
+      "hab-1-15",
+      "hab-3-18"
+    ],
+    "glad": [
+      "hab-1-15"
+    ],
+    "sacrifice": [
+      "hab-1-16"
+    ],
+    "burn": [
+      "hab-1-16"
+    ],
+    "incense": [
+      "hab-1-16"
+    ],
+    "because": [
+      "hab-1-16",
+      "hab-2-3",
+      "hab-2-5",
+      "hab-2-8",
+      "hab-2-17"
+    ],
+    "by": [
+      "hab-1-16",
+      "hab-2-4",
+      "hab-2-5",
+      "hab-2-10",
+      "hab-2-12",
+      "hab-3-10",
+      "hab-3-13"
+    ],
+    "portion": [
+      "hab-1-16"
+    ],
+    "fat": [
+      "hab-1-16"
+    ],
+    "meat": [
+      "hab-1-16",
+      "hab-3-17"
+    ],
+    "plenteous": [
+      "hab-1-16"
+    ],
+    "empty": [
+      "hab-1-17"
+    ],
+    "spare": [
+      "hab-1-17"
+    ],
+    "continually": [
+      "hab-1-17"
+    ],
+    "slay": [
+      "hab-1-17"
+    ],
+    "nations": [
+      "hab-1-17",
+      "hab-2-5",
+      "hab-2-8",
+      "hab-3-6"
+    ],
+    "stand": [
+      "hab-2-1"
+    ],
+    "watch": [
+      "hab-2-1"
+    ],
+    "set": [
+      "hab-2-1",
+      "hab-2-9"
+    ],
+    "tower": [
+      "hab-2-1"
+    ],
+    "what": [
+      "hab-2-1",
+      "hab-2-18"
+    ],
+    "say": [
+      "hab-2-1",
+      "hab-2-6"
+    ],
+    "answer": [
+      "hab-2-1",
+      "hab-2-11"
+    ],
+    "am": [
+      "hab-2-1"
+    ],
+    "reproved": [
+      "hab-2-1"
+    ],
+    "answered": [
+      "hab-2-2"
+    ],
+    "said": [
+      "hab-2-2"
+    ],
+    "write": [
+      "hab-2-2"
+    ],
+    "vision": [
+      "hab-2-2",
+      "hab-2-3"
+    ],
+    "make": [
+      "hab-2-2",
+      "hab-2-18",
+      "hab-3-2",
+      "hab-3-19"
+    ],
+    "plain": [
+      "hab-2-2"
+    ],
+    "tables": [
+      "hab-2-2"
+    ],
+    "may": [
+      "hab-2-2",
+      "hab-2-9"
+    ],
+    "run": [
+      "hab-2-2"
+    ],
+    "readeth": [
+      "hab-2-2"
+    ],
+    "yet": [
+      "hab-2-3",
+      "hab-3-18"
+    ],
+    "an": [
+      "hab-2-3",
+      "hab-2-9"
+    ],
+    "appointed": [
+      "hab-2-3"
+    ],
+    "time": [
+      "hab-2-3"
+    ],
+    "but": [
+      "hab-2-3",
+      "hab-2-4",
+      "hab-2-5",
+      "hab-2-20"
+    ],
+    "end": [
+      "hab-2-3"
+    ],
+    "speak": [
+      "hab-2-3"
+    ],
+    "lie": [
+      "hab-2-3"
+    ],
+    "tarry": [
+      "hab-2-3"
+    ],
+    "wait": [
+      "hab-2-3"
+    ],
+    "surely": [
+      "hab-2-3"
+    ],
+    "soul": [
+      "hab-2-4",
+      "hab-2-10"
+    ],
+    "lifted": [
+      "hab-2-4",
+      "hab-3-10"
+    ],
+    "upright": [
+      "hab-2-4"
+    ],
+    "him": [
+      "hab-2-4",
+      "hab-2-5",
+      "hab-2-6",
+      "hab-2-9",
+      "hab-2-12",
+      "hab-2-15",
+      "hab-2-19",
+      "hab-2-20",
+      "hab-3-5"
+    ],
+    "just": [
+      "hab-2-4"
+    ],
+    "live": [
+      "hab-2-4"
+    ],
+    "faith": [
+      "hab-2-4"
+    ],
+    "yea": [
+      "hab-2-5"
+    ],
+    "transgresseth": [
+      "hab-2-5"
+    ],
+    "wine": [
+      "hab-2-5"
+    ],
+    "proud": [
+      "hab-2-5"
+    ],
+    "neither": [
+      "hab-2-5",
+      "hab-3-17"
+    ],
+    "keepeth": [
+      "hab-2-5"
+    ],
+    "home": [
+      "hab-2-5"
+    ],
+    "who": [
+      "hab-2-5"
+    ],
+    "enlargeth": [
+      "hab-2-5"
+    ],
+    "desire": [
+      "hab-2-5"
+    ],
+    "hell": [
+      "hab-2-5"
+    ],
+    "death": [
+      "hab-2-5"
+    ],
+    "cannot": [
+      "hab-2-5"
+    ],
+    "satisfied": [
+      "hab-2-5"
+    ],
+    "gathereth": [
+      "hab-2-5"
+    ],
+    "heapeth": [
+      "hab-2-5"
+    ],
+    "people": [
+      "hab-2-5",
+      "hab-2-8",
+      "hab-2-10",
+      "hab-2-13",
+      "hab-3-13",
+      "hab-3-16"
+    ],
+    "these": [
+      "hab-2-6"
+    ],
+    "parable": [
+      "hab-2-6"
+    ],
+    "against": [
+      "hab-2-6",
+      "hab-2-10",
+      "hab-3-8"
+    ],
+    "taunting": [
+      "hab-2-6"
+    ],
+    "proverb": [
+      "hab-2-6"
+    ],
+    "woe": [
+      "hab-2-6",
+      "hab-2-9",
+      "hab-2-12",
+      "hab-2-15",
+      "hab-2-19"
+    ],
+    "increaseth": [
+      "hab-2-6"
+    ],
+    "ladeth": [
+      "hab-2-6"
+    ],
+    "himself": [
+      "hab-2-6"
+    ],
+    "thick": [
+      "hab-2-6"
+    ],
+    "clay": [
+      "hab-2-6"
+    ],
+    "rise": [
+      "hab-2-7"
+    ],
+    "suddenly": [
+      "hab-2-7"
+    ],
+    "bite": [
+      "hab-2-7"
+    ],
+    "awake": [
+      "hab-2-7",
+      "hab-2-19"
+    ],
+    "vex": [
+      "hab-2-7"
+    ],
+    "shalt": [
+      "hab-2-7"
+    ],
+    "booties": [
+      "hab-2-7"
+    ],
+    "spoiled": [
+      "hab-2-8"
+    ],
+    "many": [
+      "hab-2-8",
+      "hab-2-10"
+    ],
+    "remnant": [
+      "hab-2-8"
+    ],
+    "spoil": [
+      "hab-2-8",
+      "hab-2-17"
+    ],
+    "s": [
+      "hab-2-8",
+      "hab-2-16",
+      "hab-2-17"
+    ],
+    "blood": [
+      "hab-2-8",
+      "hab-2-12",
+      "hab-2-17"
+    ],
+    "city": [
+      "hab-2-8",
+      "hab-2-12",
+      "hab-2-17"
+    ],
+    "dwell": [
+      "hab-2-8",
+      "hab-2-17"
+    ],
+    "therein": [
+      "hab-2-8",
+      "hab-2-17",
+      "hab-2-18"
+    ],
+    "coveteth": [
+      "hab-2-9"
+    ],
+    "covetousness": [
+      "hab-2-9"
+    ],
+    "house": [
+      "hab-2-9",
+      "hab-2-10",
+      "hab-3-13"
+    ],
+    "nest": [
+      "hab-2-9"
+    ],
+    "high": [
+      "hab-2-9",
+      "hab-3-10",
+      "hab-3-19"
+    ],
+    "delivered": [
+      "hab-2-9"
+    ],
+    "consulted": [
+      "hab-2-10"
+    ],
+    "shame": [
+      "hab-2-10",
+      "hab-2-16"
+    ],
+    "cutting": [
+      "hab-2-10"
+    ],
+    "off": [
+      "hab-2-10",
+      "hab-3-17"
+    ],
+    "sinned": [
+      "hab-2-10"
+    ],
+    "stone": [
+      "hab-2-11",
+      "hab-2-19"
+    ],
+    "wall": [
+      "hab-2-11"
+    ],
+    "beam": [
+      "hab-2-11"
+    ],
+    "timber": [
+      "hab-2-11"
+    ],
+    "buildeth": [
+      "hab-2-12"
+    ],
+    "town": [
+      "hab-2-12"
+    ],
+    "stablisheth": [
+      "hab-2-12"
+    ],
+    "hosts": [
+      "hab-2-13"
+    ],
+    "labour": [
+      "hab-2-13",
+      "hab-3-17"
+    ],
+    "very": [
+      "hab-2-13"
+    ],
+    "fire": [
+      "hab-2-13"
+    ],
+    "weary": [
+      "hab-2-13"
+    ],
+    "vanity": [
+      "hab-2-13"
+    ],
+    "earth": [
+      "hab-2-14",
+      "hab-2-20",
+      "hab-3-3",
+      "hab-3-6",
+      "hab-3-9"
+    ],
+    "filled": [
+      "hab-2-14",
+      "hab-2-16"
+    ],
+    "knowledge": [
+      "hab-2-14"
+    ],
+    "glory": [
+      "hab-2-14",
+      "hab-2-16",
+      "hab-3-3"
+    ],
+    "waters": [
+      "hab-2-14",
+      "hab-3-15"
+    ],
+    "cover": [
+      "hab-2-14",
+      "hab-2-17"
+    ],
+    "giveth": [
+      "hab-2-15"
+    ],
+    "neighbour": [
+      "hab-2-15"
+    ],
+    "drink": [
+      "hab-2-15",
+      "hab-2-16"
+    ],
+    "puttest": [
+      "hab-2-15"
+    ],
+    "bottle": [
+      "hab-2-15"
+    ],
+    "drunken": [
+      "hab-2-15"
+    ],
+    "mayest": [
+      "hab-2-15"
+    ],
+    "nakedness": [
+      "hab-2-15"
+    ],
+    "let": [
+      "hab-2-16",
+      "hab-2-20"
+    ],
+    "foreskin": [
+      "hab-2-16"
+    ],
+    "uncovered": [
+      "hab-2-16"
+    ],
+    "cup": [
+      "hab-2-16"
+    ],
+    "right": [
+      "hab-2-16"
+    ],
+    "hand": [
+      "hab-2-16",
+      "hab-3-4"
+    ],
+    "turned": [
+      "hab-2-16"
+    ],
+    "shameful": [
+      "hab-2-16"
+    ],
+    "spewing": [
+      "hab-2-16"
+    ],
+    "lebanon": [
+      "hab-2-17"
+    ],
+    "beasts": [
+      "hab-2-17"
+    ],
+    "made": [
+      "hab-2-17",
+      "hab-3-9"
+    ],
+    "afraid": [
+      "hab-2-17",
+      "hab-3-2"
+    ],
+    "profiteth": [
+      "hab-2-18"
+    ],
+    "graven": [
+      "hab-2-18"
+    ],
+    "image": [
+      "hab-2-18"
+    ],
+    "maker": [
+      "hab-2-18"
+    ],
+    "thereof": [
+      "hab-2-18"
+    ],
+    "hath": [
+      "hab-2-18"
+    ],
+    "molten": [
+      "hab-2-18"
+    ],
+    "teacher": [
+      "hab-2-18"
+    ],
+    "lies": [
+      "hab-2-18"
+    ],
+    "trusteth": [
+      "hab-2-18"
+    ],
+    "dumb": [
+      "hab-2-18",
+      "hab-2-19"
+    ],
+    "idols": [
+      "hab-2-18"
+    ],
+    "saith": [
+      "hab-2-19"
+    ],
+    "wood": [
+      "hab-2-19"
+    ],
+    "arise": [
+      "hab-2-19"
+    ],
+    "teach": [
+      "hab-2-19"
+    ],
+    "laid": [
+      "hab-2-19"
+    ],
+    "gold": [
+      "hab-2-19"
+    ],
+    "silver": [
+      "hab-2-19"
+    ],
+    "breath": [
+      "hab-2-19"
+    ],
+    "midst": [
+      "hab-2-19",
+      "hab-3-2"
+    ],
+    "temple": [
+      "hab-2-20"
+    ],
+    "keep": [
+      "hab-2-20"
+    ],
+    "silence": [
+      "hab-2-20"
+    ],
+    "prayer": [
+      "hab-3-1"
+    ],
+    "shigionoth": [
+      "hab-3-1"
+    ],
+    "heard": [
+      "hab-3-2",
+      "hab-3-16"
+    ],
+    "speech": [
+      "hab-3-2"
+    ],
+    "was": [
+      "hab-3-2",
+      "hab-3-3",
+      "hab-3-4",
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-14"
+    ],
+    "revive": [
+      "hab-3-2"
+    ],
+    "years": [
+      "hab-3-2"
+    ],
+    "known": [
+      "hab-3-2"
+    ],
+    "wrath": [
+      "hab-3-2",
+      "hab-3-8"
+    ],
+    "remember": [
+      "hab-3-2"
+    ],
+    "mercy": [
+      "hab-3-2"
+    ],
+    "came": [
+      "hab-3-3",
+      "hab-3-14"
+    ],
+    "teman": [
+      "hab-3-3"
+    ],
+    "mount": [
+      "hab-3-3"
+    ],
+    "paran": [
+      "hab-3-3"
+    ],
+    "selah": [
+      "hab-3-3",
+      "hab-3-9",
+      "hab-3-13"
+    ],
+    "covered": [
+      "hab-3-3"
+    ],
+    "heavens": [
+      "hab-3-3"
+    ],
+    "full": [
+      "hab-3-3"
+    ],
+    "praise": [
+      "hab-3-3"
+    ],
+    "brightness": [
+      "hab-3-4"
+    ],
+    "light": [
+      "hab-3-4",
+      "hab-3-11"
+    ],
+    "had": [
+      "hab-3-4"
+    ],
+    "horns": [
+      "hab-3-4"
+    ],
+    "coming": [
+      "hab-3-4"
+    ],
+    "hiding": [
+      "hab-3-4"
+    ],
+    "went": [
+      "hab-3-5",
+      "hab-3-11"
+    ],
+    "pestilence": [
+      "hab-3-5"
+    ],
+    "burning": [
+      "hab-3-5"
+    ],
+    "coals": [
+      "hab-3-5"
+    ],
+    "feet": [
+      "hab-3-5",
+      "hab-3-19"
+    ],
+    "stood": [
+      "hab-3-6",
+      "hab-3-11"
+    ],
+    "measured": [
+      "hab-3-6"
+    ],
+    "beheld": [
+      "hab-3-6"
+    ],
+    "drove": [
+      "hab-3-6"
+    ],
+    "asunder": [
+      "hab-3-6"
+    ],
+    "mountains": [
+      "hab-3-6",
+      "hab-3-10"
+    ],
+    "were": [
+      "hab-3-6"
+    ],
+    "scattered": [
+      "hab-3-6"
+    ],
+    "perpetual": [
+      "hab-3-6"
+    ],
+    "hills": [
+      "hab-3-6"
+    ],
+    "bow": [
+      "hab-3-6",
+      "hab-3-9"
+    ],
+    "ways": [
+      "hab-3-6"
+    ],
+    "saw": [
+      "hab-3-7",
+      "hab-3-10"
+    ],
+    "tents": [
+      "hab-3-7"
+    ],
+    "cushan": [
+      "hab-3-7"
+    ],
+    "affliction": [
+      "hab-3-7"
+    ],
+    "curtains": [
+      "hab-3-7"
+    ],
+    "midian": [
+      "hab-3-7"
+    ],
+    "tremble": [
+      "hab-3-7"
+    ],
+    "displeased": [
+      "hab-3-8"
+    ],
+    "rivers": [
+      "hab-3-8",
+      "hab-3-9"
+    ],
+    "thine": [
+      "hab-3-8",
+      "hab-3-11",
+      "hab-3-13",
+      "hab-3-15"
+    ],
+    "anger": [
+      "hab-3-8",
+      "hab-3-12"
+    ],
+    "didst": [
+      "hab-3-8",
+      "hab-3-9",
+      "hab-3-12",
+      "hab-3-14",
+      "hab-3-15"
+    ],
+    "ride": [
+      "hab-3-8"
+    ],
+    "chariots": [
+      "hab-3-8"
+    ],
+    "salvation": [
+      "hab-3-8",
+      "hab-3-13",
+      "hab-3-18"
+    ],
+    "quite": [
+      "hab-3-9"
+    ],
+    "naked": [
+      "hab-3-9"
+    ],
+    "according": [
+      "hab-3-9"
+    ],
+    "oaths": [
+      "hab-3-9"
+    ],
+    "tribes": [
+      "hab-3-9"
+    ],
+    "word": [
+      "hab-3-9"
+    ],
+    "cleave": [
+      "hab-3-9"
+    ],
+    "trembled": [
+      "hab-3-10",
+      "hab-3-16"
+    ],
+    "overflowing": [
+      "hab-3-10"
+    ],
+    "water": [
+      "hab-3-10"
+    ],
+    "passed": [
+      "hab-3-10"
+    ],
+    "deep": [
+      "hab-3-10"
+    ],
+    "uttered": [
+      "hab-3-10"
+    ],
+    "voice": [
+      "hab-3-10",
+      "hab-3-16"
+    ],
+    "hands": [
+      "hab-3-10"
+    ],
+    "sun": [
+      "hab-3-11"
+    ],
+    "moon": [
+      "hab-3-11"
+    ],
+    "still": [
+      "hab-3-11"
+    ],
+    "habitation": [
+      "hab-3-11"
+    ],
+    "arrows": [
+      "hab-3-11"
+    ],
+    "shining": [
+      "hab-3-11"
+    ],
+    "glittering": [
+      "hab-3-11"
+    ],
+    "spear": [
+      "hab-3-11"
+    ],
+    "indignation": [
+      "hab-3-12"
+    ],
+    "thresh": [
+      "hab-3-12"
+    ],
+    "wentest": [
+      "hab-3-13"
+    ],
+    "anointed": [
+      "hab-3-13"
+    ],
+    "woundedst": [
+      "hab-3-13"
+    ],
+    "head": [
+      "hab-3-13",
+      "hab-3-14"
+    ],
+    "discovering": [
+      "hab-3-13"
+    ],
+    "foundation": [
+      "hab-3-13"
+    ],
+    "neck": [
+      "hab-3-13"
+    ],
+    "strike": [
+      "hab-3-14"
+    ],
+    "staves": [
+      "hab-3-14"
+    ],
+    "villages": [
+      "hab-3-14"
+    ],
+    "whirlwind": [
+      "hab-3-14"
+    ],
+    "scatter": [
+      "hab-3-14"
+    ],
+    "rejoicing": [
+      "hab-3-14"
+    ],
+    "devour": [
+      "hab-3-14"
+    ],
+    "poor": [
+      "hab-3-14"
+    ],
+    "secretly": [
+      "hab-3-14"
+    ],
+    "walk": [
+      "hab-3-15",
+      "hab-3-19"
+    ],
+    "great": [
+      "hab-3-15"
+    ],
+    "belly": [
+      "hab-3-16"
+    ],
+    "lips": [
+      "hab-3-16"
+    ],
+    "quivered": [
+      "hab-3-16"
+    ],
+    "rottenness": [
+      "hab-3-16"
+    ],
+    "entered": [
+      "hab-3-16"
+    ],
+    "into": [
+      "hab-3-16"
+    ],
+    "bones": [
+      "hab-3-16"
+    ],
+    "myself": [
+      "hab-3-16"
+    ],
+    "might": [
+      "hab-3-16"
+    ],
+    "rest": [
+      "hab-3-16"
+    ],
+    "day": [
+      "hab-3-16"
+    ],
+    "trouble": [
+      "hab-3-16"
+    ],
+    "cometh": [
+      "hab-3-16"
+    ],
+    "invade": [
+      "hab-3-16"
+    ],
+    "troops": [
+      "hab-3-16"
+    ],
+    "although": [
+      "hab-3-17"
+    ],
+    "fig": [
+      "hab-3-17"
+    ],
+    "tree": [
+      "hab-3-17"
+    ],
+    "blossom": [
+      "hab-3-17"
+    ],
+    "fruit": [
+      "hab-3-17"
+    ],
+    "vines": [
+      "hab-3-17"
+    ],
+    "olive": [
+      "hab-3-17"
+    ],
+    "fail": [
+      "hab-3-17"
+    ],
+    "fields": [
+      "hab-3-17"
+    ],
+    "yield": [
+      "hab-3-17"
+    ],
+    "flock": [
+      "hab-3-17"
+    ],
+    "cut": [
+      "hab-3-17"
+    ],
+    "fold": [
+      "hab-3-17"
+    ],
+    "herd": [
+      "hab-3-17"
+    ],
+    "stalls": [
+      "hab-3-17"
+    ],
+    "joy": [
+      "hab-3-18"
+    ],
+    "strength": [
+      "hab-3-19"
+    ],
+    "like": [
+      "hab-3-19"
+    ],
+    "hinds": [
+      "hab-3-19"
+    ],
+    "places": [
+      "hab-3-19"
+    ],
+    "chief": [
+      "hab-3-19"
+    ],
+    "singer": [
+      "hab-3-19"
+    ],
+    "stringed": [
+      "hab-3-19"
+    ],
+    "instruments": [
+      "hab-3-19"
+    ]
+  }
+}

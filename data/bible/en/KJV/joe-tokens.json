@@ -1,0 +1,2577 @@
+{
+  "book": "Joel",
+  "book_id": "joe",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "joe-1-1",
+      "joe-1-2",
+      "joe-1-4",
+      "joe-1-5",
+      "joe-1-6",
+      "joe-1-7",
+      "joe-1-8",
+      "joe-1-9",
+      "joe-1-10",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-15",
+      "joe-1-16",
+      "joe-1-17",
+      "joe-1-18",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-1",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-5",
+      "joe-2-6",
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-10",
+      "joe-2-11",
+      "joe-2-12",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-15",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-24",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-29",
+      "joe-2-30",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-9",
+      "joe-3-10",
+      "joe-3-12",
+      "joe-3-13",
+      "joe-3-14",
+      "joe-3-15",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-19",
+      "joe-3-21"
+    ],
+    "word": [
+      "joe-1-1",
+      "joe-2-11"
+    ],
+    "of": [
+      "joe-1-1",
+      "joe-1-2",
+      "joe-1-3",
+      "joe-1-5",
+      "joe-1-6",
+      "joe-1-8",
+      "joe-1-9",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-15",
+      "joe-1-16",
+      "joe-1-18",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-1",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-5",
+      "joe-2-7",
+      "joe-2-11",
+      "joe-2-13",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-24",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-30",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-9",
+      "joe-3-12",
+      "joe-3-14",
+      "joe-3-16",
+      "joe-3-18",
+      "joe-3-19"
+    ],
+    "lord": [
+      "joe-1-1",
+      "joe-1-9",
+      "joe-1-14",
+      "joe-1-15",
+      "joe-1-19",
+      "joe-2-1",
+      "joe-2-11",
+      "joe-2-12",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-17",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-21",
+      "joe-2-23",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-8",
+      "joe-3-11",
+      "joe-3-14",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-21"
+    ],
+    "that": [
+      "joe-1-1",
+      "joe-1-4",
+      "joe-2-5",
+      "joe-2-11",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-3",
+      "joe-3-6",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-21"
+    ],
+    "came": [
+      "joe-1-1"
+    ],
+    "to": [
+      "joe-1-1",
+      "joe-1-19",
+      "joe-2-2",
+      "joe-2-9",
+      "joe-2-12",
+      "joe-2-13",
+      "joe-2-17",
+      "joe-2-23",
+      "joe-2-25",
+      "joe-2-28",
+      "joe-2-32",
+      "joe-3-4",
+      "joe-3-8",
+      "joe-3-11",
+      "joe-3-12",
+      "joe-3-18",
+      "joe-3-20"
+    ],
+    "joel": [
+      "joe-1-1"
+    ],
+    "son": [
+      "joe-1-1"
+    ],
+    "pethuel": [
+      "joe-1-1"
+    ],
+    "hear": [
+      "joe-1-2"
+    ],
+    "this": [
+      "joe-1-2",
+      "joe-3-9"
+    ],
+    "ye": [
+      "joe-1-2",
+      "joe-1-3",
+      "joe-1-5",
+      "joe-1-11",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-2-1",
+      "joe-2-12",
+      "joe-2-19",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-3-4",
+      "joe-3-5",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-9",
+      "joe-3-11",
+      "joe-3-13",
+      "joe-3-17"
+    ],
+    "old": [
+      "joe-1-2",
+      "joe-2-28"
+    ],
+    "men": [
+      "joe-1-2",
+      "joe-1-12",
+      "joe-2-7",
+      "joe-2-28",
+      "joe-3-9"
+    ],
+    "and": [
+      "joe-1-2",
+      "joe-1-3",
+      "joe-1-4",
+      "joe-1-5",
+      "joe-1-6",
+      "joe-1-7",
+      "joe-1-9",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-15",
+      "joe-1-16",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-1",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-10",
+      "joe-2-11",
+      "joe-2-12",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-24",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-2-30",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-4",
+      "joe-3-5",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-10",
+      "joe-3-11",
+      "joe-3-12",
+      "joe-3-15",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-19",
+      "joe-3-20"
+    ],
+    "give": [
+      "joe-1-2",
+      "joe-2-17"
+    ],
+    "ear": [
+      "joe-1-2"
+    ],
+    "all": [
+      "joe-1-2",
+      "joe-1-5",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-19",
+      "joe-2-1",
+      "joe-2-6",
+      "joe-2-12",
+      "joe-2-28",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-9",
+      "joe-3-11",
+      "joe-3-12",
+      "joe-3-18"
+    ],
+    "inhabitants": [
+      "joe-1-2",
+      "joe-1-14",
+      "joe-2-1"
+    ],
+    "land": [
+      "joe-1-2",
+      "joe-1-6",
+      "joe-1-10",
+      "joe-1-14",
+      "joe-2-1",
+      "joe-2-3",
+      "joe-2-18",
+      "joe-2-20",
+      "joe-2-21",
+      "joe-3-2",
+      "joe-3-19"
+    ],
+    "hath": [
+      "joe-1-2",
+      "joe-1-4",
+      "joe-1-6",
+      "joe-1-7",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-2",
+      "joe-2-20",
+      "joe-2-23",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-2-32",
+      "joe-3-8"
+    ],
+    "been": [
+      "joe-1-2",
+      "joe-2-2"
+    ],
+    "in": [
+      "joe-1-2",
+      "joe-1-13",
+      "joe-2-1",
+      "joe-2-5",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-15",
+      "joe-2-23",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-29",
+      "joe-2-30",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-13",
+      "joe-3-14",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-19",
+      "joe-3-21"
+    ],
+    "your": [
+      "joe-1-2",
+      "joe-1-3",
+      "joe-1-5",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-2-12",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-23",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-3-4",
+      "joe-3-5",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-10",
+      "joe-3-17"
+    ],
+    "days": [
+      "joe-1-2",
+      "joe-2-29",
+      "joe-3-1"
+    ],
+    "or": [
+      "joe-1-2"
+    ],
+    "even": [
+      "joe-1-2",
+      "joe-1-12",
+      "joe-2-2",
+      "joe-2-12",
+      "joe-2-14"
+    ],
+    "fathers": [
+      "joe-1-2"
+    ],
+    "tell": [
+      "joe-1-3"
+    ],
+    "children": [
+      "joe-1-3",
+      "joe-2-16",
+      "joe-2-23",
+      "joe-3-6",
+      "joe-3-8",
+      "joe-3-16",
+      "joe-3-19"
+    ],
+    "it": [
+      "joe-1-3",
+      "joe-1-5",
+      "joe-1-7",
+      "joe-1-15",
+      "joe-2-1",
+      "joe-2-2",
+      "joe-2-11",
+      "joe-2-28",
+      "joe-2-32",
+      "joe-3-8",
+      "joe-3-18"
+    ],
+    "let": [
+      "joe-1-3",
+      "joe-2-1",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-3-9",
+      "joe-3-10",
+      "joe-3-12"
+    ],
+    "their": [
+      "joe-1-3",
+      "joe-1-17",
+      "joe-2-6",
+      "joe-2-7",
+      "joe-2-10",
+      "joe-2-17",
+      "joe-2-22",
+      "joe-3-6",
+      "joe-3-13",
+      "joe-3-15",
+      "joe-3-19",
+      "joe-3-21"
+    ],
+    "another": [
+      "joe-1-3",
+      "joe-2-8"
+    ],
+    "generation": [
+      "joe-1-3",
+      "joe-3-20"
+    ],
+    "which": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "palmerworm": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "left": [
+      "joe-1-4"
+    ],
+    "locust": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "eaten": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "cankerworm": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "caterpiller": [
+      "joe-1-4",
+      "joe-2-25"
+    ],
+    "awake": [
+      "joe-1-5"
+    ],
+    "drunkards": [
+      "joe-1-5"
+    ],
+    "weep": [
+      "joe-1-5",
+      "joe-2-17"
+    ],
+    "howl": [
+      "joe-1-5",
+      "joe-1-11",
+      "joe-1-13"
+    ],
+    "drinkers": [
+      "joe-1-5"
+    ],
+    "wine": [
+      "joe-1-5",
+      "joe-1-10",
+      "joe-2-19",
+      "joe-2-24",
+      "joe-3-3",
+      "joe-3-18"
+    ],
+    "because": [
+      "joe-1-5",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-18",
+      "joe-2-20",
+      "joe-3-5",
+      "joe-3-19"
+    ],
+    "new": [
+      "joe-1-5",
+      "joe-1-10",
+      "joe-3-18"
+    ],
+    "for": [
+      "joe-1-5",
+      "joe-1-6",
+      "joe-1-8",
+      "joe-1-10",
+      "joe-1-11",
+      "joe-1-13",
+      "joe-1-15",
+      "joe-1-17",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-1",
+      "joe-2-11",
+      "joe-2-13",
+      "joe-2-18",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-8",
+      "joe-3-12",
+      "joe-3-13",
+      "joe-3-14",
+      "joe-3-19",
+      "joe-3-20",
+      "joe-3-21"
+    ],
+    "is": [
+      "joe-1-5",
+      "joe-1-6",
+      "joe-1-9",
+      "joe-1-10",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-15",
+      "joe-1-16",
+      "joe-1-17",
+      "joe-2-1",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-11",
+      "joe-2-13",
+      "joe-2-17",
+      "joe-3-13",
+      "joe-3-14"
+    ],
+    "cut": [
+      "joe-1-5",
+      "joe-1-9",
+      "joe-1-16"
+    ],
+    "off": [
+      "joe-1-5",
+      "joe-1-9",
+      "joe-1-16",
+      "joe-2-20",
+      "joe-3-8"
+    ],
+    "from": [
+      "joe-1-5",
+      "joe-1-9",
+      "joe-1-12",
+      "joe-1-13",
+      "joe-1-15",
+      "joe-1-16",
+      "joe-2-20",
+      "joe-3-6",
+      "joe-3-16",
+      "joe-3-20"
+    ],
+    "mouth": [
+      "joe-1-5"
+    ],
+    "a": [
+      "joe-1-6",
+      "joe-1-8",
+      "joe-1-14",
+      "joe-1-15",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-5",
+      "joe-2-9",
+      "joe-2-14",
+      "joe-2-15",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-3-3",
+      "joe-3-4",
+      "joe-3-8",
+      "joe-3-18",
+      "joe-3-19"
+    ],
+    "nation": [
+      "joe-1-6"
+    ],
+    "come": [
+      "joe-1-6",
+      "joe-1-13",
+      "joe-1-15",
+      "joe-2-20",
+      "joe-2-23",
+      "joe-2-28",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-9",
+      "joe-3-11",
+      "joe-3-12",
+      "joe-3-13",
+      "joe-3-18"
+    ],
+    "up": [
+      "joe-1-6",
+      "joe-1-10",
+      "joe-1-12",
+      "joe-1-20",
+      "joe-2-9",
+      "joe-2-20",
+      "joe-3-9",
+      "joe-3-12"
+    ],
+    "upon": [
+      "joe-1-6",
+      "joe-2-2",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-3-4",
+      "joe-3-7"
+    ],
+    "my": [
+      "joe-1-6",
+      "joe-1-7",
+      "joe-1-13",
+      "joe-2-1",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-5",
+      "joe-3-17"
+    ],
+    "strong": [
+      "joe-1-6",
+      "joe-2-2",
+      "joe-2-5",
+      "joe-2-11",
+      "joe-3-10"
+    ],
+    "without": [
+      "joe-1-6"
+    ],
+    "number": [
+      "joe-1-6"
+    ],
+    "whose": [
+      "joe-1-6"
+    ],
+    "teeth": [
+      "joe-1-6"
+    ],
+    "are": [
+      "joe-1-6",
+      "joe-1-7",
+      "joe-1-12",
+      "joe-1-17",
+      "joe-1-18",
+      "joe-1-20"
+    ],
+    "lion": [
+      "joe-1-6"
+    ],
+    "he": [
+      "joe-1-6",
+      "joe-1-7",
+      "joe-2-11",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-20",
+      "joe-2-23"
+    ],
+    "cheek": [
+      "joe-1-6"
+    ],
+    "great": [
+      "joe-1-6",
+      "joe-2-2",
+      "joe-2-11",
+      "joe-2-13",
+      "joe-2-20",
+      "joe-2-21",
+      "joe-2-25",
+      "joe-2-31",
+      "joe-3-13"
+    ],
+    "laid": [
+      "joe-1-7",
+      "joe-1-17"
+    ],
+    "vine": [
+      "joe-1-7",
+      "joe-1-12",
+      "joe-2-22"
+    ],
+    "waste": [
+      "joe-1-7"
+    ],
+    "barked": [
+      "joe-1-7"
+    ],
+    "fig": [
+      "joe-1-7",
+      "joe-1-12",
+      "joe-2-22"
+    ],
+    "tree": [
+      "joe-1-7",
+      "joe-1-12",
+      "joe-2-22"
+    ],
+    "made": [
+      "joe-1-7",
+      "joe-1-18"
+    ],
+    "clean": [
+      "joe-1-7"
+    ],
+    "bare": [
+      "joe-1-7"
+    ],
+    "cast": [
+      "joe-1-7",
+      "joe-3-3"
+    ],
+    "away": [
+      "joe-1-7",
+      "joe-1-12"
+    ],
+    "branches": [
+      "joe-1-7"
+    ],
+    "thereof": [
+      "joe-1-7"
+    ],
+    "white": [
+      "joe-1-7"
+    ],
+    "lament": [
+      "joe-1-8",
+      "joe-1-13"
+    ],
+    "like": [
+      "joe-1-8",
+      "joe-2-2",
+      "joe-2-5",
+      "joe-2-7",
+      "joe-2-9"
+    ],
+    "virgin": [
+      "joe-1-8"
+    ],
+    "girded": [
+      "joe-1-8"
+    ],
+    "with": [
+      "joe-1-8",
+      "joe-2-12",
+      "joe-2-20",
+      "joe-2-24",
+      "joe-2-26",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-18"
+    ],
+    "sackcloth": [
+      "joe-1-8",
+      "joe-1-13"
+    ],
+    "husband": [
+      "joe-1-8"
+    ],
+    "her": [
+      "joe-1-8",
+      "joe-2-16",
+      "joe-2-22",
+      "joe-3-17"
+    ],
+    "youth": [
+      "joe-1-8"
+    ],
+    "meat": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-1-16",
+      "joe-2-14"
+    ],
+    "offering": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-2-14"
+    ],
+    "drink": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-2-14",
+      "joe-3-3"
+    ],
+    "house": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-16",
+      "joe-3-18"
+    ],
+    "priests": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-2-17"
+    ],
+    "s": [
+      "joe-1-9"
+    ],
+    "ministers": [
+      "joe-1-9",
+      "joe-1-13",
+      "joe-2-17"
+    ],
+    "mourn": [
+      "joe-1-9"
+    ],
+    "field": [
+      "joe-1-10",
+      "joe-1-11",
+      "joe-1-12",
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-22"
+    ],
+    "wasted": [
+      "joe-1-10"
+    ],
+    "mourneth": [
+      "joe-1-10"
+    ],
+    "corn": [
+      "joe-1-10",
+      "joe-1-17",
+      "joe-2-19"
+    ],
+    "dried": [
+      "joe-1-10",
+      "joe-1-12",
+      "joe-1-20"
+    ],
+    "oil": [
+      "joe-1-10",
+      "joe-2-19",
+      "joe-2-24"
+    ],
+    "languisheth": [
+      "joe-1-10",
+      "joe-1-12"
+    ],
+    "be": [
+      "joe-1-11",
+      "joe-2-2",
+      "joe-2-6",
+      "joe-2-8",
+      "joe-2-10",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-2-23",
+      "joe-2-24",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-12",
+      "joe-3-15",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-19"
+    ],
+    "ashamed": [
+      "joe-1-11",
+      "joe-2-26",
+      "joe-2-27"
+    ],
+    "o": [
+      "joe-1-11",
+      "joe-1-19",
+      "joe-2-17",
+      "joe-2-21",
+      "joe-3-4",
+      "joe-3-11"
+    ],
+    "husbandmen": [
+      "joe-1-11"
+    ],
+    "vinedressers": [
+      "joe-1-11"
+    ],
+    "wheat": [
+      "joe-1-11",
+      "joe-2-24"
+    ],
+    "barley": [
+      "joe-1-11"
+    ],
+    "harvest": [
+      "joe-1-11",
+      "joe-3-13"
+    ],
+    "perished": [
+      "joe-1-11"
+    ],
+    "pomegranate": [
+      "joe-1-12"
+    ],
+    "palm": [
+      "joe-1-12"
+    ],
+    "also": [
+      "joe-1-12",
+      "joe-1-20",
+      "joe-2-12",
+      "joe-2-29",
+      "joe-3-2",
+      "joe-3-6",
+      "joe-3-16"
+    ],
+    "apple": [
+      "joe-1-12"
+    ],
+    "trees": [
+      "joe-1-12",
+      "joe-1-19"
+    ],
+    "withered": [
+      "joe-1-12",
+      "joe-1-17"
+    ],
+    "joy": [
+      "joe-1-12",
+      "joe-1-16"
+    ],
+    "sons": [
+      "joe-1-12",
+      "joe-2-28",
+      "joe-3-8"
+    ],
+    "gird": [
+      "joe-1-13"
+    ],
+    "yourselves": [
+      "joe-1-13",
+      "joe-3-11"
+    ],
+    "altar": [
+      "joe-1-13",
+      "joe-2-17"
+    ],
+    "lie": [
+      "joe-1-13"
+    ],
+    "night": [
+      "joe-1-13"
+    ],
+    "god": [
+      "joe-1-13",
+      "joe-1-14",
+      "joe-1-16",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-17",
+      "joe-2-23",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-3-17"
+    ],
+    "withholden": [
+      "joe-1-13"
+    ],
+    "sanctify": [
+      "joe-1-14",
+      "joe-2-15",
+      "joe-2-16"
+    ],
+    "fast": [
+      "joe-1-14",
+      "joe-2-15"
+    ],
+    "call": [
+      "joe-1-14",
+      "joe-2-15",
+      "joe-2-32"
+    ],
+    "solemn": [
+      "joe-1-14",
+      "joe-2-15"
+    ],
+    "assembly": [
+      "joe-1-14",
+      "joe-2-15"
+    ],
+    "gather": [
+      "joe-1-14",
+      "joe-2-6",
+      "joe-2-16",
+      "joe-3-2",
+      "joe-3-11"
+    ],
+    "elders": [
+      "joe-1-14",
+      "joe-2-16"
+    ],
+    "into": [
+      "joe-1-14",
+      "joe-2-20",
+      "joe-2-31",
+      "joe-3-2",
+      "joe-3-5",
+      "joe-3-8",
+      "joe-3-10"
+    ],
+    "cry": [
+      "joe-1-14",
+      "joe-1-19",
+      "joe-1-20"
+    ],
+    "unto": [
+      "joe-1-14",
+      "joe-1-20",
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-19",
+      "joe-3-6"
+    ],
+    "alas": [
+      "joe-1-15"
+    ],
+    "day": [
+      "joe-1-15",
+      "joe-2-1",
+      "joe-2-2",
+      "joe-2-11",
+      "joe-2-31",
+      "joe-3-14",
+      "joe-3-18"
+    ],
+    "at": [
+      "joe-1-15",
+      "joe-2-1",
+      "joe-2-9"
+    ],
+    "hand": [
+      "joe-1-15",
+      "joe-2-1",
+      "joe-3-8"
+    ],
+    "as": [
+      "joe-1-15",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-5",
+      "joe-2-32"
+    ],
+    "destruction": [
+      "joe-1-15"
+    ],
+    "almighty": [
+      "joe-1-15"
+    ],
+    "shall": [
+      "joe-1-15",
+      "joe-2-2",
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-5",
+      "joe-2-6",
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-10",
+      "joe-2-11",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-24",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-2-31",
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-8",
+      "joe-3-15",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-18",
+      "joe-3-19",
+      "joe-3-20"
+    ],
+    "not": [
+      "joe-1-16",
+      "joe-2-2",
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-13",
+      "joe-2-17",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-3-21"
+    ],
+    "before": [
+      "joe-1-16",
+      "joe-2-3",
+      "joe-2-6",
+      "joe-2-10",
+      "joe-2-11",
+      "joe-2-31"
+    ],
+    "our": [
+      "joe-1-16"
+    ],
+    "eyes": [
+      "joe-1-16"
+    ],
+    "yea": [
+      "joe-1-16",
+      "joe-1-18",
+      "joe-2-3",
+      "joe-2-19",
+      "joe-3-4"
+    ],
+    "gladness": [
+      "joe-1-16"
+    ],
+    "seed": [
+      "joe-1-17"
+    ],
+    "rotten": [
+      "joe-1-17"
+    ],
+    "under": [
+      "joe-1-17"
+    ],
+    "clods": [
+      "joe-1-17"
+    ],
+    "garners": [
+      "joe-1-17"
+    ],
+    "desolate": [
+      "joe-1-17",
+      "joe-1-18",
+      "joe-2-3",
+      "joe-2-20",
+      "joe-3-19"
+    ],
+    "barns": [
+      "joe-1-17"
+    ],
+    "broken": [
+      "joe-1-17"
+    ],
+    "down": [
+      "joe-1-17",
+      "joe-2-23",
+      "joe-3-2",
+      "joe-3-11",
+      "joe-3-13",
+      "joe-3-18"
+    ],
+    "how": [
+      "joe-1-18"
+    ],
+    "do": [
+      "joe-1-18",
+      "joe-2-21",
+      "joe-2-22",
+      "joe-3-4"
+    ],
+    "beasts": [
+      "joe-1-18",
+      "joe-1-20",
+      "joe-2-22"
+    ],
+    "groan": [
+      "joe-1-18"
+    ],
+    "herds": [
+      "joe-1-18"
+    ],
+    "cattle": [
+      "joe-1-18"
+    ],
+    "perplexed": [
+      "joe-1-18"
+    ],
+    "they": [
+      "joe-1-18",
+      "joe-2-4",
+      "joe-2-5",
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-9",
+      "joe-2-17",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-8",
+      "joe-3-19"
+    ],
+    "have": [
+      "joe-1-18",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-4",
+      "joe-3-5",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-19",
+      "joe-3-21"
+    ],
+    "no": [
+      "joe-1-18",
+      "joe-2-19",
+      "joe-3-17"
+    ],
+    "pasture": [
+      "joe-1-18"
+    ],
+    "flocks": [
+      "joe-1-18"
+    ],
+    "sheep": [
+      "joe-1-18"
+    ],
+    "thee": [
+      "joe-1-19",
+      "joe-1-20"
+    ],
+    "will": [
+      "joe-1-19",
+      "joe-2-14",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-21",
+      "joe-2-23",
+      "joe-2-25",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-2-30",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-12",
+      "joe-3-16",
+      "joe-3-21"
+    ],
+    "i": [
+      "joe-1-19",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-25",
+      "joe-2-27",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-2-30",
+      "joe-3-1",
+      "joe-3-2",
+      "joe-3-4",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-10",
+      "joe-3-12",
+      "joe-3-17",
+      "joe-3-21"
+    ],
+    "fire": [
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-3",
+      "joe-2-5",
+      "joe-2-30"
+    ],
+    "devoured": [
+      "joe-1-19",
+      "joe-1-20"
+    ],
+    "pastures": [
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-22"
+    ],
+    "wilderness": [
+      "joe-1-19",
+      "joe-1-20",
+      "joe-2-3",
+      "joe-2-22",
+      "joe-3-19"
+    ],
+    "flame": [
+      "joe-1-19",
+      "joe-2-3",
+      "joe-2-5"
+    ],
+    "burned": [
+      "joe-1-19"
+    ],
+    "rivers": [
+      "joe-1-20",
+      "joe-3-18"
+    ],
+    "waters": [
+      "joe-1-20",
+      "joe-3-18"
+    ],
+    "blow": [
+      "joe-2-1",
+      "joe-2-15"
+    ],
+    "trumpet": [
+      "joe-2-1",
+      "joe-2-15"
+    ],
+    "zion": [
+      "joe-2-1",
+      "joe-2-15",
+      "joe-2-23",
+      "joe-2-32",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-21"
+    ],
+    "sound": [
+      "joe-2-1"
+    ],
+    "an": [
+      "joe-2-1",
+      "joe-3-3"
+    ],
+    "alarm": [
+      "joe-2-1"
+    ],
+    "holy": [
+      "joe-2-1",
+      "joe-3-17"
+    ],
+    "mountain": [
+      "joe-2-1",
+      "joe-3-17"
+    ],
+    "tremble": [
+      "joe-2-1",
+      "joe-2-10"
+    ],
+    "cometh": [
+      "joe-2-1"
+    ],
+    "nigh": [
+      "joe-2-1"
+    ],
+    "darkness": [
+      "joe-2-2",
+      "joe-2-31"
+    ],
+    "gloominess": [
+      "joe-2-2"
+    ],
+    "clouds": [
+      "joe-2-2"
+    ],
+    "thick": [
+      "joe-2-2"
+    ],
+    "morning": [
+      "joe-2-2"
+    ],
+    "spread": [
+      "joe-2-2"
+    ],
+    "mountains": [
+      "joe-2-2",
+      "joe-2-5",
+      "joe-3-18"
+    ],
+    "people": [
+      "joe-2-2",
+      "joe-2-5",
+      "joe-2-6",
+      "joe-2-16",
+      "joe-2-17",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-26",
+      "joe-2-27",
+      "joe-3-2",
+      "joe-3-3",
+      "joe-3-8",
+      "joe-3-16"
+    ],
+    "there": [
+      "joe-2-2",
+      "joe-3-2",
+      "joe-3-12",
+      "joe-3-17"
+    ],
+    "ever": [
+      "joe-2-2",
+      "joe-3-20"
+    ],
+    "neither": [
+      "joe-2-2",
+      "joe-2-8"
+    ],
+    "any": [
+      "joe-2-2",
+      "joe-3-17"
+    ],
+    "more": [
+      "joe-2-2",
+      "joe-2-19",
+      "joe-3-17"
+    ],
+    "after": [
+      "joe-2-2"
+    ],
+    "years": [
+      "joe-2-2",
+      "joe-2-25"
+    ],
+    "many": [
+      "joe-2-2"
+    ],
+    "generations": [
+      "joe-2-2"
+    ],
+    "devoureth": [
+      "joe-2-3",
+      "joe-2-5"
+    ],
+    "them": [
+      "joe-2-3",
+      "joe-2-4",
+      "joe-2-10",
+      "joe-2-17",
+      "joe-3-2",
+      "joe-3-6",
+      "joe-3-7",
+      "joe-3-8",
+      "joe-3-9"
+    ],
+    "behind": [
+      "joe-2-3",
+      "joe-2-14"
+    ],
+    "burneth": [
+      "joe-2-3"
+    ],
+    "garden": [
+      "joe-2-3"
+    ],
+    "eden": [
+      "joe-2-3"
+    ],
+    "nothing": [
+      "joe-2-3"
+    ],
+    "escape": [
+      "joe-2-3"
+    ],
+    "appearance": [
+      "joe-2-4"
+    ],
+    "horses": [
+      "joe-2-4"
+    ],
+    "horsemen": [
+      "joe-2-4"
+    ],
+    "so": [
+      "joe-2-4",
+      "joe-3-17"
+    ],
+    "run": [
+      "joe-2-4",
+      "joe-2-7",
+      "joe-2-9"
+    ],
+    "noise": [
+      "joe-2-5"
+    ],
+    "chariots": [
+      "joe-2-5"
+    ],
+    "on": [
+      "joe-2-5",
+      "joe-2-7",
+      "joe-2-32"
+    ],
+    "tops": [
+      "joe-2-5"
+    ],
+    "leap": [
+      "joe-2-5"
+    ],
+    "stubble": [
+      "joe-2-5"
+    ],
+    "set": [
+      "joe-2-5"
+    ],
+    "battle": [
+      "joe-2-5"
+    ],
+    "array": [
+      "joe-2-5"
+    ],
+    "face": [
+      "joe-2-6",
+      "joe-2-20"
+    ],
+    "much": [
+      "joe-2-6"
+    ],
+    "pained": [
+      "joe-2-6"
+    ],
+    "faces": [
+      "joe-2-6"
+    ],
+    "blackness": [
+      "joe-2-6"
+    ],
+    "mighty": [
+      "joe-2-7",
+      "joe-3-9",
+      "joe-3-11"
+    ],
+    "climb": [
+      "joe-2-7",
+      "joe-2-9"
+    ],
+    "wall": [
+      "joe-2-7",
+      "joe-2-9"
+    ],
+    "war": [
+      "joe-2-7",
+      "joe-3-9"
+    ],
+    "march": [
+      "joe-2-7"
+    ],
+    "every": [
+      "joe-2-7",
+      "joe-2-8"
+    ],
+    "one": [
+      "joe-2-7",
+      "joe-2-8"
+    ],
+    "his": [
+      "joe-2-7",
+      "joe-2-8",
+      "joe-2-11",
+      "joe-2-16",
+      "joe-2-18",
+      "joe-2-19",
+      "joe-2-20",
+      "joe-3-16"
+    ],
+    "ways": [
+      "joe-2-7"
+    ],
+    "break": [
+      "joe-2-7"
+    ],
+    "ranks": [
+      "joe-2-7"
+    ],
+    "thrust": [
+      "joe-2-8"
+    ],
+    "walk": [
+      "joe-2-8"
+    ],
+    "path": [
+      "joe-2-8"
+    ],
+    "when": [
+      "joe-2-8",
+      "joe-3-1"
+    ],
+    "fall": [
+      "joe-2-8"
+    ],
+    "sword": [
+      "joe-2-8"
+    ],
+    "wounded": [
+      "joe-2-8"
+    ],
+    "fro": [
+      "joe-2-9"
+    ],
+    "city": [
+      "joe-2-9"
+    ],
+    "houses": [
+      "joe-2-9"
+    ],
+    "enter": [
+      "joe-2-9"
+    ],
+    "windows": [
+      "joe-2-9"
+    ],
+    "thief": [
+      "joe-2-9"
+    ],
+    "earth": [
+      "joe-2-10",
+      "joe-2-30",
+      "joe-3-16"
+    ],
+    "quake": [
+      "joe-2-10"
+    ],
+    "heavens": [
+      "joe-2-10",
+      "joe-2-30",
+      "joe-3-16"
+    ],
+    "sun": [
+      "joe-2-10",
+      "joe-2-31",
+      "joe-3-15"
+    ],
+    "moon": [
+      "joe-2-10",
+      "joe-2-31",
+      "joe-3-15"
+    ],
+    "dark": [
+      "joe-2-10"
+    ],
+    "stars": [
+      "joe-2-10",
+      "joe-3-15"
+    ],
+    "withdraw": [
+      "joe-2-10",
+      "joe-3-15"
+    ],
+    "shining": [
+      "joe-2-10",
+      "joe-3-15"
+    ],
+    "utter": [
+      "joe-2-11",
+      "joe-3-16"
+    ],
+    "voice": [
+      "joe-2-11",
+      "joe-3-16"
+    ],
+    "army": [
+      "joe-2-11",
+      "joe-2-20",
+      "joe-2-25"
+    ],
+    "camp": [
+      "joe-2-11"
+    ],
+    "very": [
+      "joe-2-11"
+    ],
+    "executeth": [
+      "joe-2-11"
+    ],
+    "terrible": [
+      "joe-2-11",
+      "joe-2-31"
+    ],
+    "who": [
+      "joe-2-11",
+      "joe-2-14"
+    ],
+    "can": [
+      "joe-2-11"
+    ],
+    "abide": [
+      "joe-2-11"
+    ],
+    "therefore": [
+      "joe-2-12"
+    ],
+    "now": [
+      "joe-2-12"
+    ],
+    "saith": [
+      "joe-2-12"
+    ],
+    "turn": [
+      "joe-2-12",
+      "joe-2-13"
+    ],
+    "me": [
+      "joe-2-12",
+      "joe-3-4"
+    ],
+    "heart": [
+      "joe-2-12",
+      "joe-2-13"
+    ],
+    "fasting": [
+      "joe-2-12"
+    ],
+    "weeping": [
+      "joe-2-12"
+    ],
+    "mourning": [
+      "joe-2-12"
+    ],
+    "rend": [
+      "joe-2-13"
+    ],
+    "garments": [
+      "joe-2-13"
+    ],
+    "gracious": [
+      "joe-2-13"
+    ],
+    "merciful": [
+      "joe-2-13"
+    ],
+    "slow": [
+      "joe-2-13"
+    ],
+    "anger": [
+      "joe-2-13"
+    ],
+    "kindness": [
+      "joe-2-13"
+    ],
+    "repenteth": [
+      "joe-2-13"
+    ],
+    "him": [
+      "joe-2-13",
+      "joe-2-14",
+      "joe-2-20"
+    ],
+    "evil": [
+      "joe-2-13"
+    ],
+    "knoweth": [
+      "joe-2-14"
+    ],
+    "if": [
+      "joe-2-14",
+      "joe-3-4"
+    ],
+    "return": [
+      "joe-2-14",
+      "joe-3-4",
+      "joe-3-7"
+    ],
+    "repent": [
+      "joe-2-14"
+    ],
+    "leave": [
+      "joe-2-14"
+    ],
+    "blessing": [
+      "joe-2-14"
+    ],
+    "congregation": [
+      "joe-2-16"
+    ],
+    "assemble": [
+      "joe-2-16",
+      "joe-3-11"
+    ],
+    "those": [
+      "joe-2-16",
+      "joe-2-29",
+      "joe-3-1"
+    ],
+    "suck": [
+      "joe-2-16"
+    ],
+    "breasts": [
+      "joe-2-16"
+    ],
+    "bridegroom": [
+      "joe-2-16"
+    ],
+    "go": [
+      "joe-2-16"
+    ],
+    "forth": [
+      "joe-2-16",
+      "joe-3-18"
+    ],
+    "chamber": [
+      "joe-2-16"
+    ],
+    "bride": [
+      "joe-2-16"
+    ],
+    "out": [
+      "joe-2-16",
+      "joe-2-28",
+      "joe-2-29",
+      "joe-3-7",
+      "joe-3-16"
+    ],
+    "closet": [
+      "joe-2-16"
+    ],
+    "between": [
+      "joe-2-17"
+    ],
+    "porch": [
+      "joe-2-17"
+    ],
+    "say": [
+      "joe-2-17",
+      "joe-2-19",
+      "joe-3-10"
+    ],
+    "spare": [
+      "joe-2-17"
+    ],
+    "thy": [
+      "joe-2-17",
+      "joe-3-11"
+    ],
+    "thine": [
+      "joe-2-17"
+    ],
+    "heritage": [
+      "joe-2-17",
+      "joe-3-2"
+    ],
+    "reproach": [
+      "joe-2-17",
+      "joe-2-19"
+    ],
+    "heathen": [
+      "joe-2-17",
+      "joe-2-19",
+      "joe-3-11",
+      "joe-3-12"
+    ],
+    "should": [
+      "joe-2-17"
+    ],
+    "rule": [
+      "joe-2-17"
+    ],
+    "over": [
+      "joe-2-17"
+    ],
+    "wherefore": [
+      "joe-2-17"
+    ],
+    "among": [
+      "joe-2-17",
+      "joe-2-19",
+      "joe-2-25",
+      "joe-3-2",
+      "joe-3-9"
+    ],
+    "where": [
+      "joe-2-17"
+    ],
+    "then": [
+      "joe-2-18",
+      "joe-2-23",
+      "joe-3-17"
+    ],
+    "jealous": [
+      "joe-2-18"
+    ],
+    "pity": [
+      "joe-2-18"
+    ],
+    "answer": [
+      "joe-2-19"
+    ],
+    "behold": [
+      "joe-2-19",
+      "joe-3-1",
+      "joe-3-7"
+    ],
+    "send": [
+      "joe-2-19"
+    ],
+    "you": [
+      "joe-2-19",
+      "joe-2-20",
+      "joe-2-23",
+      "joe-2-25",
+      "joe-2-26",
+      "joe-3-13"
+    ],
+    "satisfied": [
+      "joe-2-19",
+      "joe-2-26"
+    ],
+    "therewith": [
+      "joe-2-19"
+    ],
+    "make": [
+      "joe-2-19"
+    ],
+    "but": [
+      "joe-2-20",
+      "joe-3-16",
+      "joe-3-20"
+    ],
+    "remove": [
+      "joe-2-20",
+      "joe-3-6"
+    ],
+    "far": [
+      "joe-2-20",
+      "joe-3-6",
+      "joe-3-8"
+    ],
+    "northern": [
+      "joe-2-20"
+    ],
+    "drive": [
+      "joe-2-20"
+    ],
+    "barren": [
+      "joe-2-20"
+    ],
+    "toward": [
+      "joe-2-20"
+    ],
+    "east": [
+      "joe-2-20"
+    ],
+    "sea": [
+      "joe-2-20"
+    ],
+    "hinder": [
+      "joe-2-20"
+    ],
+    "part": [
+      "joe-2-20"
+    ],
+    "utmost": [
+      "joe-2-20"
+    ],
+    "stink": [
+      "joe-2-20"
+    ],
+    "ill": [
+      "joe-2-20"
+    ],
+    "savour": [
+      "joe-2-20"
+    ],
+    "done": [
+      "joe-2-20"
+    ],
+    "things": [
+      "joe-2-20",
+      "joe-2-21",
+      "joe-3-5"
+    ],
+    "fear": [
+      "joe-2-21"
+    ],
+    "glad": [
+      "joe-2-21",
+      "joe-2-23"
+    ],
+    "rejoice": [
+      "joe-2-21",
+      "joe-2-23"
+    ],
+    "afraid": [
+      "joe-2-22"
+    ],
+    "spring": [
+      "joe-2-22"
+    ],
+    "beareth": [
+      "joe-2-22"
+    ],
+    "fruit": [
+      "joe-2-22"
+    ],
+    "yield": [
+      "joe-2-22"
+    ],
+    "strength": [
+      "joe-2-22",
+      "joe-3-16"
+    ],
+    "given": [
+      "joe-2-23",
+      "joe-3-3"
+    ],
+    "former": [
+      "joe-2-23"
+    ],
+    "rain": [
+      "joe-2-23"
+    ],
+    "moderately": [
+      "joe-2-23"
+    ],
+    "cause": [
+      "joe-2-23",
+      "joe-3-11"
+    ],
+    "latter": [
+      "joe-2-23"
+    ],
+    "first": [
+      "joe-2-23"
+    ],
+    "month": [
+      "joe-2-23"
+    ],
+    "floors": [
+      "joe-2-24"
+    ],
+    "full": [
+      "joe-2-24",
+      "joe-3-13"
+    ],
+    "fats": [
+      "joe-2-24",
+      "joe-3-13"
+    ],
+    "overflow": [
+      "joe-2-24",
+      "joe-3-13"
+    ],
+    "restore": [
+      "joe-2-25"
+    ],
+    "sent": [
+      "joe-2-25"
+    ],
+    "eat": [
+      "joe-2-26"
+    ],
+    "plenty": [
+      "joe-2-26"
+    ],
+    "praise": [
+      "joe-2-26"
+    ],
+    "name": [
+      "joe-2-26",
+      "joe-2-32"
+    ],
+    "dealt": [
+      "joe-2-26"
+    ],
+    "wondrously": [
+      "joe-2-26"
+    ],
+    "never": [
+      "joe-2-26",
+      "joe-2-27"
+    ],
+    "know": [
+      "joe-2-27",
+      "joe-3-17"
+    ],
+    "am": [
+      "joe-2-27",
+      "joe-3-10",
+      "joe-3-17"
+    ],
+    "midst": [
+      "joe-2-27"
+    ],
+    "israel": [
+      "joe-2-27",
+      "joe-3-2",
+      "joe-3-16"
+    ],
+    "none": [
+      "joe-2-27"
+    ],
+    "else": [
+      "joe-2-27"
+    ],
+    "pass": [
+      "joe-2-28",
+      "joe-2-32",
+      "joe-3-17",
+      "joe-3-18"
+    ],
+    "afterward": [
+      "joe-2-28"
+    ],
+    "pour": [
+      "joe-2-28",
+      "joe-2-29"
+    ],
+    "spirit": [
+      "joe-2-28",
+      "joe-2-29"
+    ],
+    "flesh": [
+      "joe-2-28"
+    ],
+    "daughters": [
+      "joe-2-28",
+      "joe-3-8"
+    ],
+    "prophesy": [
+      "joe-2-28"
+    ],
+    "dream": [
+      "joe-2-28"
+    ],
+    "dreams": [
+      "joe-2-28"
+    ],
+    "young": [
+      "joe-2-28"
+    ],
+    "see": [
+      "joe-2-28"
+    ],
+    "visions": [
+      "joe-2-28"
+    ],
+    "servants": [
+      "joe-2-29"
+    ],
+    "handmaids": [
+      "joe-2-29"
+    ],
+    "shew": [
+      "joe-2-30"
+    ],
+    "wonders": [
+      "joe-2-30"
+    ],
+    "blood": [
+      "joe-2-30",
+      "joe-2-31",
+      "joe-3-19",
+      "joe-3-21"
+    ],
+    "pillars": [
+      "joe-2-30"
+    ],
+    "smoke": [
+      "joe-2-30"
+    ],
+    "turned": [
+      "joe-2-31"
+    ],
+    "whosoever": [
+      "joe-2-32"
+    ],
+    "delivered": [
+      "joe-2-32"
+    ],
+    "mount": [
+      "joe-2-32"
+    ],
+    "jerusalem": [
+      "joe-2-32",
+      "joe-3-1",
+      "joe-3-6",
+      "joe-3-16",
+      "joe-3-17",
+      "joe-3-20"
+    ],
+    "deliverance": [
+      "joe-2-32"
+    ],
+    "said": [
+      "joe-2-32"
+    ],
+    "remnant": [
+      "joe-2-32"
+    ],
+    "whom": [
+      "joe-2-32",
+      "joe-3-2"
+    ],
+    "time": [
+      "joe-3-1"
+    ],
+    "bring": [
+      "joe-3-1",
+      "joe-3-2"
+    ],
+    "again": [
+      "joe-3-1"
+    ],
+    "captivity": [
+      "joe-3-1"
+    ],
+    "judah": [
+      "joe-3-1",
+      "joe-3-6",
+      "joe-3-8",
+      "joe-3-18",
+      "joe-3-19",
+      "joe-3-20"
+    ],
+    "nations": [
+      "joe-3-2"
+    ],
+    "valley": [
+      "joe-3-2",
+      "joe-3-12",
+      "joe-3-14",
+      "joe-3-18"
+    ],
+    "jehoshaphat": [
+      "joe-3-2",
+      "joe-3-12"
+    ],
+    "plead": [
+      "joe-3-2"
+    ],
+    "scattered": [
+      "joe-3-2"
+    ],
+    "parted": [
+      "joe-3-2"
+    ],
+    "lots": [
+      "joe-3-3"
+    ],
+    "boy": [
+      "joe-3-3"
+    ],
+    "harlot": [
+      "joe-3-3"
+    ],
+    "sold": [
+      "joe-3-3",
+      "joe-3-6",
+      "joe-3-7"
+    ],
+    "girl": [
+      "joe-3-3"
+    ],
+    "might": [
+      "joe-3-3",
+      "joe-3-6"
+    ],
+    "what": [
+      "joe-3-4"
+    ],
+    "tyre": [
+      "joe-3-4"
+    ],
+    "zidon": [
+      "joe-3-4"
+    ],
+    "coasts": [
+      "joe-3-4"
+    ],
+    "palestine": [
+      "joe-3-4"
+    ],
+    "render": [
+      "joe-3-4"
+    ],
+    "recompence": [
+      "joe-3-4",
+      "joe-3-7"
+    ],
+    "recompense": [
+      "joe-3-4"
+    ],
+    "swiftly": [
+      "joe-3-4"
+    ],
+    "speedily": [
+      "joe-3-4"
+    ],
+    "own": [
+      "joe-3-4",
+      "joe-3-7"
+    ],
+    "head": [
+      "joe-3-4",
+      "joe-3-7"
+    ],
+    "taken": [
+      "joe-3-5"
+    ],
+    "silver": [
+      "joe-3-5"
+    ],
+    "gold": [
+      "joe-3-5"
+    ],
+    "carried": [
+      "joe-3-5"
+    ],
+    "temples": [
+      "joe-3-5"
+    ],
+    "goodly": [
+      "joe-3-5"
+    ],
+    "pleasant": [
+      "joe-3-5"
+    ],
+    "grecians": [
+      "joe-3-6"
+    ],
+    "border": [
+      "joe-3-6"
+    ],
+    "raise": [
+      "joe-3-7"
+    ],
+    "place": [
+      "joe-3-7"
+    ],
+    "whither": [
+      "joe-3-7"
+    ],
+    "sell": [
+      "joe-3-8"
+    ],
+    "sabeans": [
+      "joe-3-8"
+    ],
+    "spoken": [
+      "joe-3-8"
+    ],
+    "proclaim": [
+      "joe-3-9"
+    ],
+    "gentiles": [
+      "joe-3-9"
+    ],
+    "prepare": [
+      "joe-3-9"
+    ],
+    "wake": [
+      "joe-3-9"
+    ],
+    "draw": [
+      "joe-3-9"
+    ],
+    "near": [
+      "joe-3-9",
+      "joe-3-14"
+    ],
+    "beat": [
+      "joe-3-10"
+    ],
+    "plowshares": [
+      "joe-3-10"
+    ],
+    "swords": [
+      "joe-3-10"
+    ],
+    "pruninghooks": [
+      "joe-3-10"
+    ],
+    "spears": [
+      "joe-3-10"
+    ],
+    "weak": [
+      "joe-3-10"
+    ],
+    "together": [
+      "joe-3-11"
+    ],
+    "round": [
+      "joe-3-11",
+      "joe-3-12"
+    ],
+    "about": [
+      "joe-3-11",
+      "joe-3-12"
+    ],
+    "thither": [
+      "joe-3-11"
+    ],
+    "ones": [
+      "joe-3-11"
+    ],
+    "wakened": [
+      "joe-3-12"
+    ],
+    "sit": [
+      "joe-3-12"
+    ],
+    "judge": [
+      "joe-3-12"
+    ],
+    "put": [
+      "joe-3-13"
+    ],
+    "sickle": [
+      "joe-3-13"
+    ],
+    "ripe": [
+      "joe-3-13"
+    ],
+    "get": [
+      "joe-3-13"
+    ],
+    "press": [
+      "joe-3-13"
+    ],
+    "wickedness": [
+      "joe-3-13"
+    ],
+    "multitudes": [
+      "joe-3-14"
+    ],
+    "decision": [
+      "joe-3-14"
+    ],
+    "darkened": [
+      "joe-3-15"
+    ],
+    "roar": [
+      "joe-3-16"
+    ],
+    "shake": [
+      "joe-3-16"
+    ],
+    "hope": [
+      "joe-3-16"
+    ],
+    "dwelling": [
+      "joe-3-17"
+    ],
+    "strangers": [
+      "joe-3-17"
+    ],
+    "through": [
+      "joe-3-17"
+    ],
+    "drop": [
+      "joe-3-18"
+    ],
+    "hills": [
+      "joe-3-18"
+    ],
+    "flow": [
+      "joe-3-18"
+    ],
+    "milk": [
+      "joe-3-18"
+    ],
+    "fountain": [
+      "joe-3-18"
+    ],
+    "water": [
+      "joe-3-18"
+    ],
+    "shittim": [
+      "joe-3-18"
+    ],
+    "egypt": [
+      "joe-3-19"
+    ],
+    "desolation": [
+      "joe-3-19"
+    ],
+    "edom": [
+      "joe-3-19"
+    ],
+    "violence": [
+      "joe-3-19"
+    ],
+    "against": [
+      "joe-3-19"
+    ],
+    "shed": [
+      "joe-3-19"
+    ],
+    "innocent": [
+      "joe-3-19"
+    ],
+    "dwell": [
+      "joe-3-20"
+    ],
+    "cleanse": [
+      "joe-3-21"
+    ],
+    "cleansed": [
+      "joe-3-21"
+    ],
+    "dwelleth": [
+      "joe-3-21"
+    ]
+  }
+}

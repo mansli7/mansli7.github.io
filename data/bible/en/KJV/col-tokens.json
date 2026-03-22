@@ -1,0 +1,2762 @@
+{
+  "book": "Colossians",
+  "book_id": "col",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "paul": [
+      "col-1-1",
+      "col-1-23",
+      "col-4-18"
+    ],
+    "an": [
+      "col-1-1",
+      "col-2-16"
+    ],
+    "apostle": [
+      "col-1-1"
+    ],
+    "of": [
+      "col-1-1",
+      "col-1-3",
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-7",
+      "col-1-9",
+      "col-1-10",
+      "col-1-12",
+      "col-1-13",
+      "col-1-14",
+      "col-1-15",
+      "col-1-18",
+      "col-1-20",
+      "col-1-22",
+      "col-1-23",
+      "col-1-24",
+      "col-1-25",
+      "col-1-27",
+      "col-2-2",
+      "col-2-3",
+      "col-2-5",
+      "col-2-8",
+      "col-2-9",
+      "col-2-10",
+      "col-2-11",
+      "col-2-12",
+      "col-2-13",
+      "col-2-14",
+      "col-2-15",
+      "col-2-16",
+      "col-2-17",
+      "col-2-18",
+      "col-2-19",
+      "col-2-20",
+      "col-2-22",
+      "col-2-23",
+      "col-3-1",
+      "col-3-6",
+      "col-3-8",
+      "col-3-10",
+      "col-3-12",
+      "col-3-14",
+      "col-3-15",
+      "col-3-16",
+      "col-3-17",
+      "col-3-22",
+      "col-3-24",
+      "col-3-25",
+      "col-4-3",
+      "col-4-9",
+      "col-4-11",
+      "col-4-12",
+      "col-4-16",
+      "col-4-18"
+    ],
+    "jesus": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-4",
+      "col-1-28",
+      "col-2-6",
+      "col-3-17",
+      "col-4-11"
+    ],
+    "christ": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-4",
+      "col-1-7",
+      "col-1-24",
+      "col-1-27",
+      "col-1-28",
+      "col-2-2",
+      "col-2-5",
+      "col-2-6",
+      "col-2-8",
+      "col-2-11",
+      "col-2-17",
+      "col-2-20",
+      "col-3-1",
+      "col-3-3",
+      "col-3-4",
+      "col-3-11",
+      "col-3-13",
+      "col-3-16",
+      "col-3-24",
+      "col-4-3",
+      "col-4-12"
+    ],
+    "by": [
+      "col-1-1",
+      "col-1-16",
+      "col-1-17",
+      "col-1-20",
+      "col-1-21",
+      "col-2-11",
+      "col-2-18",
+      "col-2-19",
+      "col-3-17",
+      "col-4-18"
+    ],
+    "the": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-8",
+      "col-1-9",
+      "col-1-10",
+      "col-1-12",
+      "col-1-13",
+      "col-1-14",
+      "col-1-15",
+      "col-1-18",
+      "col-1-19",
+      "col-1-20",
+      "col-1-22",
+      "col-1-23",
+      "col-1-24",
+      "col-1-25",
+      "col-1-26",
+      "col-1-27",
+      "col-2-1",
+      "col-2-2",
+      "col-2-3",
+      "col-2-5",
+      "col-2-6",
+      "col-2-7",
+      "col-2-8",
+      "col-2-9",
+      "col-2-10",
+      "col-2-11",
+      "col-2-12",
+      "col-2-13",
+      "col-2-14",
+      "col-2-16",
+      "col-2-17",
+      "col-2-19",
+      "col-2-20",
+      "col-2-22",
+      "col-2-23",
+      "col-3-1",
+      "col-3-2",
+      "col-3-5",
+      "col-3-6",
+      "col-3-7",
+      "col-3-9",
+      "col-3-10",
+      "col-3-12",
+      "col-3-14",
+      "col-3-15",
+      "col-3-16",
+      "col-3-17",
+      "col-3-18",
+      "col-3-20",
+      "col-3-22",
+      "col-3-23",
+      "col-3-24",
+      "col-3-25",
+      "col-4-2",
+      "col-4-3",
+      "col-4-5",
+      "col-4-7",
+      "col-4-8",
+      "col-4-11",
+      "col-4-12",
+      "col-4-14",
+      "col-4-15",
+      "col-4-16",
+      "col-4-17",
+      "col-4-18"
+    ],
+    "will": [
+      "col-1-1",
+      "col-1-9",
+      "col-2-23",
+      "col-4-12"
+    ],
+    "god": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-6",
+      "col-1-10",
+      "col-1-15",
+      "col-1-25",
+      "col-1-27",
+      "col-2-2",
+      "col-2-12",
+      "col-2-19",
+      "col-3-1",
+      "col-3-3",
+      "col-3-6",
+      "col-3-12",
+      "col-3-15",
+      "col-3-17",
+      "col-3-22",
+      "col-4-3",
+      "col-4-11",
+      "col-4-12"
+    ],
+    "and": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-4",
+      "col-1-6",
+      "col-1-9",
+      "col-1-10",
+      "col-1-11",
+      "col-1-13",
+      "col-1-16",
+      "col-1-17",
+      "col-1-18",
+      "col-1-20",
+      "col-1-21",
+      "col-1-22",
+      "col-1-23",
+      "col-1-24",
+      "col-1-26",
+      "col-1-28",
+      "col-2-1",
+      "col-2-2",
+      "col-2-3",
+      "col-2-4",
+      "col-2-5",
+      "col-2-7",
+      "col-2-8",
+      "col-2-10",
+      "col-2-13",
+      "col-2-14",
+      "col-2-15",
+      "col-2-18",
+      "col-2-19",
+      "col-2-22",
+      "col-2-23",
+      "col-3-3",
+      "col-3-5",
+      "col-3-10",
+      "col-3-11",
+      "col-3-12",
+      "col-3-13",
+      "col-3-14",
+      "col-3-15",
+      "col-3-16",
+      "col-3-17",
+      "col-3-19",
+      "col-3-23",
+      "col-3-25",
+      "col-4-1",
+      "col-4-2",
+      "col-4-7",
+      "col-4-8",
+      "col-4-9",
+      "col-4-10",
+      "col-4-11",
+      "col-4-12",
+      "col-4-13",
+      "col-4-14",
+      "col-4-15",
+      "col-4-16",
+      "col-4-17"
+    ],
+    "timotheus": [
+      "col-1-1"
+    ],
+    "our": [
+      "col-1-1",
+      "col-1-2",
+      "col-1-3",
+      "col-1-7",
+      "col-3-4"
+    ],
+    "brother": [
+      "col-1-1",
+      "col-4-7",
+      "col-4-9"
+    ],
+    "to": [
+      "col-1-2",
+      "col-1-3",
+      "col-1-4",
+      "col-1-9",
+      "col-1-11",
+      "col-1-12",
+      "col-1-20",
+      "col-1-22",
+      "col-1-23",
+      "col-1-25",
+      "col-1-26",
+      "col-1-27",
+      "col-1-29",
+      "col-2-2",
+      "col-2-14",
+      "col-2-17",
+      "col-2-20",
+      "col-2-22",
+      "col-2-23",
+      "col-3-9",
+      "col-3-15",
+      "col-3-16",
+      "col-3-17",
+      "col-3-21",
+      "col-3-22",
+      "col-3-23",
+      "col-4-3",
+      "col-4-4",
+      "col-4-6",
+      "col-4-10",
+      "col-4-17"
+    ],
+    "saints": [
+      "col-1-2",
+      "col-1-4",
+      "col-1-12",
+      "col-1-26"
+    ],
+    "faithful": [
+      "col-1-2",
+      "col-1-7",
+      "col-4-7",
+      "col-4-9"
+    ],
+    "brethren": [
+      "col-1-2",
+      "col-4-15"
+    ],
+    "in": [
+      "col-1-2",
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-8",
+      "col-1-9",
+      "col-1-10",
+      "col-1-12",
+      "col-1-14",
+      "col-1-16",
+      "col-1-18",
+      "col-1-19",
+      "col-1-20",
+      "col-1-21",
+      "col-1-22",
+      "col-1-23",
+      "col-1-24",
+      "col-1-27",
+      "col-1-28",
+      "col-1-29",
+      "col-2-1",
+      "col-2-2",
+      "col-2-3",
+      "col-2-5",
+      "col-2-6",
+      "col-2-7",
+      "col-2-9",
+      "col-2-10",
+      "col-2-11",
+      "col-2-12",
+      "col-2-13",
+      "col-2-15",
+      "col-2-16",
+      "col-2-18",
+      "col-2-20",
+      "col-2-23",
+      "col-3-3",
+      "col-3-4",
+      "col-3-7",
+      "col-3-10",
+      "col-3-11",
+      "col-3-15",
+      "col-3-16",
+      "col-3-17",
+      "col-3-18",
+      "col-3-20",
+      "col-3-22",
+      "col-4-1",
+      "col-4-2",
+      "col-4-3",
+      "col-4-5",
+      "col-4-7",
+      "col-4-12",
+      "col-4-13",
+      "col-4-15",
+      "col-4-16",
+      "col-4-17"
+    ],
+    "which": [
+      "col-1-2",
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-12",
+      "col-1-23",
+      "col-1-24",
+      "col-1-25",
+      "col-1-26",
+      "col-1-27",
+      "col-1-29",
+      "col-2-10",
+      "col-2-14",
+      "col-2-17",
+      "col-2-18",
+      "col-2-19",
+      "col-2-22",
+      "col-2-23",
+      "col-3-1",
+      "col-3-5",
+      "col-3-6",
+      "col-3-7",
+      "col-3-10",
+      "col-3-14",
+      "col-3-15",
+      "col-3-25",
+      "col-4-1",
+      "col-4-3",
+      "col-4-9",
+      "col-4-11",
+      "col-4-15",
+      "col-4-17"
+    ],
+    "are": [
+      "col-1-2",
+      "col-1-16",
+      "col-2-3",
+      "col-2-10",
+      "col-2-11",
+      "col-2-12",
+      "col-2-17",
+      "col-2-20",
+      "col-2-22",
+      "col-3-1",
+      "col-3-3",
+      "col-3-5",
+      "col-3-15",
+      "col-4-5",
+      "col-4-9",
+      "col-4-11",
+      "col-4-13",
+      "col-4-15"
+    ],
+    "at": [
+      "col-1-2",
+      "col-2-1"
+    ],
+    "colosse": [
+      "col-1-2"
+    ],
+    "grace": [
+      "col-1-2",
+      "col-1-6",
+      "col-3-16",
+      "col-4-6",
+      "col-4-18"
+    ],
+    "be": [
+      "col-1-2",
+      "col-1-9",
+      "col-1-12",
+      "col-1-16",
+      "col-1-20",
+      "col-1-23",
+      "col-2-2",
+      "col-2-5",
+      "col-2-20",
+      "col-3-1",
+      "col-3-15",
+      "col-3-19",
+      "col-3-21",
+      "col-4-6",
+      "col-4-16",
+      "col-4-18"
+    ],
+    "unto": [
+      "col-1-2",
+      "col-1-6",
+      "col-1-8",
+      "col-1-10",
+      "col-1-11",
+      "col-1-12",
+      "col-1-20",
+      "col-2-2",
+      "col-3-18",
+      "col-3-20",
+      "col-3-23",
+      "col-4-1",
+      "col-4-3",
+      "col-4-7",
+      "col-4-8",
+      "col-4-9",
+      "col-4-10",
+      "col-4-11"
+    ],
+    "you": [
+      "col-1-2",
+      "col-1-3",
+      "col-1-5",
+      "col-1-6",
+      "col-1-7",
+      "col-1-9",
+      "col-1-21",
+      "col-1-22",
+      "col-1-24",
+      "col-1-25",
+      "col-1-27",
+      "col-2-1",
+      "col-2-4",
+      "col-2-5",
+      "col-2-8",
+      "col-2-13",
+      "col-2-16",
+      "col-2-18",
+      "col-3-13",
+      "col-3-16",
+      "col-4-7",
+      "col-4-8",
+      "col-4-9",
+      "col-4-10",
+      "col-4-12",
+      "col-4-13",
+      "col-4-14",
+      "col-4-16",
+      "col-4-18"
+    ],
+    "peace": [
+      "col-1-2",
+      "col-1-20",
+      "col-3-15"
+    ],
+    "from": [
+      "col-1-2",
+      "col-1-13",
+      "col-1-18",
+      "col-1-23",
+      "col-1-26",
+      "col-2-12",
+      "col-2-19",
+      "col-2-20",
+      "col-4-16"
+    ],
+    "father": [
+      "col-1-2",
+      "col-1-3",
+      "col-1-12",
+      "col-1-19",
+      "col-2-2",
+      "col-3-17"
+    ],
+    "lord": [
+      "col-1-2",
+      "col-1-3",
+      "col-1-10",
+      "col-2-6",
+      "col-3-16",
+      "col-3-17",
+      "col-3-18",
+      "col-3-20",
+      "col-3-23",
+      "col-3-24",
+      "col-4-7",
+      "col-4-17"
+    ],
+    "we": [
+      "col-1-3",
+      "col-1-4",
+      "col-1-9",
+      "col-1-14",
+      "col-1-28"
+    ],
+    "give": [
+      "col-1-3",
+      "col-4-1"
+    ],
+    "thanks": [
+      "col-1-3",
+      "col-1-12",
+      "col-3-17"
+    ],
+    "praying": [
+      "col-1-3",
+      "col-4-3"
+    ],
+    "always": [
+      "col-1-3",
+      "col-4-12"
+    ],
+    "for": [
+      "col-1-3",
+      "col-1-5",
+      "col-1-7",
+      "col-1-9",
+      "col-1-16",
+      "col-1-19",
+      "col-1-24",
+      "col-1-25",
+      "col-2-1",
+      "col-2-5",
+      "col-2-9",
+      "col-3-3",
+      "col-3-6",
+      "col-3-20",
+      "col-3-24",
+      "col-3-25",
+      "col-4-3",
+      "col-4-8",
+      "col-4-12",
+      "col-4-13"
+    ],
+    "since": [
+      "col-1-4",
+      "col-1-6",
+      "col-1-9"
+    ],
+    "heard": [
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-9",
+      "col-1-23"
+    ],
+    "your": [
+      "col-1-4",
+      "col-1-8",
+      "col-1-21",
+      "col-2-5",
+      "col-2-13",
+      "col-2-18",
+      "col-3-2",
+      "col-3-3",
+      "col-3-5",
+      "col-3-8",
+      "col-3-15",
+      "col-3-16",
+      "col-3-18",
+      "col-3-19",
+      "col-3-20",
+      "col-3-21",
+      "col-3-22",
+      "col-4-1",
+      "col-4-6",
+      "col-4-8"
+    ],
+    "faith": [
+      "col-1-4",
+      "col-1-23",
+      "col-2-5",
+      "col-2-7",
+      "col-2-12"
+    ],
+    "love": [
+      "col-1-4",
+      "col-1-8",
+      "col-2-2",
+      "col-3-19"
+    ],
+    "ye": [
+      "col-1-4",
+      "col-1-5",
+      "col-1-6",
+      "col-1-7",
+      "col-1-9",
+      "col-1-10",
+      "col-1-23",
+      "col-2-1",
+      "col-2-6",
+      "col-2-7",
+      "col-2-10",
+      "col-2-11",
+      "col-2-12",
+      "col-2-20",
+      "col-3-1",
+      "col-3-3",
+      "col-3-4",
+      "col-3-7",
+      "col-3-8",
+      "col-3-9",
+      "col-3-13",
+      "col-3-15",
+      "col-3-17",
+      "col-3-23",
+      "col-3-24",
+      "col-4-1",
+      "col-4-6",
+      "col-4-10",
+      "col-4-12",
+      "col-4-16"
+    ],
+    "have": [
+      "col-1-4",
+      "col-1-14",
+      "col-1-18",
+      "col-1-23",
+      "col-2-1",
+      "col-2-6",
+      "col-2-7",
+      "col-2-23",
+      "col-3-9",
+      "col-3-10",
+      "col-3-13",
+      "col-4-1",
+      "col-4-8",
+      "col-4-11"
+    ],
+    "all": [
+      "col-1-4",
+      "col-1-6",
+      "col-1-9",
+      "col-1-10",
+      "col-1-11",
+      "col-1-16",
+      "col-1-17",
+      "col-1-18",
+      "col-1-19",
+      "col-1-20",
+      "col-1-28",
+      "col-2-2",
+      "col-2-3",
+      "col-2-9",
+      "col-2-10",
+      "col-2-13",
+      "col-2-19",
+      "col-2-22",
+      "col-3-8",
+      "col-3-11",
+      "col-3-14",
+      "col-3-16",
+      "col-3-17",
+      "col-3-20",
+      "col-3-22",
+      "col-4-7",
+      "col-4-9",
+      "col-4-12"
+    ],
+    "hope": [
+      "col-1-5",
+      "col-1-23",
+      "col-1-27"
+    ],
+    "is": [
+      "col-1-5",
+      "col-1-6",
+      "col-1-7",
+      "col-1-15",
+      "col-1-17",
+      "col-1-18",
+      "col-1-23",
+      "col-1-24",
+      "col-1-25",
+      "col-1-26",
+      "col-1-27",
+      "col-2-10",
+      "col-2-17",
+      "col-3-3",
+      "col-3-4",
+      "col-3-5",
+      "col-3-10",
+      "col-3-11",
+      "col-3-14",
+      "col-3-18",
+      "col-3-20",
+      "col-3-25",
+      "col-4-1",
+      "col-4-7",
+      "col-4-9",
+      "col-4-11",
+      "col-4-12",
+      "col-4-15",
+      "col-4-16"
+    ],
+    "laid": [
+      "col-1-5"
+    ],
+    "up": [
+      "col-1-5",
+      "col-1-24",
+      "col-2-7",
+      "col-2-18"
+    ],
+    "heaven": [
+      "col-1-5",
+      "col-1-16",
+      "col-1-20",
+      "col-1-23",
+      "col-4-1"
+    ],
+    "whereof": [
+      "col-1-5",
+      "col-1-23",
+      "col-1-25"
+    ],
+    "before": [
+      "col-1-5",
+      "col-1-17"
+    ],
+    "word": [
+      "col-1-5",
+      "col-1-25",
+      "col-3-16",
+      "col-3-17"
+    ],
+    "truth": [
+      "col-1-5",
+      "col-1-6"
+    ],
+    "gospel": [
+      "col-1-5",
+      "col-1-23"
+    ],
+    "come": [
+      "col-1-6",
+      "col-2-17",
+      "col-4-10"
+    ],
+    "as": [
+      "col-1-6",
+      "col-1-7",
+      "col-2-1",
+      "col-2-6",
+      "col-2-7",
+      "col-2-20",
+      "col-3-12",
+      "col-3-13",
+      "col-3-18",
+      "col-3-22",
+      "col-3-23",
+      "col-4-4"
+    ],
+    "it": [
+      "col-1-6",
+      "col-1-9",
+      "col-1-19",
+      "col-2-14",
+      "col-2-15",
+      "col-3-18",
+      "col-3-23",
+      "col-4-4",
+      "col-4-16",
+      "col-4-17"
+    ],
+    "world": [
+      "col-1-6",
+      "col-2-8",
+      "col-2-20"
+    ],
+    "bringeth": [
+      "col-1-6"
+    ],
+    "forth": [
+      "col-1-6"
+    ],
+    "fruit": [
+      "col-1-6"
+    ],
+    "doth": [
+      "col-1-6"
+    ],
+    "also": [
+      "col-1-6",
+      "col-1-7",
+      "col-1-8",
+      "col-1-9",
+      "col-1-29",
+      "col-2-11",
+      "col-2-12",
+      "col-3-4",
+      "col-3-7",
+      "col-3-8",
+      "col-3-13",
+      "col-3-15",
+      "col-4-1",
+      "col-4-3",
+      "col-4-16"
+    ],
+    "day": [
+      "col-1-6",
+      "col-1-9"
+    ],
+    "knew": [
+      "col-1-6",
+      "col-2-1"
+    ],
+    "learned": [
+      "col-1-7"
+    ],
+    "epaphras": [
+      "col-1-7",
+      "col-4-12"
+    ],
+    "dear": [
+      "col-1-7",
+      "col-1-13"
+    ],
+    "fellowservant": [
+      "col-1-7",
+      "col-4-7"
+    ],
+    "who": [
+      "col-1-7",
+      "col-1-8",
+      "col-1-13",
+      "col-1-15",
+      "col-1-18",
+      "col-1-24",
+      "col-2-12",
+      "col-3-4",
+      "col-4-7",
+      "col-4-9",
+      "col-4-11",
+      "col-4-12"
+    ],
+    "a": [
+      "col-1-7",
+      "col-1-23",
+      "col-1-25",
+      "col-2-15",
+      "col-2-17",
+      "col-2-18",
+      "col-2-23",
+      "col-3-13",
+      "col-4-1",
+      "col-4-3",
+      "col-4-7",
+      "col-4-9",
+      "col-4-11",
+      "col-4-12",
+      "col-4-13"
+    ],
+    "minister": [
+      "col-1-7",
+      "col-1-23",
+      "col-1-25",
+      "col-4-7"
+    ],
+    "declared": [
+      "col-1-8"
+    ],
+    "us": [
+      "col-1-8",
+      "col-1-12",
+      "col-1-13",
+      "col-2-14",
+      "col-4-3"
+    ],
+    "spirit": [
+      "col-1-8",
+      "col-2-5"
+    ],
+    "this": [
+      "col-1-9",
+      "col-1-27",
+      "col-2-4",
+      "col-3-20",
+      "col-4-16"
+    ],
+    "cause": [
+      "col-1-9",
+      "col-4-16"
+    ],
+    "do": [
+      "col-1-9",
+      "col-3-13",
+      "col-3-17",
+      "col-3-23"
+    ],
+    "not": [
+      "col-1-9",
+      "col-1-23",
+      "col-2-1",
+      "col-2-8",
+      "col-2-18",
+      "col-2-19",
+      "col-2-21",
+      "col-2-23",
+      "col-3-2",
+      "col-3-9",
+      "col-3-19",
+      "col-3-21",
+      "col-3-22",
+      "col-3-23"
+    ],
+    "cease": [
+      "col-1-9"
+    ],
+    "pray": [
+      "col-1-9"
+    ],
+    "desire": [
+      "col-1-9"
+    ],
+    "that": [
+      "col-1-9",
+      "col-1-10",
+      "col-1-16",
+      "col-1-18",
+      "col-1-19",
+      "col-1-21",
+      "col-1-24",
+      "col-1-28",
+      "col-2-1",
+      "col-2-2",
+      "col-2-14",
+      "col-3-9",
+      "col-3-10",
+      "col-3-24",
+      "col-3-25",
+      "col-4-1",
+      "col-4-3",
+      "col-4-4",
+      "col-4-5",
+      "col-4-6",
+      "col-4-8",
+      "col-4-12",
+      "col-4-13",
+      "col-4-16",
+      "col-4-17"
+    ],
+    "might": [
+      "col-1-9",
+      "col-1-10",
+      "col-1-11",
+      "col-1-18",
+      "col-2-2",
+      "col-4-8"
+    ],
+    "filled": [
+      "col-1-9"
+    ],
+    "with": [
+      "col-1-9",
+      "col-1-11",
+      "col-2-4",
+      "col-2-5",
+      "col-2-7",
+      "col-2-11",
+      "col-2-12",
+      "col-2-13",
+      "col-2-19",
+      "col-2-20",
+      "col-2-22",
+      "col-3-1",
+      "col-3-3",
+      "col-3-4",
+      "col-3-9",
+      "col-3-16",
+      "col-3-22",
+      "col-4-2",
+      "col-4-6",
+      "col-4-9",
+      "col-4-18"
+    ],
+    "knowledge": [
+      "col-1-9",
+      "col-1-10",
+      "col-2-3",
+      "col-3-10"
+    ],
+    "his": [
+      "col-1-9",
+      "col-1-11",
+      "col-1-13",
+      "col-1-14",
+      "col-1-20",
+      "col-1-22",
+      "col-1-24",
+      "col-1-26",
+      "col-1-29",
+      "col-2-14",
+      "col-2-18",
+      "col-3-9",
+      "col-4-15"
+    ],
+    "wisdom": [
+      "col-1-9",
+      "col-1-28",
+      "col-2-3",
+      "col-2-23",
+      "col-3-16",
+      "col-4-5"
+    ],
+    "spiritual": [
+      "col-1-9",
+      "col-3-16"
+    ],
+    "understanding": [
+      "col-1-9",
+      "col-2-2"
+    ],
+    "walk": [
+      "col-1-10",
+      "col-2-6",
+      "col-4-5"
+    ],
+    "worthy": [
+      "col-1-10"
+    ],
+    "pleasing": [
+      "col-1-10",
+      "col-3-20"
+    ],
+    "being": [
+      "col-1-10",
+      "col-2-2",
+      "col-2-13"
+    ],
+    "fruitful": [
+      "col-1-10"
+    ],
+    "every": [
+      "col-1-10",
+      "col-1-15",
+      "col-1-23",
+      "col-1-28",
+      "col-4-6"
+    ],
+    "good": [
+      "col-1-10"
+    ],
+    "work": [
+      "col-1-10"
+    ],
+    "increasing": [
+      "col-1-10"
+    ],
+    "strengthened": [
+      "col-1-11"
+    ],
+    "according": [
+      "col-1-11",
+      "col-1-25",
+      "col-1-29",
+      "col-3-22"
+    ],
+    "glorious": [
+      "col-1-11"
+    ],
+    "power": [
+      "col-1-11",
+      "col-1-13",
+      "col-2-10"
+    ],
+    "patience": [
+      "col-1-11"
+    ],
+    "longsuffering": [
+      "col-1-11",
+      "col-3-12"
+    ],
+    "joyfulness": [
+      "col-1-11"
+    ],
+    "giving": [
+      "col-1-12",
+      "col-3-17"
+    ],
+    "hath": [
+      "col-1-12",
+      "col-1-13",
+      "col-1-21",
+      "col-1-26",
+      "col-2-12",
+      "col-2-13",
+      "col-2-18",
+      "col-3-25",
+      "col-4-13"
+    ],
+    "made": [
+      "col-1-12",
+      "col-1-20",
+      "col-1-23",
+      "col-1-25",
+      "col-1-26",
+      "col-2-11",
+      "col-2-15"
+    ],
+    "meet": [
+      "col-1-12"
+    ],
+    "partakers": [
+      "col-1-12"
+    ],
+    "inheritance": [
+      "col-1-12",
+      "col-3-24"
+    ],
+    "light": [
+      "col-1-12"
+    ],
+    "delivered": [
+      "col-1-13"
+    ],
+    "darkness": [
+      "col-1-13"
+    ],
+    "translated": [
+      "col-1-13"
+    ],
+    "into": [
+      "col-1-13",
+      "col-2-18"
+    ],
+    "kingdom": [
+      "col-1-13",
+      "col-4-11"
+    ],
+    "son": [
+      "col-1-13",
+      "col-4-10"
+    ],
+    "whom": [
+      "col-1-14",
+      "col-1-27",
+      "col-1-28",
+      "col-2-3",
+      "col-2-11",
+      "col-4-8",
+      "col-4-10"
+    ],
+    "redemption": [
+      "col-1-14"
+    ],
+    "through": [
+      "col-1-14",
+      "col-1-20",
+      "col-1-22",
+      "col-2-8",
+      "col-2-12"
+    ],
+    "blood": [
+      "col-1-14",
+      "col-1-20"
+    ],
+    "even": [
+      "col-1-14",
+      "col-1-26",
+      "col-3-13"
+    ],
+    "forgiveness": [
+      "col-1-14"
+    ],
+    "sins": [
+      "col-1-14",
+      "col-2-11",
+      "col-2-13"
+    ],
+    "image": [
+      "col-1-15",
+      "col-3-10"
+    ],
+    "invisible": [
+      "col-1-15",
+      "col-1-16"
+    ],
+    "firstborn": [
+      "col-1-15",
+      "col-1-18"
+    ],
+    "creature": [
+      "col-1-15",
+      "col-1-23"
+    ],
+    "him": [
+      "col-1-16",
+      "col-1-17",
+      "col-1-19",
+      "col-1-20",
+      "col-2-6",
+      "col-2-7",
+      "col-2-9",
+      "col-2-10",
+      "col-2-12",
+      "col-2-13",
+      "col-3-4",
+      "col-3-10",
+      "col-3-17",
+      "col-4-10",
+      "col-4-13"
+    ],
+    "were": [
+      "col-1-16",
+      "col-1-21"
+    ],
+    "things": [
+      "col-1-16",
+      "col-1-17",
+      "col-1-18",
+      "col-1-20",
+      "col-2-17",
+      "col-2-18",
+      "col-2-23",
+      "col-3-1",
+      "col-3-2",
+      "col-3-6",
+      "col-3-14",
+      "col-3-20",
+      "col-3-22",
+      "col-4-9"
+    ],
+    "created": [
+      "col-1-16",
+      "col-3-10"
+    ],
+    "earth": [
+      "col-1-16",
+      "col-1-20",
+      "col-3-2",
+      "col-3-5"
+    ],
+    "visible": [
+      "col-1-16"
+    ],
+    "whether": [
+      "col-1-16",
+      "col-1-20"
+    ],
+    "they": [
+      "col-1-16",
+      "col-1-20",
+      "col-3-21",
+      "col-4-9"
+    ],
+    "thrones": [
+      "col-1-16"
+    ],
+    "or": [
+      "col-1-16",
+      "col-1-20",
+      "col-2-16",
+      "col-3-17"
+    ],
+    "dominions": [
+      "col-1-16"
+    ],
+    "principalities": [
+      "col-1-16",
+      "col-2-15"
+    ],
+    "powers": [
+      "col-1-16",
+      "col-2-15"
+    ],
+    "he": [
+      "col-1-17",
+      "col-1-18",
+      "col-1-21",
+      "col-2-13",
+      "col-2-15",
+      "col-2-18",
+      "col-3-25",
+      "col-4-8",
+      "col-4-10",
+      "col-4-13"
+    ],
+    "consist": [
+      "col-1-17"
+    ],
+    "head": [
+      "col-1-18",
+      "col-2-10",
+      "col-2-19"
+    ],
+    "body": [
+      "col-1-18",
+      "col-1-22",
+      "col-1-24",
+      "col-2-11",
+      "col-2-17",
+      "col-2-19",
+      "col-2-23",
+      "col-3-15"
+    ],
+    "church": [
+      "col-1-18",
+      "col-1-24",
+      "col-4-15",
+      "col-4-16"
+    ],
+    "beginning": [
+      "col-1-18"
+    ],
+    "dead": [
+      "col-1-18",
+      "col-2-12",
+      "col-2-13",
+      "col-2-20",
+      "col-3-3"
+    ],
+    "preeminence": [
+      "col-1-18"
+    ],
+    "pleased": [
+      "col-1-19"
+    ],
+    "should": [
+      "col-1-19",
+      "col-2-4"
+    ],
+    "fulness": [
+      "col-1-19",
+      "col-2-9"
+    ],
+    "dwell": [
+      "col-1-19",
+      "col-3-16"
+    ],
+    "having": [
+      "col-1-20",
+      "col-2-13",
+      "col-2-15",
+      "col-2-19"
+    ],
+    "cross": [
+      "col-1-20",
+      "col-2-14"
+    ],
+    "reconcile": [
+      "col-1-20"
+    ],
+    "himself": [
+      "col-1-20"
+    ],
+    "i": [
+      "col-1-20",
+      "col-1-23",
+      "col-1-25",
+      "col-1-29",
+      "col-2-1",
+      "col-2-4",
+      "col-2-5",
+      "col-4-3",
+      "col-4-4",
+      "col-4-8",
+      "col-4-13"
+    ],
+    "say": [
+      "col-1-20",
+      "col-2-4",
+      "col-4-17"
+    ],
+    "sometime": [
+      "col-1-21"
+    ],
+    "alienated": [
+      "col-1-21"
+    ],
+    "enemies": [
+      "col-1-21"
+    ],
+    "mind": [
+      "col-1-21",
+      "col-2-18",
+      "col-3-12"
+    ],
+    "wicked": [
+      "col-1-21"
+    ],
+    "works": [
+      "col-1-21"
+    ],
+    "yet": [
+      "col-1-21",
+      "col-2-5"
+    ],
+    "now": [
+      "col-1-21",
+      "col-1-24",
+      "col-1-26",
+      "col-3-8"
+    ],
+    "reconciled": [
+      "col-1-21"
+    ],
+    "flesh": [
+      "col-1-22",
+      "col-1-24",
+      "col-2-1",
+      "col-2-5",
+      "col-2-11",
+      "col-2-13",
+      "col-2-23",
+      "col-3-22"
+    ],
+    "death": [
+      "col-1-22"
+    ],
+    "present": [
+      "col-1-22",
+      "col-1-28"
+    ],
+    "holy": [
+      "col-1-22",
+      "col-3-12"
+    ],
+    "unblameable": [
+      "col-1-22"
+    ],
+    "unreproveable": [
+      "col-1-22"
+    ],
+    "sight": [
+      "col-1-22"
+    ],
+    "if": [
+      "col-1-23",
+      "col-2-20",
+      "col-3-1",
+      "col-3-13",
+      "col-4-10"
+    ],
+    "continue": [
+      "col-1-23",
+      "col-4-2"
+    ],
+    "grounded": [
+      "col-1-23"
+    ],
+    "settled": [
+      "col-1-23"
+    ],
+    "moved": [
+      "col-1-23"
+    ],
+    "away": [
+      "col-1-23"
+    ],
+    "was": [
+      "col-1-23",
+      "col-2-14"
+    ],
+    "preached": [
+      "col-1-23"
+    ],
+    "under": [
+      "col-1-23"
+    ],
+    "am": [
+      "col-1-23",
+      "col-1-25",
+      "col-2-5",
+      "col-4-3"
+    ],
+    "rejoice": [
+      "col-1-24"
+    ],
+    "my": [
+      "col-1-24",
+      "col-2-1",
+      "col-4-7",
+      "col-4-10",
+      "col-4-11",
+      "col-4-18"
+    ],
+    "sufferings": [
+      "col-1-24"
+    ],
+    "fill": [
+      "col-1-24"
+    ],
+    "behind": [
+      "col-1-24"
+    ],
+    "afflictions": [
+      "col-1-24"
+    ],
+    "s": [
+      "col-1-24",
+      "col-4-10"
+    ],
+    "sake": [
+      "col-1-24",
+      "col-3-6"
+    ],
+    "dispensation": [
+      "col-1-25"
+    ],
+    "given": [
+      "col-1-25"
+    ],
+    "me": [
+      "col-1-25",
+      "col-1-29",
+      "col-4-11",
+      "col-4-18"
+    ],
+    "fulfil": [
+      "col-1-25",
+      "col-4-17"
+    ],
+    "mystery": [
+      "col-1-26",
+      "col-1-27",
+      "col-2-2",
+      "col-4-3"
+    ],
+    "been": [
+      "col-1-26",
+      "col-2-7",
+      "col-4-11"
+    ],
+    "hid": [
+      "col-1-26",
+      "col-2-3",
+      "col-3-3"
+    ],
+    "ages": [
+      "col-1-26"
+    ],
+    "generations": [
+      "col-1-26"
+    ],
+    "but": [
+      "col-1-26",
+      "col-2-17",
+      "col-3-8",
+      "col-3-11",
+      "col-3-22",
+      "col-3-25"
+    ],
+    "manifest": [
+      "col-1-26",
+      "col-4-4"
+    ],
+    "would": [
+      "col-1-27",
+      "col-2-1",
+      "col-4-3"
+    ],
+    "make": [
+      "col-1-27",
+      "col-4-4",
+      "col-4-9"
+    ],
+    "known": [
+      "col-1-27",
+      "col-4-9"
+    ],
+    "what": [
+      "col-1-27",
+      "col-2-1"
+    ],
+    "riches": [
+      "col-1-27",
+      "col-2-2"
+    ],
+    "glory": [
+      "col-1-27",
+      "col-3-4"
+    ],
+    "among": [
+      "col-1-27",
+      "col-4-16"
+    ],
+    "gentiles": [
+      "col-1-27"
+    ],
+    "preach": [
+      "col-1-28"
+    ],
+    "warning": [
+      "col-1-28"
+    ],
+    "man": [
+      "col-1-28",
+      "col-2-4",
+      "col-2-8",
+      "col-2-16",
+      "col-2-18",
+      "col-3-9",
+      "col-3-10",
+      "col-3-13",
+      "col-4-6"
+    ],
+    "teaching": [
+      "col-1-28",
+      "col-3-16"
+    ],
+    "may": [
+      "col-1-28",
+      "col-4-4",
+      "col-4-6",
+      "col-4-12"
+    ],
+    "perfect": [
+      "col-1-28",
+      "col-4-12"
+    ],
+    "whereunto": [
+      "col-1-29"
+    ],
+    "labour": [
+      "col-1-29"
+    ],
+    "striving": [
+      "col-1-29"
+    ],
+    "working": [
+      "col-1-29"
+    ],
+    "worketh": [
+      "col-1-29"
+    ],
+    "mightily": [
+      "col-1-29"
+    ],
+    "great": [
+      "col-2-1",
+      "col-4-13"
+    ],
+    "conflict": [
+      "col-2-1"
+    ],
+    "them": [
+      "col-2-1",
+      "col-2-15",
+      "col-3-7",
+      "col-3-19",
+      "col-4-5",
+      "col-4-13"
+    ],
+    "laodicea": [
+      "col-2-1",
+      "col-4-13",
+      "col-4-15",
+      "col-4-16"
+    ],
+    "many": [
+      "col-2-1"
+    ],
+    "seen": [
+      "col-2-1",
+      "col-2-18"
+    ],
+    "face": [
+      "col-2-1"
+    ],
+    "their": [
+      "col-2-2"
+    ],
+    "hearts": [
+      "col-2-2",
+      "col-3-15",
+      "col-3-16",
+      "col-4-8"
+    ],
+    "comforted": [
+      "col-2-2"
+    ],
+    "knit": [
+      "col-2-2",
+      "col-2-19"
+    ],
+    "together": [
+      "col-2-2",
+      "col-2-13",
+      "col-2-19"
+    ],
+    "full": [
+      "col-2-2"
+    ],
+    "assurance": [
+      "col-2-2"
+    ],
+    "acknowledgement": [
+      "col-2-2"
+    ],
+    "treasures": [
+      "col-2-3"
+    ],
+    "lest": [
+      "col-2-4",
+      "col-2-8",
+      "col-3-21"
+    ],
+    "any": [
+      "col-2-4",
+      "col-2-8",
+      "col-2-23",
+      "col-3-13"
+    ],
+    "beguile": [
+      "col-2-4",
+      "col-2-18"
+    ],
+    "enticing": [
+      "col-2-4"
+    ],
+    "words": [
+      "col-2-4"
+    ],
+    "though": [
+      "col-2-5",
+      "col-2-20"
+    ],
+    "absent": [
+      "col-2-5"
+    ],
+    "joying": [
+      "col-2-5"
+    ],
+    "beholding": [
+      "col-2-5"
+    ],
+    "order": [
+      "col-2-5"
+    ],
+    "stedfastness": [
+      "col-2-5"
+    ],
+    "therefore": [
+      "col-2-6",
+      "col-2-16",
+      "col-3-5",
+      "col-3-12"
+    ],
+    "received": [
+      "col-2-6",
+      "col-4-10",
+      "col-4-17"
+    ],
+    "so": [
+      "col-2-6",
+      "col-3-13"
+    ],
+    "rooted": [
+      "col-2-7"
+    ],
+    "built": [
+      "col-2-7"
+    ],
+    "stablished": [
+      "col-2-7"
+    ],
+    "taught": [
+      "col-2-7"
+    ],
+    "abounding": [
+      "col-2-7"
+    ],
+    "therein": [
+      "col-2-7"
+    ],
+    "thanksgiving": [
+      "col-2-7",
+      "col-4-2"
+    ],
+    "beware": [
+      "col-2-8"
+    ],
+    "spoil": [
+      "col-2-8"
+    ],
+    "philosophy": [
+      "col-2-8"
+    ],
+    "vain": [
+      "col-2-8"
+    ],
+    "deceit": [
+      "col-2-8"
+    ],
+    "after": [
+      "col-2-8",
+      "col-2-22",
+      "col-3-10"
+    ],
+    "tradition": [
+      "col-2-8"
+    ],
+    "men": [
+      "col-2-8",
+      "col-2-22",
+      "col-3-23"
+    ],
+    "rudiments": [
+      "col-2-8",
+      "col-2-20"
+    ],
+    "dwelleth": [
+      "col-2-9"
+    ],
+    "godhead": [
+      "col-2-9"
+    ],
+    "bodily": [
+      "col-2-9"
+    ],
+    "complete": [
+      "col-2-10",
+      "col-4-12"
+    ],
+    "principality": [
+      "col-2-10"
+    ],
+    "circumcised": [
+      "col-2-11"
+    ],
+    "circumcision": [
+      "col-2-11",
+      "col-3-11",
+      "col-4-11"
+    ],
+    "without": [
+      "col-2-11",
+      "col-4-5"
+    ],
+    "hands": [
+      "col-2-11"
+    ],
+    "putting": [
+      "col-2-11"
+    ],
+    "off": [
+      "col-2-11",
+      "col-3-8",
+      "col-3-9"
+    ],
+    "buried": [
+      "col-2-12"
+    ],
+    "baptism": [
+      "col-2-12"
+    ],
+    "wherein": [
+      "col-2-12"
+    ],
+    "risen": [
+      "col-2-12",
+      "col-3-1"
+    ],
+    "operation": [
+      "col-2-12"
+    ],
+    "raised": [
+      "col-2-12"
+    ],
+    "uncircumcision": [
+      "col-2-13",
+      "col-3-11"
+    ],
+    "quickened": [
+      "col-2-13"
+    ],
+    "forgiven": [
+      "col-2-13"
+    ],
+    "trespasses": [
+      "col-2-13"
+    ],
+    "blotting": [
+      "col-2-14"
+    ],
+    "out": [
+      "col-2-14",
+      "col-3-8"
+    ],
+    "handwriting": [
+      "col-2-14"
+    ],
+    "ordinances": [
+      "col-2-14",
+      "col-2-20"
+    ],
+    "against": [
+      "col-2-14",
+      "col-3-13",
+      "col-3-19"
+    ],
+    "contrary": [
+      "col-2-14"
+    ],
+    "took": [
+      "col-2-14"
+    ],
+    "way": [
+      "col-2-14"
+    ],
+    "nailing": [
+      "col-2-14"
+    ],
+    "spoiled": [
+      "col-2-15"
+    ],
+    "shew": [
+      "col-2-15",
+      "col-2-23"
+    ],
+    "openly": [
+      "col-2-15"
+    ],
+    "triumphing": [
+      "col-2-15"
+    ],
+    "over": [
+      "col-2-15"
+    ],
+    "let": [
+      "col-2-16",
+      "col-2-18",
+      "col-3-15",
+      "col-3-16",
+      "col-4-6"
+    ],
+    "no": [
+      "col-2-16",
+      "col-2-18",
+      "col-3-25"
+    ],
+    "judge": [
+      "col-2-16"
+    ],
+    "meat": [
+      "col-2-16"
+    ],
+    "drink": [
+      "col-2-16"
+    ],
+    "respect": [
+      "col-2-16",
+      "col-3-25"
+    ],
+    "holyday": [
+      "col-2-16"
+    ],
+    "new": [
+      "col-2-16",
+      "col-3-10"
+    ],
+    "moon": [
+      "col-2-16"
+    ],
+    "sabbath": [
+      "col-2-16"
+    ],
+    "days": [
+      "col-2-16"
+    ],
+    "shadow": [
+      "col-2-17"
+    ],
+    "reward": [
+      "col-2-18",
+      "col-3-24"
+    ],
+    "voluntary": [
+      "col-2-18"
+    ],
+    "humility": [
+      "col-2-18",
+      "col-2-23"
+    ],
+    "worshipping": [
+      "col-2-18"
+    ],
+    "angels": [
+      "col-2-18"
+    ],
+    "intruding": [
+      "col-2-18"
+    ],
+    "those": [
+      "col-2-18",
+      "col-3-1"
+    ],
+    "vainly": [
+      "col-2-18"
+    ],
+    "puffed": [
+      "col-2-18"
+    ],
+    "fleshly": [
+      "col-2-18"
+    ],
+    "holding": [
+      "col-2-19"
+    ],
+    "joints": [
+      "col-2-19"
+    ],
+    "bands": [
+      "col-2-19"
+    ],
+    "nourishment": [
+      "col-2-19"
+    ],
+    "ministered": [
+      "col-2-19"
+    ],
+    "increaseth": [
+      "col-2-19"
+    ],
+    "increase": [
+      "col-2-19"
+    ],
+    "wherefore": [
+      "col-2-20"
+    ],
+    "why": [
+      "col-2-20"
+    ],
+    "living": [
+      "col-2-20"
+    ],
+    "subject": [
+      "col-2-20"
+    ],
+    "touch": [
+      "col-2-21"
+    ],
+    "taste": [
+      "col-2-21"
+    ],
+    "handle": [
+      "col-2-21"
+    ],
+    "perish": [
+      "col-2-22"
+    ],
+    "using": [
+      "col-2-22"
+    ],
+    "commandments": [
+      "col-2-22",
+      "col-4-10"
+    ],
+    "doctrines": [
+      "col-2-22"
+    ],
+    "indeed": [
+      "col-2-23"
+    ],
+    "worship": [
+      "col-2-23"
+    ],
+    "neglecting": [
+      "col-2-23"
+    ],
+    "honour": [
+      "col-2-23"
+    ],
+    "satisfying": [
+      "col-2-23"
+    ],
+    "then": [
+      "col-3-1",
+      "col-3-4"
+    ],
+    "seek": [
+      "col-3-1"
+    ],
+    "above": [
+      "col-3-1",
+      "col-3-2",
+      "col-3-14"
+    ],
+    "where": [
+      "col-3-1",
+      "col-3-11"
+    ],
+    "sitteth": [
+      "col-3-1"
+    ],
+    "on": [
+      "col-3-1",
+      "col-3-2",
+      "col-3-6",
+      "col-3-10",
+      "col-3-12",
+      "col-3-14"
+    ],
+    "right": [
+      "col-3-1"
+    ],
+    "hand": [
+      "col-3-1",
+      "col-4-18"
+    ],
+    "set": [
+      "col-3-2"
+    ],
+    "affection": [
+      "col-3-2",
+      "col-3-5"
+    ],
+    "life": [
+      "col-3-3",
+      "col-3-4"
+    ],
+    "when": [
+      "col-3-4",
+      "col-3-7",
+      "col-4-16"
+    ],
+    "shall": [
+      "col-3-4",
+      "col-3-24",
+      "col-3-25",
+      "col-4-7",
+      "col-4-9"
+    ],
+    "appear": [
+      "col-3-4"
+    ],
+    "mortify": [
+      "col-3-5"
+    ],
+    "members": [
+      "col-3-5"
+    ],
+    "upon": [
+      "col-3-5"
+    ],
+    "fornication": [
+      "col-3-5"
+    ],
+    "uncleanness": [
+      "col-3-5"
+    ],
+    "inordinate": [
+      "col-3-5"
+    ],
+    "evil": [
+      "col-3-5"
+    ],
+    "concupiscence": [
+      "col-3-5"
+    ],
+    "covetousness": [
+      "col-3-5"
+    ],
+    "idolatry": [
+      "col-3-5"
+    ],
+    "wrath": [
+      "col-3-6",
+      "col-3-8"
+    ],
+    "cometh": [
+      "col-3-6"
+    ],
+    "children": [
+      "col-3-6",
+      "col-3-20",
+      "col-3-21"
+    ],
+    "disobedience": [
+      "col-3-6"
+    ],
+    "walked": [
+      "col-3-7"
+    ],
+    "some": [
+      "col-3-7"
+    ],
+    "time": [
+      "col-3-7",
+      "col-4-5"
+    ],
+    "lived": [
+      "col-3-7"
+    ],
+    "put": [
+      "col-3-8",
+      "col-3-9",
+      "col-3-10",
+      "col-3-12",
+      "col-3-14"
+    ],
+    "these": [
+      "col-3-8",
+      "col-3-14",
+      "col-4-11"
+    ],
+    "anger": [
+      "col-3-8",
+      "col-3-21"
+    ],
+    "malice": [
+      "col-3-8"
+    ],
+    "blasphemy": [
+      "col-3-8"
+    ],
+    "filthy": [
+      "col-3-8"
+    ],
+    "communication": [
+      "col-3-8"
+    ],
+    "mouth": [
+      "col-3-8"
+    ],
+    "lie": [
+      "col-3-9"
+    ],
+    "one": [
+      "col-3-9",
+      "col-3-13",
+      "col-3-15",
+      "col-3-16",
+      "col-4-9",
+      "col-4-12"
+    ],
+    "another": [
+      "col-3-9",
+      "col-3-13",
+      "col-3-16"
+    ],
+    "seeing": [
+      "col-3-9"
+    ],
+    "old": [
+      "col-3-9"
+    ],
+    "deeds": [
+      "col-3-9"
+    ],
+    "renewed": [
+      "col-3-10"
+    ],
+    "there": [
+      "col-3-11",
+      "col-3-25"
+    ],
+    "neither": [
+      "col-3-11"
+    ],
+    "greek": [
+      "col-3-11"
+    ],
+    "nor": [
+      "col-3-11"
+    ],
+    "jew": [
+      "col-3-11"
+    ],
+    "barbarian": [
+      "col-3-11"
+    ],
+    "scythian": [
+      "col-3-11"
+    ],
+    "bond": [
+      "col-3-11",
+      "col-3-14"
+    ],
+    "free": [
+      "col-3-11"
+    ],
+    "elect": [
+      "col-3-12"
+    ],
+    "beloved": [
+      "col-3-12",
+      "col-4-7",
+      "col-4-9",
+      "col-4-14"
+    ],
+    "bowels": [
+      "col-3-12"
+    ],
+    "mercies": [
+      "col-3-12"
+    ],
+    "kindness": [
+      "col-3-12"
+    ],
+    "humbleness": [
+      "col-3-12"
+    ],
+    "meekness": [
+      "col-3-12"
+    ],
+    "forbearing": [
+      "col-3-13"
+    ],
+    "forgiving": [
+      "col-3-13"
+    ],
+    "quarrel": [
+      "col-3-13"
+    ],
+    "forgave": [
+      "col-3-13"
+    ],
+    "charity": [
+      "col-3-14"
+    ],
+    "perfectness": [
+      "col-3-14"
+    ],
+    "rule": [
+      "col-3-15"
+    ],
+    "called": [
+      "col-3-15",
+      "col-4-11"
+    ],
+    "thankful": [
+      "col-3-15"
+    ],
+    "richly": [
+      "col-3-16"
+    ],
+    "admonishing": [
+      "col-3-16"
+    ],
+    "psalms": [
+      "col-3-16"
+    ],
+    "hymns": [
+      "col-3-16"
+    ],
+    "songs": [
+      "col-3-16"
+    ],
+    "singing": [
+      "col-3-16"
+    ],
+    "whatsoever": [
+      "col-3-17",
+      "col-3-23"
+    ],
+    "deed": [
+      "col-3-17"
+    ],
+    "name": [
+      "col-3-17"
+    ],
+    "wives": [
+      "col-3-18",
+      "col-3-19"
+    ],
+    "submit": [
+      "col-3-18"
+    ],
+    "yourselves": [
+      "col-3-18"
+    ],
+    "own": [
+      "col-3-18"
+    ],
+    "husbands": [
+      "col-3-18",
+      "col-3-19"
+    ],
+    "fit": [
+      "col-3-18"
+    ],
+    "bitter": [
+      "col-3-19"
+    ],
+    "obey": [
+      "col-3-20",
+      "col-3-22"
+    ],
+    "parents": [
+      "col-3-20"
+    ],
+    "well": [
+      "col-3-20"
+    ],
+    "fathers": [
+      "col-3-21"
+    ],
+    "provoke": [
+      "col-3-21"
+    ],
+    "discouraged": [
+      "col-3-21"
+    ],
+    "servants": [
+      "col-3-22",
+      "col-4-1"
+    ],
+    "masters": [
+      "col-3-22",
+      "col-4-1"
+    ],
+    "eyeservice": [
+      "col-3-22"
+    ],
+    "menpleasers": [
+      "col-3-22"
+    ],
+    "singleness": [
+      "col-3-22"
+    ],
+    "heart": [
+      "col-3-22"
+    ],
+    "fearing": [
+      "col-3-22"
+    ],
+    "heartily": [
+      "col-3-23"
+    ],
+    "knowing": [
+      "col-3-24",
+      "col-4-1"
+    ],
+    "receive": [
+      "col-3-24",
+      "col-3-25",
+      "col-4-10"
+    ],
+    "serve": [
+      "col-3-24"
+    ],
+    "doeth": [
+      "col-3-25"
+    ],
+    "wrong": [
+      "col-3-25"
+    ],
+    "done": [
+      "col-3-25",
+      "col-4-9"
+    ],
+    "persons": [
+      "col-3-25"
+    ],
+    "just": [
+      "col-4-1"
+    ],
+    "equal": [
+      "col-4-1"
+    ],
+    "master": [
+      "col-4-1"
+    ],
+    "prayer": [
+      "col-4-2"
+    ],
+    "watch": [
+      "col-4-2"
+    ],
+    "same": [
+      "col-4-2",
+      "col-4-8"
+    ],
+    "withal": [
+      "col-4-3"
+    ],
+    "open": [
+      "col-4-3"
+    ],
+    "door": [
+      "col-4-3"
+    ],
+    "utterance": [
+      "col-4-3"
+    ],
+    "speak": [
+      "col-4-3",
+      "col-4-4"
+    ],
+    "bonds": [
+      "col-4-3",
+      "col-4-18"
+    ],
+    "ought": [
+      "col-4-4",
+      "col-4-6"
+    ],
+    "toward": [
+      "col-4-5"
+    ],
+    "redeeming": [
+      "col-4-5"
+    ],
+    "speech": [
+      "col-4-6"
+    ],
+    "alway": [
+      "col-4-6"
+    ],
+    "seasoned": [
+      "col-4-6"
+    ],
+    "salt": [
+      "col-4-6"
+    ],
+    "know": [
+      "col-4-6",
+      "col-4-8"
+    ],
+    "how": [
+      "col-4-6"
+    ],
+    "answer": [
+      "col-4-6"
+    ],
+    "state": [
+      "col-4-7"
+    ],
+    "tychicus": [
+      "col-4-7"
+    ],
+    "declare": [
+      "col-4-7"
+    ],
+    "sent": [
+      "col-4-8"
+    ],
+    "purpose": [
+      "col-4-8"
+    ],
+    "estate": [
+      "col-4-8"
+    ],
+    "comfort": [
+      "col-4-8",
+      "col-4-11"
+    ],
+    "onesimus": [
+      "col-4-9"
+    ],
+    "here": [
+      "col-4-9"
+    ],
+    "aristarchus": [
+      "col-4-10"
+    ],
+    "fellowprisoner": [
+      "col-4-10"
+    ],
+    "saluteth": [
+      "col-4-10",
+      "col-4-12"
+    ],
+    "marcus": [
+      "col-4-10"
+    ],
+    "sister": [
+      "col-4-10"
+    ],
+    "barnabas": [
+      "col-4-10"
+    ],
+    "touching": [
+      "col-4-10"
+    ],
+    "justus": [
+      "col-4-11"
+    ],
+    "only": [
+      "col-4-11"
+    ],
+    "fellowworkers": [
+      "col-4-11"
+    ],
+    "servant": [
+      "col-4-12"
+    ],
+    "labouring": [
+      "col-4-12"
+    ],
+    "fervently": [
+      "col-4-12"
+    ],
+    "prayers": [
+      "col-4-12"
+    ],
+    "stand": [
+      "col-4-12"
+    ],
+    "bear": [
+      "col-4-13"
+    ],
+    "record": [
+      "col-4-13"
+    ],
+    "zeal": [
+      "col-4-13"
+    ],
+    "hierapolis": [
+      "col-4-13"
+    ],
+    "luke": [
+      "col-4-14"
+    ],
+    "physician": [
+      "col-4-14"
+    ],
+    "demas": [
+      "col-4-14"
+    ],
+    "greet": [
+      "col-4-14"
+    ],
+    "salute": [
+      "col-4-15"
+    ],
+    "nymphas": [
+      "col-4-15"
+    ],
+    "house": [
+      "col-4-15"
+    ],
+    "epistle": [
+      "col-4-16"
+    ],
+    "read": [
+      "col-4-16"
+    ],
+    "laodiceans": [
+      "col-4-16"
+    ],
+    "likewise": [
+      "col-4-16"
+    ],
+    "archippus": [
+      "col-4-17"
+    ],
+    "take": [
+      "col-4-17"
+    ],
+    "heed": [
+      "col-4-17"
+    ],
+    "ministry": [
+      "col-4-17"
+    ],
+    "thou": [
+      "col-4-17"
+    ],
+    "hast": [
+      "col-4-17"
+    ],
+    "salutation": [
+      "col-4-18"
+    ],
+    "remember": [
+      "col-4-18"
+    ],
+    "amen": [
+      "col-4-18"
+    ]
+  }
+}

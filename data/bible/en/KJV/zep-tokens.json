@@ -1,0 +1,2141 @@
+{
+  "book": "Zephaniah",
+  "book_id": "zep",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "zep-1-1",
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-5",
+      "zep-1-6",
+      "zep-1-7",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-10",
+      "zep-1-11",
+      "zep-1-12",
+      "zep-1-13",
+      "zep-1-14",
+      "zep-1-16",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-2",
+      "zep-2-3",
+      "zep-2-4",
+      "zep-2-5",
+      "zep-2-6",
+      "zep-2-7",
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-2-13",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-2",
+      "zep-3-3",
+      "zep-3-4",
+      "zep-3-5",
+      "zep-3-6",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-10",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-14",
+      "zep-3-15",
+      "zep-3-17",
+      "zep-3-18",
+      "zep-3-20"
+    ],
+    "word": [
+      "zep-1-1",
+      "zep-2-5"
+    ],
+    "of": [
+      "zep-1-1",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-5",
+      "zep-1-7",
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-11",
+      "zep-1-14",
+      "zep-1-15",
+      "zep-1-16",
+      "zep-1-18",
+      "zep-2-2",
+      "zep-2-3",
+      "zep-2-5",
+      "zep-2-7",
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-2-14",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-10",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-14",
+      "zep-3-15",
+      "zep-3-17",
+      "zep-3-18",
+      "zep-3-20"
+    ],
+    "lord": [
+      "zep-1-1",
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-5",
+      "zep-1-6",
+      "zep-1-7",
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-14",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-2",
+      "zep-2-3",
+      "zep-2-5",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-3-2",
+      "zep-3-5",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-12",
+      "zep-3-15",
+      "zep-3-17",
+      "zep-3-20"
+    ],
+    "which": [
+      "zep-1-1",
+      "zep-1-9",
+      "zep-2-3"
+    ],
+    "came": [
+      "zep-1-1"
+    ],
+    "unto": [
+      "zep-1-1",
+      "zep-2-5",
+      "zep-2-11"
+    ],
+    "zephaniah": [
+      "zep-1-1"
+    ],
+    "son": [
+      "zep-1-1"
+    ],
+    "cushi": [
+      "zep-1-1"
+    ],
+    "gedaliah": [
+      "zep-1-1"
+    ],
+    "amariah": [
+      "zep-1-1"
+    ],
+    "hizkiah": [
+      "zep-1-1"
+    ],
+    "in": [
+      "zep-1-1",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-18",
+      "zep-2-3",
+      "zep-2-7",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-2",
+      "zep-3-5",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-15",
+      "zep-3-16",
+      "zep-3-17",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "days": [
+      "zep-1-1"
+    ],
+    "josiah": [
+      "zep-1-1"
+    ],
+    "amon": [
+      "zep-1-1"
+    ],
+    "king": [
+      "zep-1-1",
+      "zep-1-8",
+      "zep-3-15"
+    ],
+    "judah": [
+      "zep-1-1",
+      "zep-1-4",
+      "zep-2-7"
+    ],
+    "i": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-12",
+      "zep-1-17",
+      "zep-2-5",
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-15",
+      "zep-3-6",
+      "zep-3-7",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-18",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "will": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-12",
+      "zep-1-17",
+      "zep-2-5",
+      "zep-2-11",
+      "zep-2-13",
+      "zep-3-5",
+      "zep-3-9",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-17",
+      "zep-3-18",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "utterly": [
+      "zep-1-2"
+    ],
+    "consume": [
+      "zep-1-2",
+      "zep-1-3"
+    ],
+    "all": [
+      "zep-1-2",
+      "zep-1-4",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-11",
+      "zep-1-18",
+      "zep-2-3",
+      "zep-2-11",
+      "zep-2-14",
+      "zep-3-7",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-11",
+      "zep-3-14",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "things": [
+      "zep-1-2"
+    ],
+    "from": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-6",
+      "zep-1-10",
+      "zep-2-11",
+      "zep-3-10"
+    ],
+    "off": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-11",
+      "zep-3-6",
+      "zep-3-7"
+    ],
+    "land": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-18",
+      "zep-2-5",
+      "zep-3-19"
+    ],
+    "saith": [
+      "zep-1-2",
+      "zep-1-3",
+      "zep-1-10",
+      "zep-2-9",
+      "zep-3-8",
+      "zep-3-20"
+    ],
+    "man": [
+      "zep-1-3",
+      "zep-1-14",
+      "zep-3-6"
+    ],
+    "and": [
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-5",
+      "zep-1-6",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-13",
+      "zep-1-14",
+      "zep-1-15",
+      "zep-1-16",
+      "zep-1-17",
+      "zep-2-4",
+      "zep-2-6",
+      "zep-2-7",
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-2-13",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-4",
+      "zep-3-7",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-14",
+      "zep-3-16",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "beast": [
+      "zep-1-3"
+    ],
+    "fowls": [
+      "zep-1-3"
+    ],
+    "heaven": [
+      "zep-1-3",
+      "zep-1-5"
+    ],
+    "fishes": [
+      "zep-1-3"
+    ],
+    "sea": [
+      "zep-1-3",
+      "zep-2-5",
+      "zep-2-6"
+    ],
+    "stumblingblocks": [
+      "zep-1-3"
+    ],
+    "with": [
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-12",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-14",
+      "zep-3-17"
+    ],
+    "wicked": [
+      "zep-1-3"
+    ],
+    "cut": [
+      "zep-1-3",
+      "zep-1-4",
+      "zep-1-11",
+      "zep-3-6",
+      "zep-3-7"
+    ],
+    "also": [
+      "zep-1-4",
+      "zep-1-9",
+      "zep-1-13",
+      "zep-2-12",
+      "zep-3-12"
+    ],
+    "stretch": [
+      "zep-1-4",
+      "zep-2-13"
+    ],
+    "out": [
+      "zep-1-4",
+      "zep-1-17",
+      "zep-2-4",
+      "zep-2-13",
+      "zep-3-11",
+      "zep-3-15",
+      "zep-3-19"
+    ],
+    "mine": [
+      "zep-1-4",
+      "zep-3-8",
+      "zep-3-10"
+    ],
+    "hand": [
+      "zep-1-4",
+      "zep-1-7",
+      "zep-2-13",
+      "zep-2-15"
+    ],
+    "upon": [
+      "zep-1-4",
+      "zep-1-5",
+      "zep-1-17",
+      "zep-2-2",
+      "zep-3-8",
+      "zep-3-9"
+    ],
+    "inhabitants": [
+      "zep-1-4",
+      "zep-1-11",
+      "zep-2-5"
+    ],
+    "jerusalem": [
+      "zep-1-4",
+      "zep-1-12",
+      "zep-3-14",
+      "zep-3-16"
+    ],
+    "remnant": [
+      "zep-1-4",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-3-13"
+    ],
+    "baal": [
+      "zep-1-4"
+    ],
+    "this": [
+      "zep-1-4",
+      "zep-2-10",
+      "zep-2-15"
+    ],
+    "place": [
+      "zep-1-4",
+      "zep-2-11",
+      "zep-2-15"
+    ],
+    "name": [
+      "zep-1-4",
+      "zep-3-9",
+      "zep-3-12",
+      "zep-3-20"
+    ],
+    "chemarims": [
+      "zep-1-4"
+    ],
+    "priests": [
+      "zep-1-4",
+      "zep-3-4"
+    ],
+    "them": [
+      "zep-1-5",
+      "zep-1-6",
+      "zep-1-13",
+      "zep-1-18",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-2-11",
+      "zep-3-7",
+      "zep-3-8",
+      "zep-3-11",
+      "zep-3-13",
+      "zep-3-18",
+      "zep-3-19"
+    ],
+    "that": [
+      "zep-1-5",
+      "zep-1-6",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-10",
+      "zep-1-11",
+      "zep-1-12",
+      "zep-1-15",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-5",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-6",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-11",
+      "zep-3-16",
+      "zep-3-18",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "worship": [
+      "zep-1-5",
+      "zep-2-11"
+    ],
+    "host": [
+      "zep-1-5"
+    ],
+    "housetops": [
+      "zep-1-5"
+    ],
+    "swear": [
+      "zep-1-5"
+    ],
+    "by": [
+      "zep-1-5",
+      "zep-1-18",
+      "zep-2-12",
+      "zep-2-15",
+      "zep-3-6"
+    ],
+    "malcham": [
+      "zep-1-5"
+    ],
+    "are": [
+      "zep-1-6",
+      "zep-1-8",
+      "zep-1-11",
+      "zep-1-12",
+      "zep-3-3",
+      "zep-3-4",
+      "zep-3-6",
+      "zep-3-18"
+    ],
+    "turned": [
+      "zep-1-6"
+    ],
+    "back": [
+      "zep-1-6",
+      "zep-3-20"
+    ],
+    "those": [
+      "zep-1-6",
+      "zep-1-9"
+    ],
+    "have": [
+      "zep-1-6",
+      "zep-1-17",
+      "zep-2-3",
+      "zep-2-8",
+      "zep-2-10",
+      "zep-3-4",
+      "zep-3-6",
+      "zep-3-19"
+    ],
+    "not": [
+      "zep-1-6",
+      "zep-1-12",
+      "zep-1-13",
+      "zep-2-1",
+      "zep-3-2",
+      "zep-3-3",
+      "zep-3-5",
+      "zep-3-7",
+      "zep-3-11",
+      "zep-3-13",
+      "zep-3-15",
+      "zep-3-16"
+    ],
+    "sought": [
+      "zep-1-6"
+    ],
+    "nor": [
+      "zep-1-6",
+      "zep-1-18",
+      "zep-3-13"
+    ],
+    "inquired": [
+      "zep-1-6"
+    ],
+    "for": [
+      "zep-1-6",
+      "zep-1-7",
+      "zep-1-11",
+      "zep-1-18",
+      "zep-2-4",
+      "zep-2-6",
+      "zep-2-7",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-11",
+      "zep-3-13",
+      "zep-3-18",
+      "zep-3-20"
+    ],
+    "him": [
+      "zep-1-6",
+      "zep-2-11",
+      "zep-3-9"
+    ],
+    "hold": [
+      "zep-1-7"
+    ],
+    "thy": [
+      "zep-1-7",
+      "zep-3-11",
+      "zep-3-15",
+      "zep-3-17"
+    ],
+    "peace": [
+      "zep-1-7"
+    ],
+    "at": [
+      "zep-1-7",
+      "zep-1-12",
+      "zep-2-4",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "presence": [
+      "zep-1-7"
+    ],
+    "god": [
+      "zep-1-7",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-3-2",
+      "zep-3-17"
+    ],
+    "day": [
+      "zep-1-7",
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-10",
+      "zep-1-14",
+      "zep-1-15",
+      "zep-1-16",
+      "zep-1-18",
+      "zep-2-2",
+      "zep-2-3",
+      "zep-2-4",
+      "zep-3-8",
+      "zep-3-11",
+      "zep-3-16"
+    ],
+    "is": [
+      "zep-1-7",
+      "zep-1-14",
+      "zep-1-15",
+      "zep-2-5",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-5",
+      "zep-3-6",
+      "zep-3-8",
+      "zep-3-15",
+      "zep-3-17"
+    ],
+    "hath": [
+      "zep-1-7",
+      "zep-3-15"
+    ],
+    "prepared": [
+      "zep-1-7"
+    ],
+    "a": [
+      "zep-1-7",
+      "zep-1-10",
+      "zep-1-13",
+      "zep-1-15",
+      "zep-1-16",
+      "zep-1-18",
+      "zep-2-4",
+      "zep-2-9",
+      "zep-2-13",
+      "zep-2-15",
+      "zep-3-9",
+      "zep-3-13",
+      "zep-3-18",
+      "zep-3-20"
+    ],
+    "sacrifice": [
+      "zep-1-7",
+      "zep-1-8"
+    ],
+    "he": [
+      "zep-1-7",
+      "zep-1-12",
+      "zep-1-18",
+      "zep-2-11",
+      "zep-2-13",
+      "zep-2-14",
+      "zep-3-5",
+      "zep-3-15",
+      "zep-3-17"
+    ],
+    "bid": [
+      "zep-1-7"
+    ],
+    "his": [
+      "zep-1-7",
+      "zep-1-18",
+      "zep-2-3",
+      "zep-2-11",
+      "zep-2-13",
+      "zep-2-15",
+      "zep-3-5",
+      "zep-3-17"
+    ],
+    "guests": [
+      "zep-1-7"
+    ],
+    "it": [
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-14",
+      "zep-2-3",
+      "zep-2-14",
+      "zep-3-16",
+      "zep-3-18"
+    ],
+    "shall": [
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-13",
+      "zep-1-14",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-3",
+      "zep-2-4",
+      "zep-2-5",
+      "zep-2-6",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-2-11",
+      "zep-2-12",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-8",
+      "zep-3-10",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-16"
+    ],
+    "come": [
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-2-2"
+    ],
+    "to": [
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-1-18",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-2",
+      "zep-3-4",
+      "zep-3-5",
+      "zep-3-8",
+      "zep-3-9",
+      "zep-3-16",
+      "zep-3-18",
+      "zep-3-19"
+    ],
+    "pass": [
+      "zep-1-8",
+      "zep-1-10",
+      "zep-1-12",
+      "zep-2-2"
+    ],
+    "s": [
+      "zep-1-8",
+      "zep-1-18",
+      "zep-2-2",
+      "zep-2-3"
+    ],
+    "punish": [
+      "zep-1-8",
+      "zep-1-9",
+      "zep-1-12"
+    ],
+    "princes": [
+      "zep-1-8",
+      "zep-3-3"
+    ],
+    "children": [
+      "zep-1-8",
+      "zep-2-8",
+      "zep-2-9"
+    ],
+    "such": [
+      "zep-1-8"
+    ],
+    "as": [
+      "zep-1-8",
+      "zep-1-17",
+      "zep-2-2",
+      "zep-2-9"
+    ],
+    "clothed": [
+      "zep-1-8"
+    ],
+    "strange": [
+      "zep-1-8"
+    ],
+    "apparel": [
+      "zep-1-8"
+    ],
+    "same": [
+      "zep-1-9"
+    ],
+    "leap": [
+      "zep-1-9"
+    ],
+    "on": [
+      "zep-1-9",
+      "zep-1-12"
+    ],
+    "threshold": [
+      "zep-1-9"
+    ],
+    "fill": [
+      "zep-1-9"
+    ],
+    "their": [
+      "zep-1-9",
+      "zep-1-12",
+      "zep-1-13",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-7",
+      "zep-2-8",
+      "zep-2-10",
+      "zep-2-14",
+      "zep-3-6",
+      "zep-3-7",
+      "zep-3-13"
+    ],
+    "masters": [
+      "zep-1-9"
+    ],
+    "houses": [
+      "zep-1-9",
+      "zep-1-13",
+      "zep-2-7"
+    ],
+    "violence": [
+      "zep-1-9",
+      "zep-3-4"
+    ],
+    "deceit": [
+      "zep-1-9"
+    ],
+    "there": [
+      "zep-1-10",
+      "zep-1-14",
+      "zep-2-5",
+      "zep-2-15",
+      "zep-3-6"
+    ],
+    "be": [
+      "zep-1-10",
+      "zep-1-17",
+      "zep-1-18",
+      "zep-2-3",
+      "zep-2-4",
+      "zep-2-5",
+      "zep-2-6",
+      "zep-2-7",
+      "zep-2-9",
+      "zep-2-11",
+      "zep-2-12",
+      "zep-2-14",
+      "zep-3-7",
+      "zep-3-8",
+      "zep-3-11",
+      "zep-3-13",
+      "zep-3-14",
+      "zep-3-16"
+    ],
+    "noise": [
+      "zep-1-10"
+    ],
+    "cry": [
+      "zep-1-10",
+      "zep-1-14"
+    ],
+    "fish": [
+      "zep-1-10"
+    ],
+    "gate": [
+      "zep-1-10"
+    ],
+    "an": [
+      "zep-1-10",
+      "zep-3-12"
+    ],
+    "howling": [
+      "zep-1-10"
+    ],
+    "second": [
+      "zep-1-10"
+    ],
+    "great": [
+      "zep-1-10",
+      "zep-1-14"
+    ],
+    "crashing": [
+      "zep-1-10"
+    ],
+    "hills": [
+      "zep-1-10"
+    ],
+    "howl": [
+      "zep-1-11"
+    ],
+    "ye": [
+      "zep-1-11",
+      "zep-2-3",
+      "zep-2-12",
+      "zep-3-8"
+    ],
+    "maktesh": [
+      "zep-1-11"
+    ],
+    "merchant": [
+      "zep-1-11"
+    ],
+    "people": [
+      "zep-1-11",
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-10",
+      "zep-3-9",
+      "zep-3-12",
+      "zep-3-20"
+    ],
+    "down": [
+      "zep-1-11",
+      "zep-2-7",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-13"
+    ],
+    "they": [
+      "zep-1-11",
+      "zep-1-13",
+      "zep-1-17",
+      "zep-2-4",
+      "zep-2-7",
+      "zep-2-8",
+      "zep-2-10",
+      "zep-3-3",
+      "zep-3-4",
+      "zep-3-7",
+      "zep-3-9",
+      "zep-3-12",
+      "zep-3-13",
+      "zep-3-19"
+    ],
+    "bear": [
+      "zep-1-11"
+    ],
+    "silver": [
+      "zep-1-11",
+      "zep-1-18"
+    ],
+    "time": [
+      "zep-1-12",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "search": [
+      "zep-1-12"
+    ],
+    "candles": [
+      "zep-1-12"
+    ],
+    "men": [
+      "zep-1-12",
+      "zep-1-17",
+      "zep-2-11"
+    ],
+    "settled": [
+      "zep-1-12"
+    ],
+    "lees": [
+      "zep-1-12"
+    ],
+    "say": [
+      "zep-1-12"
+    ],
+    "heart": [
+      "zep-1-12",
+      "zep-2-15",
+      "zep-3-14"
+    ],
+    "do": [
+      "zep-1-12",
+      "zep-3-5",
+      "zep-3-13"
+    ],
+    "good": [
+      "zep-1-12"
+    ],
+    "neither": [
+      "zep-1-12",
+      "zep-1-18",
+      "zep-3-13"
+    ],
+    "evil": [
+      "zep-1-12",
+      "zep-3-15"
+    ],
+    "therefore": [
+      "zep-1-13",
+      "zep-2-9",
+      "zep-3-8"
+    ],
+    "goods": [
+      "zep-1-13"
+    ],
+    "become": [
+      "zep-1-13",
+      "zep-2-15"
+    ],
+    "booty": [
+      "zep-1-13"
+    ],
+    "desolation": [
+      "zep-1-13",
+      "zep-1-15",
+      "zep-2-4",
+      "zep-2-9",
+      "zep-2-13",
+      "zep-2-14",
+      "zep-2-15"
+    ],
+    "build": [
+      "zep-1-13"
+    ],
+    "but": [
+      "zep-1-13",
+      "zep-1-18",
+      "zep-3-5",
+      "zep-3-7"
+    ],
+    "inhabit": [
+      "zep-1-13"
+    ],
+    "plant": [
+      "zep-1-13"
+    ],
+    "vineyards": [
+      "zep-1-13"
+    ],
+    "drink": [
+      "zep-1-13"
+    ],
+    "wine": [
+      "zep-1-13"
+    ],
+    "thereof": [
+      "zep-1-13",
+      "zep-3-5"
+    ],
+    "near": [
+      "zep-1-14",
+      "zep-3-2"
+    ],
+    "hasteth": [
+      "zep-1-14"
+    ],
+    "greatly": [
+      "zep-1-14"
+    ],
+    "even": [
+      "zep-1-14",
+      "zep-1-18",
+      "zep-2-5",
+      "zep-2-9",
+      "zep-2-11",
+      "zep-3-8",
+      "zep-3-10",
+      "zep-3-15",
+      "zep-3-20"
+    ],
+    "voice": [
+      "zep-1-14",
+      "zep-2-14",
+      "zep-3-2"
+    ],
+    "mighty": [
+      "zep-1-14",
+      "zep-3-17"
+    ],
+    "bitterly": [
+      "zep-1-14"
+    ],
+    "wrath": [
+      "zep-1-15",
+      "zep-1-18"
+    ],
+    "trouble": [
+      "zep-1-15"
+    ],
+    "distress": [
+      "zep-1-15",
+      "zep-1-17"
+    ],
+    "wasteness": [
+      "zep-1-15"
+    ],
+    "darkness": [
+      "zep-1-15"
+    ],
+    "gloominess": [
+      "zep-1-15"
+    ],
+    "clouds": [
+      "zep-1-15"
+    ],
+    "thick": [
+      "zep-1-15"
+    ],
+    "trumpet": [
+      "zep-1-16"
+    ],
+    "alarm": [
+      "zep-1-16"
+    ],
+    "against": [
+      "zep-1-16",
+      "zep-1-17",
+      "zep-2-5",
+      "zep-2-8",
+      "zep-2-10",
+      "zep-2-13",
+      "zep-3-11"
+    ],
+    "fenced": [
+      "zep-1-16"
+    ],
+    "cities": [
+      "zep-1-16",
+      "zep-3-6"
+    ],
+    "high": [
+      "zep-1-16"
+    ],
+    "towers": [
+      "zep-1-16",
+      "zep-3-6"
+    ],
+    "bring": [
+      "zep-1-17",
+      "zep-2-2",
+      "zep-3-5",
+      "zep-3-10",
+      "zep-3-20"
+    ],
+    "walk": [
+      "zep-1-17"
+    ],
+    "like": [
+      "zep-1-17",
+      "zep-2-13"
+    ],
+    "blind": [
+      "zep-1-17"
+    ],
+    "because": [
+      "zep-1-17",
+      "zep-2-10",
+      "zep-3-11"
+    ],
+    "sinned": [
+      "zep-1-17"
+    ],
+    "blood": [
+      "zep-1-17"
+    ],
+    "poured": [
+      "zep-1-17"
+    ],
+    "dust": [
+      "zep-1-17"
+    ],
+    "flesh": [
+      "zep-1-17"
+    ],
+    "dung": [
+      "zep-1-17"
+    ],
+    "gold": [
+      "zep-1-18"
+    ],
+    "able": [
+      "zep-1-18"
+    ],
+    "deliver": [
+      "zep-1-18"
+    ],
+    "whole": [
+      "zep-1-18"
+    ],
+    "devoured": [
+      "zep-1-18",
+      "zep-3-8"
+    ],
+    "fire": [
+      "zep-1-18",
+      "zep-3-8"
+    ],
+    "jealousy": [
+      "zep-1-18",
+      "zep-3-8"
+    ],
+    "make": [
+      "zep-1-18",
+      "zep-2-13",
+      "zep-3-13",
+      "zep-3-20"
+    ],
+    "speedy": [
+      "zep-1-18"
+    ],
+    "riddance": [
+      "zep-1-18"
+    ],
+    "dwell": [
+      "zep-1-18"
+    ],
+    "gather": [
+      "zep-2-1",
+      "zep-3-8",
+      "zep-3-18",
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "yourselves": [
+      "zep-2-1"
+    ],
+    "together": [
+      "zep-2-1"
+    ],
+    "yea": [
+      "zep-2-1"
+    ],
+    "o": [
+      "zep-2-1",
+      "zep-2-5",
+      "zep-3-14"
+    ],
+    "nation": [
+      "zep-2-1",
+      "zep-2-5"
+    ],
+    "desired": [
+      "zep-2-1"
+    ],
+    "before": [
+      "zep-2-2",
+      "zep-3-20"
+    ],
+    "decree": [
+      "zep-2-2"
+    ],
+    "forth": [
+      "zep-2-2"
+    ],
+    "chaff": [
+      "zep-2-2"
+    ],
+    "fierce": [
+      "zep-2-2",
+      "zep-3-8"
+    ],
+    "anger": [
+      "zep-2-2",
+      "zep-2-3",
+      "zep-3-8"
+    ],
+    "you": [
+      "zep-2-2",
+      "zep-2-5",
+      "zep-3-20"
+    ],
+    "seek": [
+      "zep-2-3"
+    ],
+    "meek": [
+      "zep-2-3"
+    ],
+    "earth": [
+      "zep-2-3",
+      "zep-2-11",
+      "zep-3-8",
+      "zep-3-20"
+    ],
+    "wrought": [
+      "zep-2-3"
+    ],
+    "judgment": [
+      "zep-2-3",
+      "zep-3-5"
+    ],
+    "righteousness": [
+      "zep-2-3"
+    ],
+    "meekness": [
+      "zep-2-3"
+    ],
+    "may": [
+      "zep-2-3",
+      "zep-3-8",
+      "zep-3-9"
+    ],
+    "hid": [
+      "zep-2-3"
+    ],
+    "gaza": [
+      "zep-2-4"
+    ],
+    "forsaken": [
+      "zep-2-4"
+    ],
+    "ashkelon": [
+      "zep-2-4",
+      "zep-2-7"
+    ],
+    "drive": [
+      "zep-2-4"
+    ],
+    "ashdod": [
+      "zep-2-4"
+    ],
+    "noon": [
+      "zep-2-4"
+    ],
+    "ekron": [
+      "zep-2-4"
+    ],
+    "rooted": [
+      "zep-2-4"
+    ],
+    "up": [
+      "zep-2-4",
+      "zep-3-8"
+    ],
+    "woe": [
+      "zep-2-5",
+      "zep-3-1"
+    ],
+    "coast": [
+      "zep-2-5",
+      "zep-2-6",
+      "zep-2-7"
+    ],
+    "cherethites": [
+      "zep-2-5"
+    ],
+    "canaan": [
+      "zep-2-5"
+    ],
+    "philistines": [
+      "zep-2-5"
+    ],
+    "destroy": [
+      "zep-2-5",
+      "zep-2-13"
+    ],
+    "thee": [
+      "zep-2-5",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-15",
+      "zep-3-17",
+      "zep-3-18",
+      "zep-3-19"
+    ],
+    "no": [
+      "zep-2-5",
+      "zep-3-5",
+      "zep-3-6",
+      "zep-3-11"
+    ],
+    "inhabitant": [
+      "zep-2-5",
+      "zep-3-6"
+    ],
+    "dwellings": [
+      "zep-2-6"
+    ],
+    "cottages": [
+      "zep-2-6"
+    ],
+    "shepherds": [
+      "zep-2-6"
+    ],
+    "folds": [
+      "zep-2-6"
+    ],
+    "flocks": [
+      "zep-2-6",
+      "zep-2-14"
+    ],
+    "house": [
+      "zep-2-7"
+    ],
+    "feed": [
+      "zep-2-7",
+      "zep-3-13"
+    ],
+    "thereupon": [
+      "zep-2-7"
+    ],
+    "lie": [
+      "zep-2-7",
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-13"
+    ],
+    "evening": [
+      "zep-2-7",
+      "zep-3-3"
+    ],
+    "visit": [
+      "zep-2-7"
+    ],
+    "turn": [
+      "zep-2-7",
+      "zep-3-9",
+      "zep-3-20"
+    ],
+    "away": [
+      "zep-2-7",
+      "zep-3-11",
+      "zep-3-15"
+    ],
+    "captivity": [
+      "zep-2-7",
+      "zep-3-20"
+    ],
+    "heard": [
+      "zep-2-8"
+    ],
+    "reproach": [
+      "zep-2-8",
+      "zep-3-18"
+    ],
+    "moab": [
+      "zep-2-8",
+      "zep-2-9"
+    ],
+    "revilings": [
+      "zep-2-8"
+    ],
+    "ammon": [
+      "zep-2-8",
+      "zep-2-9"
+    ],
+    "whereby": [
+      "zep-2-8"
+    ],
+    "reproached": [
+      "zep-2-8",
+      "zep-2-10"
+    ],
+    "my": [
+      "zep-2-8",
+      "zep-2-9",
+      "zep-2-12",
+      "zep-3-8",
+      "zep-3-10",
+      "zep-3-11"
+    ],
+    "magnified": [
+      "zep-2-8",
+      "zep-2-10"
+    ],
+    "themselves": [
+      "zep-2-8",
+      "zep-2-10"
+    ],
+    "border": [
+      "zep-2-8"
+    ],
+    "live": [
+      "zep-2-9"
+    ],
+    "hosts": [
+      "zep-2-9",
+      "zep-2-10"
+    ],
+    "israel": [
+      "zep-2-9",
+      "zep-3-13",
+      "zep-3-14",
+      "zep-3-15"
+    ],
+    "surely": [
+      "zep-2-9",
+      "zep-3-7"
+    ],
+    "sodom": [
+      "zep-2-9"
+    ],
+    "gomorrah": [
+      "zep-2-9"
+    ],
+    "breeding": [
+      "zep-2-9"
+    ],
+    "nettles": [
+      "zep-2-9"
+    ],
+    "saltpits": [
+      "zep-2-9"
+    ],
+    "perpetual": [
+      "zep-2-9"
+    ],
+    "residue": [
+      "zep-2-9"
+    ],
+    "spoil": [
+      "zep-2-9"
+    ],
+    "possess": [
+      "zep-2-9"
+    ],
+    "pride": [
+      "zep-2-10",
+      "zep-3-11"
+    ],
+    "terrible": [
+      "zep-2-11"
+    ],
+    "famish": [
+      "zep-2-11"
+    ],
+    "gods": [
+      "zep-2-11"
+    ],
+    "every": [
+      "zep-2-11",
+      "zep-2-15",
+      "zep-3-5",
+      "zep-3-19"
+    ],
+    "one": [
+      "zep-2-11",
+      "zep-2-15",
+      "zep-3-9"
+    ],
+    "isles": [
+      "zep-2-11"
+    ],
+    "heathen": [
+      "zep-2-11"
+    ],
+    "ethiopians": [
+      "zep-2-12"
+    ],
+    "slain": [
+      "zep-2-12"
+    ],
+    "sword": [
+      "zep-2-12"
+    ],
+    "north": [
+      "zep-2-13"
+    ],
+    "assyria": [
+      "zep-2-13"
+    ],
+    "nineveh": [
+      "zep-2-13"
+    ],
+    "dry": [
+      "zep-2-13"
+    ],
+    "wilderness": [
+      "zep-2-13"
+    ],
+    "midst": [
+      "zep-2-14",
+      "zep-3-5",
+      "zep-3-11",
+      "zep-3-12",
+      "zep-3-15",
+      "zep-3-17"
+    ],
+    "her": [
+      "zep-2-14",
+      "zep-2-15",
+      "zep-3-1",
+      "zep-3-2",
+      "zep-3-3",
+      "zep-3-4",
+      "zep-3-19"
+    ],
+    "beasts": [
+      "zep-2-14",
+      "zep-2-15"
+    ],
+    "nations": [
+      "zep-2-14",
+      "zep-3-6",
+      "zep-3-8"
+    ],
+    "both": [
+      "zep-2-14"
+    ],
+    "cormorant": [
+      "zep-2-14"
+    ],
+    "bittern": [
+      "zep-2-14"
+    ],
+    "lodge": [
+      "zep-2-14"
+    ],
+    "upper": [
+      "zep-2-14"
+    ],
+    "lintels": [
+      "zep-2-14"
+    ],
+    "sing": [
+      "zep-2-14",
+      "zep-3-14"
+    ],
+    "windows": [
+      "zep-2-14"
+    ],
+    "thresholds": [
+      "zep-2-14"
+    ],
+    "uncover": [
+      "zep-2-14"
+    ],
+    "cedar": [
+      "zep-2-14"
+    ],
+    "work": [
+      "zep-2-14"
+    ],
+    "rejoicing": [
+      "zep-2-15"
+    ],
+    "city": [
+      "zep-2-15",
+      "zep-3-1"
+    ],
+    "dwelt": [
+      "zep-2-15"
+    ],
+    "carelessly": [
+      "zep-2-15"
+    ],
+    "said": [
+      "zep-2-15",
+      "zep-3-7",
+      "zep-3-16"
+    ],
+    "am": [
+      "zep-2-15"
+    ],
+    "none": [
+      "zep-2-15",
+      "zep-3-6",
+      "zep-3-13"
+    ],
+    "beside": [
+      "zep-2-15"
+    ],
+    "me": [
+      "zep-2-15",
+      "zep-3-7",
+      "zep-3-8",
+      "zep-3-11"
+    ],
+    "how": [
+      "zep-2-15"
+    ],
+    "she": [
+      "zep-2-15",
+      "zep-3-2"
+    ],
+    "passeth": [
+      "zep-2-15",
+      "zep-3-6"
+    ],
+    "hiss": [
+      "zep-2-15"
+    ],
+    "wag": [
+      "zep-2-15"
+    ],
+    "filthy": [
+      "zep-3-1"
+    ],
+    "polluted": [
+      "zep-3-1",
+      "zep-3-4"
+    ],
+    "oppressing": [
+      "zep-3-1"
+    ],
+    "obeyed": [
+      "zep-3-2"
+    ],
+    "received": [
+      "zep-3-2"
+    ],
+    "correction": [
+      "zep-3-2"
+    ],
+    "trusted": [
+      "zep-3-2"
+    ],
+    "drew": [
+      "zep-3-2"
+    ],
+    "within": [
+      "zep-3-3"
+    ],
+    "roaring": [
+      "zep-3-3"
+    ],
+    "lions": [
+      "zep-3-3"
+    ],
+    "judges": [
+      "zep-3-3"
+    ],
+    "wolves": [
+      "zep-3-3"
+    ],
+    "gnaw": [
+      "zep-3-3"
+    ],
+    "bones": [
+      "zep-3-3"
+    ],
+    "till": [
+      "zep-3-3"
+    ],
+    "morrow": [
+      "zep-3-3"
+    ],
+    "prophets": [
+      "zep-3-4"
+    ],
+    "light": [
+      "zep-3-4",
+      "zep-3-5"
+    ],
+    "treacherous": [
+      "zep-3-4"
+    ],
+    "persons": [
+      "zep-3-4"
+    ],
+    "sanctuary": [
+      "zep-3-4"
+    ],
+    "done": [
+      "zep-3-4"
+    ],
+    "law": [
+      "zep-3-4"
+    ],
+    "just": [
+      "zep-3-5"
+    ],
+    "iniquity": [
+      "zep-3-5",
+      "zep-3-13"
+    ],
+    "morning": [
+      "zep-3-5"
+    ],
+    "doth": [
+      "zep-3-5"
+    ],
+    "faileth": [
+      "zep-3-5"
+    ],
+    "unjust": [
+      "zep-3-5"
+    ],
+    "knoweth": [
+      "zep-3-5"
+    ],
+    "shame": [
+      "zep-3-5",
+      "zep-3-19"
+    ],
+    "desolate": [
+      "zep-3-6"
+    ],
+    "made": [
+      "zep-3-6"
+    ],
+    "streets": [
+      "zep-3-6"
+    ],
+    "waste": [
+      "zep-3-6"
+    ],
+    "destroyed": [
+      "zep-3-6"
+    ],
+    "so": [
+      "zep-3-6",
+      "zep-3-7"
+    ],
+    "thou": [
+      "zep-3-7",
+      "zep-3-11",
+      "zep-3-15",
+      "zep-3-16"
+    ],
+    "wilt": [
+      "zep-3-7"
+    ],
+    "fear": [
+      "zep-3-7",
+      "zep-3-16"
+    ],
+    "receive": [
+      "zep-3-7"
+    ],
+    "instruction": [
+      "zep-3-7"
+    ],
+    "dwelling": [
+      "zep-3-7"
+    ],
+    "should": [
+      "zep-3-7"
+    ],
+    "howsoever": [
+      "zep-3-7"
+    ],
+    "punished": [
+      "zep-3-7"
+    ],
+    "rose": [
+      "zep-3-7"
+    ],
+    "early": [
+      "zep-3-7"
+    ],
+    "corrupted": [
+      "zep-3-7"
+    ],
+    "doings": [
+      "zep-3-7",
+      "zep-3-11"
+    ],
+    "wait": [
+      "zep-3-8"
+    ],
+    "until": [
+      "zep-3-8"
+    ],
+    "rise": [
+      "zep-3-8"
+    ],
+    "prey": [
+      "zep-3-8"
+    ],
+    "determination": [
+      "zep-3-8"
+    ],
+    "assemble": [
+      "zep-3-8"
+    ],
+    "kingdoms": [
+      "zep-3-8"
+    ],
+    "pour": [
+      "zep-3-8"
+    ],
+    "indignation": [
+      "zep-3-8"
+    ],
+    "then": [
+      "zep-3-9",
+      "zep-3-11"
+    ],
+    "pure": [
+      "zep-3-9"
+    ],
+    "language": [
+      "zep-3-9"
+    ],
+    "call": [
+      "zep-3-9"
+    ],
+    "serve": [
+      "zep-3-9"
+    ],
+    "consent": [
+      "zep-3-9"
+    ],
+    "beyond": [
+      "zep-3-10"
+    ],
+    "rivers": [
+      "zep-3-10"
+    ],
+    "ethiopia": [
+      "zep-3-10"
+    ],
+    "suppliants": [
+      "zep-3-10"
+    ],
+    "daughter": [
+      "zep-3-10",
+      "zep-3-14"
+    ],
+    "dispersed": [
+      "zep-3-10"
+    ],
+    "offering": [
+      "zep-3-10"
+    ],
+    "shalt": [
+      "zep-3-11",
+      "zep-3-15"
+    ],
+    "ashamed": [
+      "zep-3-11"
+    ],
+    "wherein": [
+      "zep-3-11"
+    ],
+    "hast": [
+      "zep-3-11"
+    ],
+    "transgressed": [
+      "zep-3-11"
+    ],
+    "take": [
+      "zep-3-11"
+    ],
+    "rejoice": [
+      "zep-3-11",
+      "zep-3-14",
+      "zep-3-17"
+    ],
+    "more": [
+      "zep-3-11",
+      "zep-3-15"
+    ],
+    "haughty": [
+      "zep-3-11"
+    ],
+    "holy": [
+      "zep-3-11"
+    ],
+    "mountain": [
+      "zep-3-11"
+    ],
+    "leave": [
+      "zep-3-12"
+    ],
+    "afflicted": [
+      "zep-3-12"
+    ],
+    "poor": [
+      "zep-3-12"
+    ],
+    "trust": [
+      "zep-3-12"
+    ],
+    "speak": [
+      "zep-3-13"
+    ],
+    "lies": [
+      "zep-3-13"
+    ],
+    "deceitful": [
+      "zep-3-13"
+    ],
+    "tongue": [
+      "zep-3-13"
+    ],
+    "found": [
+      "zep-3-13"
+    ],
+    "mouth": [
+      "zep-3-13"
+    ],
+    "afraid": [
+      "zep-3-13"
+    ],
+    "zion": [
+      "zep-3-14",
+      "zep-3-16"
+    ],
+    "shout": [
+      "zep-3-14"
+    ],
+    "glad": [
+      "zep-3-14"
+    ],
+    "taken": [
+      "zep-3-15"
+    ],
+    "judgments": [
+      "zep-3-15"
+    ],
+    "cast": [
+      "zep-3-15"
+    ],
+    "thine": [
+      "zep-3-15",
+      "zep-3-16"
+    ],
+    "enemy": [
+      "zep-3-15"
+    ],
+    "see": [
+      "zep-3-15"
+    ],
+    "any": [
+      "zep-3-15"
+    ],
+    "let": [
+      "zep-3-16"
+    ],
+    "hands": [
+      "zep-3-16"
+    ],
+    "slack": [
+      "zep-3-16"
+    ],
+    "save": [
+      "zep-3-17",
+      "zep-3-19"
+    ],
+    "over": [
+      "zep-3-17"
+    ],
+    "joy": [
+      "zep-3-17"
+    ],
+    "rest": [
+      "zep-3-17"
+    ],
+    "love": [
+      "zep-3-17"
+    ],
+    "singing": [
+      "zep-3-17"
+    ],
+    "sorrowful": [
+      "zep-3-18"
+    ],
+    "solemn": [
+      "zep-3-18"
+    ],
+    "assembly": [
+      "zep-3-18"
+    ],
+    "who": [
+      "zep-3-18"
+    ],
+    "whom": [
+      "zep-3-18"
+    ],
+    "was": [
+      "zep-3-18",
+      "zep-3-19"
+    ],
+    "burden": [
+      "zep-3-18"
+    ],
+    "behold": [
+      "zep-3-19"
+    ],
+    "undo": [
+      "zep-3-19"
+    ],
+    "afflict": [
+      "zep-3-19"
+    ],
+    "halteth": [
+      "zep-3-19"
+    ],
+    "driven": [
+      "zep-3-19"
+    ],
+    "get": [
+      "zep-3-19"
+    ],
+    "praise": [
+      "zep-3-19",
+      "zep-3-20"
+    ],
+    "fame": [
+      "zep-3-19"
+    ],
+    "where": [
+      "zep-3-19"
+    ],
+    "been": [
+      "zep-3-19"
+    ],
+    "put": [
+      "zep-3-19"
+    ],
+    "again": [
+      "zep-3-20"
+    ],
+    "among": [
+      "zep-3-20"
+    ],
+    "when": [
+      "zep-3-20"
+    ],
+    "your": [
+      "zep-3-20"
+    ],
+    "eyes": [
+      "zep-3-20"
+    ]
+  }
+}

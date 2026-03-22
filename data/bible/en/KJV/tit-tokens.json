@@ -1,0 +1,1538 @@
+{
+  "book": "Titus",
+  "book_id": "tit",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "paul": [
+      "tit-1-1"
+    ],
+    "a": [
+      "tit-1-1",
+      "tit-1-7",
+      "tit-1-8",
+      "tit-1-12",
+      "tit-2-7",
+      "tit-2-14",
+      "tit-3-8",
+      "tit-3-10"
+    ],
+    "servant": [
+      "tit-1-1"
+    ],
+    "of": [
+      "tit-1-1",
+      "tit-1-2",
+      "tit-1-3",
+      "tit-1-6",
+      "tit-1-7",
+      "tit-1-8",
+      "tit-1-10",
+      "tit-1-12",
+      "tit-1-14",
+      "tit-2-3",
+      "tit-2-5",
+      "tit-2-7",
+      "tit-2-8",
+      "tit-2-10",
+      "tit-2-11",
+      "tit-2-13",
+      "tit-2-14",
+      "tit-3-2",
+      "tit-3-4",
+      "tit-3-5",
+      "tit-3-7",
+      "tit-3-11"
+    ],
+    "god": [
+      "tit-1-1",
+      "tit-1-2",
+      "tit-1-3",
+      "tit-1-4",
+      "tit-1-7",
+      "tit-1-16",
+      "tit-2-5",
+      "tit-2-10",
+      "tit-2-11",
+      "tit-2-13",
+      "tit-3-4",
+      "tit-3-8"
+    ],
+    "and": [
+      "tit-1-1",
+      "tit-1-4",
+      "tit-1-5",
+      "tit-1-9",
+      "tit-1-10",
+      "tit-1-14",
+      "tit-1-15",
+      "tit-1-16",
+      "tit-2-9",
+      "tit-2-12",
+      "tit-2-13",
+      "tit-2-14",
+      "tit-2-15",
+      "tit-3-1",
+      "tit-3-3",
+      "tit-3-4",
+      "tit-3-5",
+      "tit-3-8",
+      "tit-3-9",
+      "tit-3-10",
+      "tit-3-11",
+      "tit-3-13",
+      "tit-3-14"
+    ],
+    "an": [
+      "tit-1-1",
+      "tit-3-10"
+    ],
+    "apostle": [
+      "tit-1-1"
+    ],
+    "jesus": [
+      "tit-1-1",
+      "tit-1-4",
+      "tit-2-13",
+      "tit-3-6"
+    ],
+    "christ": [
+      "tit-1-1",
+      "tit-1-4",
+      "tit-2-13",
+      "tit-3-6"
+    ],
+    "according": [
+      "tit-1-1",
+      "tit-1-3",
+      "tit-3-5",
+      "tit-3-7"
+    ],
+    "to": [
+      "tit-1-1",
+      "tit-1-3",
+      "tit-1-4",
+      "tit-1-7",
+      "tit-1-9",
+      "tit-1-14",
+      "tit-2-3",
+      "tit-2-4",
+      "tit-2-5",
+      "tit-2-6",
+      "tit-2-8",
+      "tit-2-9",
+      "tit-2-11",
+      "tit-3-1",
+      "tit-3-2",
+      "tit-3-5",
+      "tit-3-7",
+      "tit-3-8",
+      "tit-3-12",
+      "tit-3-14"
+    ],
+    "the": [
+      "tit-1-1",
+      "tit-1-2",
+      "tit-1-3",
+      "tit-1-4",
+      "tit-1-5",
+      "tit-1-6",
+      "tit-1-7",
+      "tit-1-9",
+      "tit-1-10",
+      "tit-1-12",
+      "tit-1-13",
+      "tit-1-14",
+      "tit-1-15",
+      "tit-2-1",
+      "tit-2-2",
+      "tit-2-3",
+      "tit-2-4",
+      "tit-2-5",
+      "tit-2-8",
+      "tit-2-10",
+      "tit-2-11",
+      "tit-2-13",
+      "tit-3-4",
+      "tit-3-5",
+      "tit-3-7",
+      "tit-3-9",
+      "tit-3-10",
+      "tit-3-13",
+      "tit-3-15"
+    ],
+    "faith": [
+      "tit-1-1",
+      "tit-1-4",
+      "tit-1-13",
+      "tit-2-2",
+      "tit-3-15"
+    ],
+    "s": [
+      "tit-1-1",
+      "tit-1-11"
+    ],
+    "elect": [
+      "tit-1-1"
+    ],
+    "acknowledging": [
+      "tit-1-1"
+    ],
+    "truth": [
+      "tit-1-1",
+      "tit-1-14"
+    ],
+    "which": [
+      "tit-1-1",
+      "tit-1-2",
+      "tit-1-3",
+      "tit-1-11",
+      "tit-2-1",
+      "tit-3-5",
+      "tit-3-6",
+      "tit-3-8"
+    ],
+    "is": [
+      "tit-1-1",
+      "tit-1-3",
+      "tit-1-13",
+      "tit-1-15",
+      "tit-2-8",
+      "tit-3-8",
+      "tit-3-10",
+      "tit-3-11"
+    ],
+    "after": [
+      "tit-1-1",
+      "tit-1-4",
+      "tit-3-4",
+      "tit-3-10"
+    ],
+    "godliness": [
+      "tit-1-1"
+    ],
+    "in": [
+      "tit-1-2",
+      "tit-1-3",
+      "tit-1-5",
+      "tit-1-13",
+      "tit-1-16",
+      "tit-2-2",
+      "tit-2-3",
+      "tit-2-7",
+      "tit-2-9",
+      "tit-2-10",
+      "tit-2-12",
+      "tit-3-1",
+      "tit-3-3",
+      "tit-3-8",
+      "tit-3-15"
+    ],
+    "hope": [
+      "tit-1-2",
+      "tit-2-13",
+      "tit-3-7"
+    ],
+    "eternal": [
+      "tit-1-2",
+      "tit-3-7"
+    ],
+    "life": [
+      "tit-1-2",
+      "tit-3-7"
+    ],
+    "that": [
+      "tit-1-2",
+      "tit-1-5",
+      "tit-1-9",
+      "tit-1-13",
+      "tit-1-14",
+      "tit-1-15",
+      "tit-1-16",
+      "tit-2-2",
+      "tit-2-3",
+      "tit-2-4",
+      "tit-2-5",
+      "tit-2-8",
+      "tit-2-10",
+      "tit-2-11",
+      "tit-2-12",
+      "tit-2-13",
+      "tit-2-14",
+      "tit-3-4",
+      "tit-3-7",
+      "tit-3-8",
+      "tit-3-10",
+      "tit-3-11",
+      "tit-3-13",
+      "tit-3-14",
+      "tit-3-15"
+    ],
+    "cannot": [
+      "tit-1-2",
+      "tit-2-8"
+    ],
+    "lie": [
+      "tit-1-2"
+    ],
+    "promised": [
+      "tit-1-2"
+    ],
+    "before": [
+      "tit-1-2"
+    ],
+    "world": [
+      "tit-1-2",
+      "tit-2-12"
+    ],
+    "began": [
+      "tit-1-2"
+    ],
+    "but": [
+      "tit-1-3",
+      "tit-1-8",
+      "tit-1-15",
+      "tit-1-16",
+      "tit-2-1",
+      "tit-2-10",
+      "tit-3-2",
+      "tit-3-4",
+      "tit-3-5",
+      "tit-3-9"
+    ],
+    "hath": [
+      "tit-1-3",
+      "tit-1-9",
+      "tit-2-11"
+    ],
+    "due": [
+      "tit-1-3"
+    ],
+    "times": [
+      "tit-1-3"
+    ],
+    "manifested": [
+      "tit-1-3"
+    ],
+    "his": [
+      "tit-1-3",
+      "tit-3-5",
+      "tit-3-7"
+    ],
+    "word": [
+      "tit-1-3",
+      "tit-1-9",
+      "tit-2-5"
+    ],
+    "through": [
+      "tit-1-3",
+      "tit-3-6"
+    ],
+    "preaching": [
+      "tit-1-3"
+    ],
+    "committed": [
+      "tit-1-3"
+    ],
+    "unto": [
+      "tit-1-3",
+      "tit-1-15",
+      "tit-1-16",
+      "tit-2-9",
+      "tit-2-14",
+      "tit-3-2",
+      "tit-3-8",
+      "tit-3-12",
+      "tit-3-13"
+    ],
+    "me": [
+      "tit-1-3",
+      "tit-3-12",
+      "tit-3-15"
+    ],
+    "commandment": [
+      "tit-1-3"
+    ],
+    "our": [
+      "tit-1-3",
+      "tit-1-4",
+      "tit-2-10",
+      "tit-2-13",
+      "tit-3-4",
+      "tit-3-6"
+    ],
+    "saviour": [
+      "tit-1-3",
+      "tit-1-4",
+      "tit-2-10",
+      "tit-2-13",
+      "tit-3-4",
+      "tit-3-6"
+    ],
+    "titus": [
+      "tit-1-4"
+    ],
+    "mine": [
+      "tit-1-4"
+    ],
+    "own": [
+      "tit-1-4",
+      "tit-1-12",
+      "tit-2-5",
+      "tit-2-9"
+    ],
+    "son": [
+      "tit-1-4"
+    ],
+    "common": [
+      "tit-1-4"
+    ],
+    "grace": [
+      "tit-1-4",
+      "tit-2-11",
+      "tit-3-7",
+      "tit-3-15"
+    ],
+    "mercy": [
+      "tit-1-4",
+      "tit-3-5"
+    ],
+    "peace": [
+      "tit-1-4"
+    ],
+    "from": [
+      "tit-1-4",
+      "tit-1-14",
+      "tit-2-14"
+    ],
+    "father": [
+      "tit-1-4"
+    ],
+    "lord": [
+      "tit-1-4"
+    ],
+    "for": [
+      "tit-1-5",
+      "tit-1-7",
+      "tit-1-10",
+      "tit-1-11",
+      "tit-2-11",
+      "tit-2-13",
+      "tit-2-14",
+      "tit-3-3",
+      "tit-3-9",
+      "tit-3-12",
+      "tit-3-14"
+    ],
+    "this": [
+      "tit-1-5",
+      "tit-1-13",
+      "tit-2-12",
+      "tit-3-8"
+    ],
+    "cause": [
+      "tit-1-5"
+    ],
+    "left": [
+      "tit-1-5"
+    ],
+    "i": [
+      "tit-1-5",
+      "tit-3-8",
+      "tit-3-12"
+    ],
+    "thee": [
+      "tit-1-5",
+      "tit-2-15",
+      "tit-3-12",
+      "tit-3-15"
+    ],
+    "crete": [
+      "tit-1-5"
+    ],
+    "thou": [
+      "tit-1-5",
+      "tit-2-1",
+      "tit-3-8"
+    ],
+    "shouldest": [
+      "tit-1-5"
+    ],
+    "set": [
+      "tit-1-5"
+    ],
+    "order": [
+      "tit-1-5"
+    ],
+    "things": [
+      "tit-1-5",
+      "tit-1-11",
+      "tit-1-15",
+      "tit-2-1",
+      "tit-2-3",
+      "tit-2-7",
+      "tit-2-9",
+      "tit-2-10",
+      "tit-2-15",
+      "tit-3-8"
+    ],
+    "are": [
+      "tit-1-5",
+      "tit-1-10",
+      "tit-1-12",
+      "tit-1-15",
+      "tit-3-8",
+      "tit-3-9",
+      "tit-3-15"
+    ],
+    "wanting": [
+      "tit-1-5",
+      "tit-3-13"
+    ],
+    "ordain": [
+      "tit-1-5"
+    ],
+    "elders": [
+      "tit-1-5"
+    ],
+    "every": [
+      "tit-1-5",
+      "tit-1-16",
+      "tit-3-1"
+    ],
+    "city": [
+      "tit-1-5"
+    ],
+    "as": [
+      "tit-1-5",
+      "tit-1-7",
+      "tit-1-9",
+      "tit-2-3"
+    ],
+    "had": [
+      "tit-1-5"
+    ],
+    "appointed": [
+      "tit-1-5"
+    ],
+    "if": [
+      "tit-1-6"
+    ],
+    "any": [
+      "tit-1-6"
+    ],
+    "be": [
+      "tit-1-6",
+      "tit-1-7",
+      "tit-1-9",
+      "tit-1-11",
+      "tit-1-13",
+      "tit-2-2",
+      "tit-2-3",
+      "tit-2-4",
+      "tit-2-5",
+      "tit-2-6",
+      "tit-2-8",
+      "tit-2-9",
+      "tit-3-1",
+      "tit-3-2",
+      "tit-3-7",
+      "tit-3-8",
+      "tit-3-12",
+      "tit-3-13",
+      "tit-3-14",
+      "tit-3-15"
+    ],
+    "blameless": [
+      "tit-1-6",
+      "tit-1-7"
+    ],
+    "husband": [
+      "tit-1-6"
+    ],
+    "one": [
+      "tit-1-6",
+      "tit-1-12",
+      "tit-3-3"
+    ],
+    "wife": [
+      "tit-1-6"
+    ],
+    "having": [
+      "tit-1-6",
+      "tit-2-8"
+    ],
+    "faithful": [
+      "tit-1-6",
+      "tit-1-9",
+      "tit-3-8"
+    ],
+    "children": [
+      "tit-1-6",
+      "tit-2-4"
+    ],
+    "not": [
+      "tit-1-6",
+      "tit-1-7",
+      "tit-1-11",
+      "tit-1-14",
+      "tit-2-3",
+      "tit-2-5",
+      "tit-2-9",
+      "tit-2-10",
+      "tit-3-5",
+      "tit-3-14"
+    ],
+    "accused": [
+      "tit-1-6"
+    ],
+    "riot": [
+      "tit-1-6"
+    ],
+    "or": [
+      "tit-1-6",
+      "tit-3-12"
+    ],
+    "unruly": [
+      "tit-1-6",
+      "tit-1-10"
+    ],
+    "bishop": [
+      "tit-1-7"
+    ],
+    "must": [
+      "tit-1-7",
+      "tit-1-11"
+    ],
+    "steward": [
+      "tit-1-7"
+    ],
+    "selfwilled": [
+      "tit-1-7"
+    ],
+    "soon": [
+      "tit-1-7"
+    ],
+    "angry": [
+      "tit-1-7"
+    ],
+    "given": [
+      "tit-1-7",
+      "tit-2-3"
+    ],
+    "wine": [
+      "tit-1-7",
+      "tit-2-3"
+    ],
+    "no": [
+      "tit-1-7",
+      "tit-2-8",
+      "tit-2-15",
+      "tit-3-2"
+    ],
+    "striker": [
+      "tit-1-7"
+    ],
+    "filthy": [
+      "tit-1-7",
+      "tit-1-11"
+    ],
+    "lucre": [
+      "tit-1-7",
+      "tit-1-11"
+    ],
+    "lover": [
+      "tit-1-8"
+    ],
+    "hospitality": [
+      "tit-1-8"
+    ],
+    "good": [
+      "tit-1-8",
+      "tit-1-16",
+      "tit-2-3",
+      "tit-2-5",
+      "tit-2-7",
+      "tit-2-10",
+      "tit-2-14",
+      "tit-3-1",
+      "tit-3-8",
+      "tit-3-14"
+    ],
+    "men": [
+      "tit-1-8",
+      "tit-1-14",
+      "tit-2-2",
+      "tit-2-6",
+      "tit-2-11",
+      "tit-3-2",
+      "tit-3-8"
+    ],
+    "sober": [
+      "tit-1-8",
+      "tit-2-2",
+      "tit-2-4",
+      "tit-2-6"
+    ],
+    "just": [
+      "tit-1-8"
+    ],
+    "holy": [
+      "tit-1-8",
+      "tit-3-5"
+    ],
+    "temperate": [
+      "tit-1-8",
+      "tit-2-2"
+    ],
+    "holding": [
+      "tit-1-9"
+    ],
+    "fast": [
+      "tit-1-9"
+    ],
+    "he": [
+      "tit-1-9",
+      "tit-2-8",
+      "tit-2-14",
+      "tit-3-5",
+      "tit-3-6",
+      "tit-3-11"
+    ],
+    "been": [
+      "tit-1-9"
+    ],
+    "taught": [
+      "tit-1-9"
+    ],
+    "may": [
+      "tit-1-9",
+      "tit-1-13",
+      "tit-2-4",
+      "tit-2-8",
+      "tit-2-10"
+    ],
+    "able": [
+      "tit-1-9"
+    ],
+    "by": [
+      "tit-1-9",
+      "tit-3-5",
+      "tit-3-7"
+    ],
+    "sound": [
+      "tit-1-9",
+      "tit-1-13",
+      "tit-2-1",
+      "tit-2-2",
+      "tit-2-8"
+    ],
+    "doctrine": [
+      "tit-1-9",
+      "tit-2-1",
+      "tit-2-7",
+      "tit-2-10"
+    ],
+    "both": [
+      "tit-1-9"
+    ],
+    "exhort": [
+      "tit-1-9",
+      "tit-2-6",
+      "tit-2-9",
+      "tit-2-15"
+    ],
+    "convince": [
+      "tit-1-9"
+    ],
+    "gainsayers": [
+      "tit-1-9"
+    ],
+    "there": [
+      "tit-1-10",
+      "tit-3-12"
+    ],
+    "many": [
+      "tit-1-10"
+    ],
+    "vain": [
+      "tit-1-10",
+      "tit-3-9"
+    ],
+    "talkers": [
+      "tit-1-10"
+    ],
+    "deceivers": [
+      "tit-1-10"
+    ],
+    "specially": [
+      "tit-1-10"
+    ],
+    "they": [
+      "tit-1-10",
+      "tit-1-11",
+      "tit-1-13",
+      "tit-1-16",
+      "tit-2-3",
+      "tit-2-4",
+      "tit-2-10",
+      "tit-3-8",
+      "tit-3-9",
+      "tit-3-14"
+    ],
+    "circumcision": [
+      "tit-1-10"
+    ],
+    "whose": [
+      "tit-1-11"
+    ],
+    "mouths": [
+      "tit-1-11"
+    ],
+    "stopped": [
+      "tit-1-11"
+    ],
+    "who": [
+      "tit-1-11",
+      "tit-2-14"
+    ],
+    "subvert": [
+      "tit-1-11"
+    ],
+    "whole": [
+      "tit-1-11"
+    ],
+    "houses": [
+      "tit-1-11"
+    ],
+    "teaching": [
+      "tit-1-11",
+      "tit-2-12"
+    ],
+    "ought": [
+      "tit-1-11"
+    ],
+    "sake": [
+      "tit-1-11"
+    ],
+    "themselves": [
+      "tit-1-12"
+    ],
+    "even": [
+      "tit-1-12",
+      "tit-1-15"
+    ],
+    "prophet": [
+      "tit-1-12"
+    ],
+    "their": [
+      "tit-1-12",
+      "tit-1-15",
+      "tit-2-4",
+      "tit-2-5",
+      "tit-2-9",
+      "tit-3-13"
+    ],
+    "said": [
+      "tit-1-12"
+    ],
+    "cretians": [
+      "tit-1-12"
+    ],
+    "alway": [
+      "tit-1-12"
+    ],
+    "liars": [
+      "tit-1-12"
+    ],
+    "evil": [
+      "tit-1-12",
+      "tit-2-8",
+      "tit-3-2"
+    ],
+    "beasts": [
+      "tit-1-12"
+    ],
+    "slow": [
+      "tit-1-12"
+    ],
+    "bellies": [
+      "tit-1-12"
+    ],
+    "witness": [
+      "tit-1-13"
+    ],
+    "true": [
+      "tit-1-13"
+    ],
+    "wherefore": [
+      "tit-1-13"
+    ],
+    "rebuke": [
+      "tit-1-13",
+      "tit-2-15"
+    ],
+    "them": [
+      "tit-1-13",
+      "tit-1-15",
+      "tit-2-9",
+      "tit-3-1",
+      "tit-3-13",
+      "tit-3-15"
+    ],
+    "sharply": [
+      "tit-1-13"
+    ],
+    "giving": [
+      "tit-1-14"
+    ],
+    "heed": [
+      "tit-1-14"
+    ],
+    "jewish": [
+      "tit-1-14"
+    ],
+    "fables": [
+      "tit-1-14"
+    ],
+    "commandments": [
+      "tit-1-14"
+    ],
+    "turn": [
+      "tit-1-14"
+    ],
+    "pure": [
+      "tit-1-15"
+    ],
+    "all": [
+      "tit-1-15",
+      "tit-2-7",
+      "tit-2-9",
+      "tit-2-10",
+      "tit-2-11",
+      "tit-2-14",
+      "tit-2-15",
+      "tit-3-2",
+      "tit-3-15"
+    ],
+    "defiled": [
+      "tit-1-15"
+    ],
+    "unbelieving": [
+      "tit-1-15"
+    ],
+    "nothing": [
+      "tit-1-15",
+      "tit-3-13"
+    ],
+    "mind": [
+      "tit-1-15",
+      "tit-3-1"
+    ],
+    "conscience": [
+      "tit-1-15"
+    ],
+    "profess": [
+      "tit-1-16"
+    ],
+    "know": [
+      "tit-1-16"
+    ],
+    "works": [
+      "tit-1-16",
+      "tit-2-7",
+      "tit-2-14",
+      "tit-3-5",
+      "tit-3-8",
+      "tit-3-14"
+    ],
+    "deny": [
+      "tit-1-16"
+    ],
+    "him": [
+      "tit-1-16"
+    ],
+    "being": [
+      "tit-1-16",
+      "tit-3-7",
+      "tit-3-11"
+    ],
+    "abominable": [
+      "tit-1-16"
+    ],
+    "disobedient": [
+      "tit-1-16",
+      "tit-3-3"
+    ],
+    "work": [
+      "tit-1-16",
+      "tit-3-1"
+    ],
+    "reprobate": [
+      "tit-1-16"
+    ],
+    "speak": [
+      "tit-2-1",
+      "tit-2-15",
+      "tit-3-2"
+    ],
+    "become": [
+      "tit-2-1"
+    ],
+    "aged": [
+      "tit-2-2",
+      "tit-2-3"
+    ],
+    "grave": [
+      "tit-2-2"
+    ],
+    "charity": [
+      "tit-2-2"
+    ],
+    "patience": [
+      "tit-2-2"
+    ],
+    "women": [
+      "tit-2-3",
+      "tit-2-4"
+    ],
+    "likewise": [
+      "tit-2-3",
+      "tit-2-6"
+    ],
+    "behaviour": [
+      "tit-2-3"
+    ],
+    "becometh": [
+      "tit-2-3"
+    ],
+    "holiness": [
+      "tit-2-3"
+    ],
+    "false": [
+      "tit-2-3"
+    ],
+    "accusers": [
+      "tit-2-3"
+    ],
+    "much": [
+      "tit-2-3"
+    ],
+    "teachers": [
+      "tit-2-3"
+    ],
+    "teach": [
+      "tit-2-4"
+    ],
+    "young": [
+      "tit-2-4",
+      "tit-2-6"
+    ],
+    "love": [
+      "tit-2-4",
+      "tit-3-4",
+      "tit-3-15"
+    ],
+    "husbands": [
+      "tit-2-4",
+      "tit-2-5"
+    ],
+    "discreet": [
+      "tit-2-5"
+    ],
+    "chaste": [
+      "tit-2-5"
+    ],
+    "keepers": [
+      "tit-2-5"
+    ],
+    "at": [
+      "tit-2-5"
+    ],
+    "home": [
+      "tit-2-5"
+    ],
+    "obedient": [
+      "tit-2-5",
+      "tit-2-9"
+    ],
+    "blasphemed": [
+      "tit-2-5"
+    ],
+    "minded": [
+      "tit-2-6"
+    ],
+    "shewing": [
+      "tit-2-7",
+      "tit-2-10",
+      "tit-3-2"
+    ],
+    "thyself": [
+      "tit-2-7"
+    ],
+    "pattern": [
+      "tit-2-7"
+    ],
+    "uncorruptness": [
+      "tit-2-7"
+    ],
+    "gravity": [
+      "tit-2-7"
+    ],
+    "sincerity": [
+      "tit-2-7"
+    ],
+    "speech": [
+      "tit-2-8"
+    ],
+    "condemned": [
+      "tit-2-8",
+      "tit-3-11"
+    ],
+    "contrary": [
+      "tit-2-8"
+    ],
+    "part": [
+      "tit-2-8"
+    ],
+    "ashamed": [
+      "tit-2-8"
+    ],
+    "thing": [
+      "tit-2-8"
+    ],
+    "say": [
+      "tit-2-8"
+    ],
+    "you": [
+      "tit-2-8",
+      "tit-3-15"
+    ],
+    "servants": [
+      "tit-2-9"
+    ],
+    "masters": [
+      "tit-2-9"
+    ],
+    "please": [
+      "tit-2-9"
+    ],
+    "well": [
+      "tit-2-9"
+    ],
+    "answering": [
+      "tit-2-9"
+    ],
+    "again": [
+      "tit-2-9"
+    ],
+    "purloining": [
+      "tit-2-10"
+    ],
+    "fidelity": [
+      "tit-2-10"
+    ],
+    "adorn": [
+      "tit-2-10"
+    ],
+    "bringeth": [
+      "tit-2-11"
+    ],
+    "salvation": [
+      "tit-2-11"
+    ],
+    "appeared": [
+      "tit-2-11",
+      "tit-3-4"
+    ],
+    "us": [
+      "tit-2-12",
+      "tit-2-14",
+      "tit-3-5",
+      "tit-3-6",
+      "tit-3-15"
+    ],
+    "denying": [
+      "tit-2-12"
+    ],
+    "ungodliness": [
+      "tit-2-12"
+    ],
+    "worldly": [
+      "tit-2-12"
+    ],
+    "lusts": [
+      "tit-2-12",
+      "tit-3-3"
+    ],
+    "we": [
+      "tit-2-12",
+      "tit-3-3",
+      "tit-3-5",
+      "tit-3-7"
+    ],
+    "should": [
+      "tit-2-12",
+      "tit-3-7"
+    ],
+    "live": [
+      "tit-2-12"
+    ],
+    "soberly": [
+      "tit-2-12"
+    ],
+    "righteously": [
+      "tit-2-12"
+    ],
+    "godly": [
+      "tit-2-12"
+    ],
+    "present": [
+      "tit-2-12"
+    ],
+    "looking": [
+      "tit-2-13"
+    ],
+    "blessed": [
+      "tit-2-13"
+    ],
+    "glorious": [
+      "tit-2-13"
+    ],
+    "appearing": [
+      "tit-2-13"
+    ],
+    "great": [
+      "tit-2-13"
+    ],
+    "gave": [
+      "tit-2-14"
+    ],
+    "himself": [
+      "tit-2-14",
+      "tit-3-11"
+    ],
+    "might": [
+      "tit-2-14",
+      "tit-3-8"
+    ],
+    "redeem": [
+      "tit-2-14"
+    ],
+    "iniquity": [
+      "tit-2-14"
+    ],
+    "purify": [
+      "tit-2-14"
+    ],
+    "peculiar": [
+      "tit-2-14"
+    ],
+    "people": [
+      "tit-2-14"
+    ],
+    "zealous": [
+      "tit-2-14"
+    ],
+    "these": [
+      "tit-2-15",
+      "tit-3-8"
+    ],
+    "with": [
+      "tit-2-15",
+      "tit-3-15"
+    ],
+    "authority": [
+      "tit-2-15"
+    ],
+    "let": [
+      "tit-2-15",
+      "tit-3-14"
+    ],
+    "man": [
+      "tit-2-15",
+      "tit-3-2",
+      "tit-3-4",
+      "tit-3-10"
+    ],
+    "despise": [
+      "tit-2-15"
+    ],
+    "put": [
+      "tit-3-1"
+    ],
+    "subject": [
+      "tit-3-1"
+    ],
+    "principalities": [
+      "tit-3-1"
+    ],
+    "powers": [
+      "tit-3-1"
+    ],
+    "obey": [
+      "tit-3-1"
+    ],
+    "magistrates": [
+      "tit-3-1"
+    ],
+    "ready": [
+      "tit-3-1"
+    ],
+    "brawlers": [
+      "tit-3-2"
+    ],
+    "gentle": [
+      "tit-3-2"
+    ],
+    "meekness": [
+      "tit-3-2"
+    ],
+    "ourselves": [
+      "tit-3-3"
+    ],
+    "also": [
+      "tit-3-3",
+      "tit-3-14"
+    ],
+    "were": [
+      "tit-3-3"
+    ],
+    "sometimes": [
+      "tit-3-3"
+    ],
+    "foolish": [
+      "tit-3-3",
+      "tit-3-9"
+    ],
+    "deceived": [
+      "tit-3-3"
+    ],
+    "serving": [
+      "tit-3-3"
+    ],
+    "divers": [
+      "tit-3-3"
+    ],
+    "pleasures": [
+      "tit-3-3"
+    ],
+    "living": [
+      "tit-3-3"
+    ],
+    "malice": [
+      "tit-3-3"
+    ],
+    "envy": [
+      "tit-3-3"
+    ],
+    "hateful": [
+      "tit-3-3"
+    ],
+    "hating": [
+      "tit-3-3"
+    ],
+    "another": [
+      "tit-3-3"
+    ],
+    "kindness": [
+      "tit-3-4"
+    ],
+    "toward": [
+      "tit-3-4"
+    ],
+    "righteousness": [
+      "tit-3-5"
+    ],
+    "have": [
+      "tit-3-5",
+      "tit-3-8",
+      "tit-3-12"
+    ],
+    "done": [
+      "tit-3-5"
+    ],
+    "saved": [
+      "tit-3-5"
+    ],
+    "washing": [
+      "tit-3-5"
+    ],
+    "regeneration": [
+      "tit-3-5"
+    ],
+    "renewing": [
+      "tit-3-5"
+    ],
+    "ghost": [
+      "tit-3-5"
+    ],
+    "shed": [
+      "tit-3-6"
+    ],
+    "on": [
+      "tit-3-6",
+      "tit-3-13"
+    ],
+    "abundantly": [
+      "tit-3-6"
+    ],
+    "justified": [
+      "tit-3-7"
+    ],
+    "made": [
+      "tit-3-7"
+    ],
+    "heirs": [
+      "tit-3-7"
+    ],
+    "saying": [
+      "tit-3-8"
+    ],
+    "will": [
+      "tit-3-8"
+    ],
+    "affirm": [
+      "tit-3-8"
+    ],
+    "constantly": [
+      "tit-3-8"
+    ],
+    "believed": [
+      "tit-3-8"
+    ],
+    "careful": [
+      "tit-3-8"
+    ],
+    "maintain": [
+      "tit-3-8",
+      "tit-3-14"
+    ],
+    "profitable": [
+      "tit-3-8"
+    ],
+    "avoid": [
+      "tit-3-9"
+    ],
+    "questions": [
+      "tit-3-9"
+    ],
+    "genealogies": [
+      "tit-3-9"
+    ],
+    "contentions": [
+      "tit-3-9"
+    ],
+    "strivings": [
+      "tit-3-9"
+    ],
+    "about": [
+      "tit-3-9"
+    ],
+    "law": [
+      "tit-3-9"
+    ],
+    "unprofitable": [
+      "tit-3-9"
+    ],
+    "heretick": [
+      "tit-3-10"
+    ],
+    "first": [
+      "tit-3-10"
+    ],
+    "second": [
+      "tit-3-10"
+    ],
+    "admonition": [
+      "tit-3-10"
+    ],
+    "reject": [
+      "tit-3-10"
+    ],
+    "knowing": [
+      "tit-3-11"
+    ],
+    "such": [
+      "tit-3-11"
+    ],
+    "subverted": [
+      "tit-3-11"
+    ],
+    "sinneth": [
+      "tit-3-11"
+    ],
+    "when": [
+      "tit-3-12"
+    ],
+    "shall": [
+      "tit-3-12"
+    ],
+    "send": [
+      "tit-3-12"
+    ],
+    "artemas": [
+      "tit-3-12"
+    ],
+    "tychicus": [
+      "tit-3-12"
+    ],
+    "diligent": [
+      "tit-3-12"
+    ],
+    "come": [
+      "tit-3-12"
+    ],
+    "nicopolis": [
+      "tit-3-12"
+    ],
+    "determined": [
+      "tit-3-12"
+    ],
+    "winter": [
+      "tit-3-12"
+    ],
+    "bring": [
+      "tit-3-13"
+    ],
+    "zenas": [
+      "tit-3-13"
+    ],
+    "lawyer": [
+      "tit-3-13"
+    ],
+    "apollos": [
+      "tit-3-13"
+    ],
+    "journey": [
+      "tit-3-13"
+    ],
+    "diligently": [
+      "tit-3-13"
+    ],
+    "ours": [
+      "tit-3-14"
+    ],
+    "learn": [
+      "tit-3-14"
+    ],
+    "necessary": [
+      "tit-3-14"
+    ],
+    "uses": [
+      "tit-3-14"
+    ],
+    "unfruitful": [
+      "tit-3-14"
+    ],
+    "salute": [
+      "tit-3-15"
+    ],
+    "greet": [
+      "tit-3-15"
+    ],
+    "amen": [
+      "tit-3-15"
+    ]
+  }
+}

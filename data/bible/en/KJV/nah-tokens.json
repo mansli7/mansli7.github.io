@@ -1,0 +1,1923 @@
+{
+  "book": "Nahum",
+  "book_id": "nah",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "nah-1-1",
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-4",
+      "nah-1-5",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-8",
+      "nah-1-9",
+      "nah-1-11",
+      "nah-1-12",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-1",
+      "nah-2-2",
+      "nah-2-3",
+      "nah-2-4",
+      "nah-2-5",
+      "nah-2-6",
+      "nah-2-7",
+      "nah-2-9",
+      "nah-2-10",
+      "nah-2-11",
+      "nah-2-12",
+      "nah-2-13",
+      "nah-3-1",
+      "nah-3-2",
+      "nah-3-3",
+      "nah-3-4",
+      "nah-3-5",
+      "nah-3-8",
+      "nah-3-10",
+      "nah-3-11",
+      "nah-3-12",
+      "nah-3-13",
+      "nah-3-14",
+      "nah-3-15",
+      "nah-3-16",
+      "nah-3-17",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "burden": [
+      "nah-1-1"
+    ],
+    "of": [
+      "nah-1-1",
+      "nah-1-3",
+      "nah-1-4",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-8",
+      "nah-1-11",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-2",
+      "nah-2-3",
+      "nah-2-6",
+      "nah-2-7",
+      "nah-2-8",
+      "nah-2-9",
+      "nah-2-10",
+      "nah-2-11",
+      "nah-2-13",
+      "nah-3-1",
+      "nah-3-2",
+      "nah-3-3",
+      "nah-3-4",
+      "nah-3-5",
+      "nah-3-10",
+      "nah-3-11",
+      "nah-3-12",
+      "nah-3-13",
+      "nah-3-16",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "nineveh": [
+      "nah-1-1",
+      "nah-2-8",
+      "nah-3-7"
+    ],
+    "book": [
+      "nah-1-1"
+    ],
+    "vision": [
+      "nah-1-1"
+    ],
+    "nahum": [
+      "nah-1-1"
+    ],
+    "elkoshite": [
+      "nah-1-1"
+    ],
+    "god": [
+      "nah-1-2"
+    ],
+    "is": [
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-5",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-11",
+      "nah-1-15",
+      "nah-2-1",
+      "nah-2-3",
+      "nah-2-8",
+      "nah-2-9",
+      "nah-2-10",
+      "nah-2-11",
+      "nah-3-1",
+      "nah-3-3",
+      "nah-3-7",
+      "nah-3-17",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "jealous": [
+      "nah-1-2"
+    ],
+    "and": [
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-4",
+      "nah-1-5",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-8",
+      "nah-1-10",
+      "nah-1-12",
+      "nah-1-13",
+      "nah-1-14",
+      "nah-2-2",
+      "nah-2-3",
+      "nah-2-5",
+      "nah-2-6",
+      "nah-2-7",
+      "nah-2-9",
+      "nah-2-10",
+      "nah-2-11",
+      "nah-2-12",
+      "nah-2-13",
+      "nah-3-1",
+      "nah-3-2",
+      "nah-3-3",
+      "nah-3-4",
+      "nah-3-5",
+      "nah-3-6",
+      "nah-3-7",
+      "nah-3-8",
+      "nah-3-9",
+      "nah-3-10",
+      "nah-3-14",
+      "nah-3-16",
+      "nah-3-17",
+      "nah-3-18"
+    ],
+    "lord": [
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-7",
+      "nah-1-9",
+      "nah-1-11",
+      "nah-1-12",
+      "nah-1-14",
+      "nah-2-2",
+      "nah-2-13",
+      "nah-3-5"
+    ],
+    "revengeth": [
+      "nah-1-2"
+    ],
+    "furious": [
+      "nah-1-2"
+    ],
+    "will": [
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-8",
+      "nah-1-9",
+      "nah-1-12",
+      "nah-1-13",
+      "nah-1-14",
+      "nah-2-13",
+      "nah-3-5",
+      "nah-3-6",
+      "nah-3-7"
+    ],
+    "take": [
+      "nah-1-2",
+      "nah-2-9"
+    ],
+    "vengeance": [
+      "nah-1-2"
+    ],
+    "on": [
+      "nah-1-2"
+    ],
+    "his": [
+      "nah-1-2",
+      "nah-1-3",
+      "nah-1-5",
+      "nah-1-6",
+      "nah-1-8",
+      "nah-1-13",
+      "nah-2-3",
+      "nah-2-5",
+      "nah-2-12"
+    ],
+    "adversaries": [
+      "nah-1-2"
+    ],
+    "he": [
+      "nah-1-2",
+      "nah-1-4",
+      "nah-1-7",
+      "nah-1-8",
+      "nah-1-9",
+      "nah-1-12",
+      "nah-1-15",
+      "nah-2-1",
+      "nah-2-5"
+    ],
+    "reserveth": [
+      "nah-1-2"
+    ],
+    "wrath": [
+      "nah-1-2"
+    ],
+    "for": [
+      "nah-1-2",
+      "nah-1-10",
+      "nah-1-13",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-2",
+      "nah-2-9",
+      "nah-2-12",
+      "nah-3-7",
+      "nah-3-10",
+      "nah-3-14",
+      "nah-3-19"
+    ],
+    "enemies": [
+      "nah-1-2",
+      "nah-1-8",
+      "nah-3-13"
+    ],
+    "slow": [
+      "nah-1-3"
+    ],
+    "to": [
+      "nah-1-3",
+      "nah-2-5",
+      "nah-3-1",
+      "nah-3-7"
+    ],
+    "anger": [
+      "nah-1-3",
+      "nah-1-6"
+    ],
+    "great": [
+      "nah-1-3",
+      "nah-3-3",
+      "nah-3-10",
+      "nah-3-17"
+    ],
+    "in": [
+      "nah-1-3",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-13",
+      "nah-2-1",
+      "nah-2-3",
+      "nah-2-4",
+      "nah-2-5",
+      "nah-2-10",
+      "nah-2-12",
+      "nah-2-13",
+      "nah-3-10",
+      "nah-3-13",
+      "nah-3-17",
+      "nah-3-18"
+    ],
+    "power": [
+      "nah-1-3",
+      "nah-2-1"
+    ],
+    "not": [
+      "nah-1-3",
+      "nah-1-9",
+      "nah-3-1",
+      "nah-3-17",
+      "nah-3-19"
+    ],
+    "at": [
+      "nah-1-3",
+      "nah-1-5",
+      "nah-3-10"
+    ],
+    "all": [
+      "nah-1-3",
+      "nah-1-4",
+      "nah-1-5",
+      "nah-2-9",
+      "nah-2-10",
+      "nah-3-1",
+      "nah-3-7",
+      "nah-3-10",
+      "nah-3-12",
+      "nah-3-19"
+    ],
+    "acquit": [
+      "nah-1-3"
+    ],
+    "wicked": [
+      "nah-1-3",
+      "nah-1-11",
+      "nah-1-15"
+    ],
+    "hath": [
+      "nah-1-3",
+      "nah-1-14",
+      "nah-2-2",
+      "nah-3-19"
+    ],
+    "way": [
+      "nah-1-3",
+      "nah-2-1"
+    ],
+    "whirlwind": [
+      "nah-1-3"
+    ],
+    "storm": [
+      "nah-1-3"
+    ],
+    "clouds": [
+      "nah-1-3"
+    ],
+    "are": [
+      "nah-1-3",
+      "nah-1-6",
+      "nah-1-10",
+      "nah-2-3",
+      "nah-3-13",
+      "nah-3-17"
+    ],
+    "dust": [
+      "nah-1-3",
+      "nah-3-18"
+    ],
+    "feet": [
+      "nah-1-3",
+      "nah-1-15"
+    ],
+    "rebuketh": [
+      "nah-1-4"
+    ],
+    "sea": [
+      "nah-1-4",
+      "nah-3-8"
+    ],
+    "maketh": [
+      "nah-1-4"
+    ],
+    "it": [
+      "nah-1-4",
+      "nah-3-1",
+      "nah-3-7",
+      "nah-3-8",
+      "nah-3-9",
+      "nah-3-15"
+    ],
+    "dry": [
+      "nah-1-4",
+      "nah-1-10"
+    ],
+    "drieth": [
+      "nah-1-4"
+    ],
+    "up": [
+      "nah-1-4",
+      "nah-1-9",
+      "nah-2-1",
+      "nah-2-7",
+      "nah-3-3",
+      "nah-3-15"
+    ],
+    "rivers": [
+      "nah-1-4",
+      "nah-2-6",
+      "nah-3-8"
+    ],
+    "bashan": [
+      "nah-1-4"
+    ],
+    "languisheth": [
+      "nah-1-4"
+    ],
+    "carmel": [
+      "nah-1-4"
+    ],
+    "flower": [
+      "nah-1-4"
+    ],
+    "lebanon": [
+      "nah-1-4"
+    ],
+    "mountains": [
+      "nah-1-5",
+      "nah-1-15",
+      "nah-3-18"
+    ],
+    "quake": [
+      "nah-1-5"
+    ],
+    "him": [
+      "nah-1-5",
+      "nah-1-6",
+      "nah-1-7",
+      "nah-1-15"
+    ],
+    "hills": [
+      "nah-1-5"
+    ],
+    "melt": [
+      "nah-1-5"
+    ],
+    "earth": [
+      "nah-1-5",
+      "nah-2-13"
+    ],
+    "burned": [
+      "nah-1-5"
+    ],
+    "presence": [
+      "nah-1-5"
+    ],
+    "yea": [
+      "nah-1-5"
+    ],
+    "world": [
+      "nah-1-5"
+    ],
+    "that": [
+      "nah-1-5",
+      "nah-1-7",
+      "nah-1-11",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-1",
+      "nah-3-4",
+      "nah-3-7",
+      "nah-3-8",
+      "nah-3-19"
+    ],
+    "dwell": [
+      "nah-1-5",
+      "nah-3-18"
+    ],
+    "therein": [
+      "nah-1-5"
+    ],
+    "who": [
+      "nah-1-6",
+      "nah-3-7"
+    ],
+    "can": [
+      "nah-1-6"
+    ],
+    "stand": [
+      "nah-1-6",
+      "nah-2-8"
+    ],
+    "before": [
+      "nah-1-6",
+      "nah-2-1"
+    ],
+    "indignation": [
+      "nah-1-6"
+    ],
+    "abide": [
+      "nah-1-6"
+    ],
+    "fierceness": [
+      "nah-1-6"
+    ],
+    "fury": [
+      "nah-1-6"
+    ],
+    "poured": [
+      "nah-1-6"
+    ],
+    "out": [
+      "nah-1-6",
+      "nah-1-11",
+      "nah-1-14",
+      "nah-2-2",
+      "nah-2-9"
+    ],
+    "like": [
+      "nah-1-6",
+      "nah-2-4",
+      "nah-2-8",
+      "nah-3-12",
+      "nah-3-15"
+    ],
+    "fire": [
+      "nah-1-6",
+      "nah-3-13",
+      "nah-3-15"
+    ],
+    "rocks": [
+      "nah-1-6"
+    ],
+    "thrown": [
+      "nah-1-6"
+    ],
+    "down": [
+      "nah-1-6",
+      "nah-1-12"
+    ],
+    "by": [
+      "nah-1-6"
+    ],
+    "good": [
+      "nah-1-7",
+      "nah-1-15"
+    ],
+    "a": [
+      "nah-1-7",
+      "nah-1-11",
+      "nah-1-14",
+      "nah-2-8",
+      "nah-3-2",
+      "nah-3-3",
+      "nah-3-6"
+    ],
+    "strong": [
+      "nah-1-7",
+      "nah-2-1",
+      "nah-3-12",
+      "nah-3-14"
+    ],
+    "hold": [
+      "nah-1-7"
+    ],
+    "day": [
+      "nah-1-7",
+      "nah-2-3",
+      "nah-3-17"
+    ],
+    "trouble": [
+      "nah-1-7"
+    ],
+    "knoweth": [
+      "nah-1-7"
+    ],
+    "them": [
+      "nah-1-7",
+      "nah-2-2",
+      "nah-2-10",
+      "nah-2-11",
+      "nah-3-18"
+    ],
+    "trust": [
+      "nah-1-7"
+    ],
+    "but": [
+      "nah-1-8",
+      "nah-2-8",
+      "nah-3-17"
+    ],
+    "with": [
+      "nah-1-8",
+      "nah-2-3",
+      "nah-2-7",
+      "nah-2-12",
+      "nah-3-12"
+    ],
+    "an": [
+      "nah-1-8",
+      "nah-1-9"
+    ],
+    "overrunning": [
+      "nah-1-8"
+    ],
+    "flood": [
+      "nah-1-8"
+    ],
+    "make": [
+      "nah-1-8",
+      "nah-1-9",
+      "nah-1-14",
+      "nah-2-1",
+      "nah-2-5",
+      "nah-3-6",
+      "nah-3-14",
+      "nah-3-15"
+    ],
+    "utter": [
+      "nah-1-8",
+      "nah-1-9"
+    ],
+    "end": [
+      "nah-1-8",
+      "nah-1-9",
+      "nah-2-9",
+      "nah-3-3"
+    ],
+    "place": [
+      "nah-1-8",
+      "nah-3-17"
+    ],
+    "thereof": [
+      "nah-1-8",
+      "nah-2-5"
+    ],
+    "darkness": [
+      "nah-1-8"
+    ],
+    "shall": [
+      "nah-1-8",
+      "nah-1-9",
+      "nah-1-10",
+      "nah-1-12",
+      "nah-1-15",
+      "nah-2-3",
+      "nah-2-4",
+      "nah-2-5",
+      "nah-2-6",
+      "nah-2-7",
+      "nah-2-8",
+      "nah-2-13",
+      "nah-3-7",
+      "nah-3-12",
+      "nah-3-13",
+      "nah-3-15",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "pursue": [
+      "nah-1-8"
+    ],
+    "what": [
+      "nah-1-9"
+    ],
+    "do": [
+      "nah-1-9"
+    ],
+    "ye": [
+      "nah-1-9",
+      "nah-2-9"
+    ],
+    "imagine": [
+      "nah-1-9"
+    ],
+    "against": [
+      "nah-1-9",
+      "nah-1-11",
+      "nah-2-4",
+      "nah-2-13",
+      "nah-3-5"
+    ],
+    "affliction": [
+      "nah-1-9"
+    ],
+    "rise": [
+      "nah-1-9"
+    ],
+    "second": [
+      "nah-1-9"
+    ],
+    "time": [
+      "nah-1-9"
+    ],
+    "while": [
+      "nah-1-10"
+    ],
+    "they": [
+      "nah-1-10",
+      "nah-1-12",
+      "nah-2-4",
+      "nah-2-5",
+      "nah-2-8",
+      "nah-3-3",
+      "nah-3-7",
+      "nah-3-10",
+      "nah-3-12",
+      "nah-3-17"
+    ],
+    "be": [
+      "nah-1-10",
+      "nah-1-12",
+      "nah-1-14",
+      "nah-2-3",
+      "nah-2-5",
+      "nah-2-6",
+      "nah-2-7",
+      "nah-2-13",
+      "nah-3-11",
+      "nah-3-12",
+      "nah-3-13"
+    ],
+    "folden": [
+      "nah-1-10"
+    ],
+    "together": [
+      "nah-1-10",
+      "nah-2-10"
+    ],
+    "as": [
+      "nah-1-10",
+      "nah-2-2",
+      "nah-2-7",
+      "nah-3-6",
+      "nah-3-15",
+      "nah-3-17"
+    ],
+    "thorns": [
+      "nah-1-10"
+    ],
+    "drunken": [
+      "nah-1-10",
+      "nah-3-11"
+    ],
+    "drunkards": [
+      "nah-1-10"
+    ],
+    "devoured": [
+      "nah-1-10"
+    ],
+    "stubble": [
+      "nah-1-10"
+    ],
+    "fully": [
+      "nah-1-10"
+    ],
+    "there": [
+      "nah-1-11",
+      "nah-2-9",
+      "nah-3-3",
+      "nah-3-15",
+      "nah-3-19"
+    ],
+    "one": [
+      "nah-1-11",
+      "nah-2-4"
+    ],
+    "come": [
+      "nah-1-11",
+      "nah-2-1",
+      "nah-3-7"
+    ],
+    "thee": [
+      "nah-1-11",
+      "nah-1-12",
+      "nah-1-13",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-13",
+      "nah-3-5",
+      "nah-3-6",
+      "nah-3-7",
+      "nah-3-13",
+      "nah-3-14",
+      "nah-3-15",
+      "nah-3-19"
+    ],
+    "imagineth": [
+      "nah-1-11"
+    ],
+    "evil": [
+      "nah-1-11"
+    ],
+    "counseller": [
+      "nah-1-11"
+    ],
+    "thus": [
+      "nah-1-12"
+    ],
+    "saith": [
+      "nah-1-12",
+      "nah-2-13",
+      "nah-3-5"
+    ],
+    "though": [
+      "nah-1-12"
+    ],
+    "quiet": [
+      "nah-1-12"
+    ],
+    "likewise": [
+      "nah-1-12"
+    ],
+    "many": [
+      "nah-1-12",
+      "nah-3-15"
+    ],
+    "yet": [
+      "nah-1-12",
+      "nah-2-8",
+      "nah-3-10"
+    ],
+    "cut": [
+      "nah-1-12",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-13",
+      "nah-3-15"
+    ],
+    "when": [
+      "nah-1-12",
+      "nah-3-17"
+    ],
+    "pass": [
+      "nah-1-12",
+      "nah-1-15",
+      "nah-3-7"
+    ],
+    "through": [
+      "nah-1-12",
+      "nah-1-15",
+      "nah-3-4"
+    ],
+    "i": [
+      "nah-1-12",
+      "nah-1-13",
+      "nah-1-14",
+      "nah-2-13",
+      "nah-3-5",
+      "nah-3-6",
+      "nah-3-7"
+    ],
+    "have": [
+      "nah-1-12",
+      "nah-2-2"
+    ],
+    "afflicted": [
+      "nah-1-12"
+    ],
+    "afflict": [
+      "nah-1-12"
+    ],
+    "no": [
+      "nah-1-12",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-13",
+      "nah-3-8",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "more": [
+      "nah-1-12",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-13"
+    ],
+    "now": [
+      "nah-1-13"
+    ],
+    "break": [
+      "nah-1-13"
+    ],
+    "yoke": [
+      "nah-1-13"
+    ],
+    "from": [
+      "nah-1-13",
+      "nah-2-13",
+      "nah-3-7",
+      "nah-3-8"
+    ],
+    "off": [
+      "nah-1-13",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-13",
+      "nah-3-15"
+    ],
+    "burst": [
+      "nah-1-13"
+    ],
+    "thy": [
+      "nah-1-13",
+      "nah-1-14",
+      "nah-1-15",
+      "nah-2-1",
+      "nah-2-13",
+      "nah-3-5",
+      "nah-3-9",
+      "nah-3-12",
+      "nah-3-13",
+      "nah-3-14",
+      "nah-3-16",
+      "nah-3-17",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "bonds": [
+      "nah-1-13"
+    ],
+    "sunder": [
+      "nah-1-13"
+    ],
+    "given": [
+      "nah-1-14"
+    ],
+    "commandment": [
+      "nah-1-14"
+    ],
+    "concerning": [
+      "nah-1-14"
+    ],
+    "name": [
+      "nah-1-14"
+    ],
+    "sown": [
+      "nah-1-14"
+    ],
+    "house": [
+      "nah-1-14"
+    ],
+    "gods": [
+      "nah-1-14"
+    ],
+    "graven": [
+      "nah-1-14"
+    ],
+    "image": [
+      "nah-1-14"
+    ],
+    "molten": [
+      "nah-1-14"
+    ],
+    "grave": [
+      "nah-1-14"
+    ],
+    "thou": [
+      "nah-1-14",
+      "nah-3-8",
+      "nah-3-11",
+      "nah-3-16"
+    ],
+    "art": [
+      "nah-1-14",
+      "nah-3-8"
+    ],
+    "vile": [
+      "nah-1-14",
+      "nah-3-6"
+    ],
+    "behold": [
+      "nah-1-15",
+      "nah-2-13",
+      "nah-3-5",
+      "nah-3-13"
+    ],
+    "upon": [
+      "nah-1-15",
+      "nah-2-7",
+      "nah-3-3",
+      "nah-3-5",
+      "nah-3-6",
+      "nah-3-7",
+      "nah-3-18",
+      "nah-3-19"
+    ],
+    "bringeth": [
+      "nah-1-15"
+    ],
+    "tidings": [
+      "nah-1-15"
+    ],
+    "publisheth": [
+      "nah-1-15"
+    ],
+    "peace": [
+      "nah-1-15"
+    ],
+    "o": [
+      "nah-1-15",
+      "nah-3-18"
+    ],
+    "judah": [
+      "nah-1-15"
+    ],
+    "keep": [
+      "nah-1-15",
+      "nah-2-1"
+    ],
+    "solemn": [
+      "nah-1-15"
+    ],
+    "feasts": [
+      "nah-1-15"
+    ],
+    "perform": [
+      "nah-1-15"
+    ],
+    "vows": [
+      "nah-1-15"
+    ],
+    "utterly": [
+      "nah-1-15"
+    ],
+    "dasheth": [
+      "nah-2-1"
+    ],
+    "pieces": [
+      "nah-2-1",
+      "nah-2-12",
+      "nah-3-10"
+    ],
+    "face": [
+      "nah-2-1",
+      "nah-3-5"
+    ],
+    "munition": [
+      "nah-2-1"
+    ],
+    "watch": [
+      "nah-2-1"
+    ],
+    "loins": [
+      "nah-2-1",
+      "nah-2-10"
+    ],
+    "fortify": [
+      "nah-2-1",
+      "nah-3-14"
+    ],
+    "mightily": [
+      "nah-2-1"
+    ],
+    "turned": [
+      "nah-2-2"
+    ],
+    "away": [
+      "nah-2-2",
+      "nah-2-7",
+      "nah-2-8",
+      "nah-3-10",
+      "nah-3-16",
+      "nah-3-17"
+    ],
+    "excellency": [
+      "nah-2-2"
+    ],
+    "jacob": [
+      "nah-2-2"
+    ],
+    "israel": [
+      "nah-2-2"
+    ],
+    "emptiers": [
+      "nah-2-2"
+    ],
+    "emptied": [
+      "nah-2-2"
+    ],
+    "marred": [
+      "nah-2-2"
+    ],
+    "their": [
+      "nah-2-2",
+      "nah-2-5",
+      "nah-2-7",
+      "nah-3-3",
+      "nah-3-17"
+    ],
+    "vine": [
+      "nah-2-2"
+    ],
+    "branches": [
+      "nah-2-2"
+    ],
+    "shield": [
+      "nah-2-3"
+    ],
+    "mighty": [
+      "nah-2-3"
+    ],
+    "men": [
+      "nah-2-3",
+      "nah-3-10"
+    ],
+    "made": [
+      "nah-2-3",
+      "nah-2-11"
+    ],
+    "red": [
+      "nah-2-3"
+    ],
+    "valiant": [
+      "nah-2-3"
+    ],
+    "scarlet": [
+      "nah-2-3"
+    ],
+    "chariots": [
+      "nah-2-3",
+      "nah-2-4",
+      "nah-2-13",
+      "nah-3-2"
+    ],
+    "flaming": [
+      "nah-2-3"
+    ],
+    "torches": [
+      "nah-2-3",
+      "nah-2-4"
+    ],
+    "preparation": [
+      "nah-2-3"
+    ],
+    "fir": [
+      "nah-2-3"
+    ],
+    "trees": [
+      "nah-2-3",
+      "nah-3-12"
+    ],
+    "terribly": [
+      "nah-2-3"
+    ],
+    "shaken": [
+      "nah-2-3",
+      "nah-3-12"
+    ],
+    "rage": [
+      "nah-2-4"
+    ],
+    "streets": [
+      "nah-2-4",
+      "nah-3-10"
+    ],
+    "justle": [
+      "nah-2-4"
+    ],
+    "another": [
+      "nah-2-4"
+    ],
+    "broad": [
+      "nah-2-4"
+    ],
+    "ways": [
+      "nah-2-4"
+    ],
+    "seem": [
+      "nah-2-4"
+    ],
+    "run": [
+      "nah-2-4"
+    ],
+    "lightnings": [
+      "nah-2-4"
+    ],
+    "recount": [
+      "nah-2-5"
+    ],
+    "worthies": [
+      "nah-2-5"
+    ],
+    "stumble": [
+      "nah-2-5",
+      "nah-3-3"
+    ],
+    "walk": [
+      "nah-2-5"
+    ],
+    "haste": [
+      "nah-2-5"
+    ],
+    "wall": [
+      "nah-2-5",
+      "nah-3-8"
+    ],
+    "defence": [
+      "nah-2-5"
+    ],
+    "prepared": [
+      "nah-2-5"
+    ],
+    "gates": [
+      "nah-2-6",
+      "nah-3-13"
+    ],
+    "opened": [
+      "nah-2-6"
+    ],
+    "palace": [
+      "nah-2-6"
+    ],
+    "dissolved": [
+      "nah-2-6"
+    ],
+    "huzzab": [
+      "nah-2-7"
+    ],
+    "led": [
+      "nah-2-7"
+    ],
+    "captive": [
+      "nah-2-7"
+    ],
+    "she": [
+      "nah-2-7",
+      "nah-2-10",
+      "nah-3-10"
+    ],
+    "brought": [
+      "nah-2-7"
+    ],
+    "her": [
+      "nah-2-7",
+      "nah-2-13",
+      "nah-3-4",
+      "nah-3-7",
+      "nah-3-8",
+      "nah-3-9",
+      "nah-3-10"
+    ],
+    "maids": [
+      "nah-2-7"
+    ],
+    "lead": [
+      "nah-2-7"
+    ],
+    "voice": [
+      "nah-2-7",
+      "nah-2-13"
+    ],
+    "doves": [
+      "nah-2-7"
+    ],
+    "tabering": [
+      "nah-2-7"
+    ],
+    "breasts": [
+      "nah-2-7"
+    ],
+    "old": [
+      "nah-2-8",
+      "nah-2-11"
+    ],
+    "pool": [
+      "nah-2-8"
+    ],
+    "water": [
+      "nah-2-8"
+    ],
+    "flee": [
+      "nah-2-8",
+      "nah-3-7",
+      "nah-3-17"
+    ],
+    "cry": [
+      "nah-2-8"
+    ],
+    "none": [
+      "nah-2-8",
+      "nah-2-9",
+      "nah-2-11",
+      "nah-3-3"
+    ],
+    "look": [
+      "nah-2-8",
+      "nah-3-7"
+    ],
+    "back": [
+      "nah-2-8"
+    ],
+    "spoil": [
+      "nah-2-9"
+    ],
+    "silver": [
+      "nah-2-9"
+    ],
+    "gold": [
+      "nah-2-9"
+    ],
+    "store": [
+      "nah-2-9"
+    ],
+    "glory": [
+      "nah-2-9"
+    ],
+    "pleasant": [
+      "nah-2-9"
+    ],
+    "furniture": [
+      "nah-2-9"
+    ],
+    "empty": [
+      "nah-2-10"
+    ],
+    "void": [
+      "nah-2-10"
+    ],
+    "waste": [
+      "nah-2-10",
+      "nah-3-7"
+    ],
+    "heart": [
+      "nah-2-10"
+    ],
+    "melteth": [
+      "nah-2-10"
+    ],
+    "knees": [
+      "nah-2-10"
+    ],
+    "smite": [
+      "nah-2-10"
+    ],
+    "much": [
+      "nah-2-10"
+    ],
+    "pain": [
+      "nah-2-10"
+    ],
+    "faces": [
+      "nah-2-10"
+    ],
+    "gather": [
+      "nah-2-10"
+    ],
+    "blackness": [
+      "nah-2-10"
+    ],
+    "where": [
+      "nah-2-11",
+      "nah-3-17"
+    ],
+    "dwelling": [
+      "nah-2-11"
+    ],
+    "lions": [
+      "nah-2-11",
+      "nah-2-13"
+    ],
+    "feedingplace": [
+      "nah-2-11"
+    ],
+    "young": [
+      "nah-2-11",
+      "nah-2-13",
+      "nah-3-10"
+    ],
+    "lion": [
+      "nah-2-11",
+      "nah-2-12"
+    ],
+    "even": [
+      "nah-2-11",
+      "nah-3-12"
+    ],
+    "walked": [
+      "nah-2-11"
+    ],
+    "s": [
+      "nah-2-11"
+    ],
+    "whelp": [
+      "nah-2-11"
+    ],
+    "afraid": [
+      "nah-2-11"
+    ],
+    "did": [
+      "nah-2-12"
+    ],
+    "tear": [
+      "nah-2-12"
+    ],
+    "enough": [
+      "nah-2-12"
+    ],
+    "whelps": [
+      "nah-2-12"
+    ],
+    "strangled": [
+      "nah-2-12"
+    ],
+    "lionesses": [
+      "nah-2-12"
+    ],
+    "filled": [
+      "nah-2-12"
+    ],
+    "holes": [
+      "nah-2-12"
+    ],
+    "prey": [
+      "nah-2-12",
+      "nah-2-13",
+      "nah-3-1"
+    ],
+    "dens": [
+      "nah-2-12"
+    ],
+    "ravin": [
+      "nah-2-12"
+    ],
+    "am": [
+      "nah-2-13",
+      "nah-3-5"
+    ],
+    "hosts": [
+      "nah-2-13",
+      "nah-3-5"
+    ],
+    "burn": [
+      "nah-2-13"
+    ],
+    "smoke": [
+      "nah-2-13"
+    ],
+    "sword": [
+      "nah-2-13",
+      "nah-3-3",
+      "nah-3-15"
+    ],
+    "devour": [
+      "nah-2-13",
+      "nah-3-13",
+      "nah-3-15"
+    ],
+    "messengers": [
+      "nah-2-13"
+    ],
+    "heard": [
+      "nah-2-13"
+    ],
+    "woe": [
+      "nah-3-1"
+    ],
+    "bloody": [
+      "nah-3-1"
+    ],
+    "city": [
+      "nah-3-1"
+    ],
+    "full": [
+      "nah-3-1"
+    ],
+    "lies": [
+      "nah-3-1"
+    ],
+    "robbery": [
+      "nah-3-1"
+    ],
+    "departeth": [
+      "nah-3-1"
+    ],
+    "noise": [
+      "nah-3-2"
+    ],
+    "whip": [
+      "nah-3-2"
+    ],
+    "rattling": [
+      "nah-3-2"
+    ],
+    "wheels": [
+      "nah-3-2"
+    ],
+    "pransing": [
+      "nah-3-2"
+    ],
+    "horses": [
+      "nah-3-2"
+    ],
+    "jumping": [
+      "nah-3-2"
+    ],
+    "horseman": [
+      "nah-3-3"
+    ],
+    "lifteth": [
+      "nah-3-3"
+    ],
+    "both": [
+      "nah-3-3"
+    ],
+    "bright": [
+      "nah-3-3"
+    ],
+    "glittering": [
+      "nah-3-3"
+    ],
+    "spear": [
+      "nah-3-3"
+    ],
+    "multitude": [
+      "nah-3-3",
+      "nah-3-4"
+    ],
+    "slain": [
+      "nah-3-3"
+    ],
+    "number": [
+      "nah-3-3"
+    ],
+    "carcases": [
+      "nah-3-3"
+    ],
+    "corpses": [
+      "nah-3-3"
+    ],
+    "because": [
+      "nah-3-4",
+      "nah-3-11"
+    ],
+    "whoredoms": [
+      "nah-3-4"
+    ],
+    "wellfavoured": [
+      "nah-3-4"
+    ],
+    "harlot": [
+      "nah-3-4"
+    ],
+    "mistress": [
+      "nah-3-4"
+    ],
+    "witchcrafts": [
+      "nah-3-4"
+    ],
+    "selleth": [
+      "nah-3-4"
+    ],
+    "nations": [
+      "nah-3-4",
+      "nah-3-5"
+    ],
+    "families": [
+      "nah-3-4"
+    ],
+    "discover": [
+      "nah-3-5"
+    ],
+    "skirts": [
+      "nah-3-5"
+    ],
+    "shew": [
+      "nah-3-5"
+    ],
+    "nakedness": [
+      "nah-3-5"
+    ],
+    "kingdoms": [
+      "nah-3-5"
+    ],
+    "shame": [
+      "nah-3-5"
+    ],
+    "cast": [
+      "nah-3-6",
+      "nah-3-10"
+    ],
+    "abominable": [
+      "nah-3-6"
+    ],
+    "filth": [
+      "nah-3-6"
+    ],
+    "set": [
+      "nah-3-6",
+      "nah-3-13"
+    ],
+    "gazingstock": [
+      "nah-3-6"
+    ],
+    "say": [
+      "nah-3-7"
+    ],
+    "laid": [
+      "nah-3-7"
+    ],
+    "bemoan": [
+      "nah-3-7"
+    ],
+    "whence": [
+      "nah-3-7"
+    ],
+    "seek": [
+      "nah-3-7",
+      "nah-3-11"
+    ],
+    "comforters": [
+      "nah-3-7"
+    ],
+    "better": [
+      "nah-3-8"
+    ],
+    "than": [
+      "nah-3-8"
+    ],
+    "populous": [
+      "nah-3-8"
+    ],
+    "was": [
+      "nah-3-8",
+      "nah-3-9",
+      "nah-3-10"
+    ],
+    "situate": [
+      "nah-3-8"
+    ],
+    "among": [
+      "nah-3-8"
+    ],
+    "had": [
+      "nah-3-8"
+    ],
+    "waters": [
+      "nah-3-8",
+      "nah-3-14"
+    ],
+    "round": [
+      "nah-3-8"
+    ],
+    "about": [
+      "nah-3-8"
+    ],
+    "whose": [
+      "nah-3-8"
+    ],
+    "rampart": [
+      "nah-3-8"
+    ],
+    "ethiopia": [
+      "nah-3-9"
+    ],
+    "egypt": [
+      "nah-3-9"
+    ],
+    "were": [
+      "nah-3-9",
+      "nah-3-10"
+    ],
+    "strength": [
+      "nah-3-9",
+      "nah-3-11"
+    ],
+    "infinite": [
+      "nah-3-9"
+    ],
+    "put": [
+      "nah-3-9"
+    ],
+    "lubim": [
+      "nah-3-9"
+    ],
+    "helpers": [
+      "nah-3-9"
+    ],
+    "carried": [
+      "nah-3-10"
+    ],
+    "went": [
+      "nah-3-10"
+    ],
+    "into": [
+      "nah-3-10",
+      "nah-3-12",
+      "nah-3-14"
+    ],
+    "captivity": [
+      "nah-3-10"
+    ],
+    "children": [
+      "nah-3-10"
+    ],
+    "also": [
+      "nah-3-10",
+      "nah-3-11"
+    ],
+    "dashed": [
+      "nah-3-10"
+    ],
+    "top": [
+      "nah-3-10"
+    ],
+    "lots": [
+      "nah-3-10"
+    ],
+    "honourable": [
+      "nah-3-10"
+    ],
+    "bound": [
+      "nah-3-10"
+    ],
+    "chains": [
+      "nah-3-10"
+    ],
+    "shalt": [
+      "nah-3-11"
+    ],
+    "hid": [
+      "nah-3-11"
+    ],
+    "enemy": [
+      "nah-3-11"
+    ],
+    "holds": [
+      "nah-3-12",
+      "nah-3-14"
+    ],
+    "fig": [
+      "nah-3-12"
+    ],
+    "firstripe": [
+      "nah-3-12"
+    ],
+    "figs": [
+      "nah-3-12"
+    ],
+    "if": [
+      "nah-3-12"
+    ],
+    "fall": [
+      "nah-3-12"
+    ],
+    "mouth": [
+      "nah-3-12"
+    ],
+    "eater": [
+      "nah-3-12"
+    ],
+    "people": [
+      "nah-3-13",
+      "nah-3-18"
+    ],
+    "midst": [
+      "nah-3-13"
+    ],
+    "women": [
+      "nah-3-13"
+    ],
+    "land": [
+      "nah-3-13"
+    ],
+    "wide": [
+      "nah-3-13"
+    ],
+    "open": [
+      "nah-3-13"
+    ],
+    "unto": [
+      "nah-3-13"
+    ],
+    "thine": [
+      "nah-3-13"
+    ],
+    "bars": [
+      "nah-3-13"
+    ],
+    "draw": [
+      "nah-3-14"
+    ],
+    "siege": [
+      "nah-3-14"
+    ],
+    "go": [
+      "nah-3-14"
+    ],
+    "clay": [
+      "nah-3-14"
+    ],
+    "tread": [
+      "nah-3-14"
+    ],
+    "morter": [
+      "nah-3-14"
+    ],
+    "brickkiln": [
+      "nah-3-14"
+    ],
+    "eat": [
+      "nah-3-15"
+    ],
+    "cankerworm": [
+      "nah-3-15",
+      "nah-3-16"
+    ],
+    "thyself": [
+      "nah-3-15"
+    ],
+    "locusts": [
+      "nah-3-15",
+      "nah-3-17"
+    ],
+    "hast": [
+      "nah-3-16"
+    ],
+    "multiplied": [
+      "nah-3-16"
+    ],
+    "merchants": [
+      "nah-3-16"
+    ],
+    "above": [
+      "nah-3-16"
+    ],
+    "stars": [
+      "nah-3-16"
+    ],
+    "heaven": [
+      "nah-3-16"
+    ],
+    "spoileth": [
+      "nah-3-16"
+    ],
+    "flieth": [
+      "nah-3-16"
+    ],
+    "crowned": [
+      "nah-3-17"
+    ],
+    "captains": [
+      "nah-3-17"
+    ],
+    "grasshoppers": [
+      "nah-3-17"
+    ],
+    "which": [
+      "nah-3-17"
+    ],
+    "camp": [
+      "nah-3-17"
+    ],
+    "hedges": [
+      "nah-3-17"
+    ],
+    "cold": [
+      "nah-3-17"
+    ],
+    "sun": [
+      "nah-3-17"
+    ],
+    "ariseth": [
+      "nah-3-17"
+    ],
+    "known": [
+      "nah-3-17"
+    ],
+    "shepherds": [
+      "nah-3-18"
+    ],
+    "slumber": [
+      "nah-3-18"
+    ],
+    "king": [
+      "nah-3-18"
+    ],
+    "assyria": [
+      "nah-3-18"
+    ],
+    "nobles": [
+      "nah-3-18"
+    ],
+    "scattered": [
+      "nah-3-18"
+    ],
+    "man": [
+      "nah-3-18"
+    ],
+    "gathereth": [
+      "nah-3-18"
+    ],
+    "healing": [
+      "nah-3-19"
+    ],
+    "bruise": [
+      "nah-3-19"
+    ],
+    "wound": [
+      "nah-3-19"
+    ],
+    "grievous": [
+      "nah-3-19"
+    ],
+    "hear": [
+      "nah-3-19"
+    ],
+    "bruit": [
+      "nah-3-19"
+    ],
+    "clap": [
+      "nah-3-19"
+    ],
+    "hands": [
+      "nah-3-19"
+    ],
+    "over": [
+      "nah-3-19"
+    ],
+    "whom": [
+      "nah-3-19"
+    ],
+    "wickedness": [
+      "nah-3-19"
+    ],
+    "passed": [
+      "nah-3-19"
+    ],
+    "continually": [
+      "nah-3-19"
+    ]
+  }
+}

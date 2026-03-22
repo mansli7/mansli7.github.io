@@ -1,0 +1,979 @@
+{
+  "book": "Obadiah",
+  "book_id": "oba",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "the": [
+      "oba-1-1",
+      "oba-1-2",
+      "oba-1-3",
+      "oba-1-4",
+      "oba-1-5",
+      "oba-1-6",
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-15",
+      "oba-1-16",
+      "oba-1-17",
+      "oba-1-18",
+      "oba-1-19",
+      "oba-1-20",
+      "oba-1-21"
+    ],
+    "vision": [
+      "oba-1-1"
+    ],
+    "of": [
+      "oba-1-1",
+      "oba-1-3",
+      "oba-1-6",
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-15",
+      "oba-1-17",
+      "oba-1-18",
+      "oba-1-19",
+      "oba-1-20",
+      "oba-1-21"
+    ],
+    "obadiah": [
+      "oba-1-1"
+    ],
+    "thus": [
+      "oba-1-1"
+    ],
+    "saith": [
+      "oba-1-1",
+      "oba-1-3",
+      "oba-1-4",
+      "oba-1-8"
+    ],
+    "lord": [
+      "oba-1-1",
+      "oba-1-4",
+      "oba-1-8",
+      "oba-1-15",
+      "oba-1-18",
+      "oba-1-21"
+    ],
+    "god": [
+      "oba-1-1"
+    ],
+    "concerning": [
+      "oba-1-1"
+    ],
+    "edom": [
+      "oba-1-1",
+      "oba-1-8"
+    ],
+    "we": [
+      "oba-1-1"
+    ],
+    "have": [
+      "oba-1-1",
+      "oba-1-2",
+      "oba-1-5",
+      "oba-1-7",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-16"
+    ],
+    "heard": [
+      "oba-1-1"
+    ],
+    "a": [
+      "oba-1-1",
+      "oba-1-7",
+      "oba-1-12",
+      "oba-1-18"
+    ],
+    "rumour": [
+      "oba-1-1"
+    ],
+    "from": [
+      "oba-1-1"
+    ],
+    "and": [
+      "oba-1-1",
+      "oba-1-4",
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-11",
+      "oba-1-16",
+      "oba-1-17",
+      "oba-1-18",
+      "oba-1-19",
+      "oba-1-20",
+      "oba-1-21"
+    ],
+    "an": [
+      "oba-1-1"
+    ],
+    "ambassador": [
+      "oba-1-1"
+    ],
+    "is": [
+      "oba-1-1",
+      "oba-1-3",
+      "oba-1-7",
+      "oba-1-15",
+      "oba-1-20"
+    ],
+    "sent": [
+      "oba-1-1"
+    ],
+    "among": [
+      "oba-1-1",
+      "oba-1-2",
+      "oba-1-4"
+    ],
+    "heathen": [
+      "oba-1-1",
+      "oba-1-2",
+      "oba-1-15",
+      "oba-1-16"
+    ],
+    "arise": [
+      "oba-1-1"
+    ],
+    "ye": [
+      "oba-1-1",
+      "oba-1-16"
+    ],
+    "let": [
+      "oba-1-1"
+    ],
+    "us": [
+      "oba-1-1"
+    ],
+    "rise": [
+      "oba-1-1"
+    ],
+    "up": [
+      "oba-1-1",
+      "oba-1-6",
+      "oba-1-14",
+      "oba-1-21"
+    ],
+    "against": [
+      "oba-1-1",
+      "oba-1-7",
+      "oba-1-10"
+    ],
+    "her": [
+      "oba-1-1"
+    ],
+    "in": [
+      "oba-1-1",
+      "oba-1-3",
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-18",
+      "oba-1-20"
+    ],
+    "battle": [
+      "oba-1-1"
+    ],
+    "behold": [
+      "oba-1-2"
+    ],
+    "i": [
+      "oba-1-2",
+      "oba-1-4",
+      "oba-1-8"
+    ],
+    "made": [
+      "oba-1-2"
+    ],
+    "thee": [
+      "oba-1-2",
+      "oba-1-3",
+      "oba-1-4",
+      "oba-1-5",
+      "oba-1-7",
+      "oba-1-10",
+      "oba-1-15"
+    ],
+    "small": [
+      "oba-1-2"
+    ],
+    "thou": [
+      "oba-1-2",
+      "oba-1-3",
+      "oba-1-4",
+      "oba-1-5",
+      "oba-1-10",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-15"
+    ],
+    "art": [
+      "oba-1-2",
+      "oba-1-5"
+    ],
+    "greatly": [
+      "oba-1-2"
+    ],
+    "despised": [
+      "oba-1-2"
+    ],
+    "pride": [
+      "oba-1-3"
+    ],
+    "thine": [
+      "oba-1-3",
+      "oba-1-15"
+    ],
+    "heart": [
+      "oba-1-3"
+    ],
+    "hath": [
+      "oba-1-3",
+      "oba-1-18"
+    ],
+    "deceived": [
+      "oba-1-3",
+      "oba-1-7"
+    ],
+    "that": [
+      "oba-1-3",
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-14",
+      "oba-1-20"
+    ],
+    "dwellest": [
+      "oba-1-3"
+    ],
+    "clefts": [
+      "oba-1-3"
+    ],
+    "rock": [
+      "oba-1-3"
+    ],
+    "whose": [
+      "oba-1-3"
+    ],
+    "habitation": [
+      "oba-1-3"
+    ],
+    "high": [
+      "oba-1-3"
+    ],
+    "his": [
+      "oba-1-3",
+      "oba-1-6",
+      "oba-1-11",
+      "oba-1-14"
+    ],
+    "who": [
+      "oba-1-3"
+    ],
+    "shall": [
+      "oba-1-3",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-15",
+      "oba-1-16",
+      "oba-1-17",
+      "oba-1-18",
+      "oba-1-19",
+      "oba-1-20",
+      "oba-1-21"
+    ],
+    "bring": [
+      "oba-1-3",
+      "oba-1-4"
+    ],
+    "me": [
+      "oba-1-3"
+    ],
+    "down": [
+      "oba-1-3",
+      "oba-1-4",
+      "oba-1-16"
+    ],
+    "to": [
+      "oba-1-3",
+      "oba-1-5",
+      "oba-1-7",
+      "oba-1-9",
+      "oba-1-14",
+      "oba-1-21"
+    ],
+    "ground": [
+      "oba-1-3"
+    ],
+    "though": [
+      "oba-1-4",
+      "oba-1-16"
+    ],
+    "exalt": [
+      "oba-1-4"
+    ],
+    "thyself": [
+      "oba-1-4"
+    ],
+    "as": [
+      "oba-1-4",
+      "oba-1-11",
+      "oba-1-15",
+      "oba-1-16"
+    ],
+    "eagle": [
+      "oba-1-4"
+    ],
+    "set": [
+      "oba-1-4"
+    ],
+    "thy": [
+      "oba-1-4",
+      "oba-1-7",
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-12",
+      "oba-1-15"
+    ],
+    "nest": [
+      "oba-1-4"
+    ],
+    "stars": [
+      "oba-1-4"
+    ],
+    "thence": [
+      "oba-1-4"
+    ],
+    "will": [
+      "oba-1-4"
+    ],
+    "if": [
+      "oba-1-5"
+    ],
+    "thieves": [
+      "oba-1-5"
+    ],
+    "came": [
+      "oba-1-5"
+    ],
+    "robbers": [
+      "oba-1-5"
+    ],
+    "by": [
+      "oba-1-5",
+      "oba-1-9"
+    ],
+    "night": [
+      "oba-1-5"
+    ],
+    "how": [
+      "oba-1-5",
+      "oba-1-6"
+    ],
+    "cut": [
+      "oba-1-5",
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-14"
+    ],
+    "off": [
+      "oba-1-5",
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-14"
+    ],
+    "would": [
+      "oba-1-5"
+    ],
+    "they": [
+      "oba-1-5",
+      "oba-1-7",
+      "oba-1-16",
+      "oba-1-18",
+      "oba-1-19"
+    ],
+    "not": [
+      "oba-1-5",
+      "oba-1-8",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-16",
+      "oba-1-18"
+    ],
+    "stolen": [
+      "oba-1-5"
+    ],
+    "till": [
+      "oba-1-5"
+    ],
+    "had": [
+      "oba-1-5",
+      "oba-1-16"
+    ],
+    "enough": [
+      "oba-1-5"
+    ],
+    "grapegatherers": [
+      "oba-1-5"
+    ],
+    "leave": [
+      "oba-1-5"
+    ],
+    "some": [
+      "oba-1-5"
+    ],
+    "grapes": [
+      "oba-1-5"
+    ],
+    "are": [
+      "oba-1-6"
+    ],
+    "things": [
+      "oba-1-6"
+    ],
+    "esau": [
+      "oba-1-6",
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-18",
+      "oba-1-19",
+      "oba-1-21"
+    ],
+    "searched": [
+      "oba-1-6"
+    ],
+    "out": [
+      "oba-1-6",
+      "oba-1-8"
+    ],
+    "hidden": [
+      "oba-1-6"
+    ],
+    "sought": [
+      "oba-1-6"
+    ],
+    "all": [
+      "oba-1-7",
+      "oba-1-15",
+      "oba-1-16"
+    ],
+    "men": [
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-9"
+    ],
+    "confederacy": [
+      "oba-1-7"
+    ],
+    "brought": [
+      "oba-1-7"
+    ],
+    "even": [
+      "oba-1-7",
+      "oba-1-8",
+      "oba-1-11",
+      "oba-1-20"
+    ],
+    "border": [
+      "oba-1-7"
+    ],
+    "were": [
+      "oba-1-7"
+    ],
+    "at": [
+      "oba-1-7"
+    ],
+    "peace": [
+      "oba-1-7"
+    ],
+    "with": [
+      "oba-1-7"
+    ],
+    "prevailed": [
+      "oba-1-7"
+    ],
+    "eat": [
+      "oba-1-7"
+    ],
+    "bread": [
+      "oba-1-7"
+    ],
+    "laid": [
+      "oba-1-7",
+      "oba-1-13"
+    ],
+    "wound": [
+      "oba-1-7"
+    ],
+    "under": [
+      "oba-1-7"
+    ],
+    "there": [
+      "oba-1-7",
+      "oba-1-17",
+      "oba-1-18"
+    ],
+    "none": [
+      "oba-1-7"
+    ],
+    "understanding": [
+      "oba-1-7",
+      "oba-1-8"
+    ],
+    "him": [
+      "oba-1-7"
+    ],
+    "day": [
+      "oba-1-8",
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14",
+      "oba-1-15"
+    ],
+    "destroy": [
+      "oba-1-8"
+    ],
+    "wise": [
+      "oba-1-8"
+    ],
+    "mount": [
+      "oba-1-8",
+      "oba-1-9",
+      "oba-1-17",
+      "oba-1-19",
+      "oba-1-21"
+    ],
+    "mighty": [
+      "oba-1-9"
+    ],
+    "o": [
+      "oba-1-9"
+    ],
+    "teman": [
+      "oba-1-9"
+    ],
+    "be": [
+      "oba-1-9",
+      "oba-1-10",
+      "oba-1-15",
+      "oba-1-16",
+      "oba-1-17",
+      "oba-1-18",
+      "oba-1-21"
+    ],
+    "dismayed": [
+      "oba-1-9"
+    ],
+    "end": [
+      "oba-1-9"
+    ],
+    "every": [
+      "oba-1-9"
+    ],
+    "one": [
+      "oba-1-9",
+      "oba-1-11"
+    ],
+    "may": [
+      "oba-1-9"
+    ],
+    "slaughter": [
+      "oba-1-9"
+    ],
+    "for": [
+      "oba-1-10",
+      "oba-1-15",
+      "oba-1-16",
+      "oba-1-18"
+    ],
+    "violence": [
+      "oba-1-10"
+    ],
+    "brother": [
+      "oba-1-10",
+      "oba-1-12"
+    ],
+    "jacob": [
+      "oba-1-10",
+      "oba-1-17",
+      "oba-1-18"
+    ],
+    "shame": [
+      "oba-1-10"
+    ],
+    "cover": [
+      "oba-1-10"
+    ],
+    "shalt": [
+      "oba-1-10"
+    ],
+    "ever": [
+      "oba-1-10"
+    ],
+    "stoodest": [
+      "oba-1-11"
+    ],
+    "on": [
+      "oba-1-11",
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-21"
+    ],
+    "other": [
+      "oba-1-11"
+    ],
+    "side": [
+      "oba-1-11"
+    ],
+    "strangers": [
+      "oba-1-11"
+    ],
+    "carried": [
+      "oba-1-11"
+    ],
+    "away": [
+      "oba-1-11"
+    ],
+    "captive": [
+      "oba-1-11"
+    ],
+    "forces": [
+      "oba-1-11"
+    ],
+    "foreigners": [
+      "oba-1-11"
+    ],
+    "entered": [
+      "oba-1-11",
+      "oba-1-13"
+    ],
+    "into": [
+      "oba-1-11",
+      "oba-1-13"
+    ],
+    "gates": [
+      "oba-1-11"
+    ],
+    "cast": [
+      "oba-1-11"
+    ],
+    "lots": [
+      "oba-1-11"
+    ],
+    "upon": [
+      "oba-1-11",
+      "oba-1-15",
+      "oba-1-16",
+      "oba-1-17"
+    ],
+    "jerusalem": [
+      "oba-1-11",
+      "oba-1-20"
+    ],
+    "wast": [
+      "oba-1-11"
+    ],
+    "them": [
+      "oba-1-11",
+      "oba-1-18"
+    ],
+    "but": [
+      "oba-1-12",
+      "oba-1-17"
+    ],
+    "shouldest": [
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-14"
+    ],
+    "looked": [
+      "oba-1-12",
+      "oba-1-13"
+    ],
+    "he": [
+      "oba-1-12"
+    ],
+    "became": [
+      "oba-1-12"
+    ],
+    "stranger": [
+      "oba-1-12"
+    ],
+    "neither": [
+      "oba-1-12",
+      "oba-1-14"
+    ],
+    "rejoiced": [
+      "oba-1-12"
+    ],
+    "over": [
+      "oba-1-12"
+    ],
+    "children": [
+      "oba-1-12",
+      "oba-1-20"
+    ],
+    "judah": [
+      "oba-1-12"
+    ],
+    "their": [
+      "oba-1-12",
+      "oba-1-13",
+      "oba-1-17"
+    ],
+    "destruction": [
+      "oba-1-12"
+    ],
+    "spoken": [
+      "oba-1-12",
+      "oba-1-18"
+    ],
+    "proudly": [
+      "oba-1-12"
+    ],
+    "distress": [
+      "oba-1-12",
+      "oba-1-14"
+    ],
+    "gate": [
+      "oba-1-13"
+    ],
+    "my": [
+      "oba-1-13",
+      "oba-1-16"
+    ],
+    "people": [
+      "oba-1-13"
+    ],
+    "calamity": [
+      "oba-1-13"
+    ],
+    "yea": [
+      "oba-1-13",
+      "oba-1-16"
+    ],
+    "affliction": [
+      "oba-1-13"
+    ],
+    "nor": [
+      "oba-1-13"
+    ],
+    "hands": [
+      "oba-1-13"
+    ],
+    "substance": [
+      "oba-1-13"
+    ],
+    "stood": [
+      "oba-1-14"
+    ],
+    "crossway": [
+      "oba-1-14"
+    ],
+    "those": [
+      "oba-1-14"
+    ],
+    "did": [
+      "oba-1-14"
+    ],
+    "escape": [
+      "oba-1-14"
+    ],
+    "delivered": [
+      "oba-1-14"
+    ],
+    "remain": [
+      "oba-1-14"
+    ],
+    "near": [
+      "oba-1-15"
+    ],
+    "hast": [
+      "oba-1-15"
+    ],
+    "done": [
+      "oba-1-15"
+    ],
+    "it": [
+      "oba-1-15",
+      "oba-1-18"
+    ],
+    "unto": [
+      "oba-1-15",
+      "oba-1-20"
+    ],
+    "reward": [
+      "oba-1-15"
+    ],
+    "return": [
+      "oba-1-15"
+    ],
+    "own": [
+      "oba-1-15"
+    ],
+    "head": [
+      "oba-1-15"
+    ],
+    "drunk": [
+      "oba-1-16"
+    ],
+    "holy": [
+      "oba-1-16"
+    ],
+    "mountain": [
+      "oba-1-16"
+    ],
+    "so": [
+      "oba-1-16"
+    ],
+    "drink": [
+      "oba-1-16"
+    ],
+    "continually": [
+      "oba-1-16"
+    ],
+    "swallow": [
+      "oba-1-16"
+    ],
+    "been": [
+      "oba-1-16"
+    ],
+    "zion": [
+      "oba-1-17",
+      "oba-1-21"
+    ],
+    "deliverance": [
+      "oba-1-17"
+    ],
+    "holiness": [
+      "oba-1-17"
+    ],
+    "house": [
+      "oba-1-17",
+      "oba-1-18"
+    ],
+    "possess": [
+      "oba-1-17",
+      "oba-1-19",
+      "oba-1-20"
+    ],
+    "possessions": [
+      "oba-1-17"
+    ],
+    "fire": [
+      "oba-1-18"
+    ],
+    "joseph": [
+      "oba-1-18"
+    ],
+    "flame": [
+      "oba-1-18"
+    ],
+    "stubble": [
+      "oba-1-18"
+    ],
+    "kindle": [
+      "oba-1-18"
+    ],
+    "devour": [
+      "oba-1-18"
+    ],
+    "any": [
+      "oba-1-18"
+    ],
+    "remaining": [
+      "oba-1-18"
+    ],
+    "south": [
+      "oba-1-19",
+      "oba-1-20"
+    ],
+    "plain": [
+      "oba-1-19"
+    ],
+    "philistines": [
+      "oba-1-19"
+    ],
+    "fields": [
+      "oba-1-19"
+    ],
+    "ephraim": [
+      "oba-1-19"
+    ],
+    "samaria": [
+      "oba-1-19"
+    ],
+    "benjamin": [
+      "oba-1-19"
+    ],
+    "gilead": [
+      "oba-1-19"
+    ],
+    "captivity": [
+      "oba-1-20"
+    ],
+    "this": [
+      "oba-1-20"
+    ],
+    "host": [
+      "oba-1-20"
+    ],
+    "israel": [
+      "oba-1-20"
+    ],
+    "canaanites": [
+      "oba-1-20"
+    ],
+    "zarephath": [
+      "oba-1-20"
+    ],
+    "which": [
+      "oba-1-20"
+    ],
+    "sepharad": [
+      "oba-1-20"
+    ],
+    "cities": [
+      "oba-1-20"
+    ],
+    "saviours": [
+      "oba-1-21"
+    ],
+    "come": [
+      "oba-1-21"
+    ],
+    "judge": [
+      "oba-1-21"
+    ],
+    "kingdom": [
+      "oba-1-21"
+    ],
+    "s": [
+      "oba-1-21"
+    ]
+  }
+}

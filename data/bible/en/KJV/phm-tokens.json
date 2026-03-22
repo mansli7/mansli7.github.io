@@ -1,0 +1,778 @@
+{
+  "book": "Philemon",
+  "book_id": "phm",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "paul": [
+      "phm-1-1",
+      "phm-1-9",
+      "phm-1-19"
+    ],
+    "a": [
+      "phm-1-1",
+      "phm-1-9",
+      "phm-1-15",
+      "phm-1-16",
+      "phm-1-17",
+      "phm-1-22"
+    ],
+    "prisoner": [
+      "phm-1-1",
+      "phm-1-9"
+    ],
+    "of": [
+      "phm-1-1",
+      "phm-1-4",
+      "phm-1-5",
+      "phm-1-6",
+      "phm-1-7",
+      "phm-1-9",
+      "phm-1-13",
+      "phm-1-14",
+      "phm-1-20",
+      "phm-1-25"
+    ],
+    "jesus": [
+      "phm-1-1",
+      "phm-1-3",
+      "phm-1-5",
+      "phm-1-6",
+      "phm-1-9",
+      "phm-1-23",
+      "phm-1-25"
+    ],
+    "christ": [
+      "phm-1-1",
+      "phm-1-3",
+      "phm-1-6",
+      "phm-1-8",
+      "phm-1-9",
+      "phm-1-23",
+      "phm-1-25"
+    ],
+    "and": [
+      "phm-1-1",
+      "phm-1-2",
+      "phm-1-3",
+      "phm-1-5",
+      "phm-1-7",
+      "phm-1-9",
+      "phm-1-11",
+      "phm-1-16"
+    ],
+    "timothy": [
+      "phm-1-1"
+    ],
+    "our": [
+      "phm-1-1",
+      "phm-1-2",
+      "phm-1-3",
+      "phm-1-25"
+    ],
+    "brother": [
+      "phm-1-1",
+      "phm-1-7",
+      "phm-1-16",
+      "phm-1-20"
+    ],
+    "unto": [
+      "phm-1-1",
+      "phm-1-13",
+      "phm-1-16",
+      "phm-1-19",
+      "phm-1-21",
+      "phm-1-22"
+    ],
+    "philemon": [
+      "phm-1-1"
+    ],
+    "dearly": [
+      "phm-1-1"
+    ],
+    "beloved": [
+      "phm-1-1",
+      "phm-1-2",
+      "phm-1-16"
+    ],
+    "fellowlabourer": [
+      "phm-1-1"
+    ],
+    "to": [
+      "phm-1-2",
+      "phm-1-3",
+      "phm-1-8",
+      "phm-1-11",
+      "phm-1-16",
+      "phm-1-19"
+    ],
+    "apphia": [
+      "phm-1-2"
+    ],
+    "archippus": [
+      "phm-1-2"
+    ],
+    "fellowsoldier": [
+      "phm-1-2"
+    ],
+    "the": [
+      "phm-1-2",
+      "phm-1-3",
+      "phm-1-5",
+      "phm-1-6",
+      "phm-1-7",
+      "phm-1-9",
+      "phm-1-13",
+      "phm-1-16",
+      "phm-1-20",
+      "phm-1-25"
+    ],
+    "church": [
+      "phm-1-2"
+    ],
+    "in": [
+      "phm-1-2",
+      "phm-1-4",
+      "phm-1-6",
+      "phm-1-7",
+      "phm-1-8",
+      "phm-1-10",
+      "phm-1-11",
+      "phm-1-13",
+      "phm-1-16",
+      "phm-1-20",
+      "phm-1-21",
+      "phm-1-23"
+    ],
+    "thy": [
+      "phm-1-2",
+      "phm-1-5",
+      "phm-1-6",
+      "phm-1-7",
+      "phm-1-13",
+      "phm-1-14",
+      "phm-1-21"
+    ],
+    "house": [
+      "phm-1-2"
+    ],
+    "grace": [
+      "phm-1-3",
+      "phm-1-25"
+    ],
+    "you": [
+      "phm-1-3",
+      "phm-1-6",
+      "phm-1-22"
+    ],
+    "peace": [
+      "phm-1-3"
+    ],
+    "from": [
+      "phm-1-3"
+    ],
+    "god": [
+      "phm-1-3",
+      "phm-1-4"
+    ],
+    "father": [
+      "phm-1-3"
+    ],
+    "lord": [
+      "phm-1-3",
+      "phm-1-5",
+      "phm-1-16",
+      "phm-1-20",
+      "phm-1-25"
+    ],
+    "i": [
+      "phm-1-4",
+      "phm-1-8",
+      "phm-1-9",
+      "phm-1-10",
+      "phm-1-12",
+      "phm-1-13",
+      "phm-1-14",
+      "phm-1-19",
+      "phm-1-21",
+      "phm-1-22"
+    ],
+    "thank": [
+      "phm-1-4"
+    ],
+    "my": [
+      "phm-1-4",
+      "phm-1-10",
+      "phm-1-20",
+      "phm-1-23",
+      "phm-1-24"
+    ],
+    "making": [
+      "phm-1-4"
+    ],
+    "mention": [
+      "phm-1-4"
+    ],
+    "thee": [
+      "phm-1-4",
+      "phm-1-7",
+      "phm-1-8",
+      "phm-1-9",
+      "phm-1-10",
+      "phm-1-11",
+      "phm-1-16",
+      "phm-1-18",
+      "phm-1-19",
+      "phm-1-20",
+      "phm-1-21",
+      "phm-1-23"
+    ],
+    "always": [
+      "phm-1-4"
+    ],
+    "prayers": [
+      "phm-1-4",
+      "phm-1-22"
+    ],
+    "hearing": [
+      "phm-1-5"
+    ],
+    "love": [
+      "phm-1-5",
+      "phm-1-7",
+      "phm-1-9"
+    ],
+    "faith": [
+      "phm-1-5",
+      "phm-1-6"
+    ],
+    "which": [
+      "phm-1-5",
+      "phm-1-6",
+      "phm-1-8",
+      "phm-1-11"
+    ],
+    "thou": [
+      "phm-1-5",
+      "phm-1-12",
+      "phm-1-15",
+      "phm-1-17",
+      "phm-1-19",
+      "phm-1-21"
+    ],
+    "hast": [
+      "phm-1-5"
+    ],
+    "toward": [
+      "phm-1-5"
+    ],
+    "all": [
+      "phm-1-5"
+    ],
+    "saints": [
+      "phm-1-5",
+      "phm-1-7"
+    ],
+    "that": [
+      "phm-1-6",
+      "phm-1-8",
+      "phm-1-12",
+      "phm-1-13",
+      "phm-1-14",
+      "phm-1-15",
+      "phm-1-18",
+      "phm-1-21",
+      "phm-1-22"
+    ],
+    "communication": [
+      "phm-1-6"
+    ],
+    "may": [
+      "phm-1-6"
+    ],
+    "become": [
+      "phm-1-6"
+    ],
+    "effectual": [
+      "phm-1-6"
+    ],
+    "by": [
+      "phm-1-6",
+      "phm-1-7"
+    ],
+    "acknowledging": [
+      "phm-1-6"
+    ],
+    "every": [
+      "phm-1-6"
+    ],
+    "good": [
+      "phm-1-6"
+    ],
+    "thing": [
+      "phm-1-6"
+    ],
+    "is": [
+      "phm-1-6",
+      "phm-1-8",
+      "phm-1-12"
+    ],
+    "for": [
+      "phm-1-7",
+      "phm-1-9",
+      "phm-1-10",
+      "phm-1-15",
+      "phm-1-22"
+    ],
+    "we": [
+      "phm-1-7"
+    ],
+    "have": [
+      "phm-1-7",
+      "phm-1-10",
+      "phm-1-12",
+      "phm-1-13",
+      "phm-1-19",
+      "phm-1-20"
+    ],
+    "great": [
+      "phm-1-7"
+    ],
+    "joy": [
+      "phm-1-7",
+      "phm-1-20"
+    ],
+    "consolation": [
+      "phm-1-7"
+    ],
+    "because": [
+      "phm-1-7"
+    ],
+    "bowels": [
+      "phm-1-7",
+      "phm-1-12",
+      "phm-1-20"
+    ],
+    "are": [
+      "phm-1-7"
+    ],
+    "refreshed": [
+      "phm-1-7"
+    ],
+    "wherefore": [
+      "phm-1-8"
+    ],
+    "though": [
+      "phm-1-8"
+    ],
+    "might": [
+      "phm-1-8",
+      "phm-1-13"
+    ],
+    "be": [
+      "phm-1-8",
+      "phm-1-14",
+      "phm-1-22",
+      "phm-1-25"
+    ],
+    "much": [
+      "phm-1-8",
+      "phm-1-16"
+    ],
+    "bold": [
+      "phm-1-8"
+    ],
+    "enjoin": [
+      "phm-1-8"
+    ],
+    "convenient": [
+      "phm-1-8"
+    ],
+    "yet": [
+      "phm-1-9"
+    ],
+    "s": [
+      "phm-1-9"
+    ],
+    "sake": [
+      "phm-1-9"
+    ],
+    "rather": [
+      "phm-1-9"
+    ],
+    "beseech": [
+      "phm-1-9",
+      "phm-1-10"
+    ],
+    "being": [
+      "phm-1-9"
+    ],
+    "such": [
+      "phm-1-9"
+    ],
+    "an": [
+      "phm-1-9"
+    ],
+    "one": [
+      "phm-1-9"
+    ],
+    "as": [
+      "phm-1-9",
+      "phm-1-14",
+      "phm-1-16",
+      "phm-1-17"
+    ],
+    "aged": [
+      "phm-1-9"
+    ],
+    "now": [
+      "phm-1-9",
+      "phm-1-11",
+      "phm-1-16"
+    ],
+    "also": [
+      "phm-1-9",
+      "phm-1-21",
+      "phm-1-22"
+    ],
+    "son": [
+      "phm-1-10"
+    ],
+    "onesimus": [
+      "phm-1-10"
+    ],
+    "whom": [
+      "phm-1-10",
+      "phm-1-12",
+      "phm-1-13"
+    ],
+    "begotten": [
+      "phm-1-10"
+    ],
+    "bonds": [
+      "phm-1-10",
+      "phm-1-13"
+    ],
+    "time": [
+      "phm-1-11"
+    ],
+    "past": [
+      "phm-1-11"
+    ],
+    "was": [
+      "phm-1-11"
+    ],
+    "unprofitable": [
+      "phm-1-11"
+    ],
+    "but": [
+      "phm-1-11",
+      "phm-1-14",
+      "phm-1-16",
+      "phm-1-22"
+    ],
+    "profitable": [
+      "phm-1-11"
+    ],
+    "me": [
+      "phm-1-11",
+      "phm-1-13",
+      "phm-1-16",
+      "phm-1-17",
+      "phm-1-19",
+      "phm-1-20",
+      "phm-1-22"
+    ],
+    "sent": [
+      "phm-1-12"
+    ],
+    "again": [
+      "phm-1-12"
+    ],
+    "therefore": [
+      "phm-1-12",
+      "phm-1-15",
+      "phm-1-17"
+    ],
+    "receive": [
+      "phm-1-12",
+      "phm-1-15",
+      "phm-1-17"
+    ],
+    "him": [
+      "phm-1-12",
+      "phm-1-15",
+      "phm-1-17"
+    ],
+    "mine": [
+      "phm-1-12",
+      "phm-1-18",
+      "phm-1-19"
+    ],
+    "own": [
+      "phm-1-12",
+      "phm-1-19"
+    ],
+    "would": [
+      "phm-1-13",
+      "phm-1-14"
+    ],
+    "retained": [
+      "phm-1-13"
+    ],
+    "with": [
+      "phm-1-13",
+      "phm-1-19",
+      "phm-1-25"
+    ],
+    "stead": [
+      "phm-1-13"
+    ],
+    "he": [
+      "phm-1-13",
+      "phm-1-15",
+      "phm-1-18"
+    ],
+    "ministered": [
+      "phm-1-13"
+    ],
+    "gospel": [
+      "phm-1-13"
+    ],
+    "without": [
+      "phm-1-14"
+    ],
+    "mind": [
+      "phm-1-14"
+    ],
+    "do": [
+      "phm-1-14",
+      "phm-1-19",
+      "phm-1-21"
+    ],
+    "nothing": [
+      "phm-1-14"
+    ],
+    "benefit": [
+      "phm-1-14"
+    ],
+    "should": [
+      "phm-1-14"
+    ],
+    "not": [
+      "phm-1-14",
+      "phm-1-16",
+      "phm-1-19"
+    ],
+    "it": [
+      "phm-1-14",
+      "phm-1-19"
+    ],
+    "were": [
+      "phm-1-14"
+    ],
+    "necessity": [
+      "phm-1-14"
+    ],
+    "willingly": [
+      "phm-1-14"
+    ],
+    "perhaps": [
+      "phm-1-15"
+    ],
+    "departed": [
+      "phm-1-15"
+    ],
+    "season": [
+      "phm-1-15"
+    ],
+    "shouldest": [
+      "phm-1-15"
+    ],
+    "ever": [
+      "phm-1-15"
+    ],
+    "servant": [
+      "phm-1-16"
+    ],
+    "above": [
+      "phm-1-16"
+    ],
+    "specially": [
+      "phm-1-16"
+    ],
+    "how": [
+      "phm-1-16",
+      "phm-1-19"
+    ],
+    "more": [
+      "phm-1-16",
+      "phm-1-21"
+    ],
+    "both": [
+      "phm-1-16"
+    ],
+    "flesh": [
+      "phm-1-16"
+    ],
+    "if": [
+      "phm-1-17",
+      "phm-1-18"
+    ],
+    "count": [
+      "phm-1-17"
+    ],
+    "partner": [
+      "phm-1-17"
+    ],
+    "myself": [
+      "phm-1-17"
+    ],
+    "hath": [
+      "phm-1-18"
+    ],
+    "wronged": [
+      "phm-1-18"
+    ],
+    "or": [
+      "phm-1-18"
+    ],
+    "oweth": [
+      "phm-1-18"
+    ],
+    "ought": [
+      "phm-1-18"
+    ],
+    "put": [
+      "phm-1-18"
+    ],
+    "on": [
+      "phm-1-18"
+    ],
+    "account": [
+      "phm-1-18"
+    ],
+    "written": [
+      "phm-1-19"
+    ],
+    "hand": [
+      "phm-1-19"
+    ],
+    "will": [
+      "phm-1-19"
+    ],
+    "repay": [
+      "phm-1-19"
+    ],
+    "albeit": [
+      "phm-1-19"
+    ],
+    "say": [
+      "phm-1-19",
+      "phm-1-21"
+    ],
+    "owest": [
+      "phm-1-19"
+    ],
+    "even": [
+      "phm-1-19"
+    ],
+    "thine": [
+      "phm-1-19"
+    ],
+    "self": [
+      "phm-1-19"
+    ],
+    "besides": [
+      "phm-1-19"
+    ],
+    "yea": [
+      "phm-1-20"
+    ],
+    "let": [
+      "phm-1-20"
+    ],
+    "refresh": [
+      "phm-1-20"
+    ],
+    "having": [
+      "phm-1-21"
+    ],
+    "confidence": [
+      "phm-1-21"
+    ],
+    "obedience": [
+      "phm-1-21"
+    ],
+    "wrote": [
+      "phm-1-21"
+    ],
+    "knowing": [
+      "phm-1-21"
+    ],
+    "wilt": [
+      "phm-1-21"
+    ],
+    "than": [
+      "phm-1-21"
+    ],
+    "withal": [
+      "phm-1-22"
+    ],
+    "prepare": [
+      "phm-1-22"
+    ],
+    "lodging": [
+      "phm-1-22"
+    ],
+    "trust": [
+      "phm-1-22"
+    ],
+    "through": [
+      "phm-1-22"
+    ],
+    "your": [
+      "phm-1-22",
+      "phm-1-25"
+    ],
+    "shall": [
+      "phm-1-22"
+    ],
+    "given": [
+      "phm-1-22"
+    ],
+    "there": [
+      "phm-1-23"
+    ],
+    "salute": [
+      "phm-1-23"
+    ],
+    "epaphras": [
+      "phm-1-23"
+    ],
+    "fellowprisoner": [
+      "phm-1-23"
+    ],
+    "marcus": [
+      "phm-1-24"
+    ],
+    "aristarchus": [
+      "phm-1-24"
+    ],
+    "demas": [
+      "phm-1-24"
+    ],
+    "lucas": [
+      "phm-1-24"
+    ],
+    "fellowlabourers": [
+      "phm-1-24"
+    ],
+    "spirit": [
+      "phm-1-25"
+    ],
+    "amen": [
+      "phm-1-25"
+    ]
+  }
+}

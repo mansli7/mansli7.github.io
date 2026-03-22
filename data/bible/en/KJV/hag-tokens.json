@@ -1,0 +1,1387 @@
+{
+  "book": "Haggai",
+  "book_id": "hag",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "in": [
+      "hag-1-1",
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-8",
+      "hag-1-13",
+      "hag-1-14",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-3",
+      "hag-2-9",
+      "hag-2-10",
+      "hag-2-12",
+      "hag-2-15",
+      "hag-2-17",
+      "hag-2-19",
+      "hag-2-20",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "the": [
+      "hag-1-1",
+      "hag-1-2",
+      "hag-1-3",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-10",
+      "hag-1-11",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-1-14",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-2",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-10",
+      "hag-2-11",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-15",
+      "hag-2-16",
+      "hag-2-17",
+      "hag-2-18",
+      "hag-2-19",
+      "hag-2-20",
+      "hag-2-21",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "second": [
+      "hag-1-1",
+      "hag-1-15",
+      "hag-2-10"
+    ],
+    "year": [
+      "hag-1-1",
+      "hag-1-15",
+      "hag-2-10"
+    ],
+    "of": [
+      "hag-1-1",
+      "hag-1-2",
+      "hag-1-3",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-1-9",
+      "hag-1-11",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-2",
+      "hag-2-3",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-10",
+      "hag-2-11",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-15",
+      "hag-2-16",
+      "hag-2-17",
+      "hag-2-18",
+      "hag-2-20",
+      "hag-2-21",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "darius": [
+      "hag-1-1",
+      "hag-1-15",
+      "hag-2-10"
+    ],
+    "king": [
+      "hag-1-1",
+      "hag-1-15"
+    ],
+    "sixth": [
+      "hag-1-1",
+      "hag-1-15"
+    ],
+    "month": [
+      "hag-1-1",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-10",
+      "hag-2-18",
+      "hag-2-20"
+    ],
+    "first": [
+      "hag-1-1",
+      "hag-2-3"
+    ],
+    "day": [
+      "hag-1-1",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-10",
+      "hag-2-15",
+      "hag-2-18",
+      "hag-2-19",
+      "hag-2-20",
+      "hag-2-23"
+    ],
+    "came": [
+      "hag-1-1",
+      "hag-1-3",
+      "hag-1-9",
+      "hag-1-14",
+      "hag-2-1",
+      "hag-2-5",
+      "hag-2-10",
+      "hag-2-16",
+      "hag-2-20"
+    ],
+    "word": [
+      "hag-1-1",
+      "hag-1-3",
+      "hag-2-1",
+      "hag-2-5",
+      "hag-2-10",
+      "hag-2-20"
+    ],
+    "lord": [
+      "hag-1-1",
+      "hag-1-2",
+      "hag-1-3",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-1-14",
+      "hag-2-1",
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-10",
+      "hag-2-11",
+      "hag-2-14",
+      "hag-2-15",
+      "hag-2-17",
+      "hag-2-18",
+      "hag-2-20",
+      "hag-2-23"
+    ],
+    "by": [
+      "hag-1-1",
+      "hag-1-3",
+      "hag-2-1",
+      "hag-2-10",
+      "hag-2-13",
+      "hag-2-22"
+    ],
+    "haggai": [
+      "hag-1-1",
+      "hag-1-3",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-2-1",
+      "hag-2-10",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-20"
+    ],
+    "prophet": [
+      "hag-1-1",
+      "hag-1-3",
+      "hag-1-12",
+      "hag-2-1",
+      "hag-2-10"
+    ],
+    "unto": [
+      "hag-1-1",
+      "hag-1-9",
+      "hag-1-13",
+      "hag-2-20"
+    ],
+    "zerubbabel": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4",
+      "hag-2-21",
+      "hag-2-23"
+    ],
+    "son": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4",
+      "hag-2-23"
+    ],
+    "shealtiel": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-23"
+    ],
+    "governor": [
+      "hag-1-1",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-21"
+    ],
+    "judah": [
+      "hag-1-1",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-21"
+    ],
+    "and": [
+      "hag-1-1",
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-10",
+      "hag-1-11",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-2",
+      "hag-2-3",
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-10",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-15",
+      "hag-2-17",
+      "hag-2-18",
+      "hag-2-19",
+      "hag-2-20",
+      "hag-2-21",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "to": [
+      "hag-1-1",
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-2-2",
+      "hag-2-5",
+      "hag-2-16",
+      "hag-2-17",
+      "hag-2-21"
+    ],
+    "joshua": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4"
+    ],
+    "josedech": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4"
+    ],
+    "high": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4"
+    ],
+    "priest": [
+      "hag-1-1",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4"
+    ],
+    "saying": [
+      "hag-1-1",
+      "hag-1-2",
+      "hag-1-3",
+      "hag-1-13",
+      "hag-2-1",
+      "hag-2-2",
+      "hag-2-10",
+      "hag-2-11",
+      "hag-2-20",
+      "hag-2-21"
+    ],
+    "thus": [
+      "hag-1-2",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-2-6",
+      "hag-2-11"
+    ],
+    "speaketh": [
+      "hag-1-2"
+    ],
+    "hosts": [
+      "hag-1-2",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-1-9",
+      "hag-1-14",
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-11",
+      "hag-2-23"
+    ],
+    "this": [
+      "hag-1-2",
+      "hag-1-4",
+      "hag-2-3",
+      "hag-2-7",
+      "hag-2-9",
+      "hag-2-14",
+      "hag-2-15",
+      "hag-2-18",
+      "hag-2-19"
+    ],
+    "people": [
+      "hag-1-2",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-1-14",
+      "hag-2-2",
+      "hag-2-4",
+      "hag-2-14"
+    ],
+    "say": [
+      "hag-1-2"
+    ],
+    "time": [
+      "hag-1-2",
+      "hag-1-4"
+    ],
+    "is": [
+      "hag-1-2",
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-9",
+      "hag-1-10",
+      "hag-2-3",
+      "hag-2-6",
+      "hag-2-8",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-19"
+    ],
+    "not": [
+      "hag-1-2",
+      "hag-1-6",
+      "hag-2-3",
+      "hag-2-5",
+      "hag-2-17",
+      "hag-2-19"
+    ],
+    "come": [
+      "hag-1-2",
+      "hag-2-7",
+      "hag-2-22"
+    ],
+    "that": [
+      "hag-1-2",
+      "hag-1-6",
+      "hag-1-9",
+      "hag-1-11",
+      "hag-2-3",
+      "hag-2-5",
+      "hag-2-13",
+      "hag-2-14",
+      "hag-2-18",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "s": [
+      "hag-1-2",
+      "hag-1-13",
+      "hag-2-18"
+    ],
+    "house": [
+      "hag-1-2",
+      "hag-1-4",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-14",
+      "hag-2-3",
+      "hag-2-7",
+      "hag-2-9"
+    ],
+    "should": [
+      "hag-1-2"
+    ],
+    "be": [
+      "hag-1-2",
+      "hag-1-8",
+      "hag-2-4",
+      "hag-2-9",
+      "hag-2-12",
+      "hag-2-13"
+    ],
+    "built": [
+      "hag-1-2"
+    ],
+    "then": [
+      "hag-1-3",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-2-13",
+      "hag-2-14"
+    ],
+    "it": [
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-2-3",
+      "hag-2-6",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-18"
+    ],
+    "for": [
+      "hag-1-4",
+      "hag-1-9",
+      "hag-1-11",
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-16",
+      "hag-2-23"
+    ],
+    "you": [
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-10",
+      "hag-1-13",
+      "hag-2-3",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-15",
+      "hag-2-17",
+      "hag-2-19"
+    ],
+    "o": [
+      "hag-1-4",
+      "hag-2-4",
+      "hag-2-23"
+    ],
+    "ye": [
+      "hag-1-4",
+      "hag-1-6",
+      "hag-1-9",
+      "hag-2-3",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-17"
+    ],
+    "dwell": [
+      "hag-1-4"
+    ],
+    "your": [
+      "hag-1-4",
+      "hag-1-5",
+      "hag-1-7",
+      "hag-2-3",
+      "hag-2-17"
+    ],
+    "cieled": [
+      "hag-1-4"
+    ],
+    "houses": [
+      "hag-1-4"
+    ],
+    "lie": [
+      "hag-1-4"
+    ],
+    "waste": [
+      "hag-1-4",
+      "hag-1-9"
+    ],
+    "now": [
+      "hag-1-5",
+      "hag-2-2",
+      "hag-2-3",
+      "hag-2-4",
+      "hag-2-11",
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "therefore": [
+      "hag-1-5",
+      "hag-1-10"
+    ],
+    "saith": [
+      "hag-1-5",
+      "hag-1-7",
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-13",
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-8",
+      "hag-2-9",
+      "hag-2-11",
+      "hag-2-14",
+      "hag-2-17",
+      "hag-2-23"
+    ],
+    "consider": [
+      "hag-1-5",
+      "hag-1-7",
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "ways": [
+      "hag-1-5",
+      "hag-1-7"
+    ],
+    "have": [
+      "hag-1-6",
+      "hag-2-23"
+    ],
+    "sown": [
+      "hag-1-6"
+    ],
+    "much": [
+      "hag-1-6",
+      "hag-1-9"
+    ],
+    "bring": [
+      "hag-1-6",
+      "hag-1-8"
+    ],
+    "little": [
+      "hag-1-6",
+      "hag-1-9",
+      "hag-2-6"
+    ],
+    "eat": [
+      "hag-1-6"
+    ],
+    "but": [
+      "hag-1-6",
+      "hag-2-16"
+    ],
+    "enough": [
+      "hag-1-6"
+    ],
+    "drink": [
+      "hag-1-6"
+    ],
+    "are": [
+      "hag-1-6"
+    ],
+    "filled": [
+      "hag-1-6"
+    ],
+    "with": [
+      "hag-1-6",
+      "hag-1-12",
+      "hag-1-13",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-7",
+      "hag-2-12",
+      "hag-2-17"
+    ],
+    "clothe": [
+      "hag-1-6"
+    ],
+    "there": [
+      "hag-1-6",
+      "hag-2-14",
+      "hag-2-16"
+    ],
+    "none": [
+      "hag-1-6"
+    ],
+    "warm": [
+      "hag-1-6"
+    ],
+    "he": [
+      "hag-1-6"
+    ],
+    "earneth": [
+      "hag-1-6"
+    ],
+    "wages": [
+      "hag-1-6"
+    ],
+    "put": [
+      "hag-1-6"
+    ],
+    "into": [
+      "hag-1-6"
+    ],
+    "a": [
+      "hag-1-6",
+      "hag-1-11",
+      "hag-2-6",
+      "hag-2-13",
+      "hag-2-15",
+      "hag-2-23"
+    ],
+    "bag": [
+      "hag-1-6"
+    ],
+    "holes": [
+      "hag-1-6"
+    ],
+    "go": [
+      "hag-1-8"
+    ],
+    "up": [
+      "hag-1-8",
+      "hag-1-14"
+    ],
+    "mountain": [
+      "hag-1-8"
+    ],
+    "wood": [
+      "hag-1-8"
+    ],
+    "build": [
+      "hag-1-8"
+    ],
+    "i": [
+      "hag-1-8",
+      "hag-1-9",
+      "hag-1-11",
+      "hag-1-13",
+      "hag-2-4",
+      "hag-2-5",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-9",
+      "hag-2-15",
+      "hag-2-17",
+      "hag-2-19",
+      "hag-2-21",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "will": [
+      "hag-1-8",
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-9",
+      "hag-2-19",
+      "hag-2-21",
+      "hag-2-22",
+      "hag-2-23"
+    ],
+    "take": [
+      "hag-1-8",
+      "hag-2-23"
+    ],
+    "pleasure": [
+      "hag-1-8"
+    ],
+    "glorified": [
+      "hag-1-8"
+    ],
+    "looked": [
+      "hag-1-9"
+    ],
+    "lo": [
+      "hag-1-9"
+    ],
+    "when": [
+      "hag-1-9",
+      "hag-2-5",
+      "hag-2-16"
+    ],
+    "brought": [
+      "hag-1-9",
+      "hag-2-19"
+    ],
+    "home": [
+      "hag-1-9"
+    ],
+    "did": [
+      "hag-1-9",
+      "hag-1-12",
+      "hag-1-14"
+    ],
+    "blow": [
+      "hag-1-9"
+    ],
+    "upon": [
+      "hag-1-9",
+      "hag-1-11",
+      "hag-2-15"
+    ],
+    "why": [
+      "hag-1-9"
+    ],
+    "because": [
+      "hag-1-9"
+    ],
+    "mine": [
+      "hag-1-9",
+      "hag-2-8"
+    ],
+    "run": [
+      "hag-1-9"
+    ],
+    "every": [
+      "hag-1-9",
+      "hag-2-14",
+      "hag-2-22"
+    ],
+    "man": [
+      "hag-1-9"
+    ],
+    "his": [
+      "hag-1-9",
+      "hag-2-12",
+      "hag-2-22"
+    ],
+    "own": [
+      "hag-1-9"
+    ],
+    "heaven": [
+      "hag-1-10"
+    ],
+    "over": [
+      "hag-1-10"
+    ],
+    "stayed": [
+      "hag-1-10"
+    ],
+    "from": [
+      "hag-1-10",
+      "hag-2-15",
+      "hag-2-18",
+      "hag-2-19"
+    ],
+    "dew": [
+      "hag-1-10"
+    ],
+    "earth": [
+      "hag-1-10",
+      "hag-2-6",
+      "hag-2-21"
+    ],
+    "her": [
+      "hag-1-10",
+      "hag-2-3"
+    ],
+    "fruit": [
+      "hag-1-10"
+    ],
+    "called": [
+      "hag-1-11"
+    ],
+    "drought": [
+      "hag-1-11"
+    ],
+    "land": [
+      "hag-1-11",
+      "hag-2-4",
+      "hag-2-6"
+    ],
+    "mountains": [
+      "hag-1-11"
+    ],
+    "corn": [
+      "hag-1-11"
+    ],
+    "new": [
+      "hag-1-11"
+    ],
+    "wine": [
+      "hag-1-11",
+      "hag-2-12"
+    ],
+    "oil": [
+      "hag-1-11",
+      "hag-2-12"
+    ],
+    "which": [
+      "hag-1-11",
+      "hag-2-14"
+    ],
+    "ground": [
+      "hag-1-11"
+    ],
+    "bringeth": [
+      "hag-1-11"
+    ],
+    "forth": [
+      "hag-1-11",
+      "hag-2-19"
+    ],
+    "men": [
+      "hag-1-11"
+    ],
+    "cattle": [
+      "hag-1-11"
+    ],
+    "all": [
+      "hag-1-11",
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-4",
+      "hag-2-7",
+      "hag-2-17"
+    ],
+    "labour": [
+      "hag-1-11"
+    ],
+    "hands": [
+      "hag-1-11",
+      "hag-2-14",
+      "hag-2-17"
+    ],
+    "remnant": [
+      "hag-1-12",
+      "hag-1-14"
+    ],
+    "obeyed": [
+      "hag-1-12"
+    ],
+    "voice": [
+      "hag-1-12"
+    ],
+    "their": [
+      "hag-1-12",
+      "hag-1-14",
+      "hag-2-14",
+      "hag-2-22"
+    ],
+    "god": [
+      "hag-1-12",
+      "hag-1-14"
+    ],
+    "words": [
+      "hag-1-12"
+    ],
+    "as": [
+      "hag-1-12",
+      "hag-2-3",
+      "hag-2-19",
+      "hag-2-23"
+    ],
+    "had": [
+      "hag-1-12"
+    ],
+    "sent": [
+      "hag-1-12"
+    ],
+    "him": [
+      "hag-1-12"
+    ],
+    "fear": [
+      "hag-1-12",
+      "hag-2-5"
+    ],
+    "before": [
+      "hag-1-12",
+      "hag-2-14",
+      "hag-2-15"
+    ],
+    "spake": [
+      "hag-1-13"
+    ],
+    "messenger": [
+      "hag-1-13"
+    ],
+    "message": [
+      "hag-1-13"
+    ],
+    "am": [
+      "hag-1-13",
+      "hag-2-4"
+    ],
+    "stirred": [
+      "hag-1-14"
+    ],
+    "spirit": [
+      "hag-1-14",
+      "hag-2-5"
+    ],
+    "they": [
+      "hag-1-14",
+      "hag-2-14"
+    ],
+    "work": [
+      "hag-1-14",
+      "hag-2-4",
+      "hag-2-14"
+    ],
+    "four": [
+      "hag-1-15",
+      "hag-2-10",
+      "hag-2-18",
+      "hag-2-20"
+    ],
+    "twentieth": [
+      "hag-1-15",
+      "hag-2-1",
+      "hag-2-10",
+      "hag-2-18",
+      "hag-2-20"
+    ],
+    "seventh": [
+      "hag-2-1"
+    ],
+    "one": [
+      "hag-2-1",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-16",
+      "hag-2-22"
+    ],
+    "speak": [
+      "hag-2-2",
+      "hag-2-21"
+    ],
+    "residue": [
+      "hag-2-2"
+    ],
+    "who": [
+      "hag-2-3"
+    ],
+    "left": [
+      "hag-2-3"
+    ],
+    "among": [
+      "hag-2-3",
+      "hag-2-5"
+    ],
+    "saw": [
+      "hag-2-3"
+    ],
+    "glory": [
+      "hag-2-3",
+      "hag-2-7",
+      "hag-2-9"
+    ],
+    "how": [
+      "hag-2-3"
+    ],
+    "do": [
+      "hag-2-3",
+      "hag-2-12"
+    ],
+    "see": [
+      "hag-2-3"
+    ],
+    "eyes": [
+      "hag-2-3"
+    ],
+    "comparison": [
+      "hag-2-3"
+    ],
+    "nothing": [
+      "hag-2-3"
+    ],
+    "yet": [
+      "hag-2-4",
+      "hag-2-6",
+      "hag-2-17",
+      "hag-2-19"
+    ],
+    "strong": [
+      "hag-2-4"
+    ],
+    "according": [
+      "hag-2-5"
+    ],
+    "covenanted": [
+      "hag-2-5"
+    ],
+    "out": [
+      "hag-2-5",
+      "hag-2-16"
+    ],
+    "egypt": [
+      "hag-2-5"
+    ],
+    "so": [
+      "hag-2-5",
+      "hag-2-14"
+    ],
+    "my": [
+      "hag-2-5",
+      "hag-2-23"
+    ],
+    "remaineth": [
+      "hag-2-5"
+    ],
+    "once": [
+      "hag-2-6"
+    ],
+    "while": [
+      "hag-2-6"
+    ],
+    "shake": [
+      "hag-2-6",
+      "hag-2-7",
+      "hag-2-21"
+    ],
+    "heavens": [
+      "hag-2-6",
+      "hag-2-21"
+    ],
+    "sea": [
+      "hag-2-6"
+    ],
+    "dry": [
+      "hag-2-6"
+    ],
+    "nations": [
+      "hag-2-7"
+    ],
+    "desire": [
+      "hag-2-7"
+    ],
+    "shall": [
+      "hag-2-7",
+      "hag-2-9",
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-22"
+    ],
+    "fill": [
+      "hag-2-7"
+    ],
+    "silver": [
+      "hag-2-8"
+    ],
+    "gold": [
+      "hag-2-8"
+    ],
+    "latter": [
+      "hag-2-9"
+    ],
+    "greater": [
+      "hag-2-9"
+    ],
+    "than": [
+      "hag-2-9"
+    ],
+    "former": [
+      "hag-2-9"
+    ],
+    "place": [
+      "hag-2-9"
+    ],
+    "give": [
+      "hag-2-9"
+    ],
+    "peace": [
+      "hag-2-9"
+    ],
+    "ninth": [
+      "hag-2-10",
+      "hag-2-18"
+    ],
+    "ask": [
+      "hag-2-11"
+    ],
+    "priests": [
+      "hag-2-11",
+      "hag-2-12",
+      "hag-2-13"
+    ],
+    "concerning": [
+      "hag-2-11"
+    ],
+    "law": [
+      "hag-2-11"
+    ],
+    "if": [
+      "hag-2-12",
+      "hag-2-13"
+    ],
+    "bear": [
+      "hag-2-12"
+    ],
+    "holy": [
+      "hag-2-12"
+    ],
+    "flesh": [
+      "hag-2-12"
+    ],
+    "skirt": [
+      "hag-2-12"
+    ],
+    "garment": [
+      "hag-2-12"
+    ],
+    "touch": [
+      "hag-2-12",
+      "hag-2-13"
+    ],
+    "bread": [
+      "hag-2-12"
+    ],
+    "or": [
+      "hag-2-12"
+    ],
+    "pottage": [
+      "hag-2-12"
+    ],
+    "any": [
+      "hag-2-12",
+      "hag-2-13"
+    ],
+    "meat": [
+      "hag-2-12"
+    ],
+    "answered": [
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-14"
+    ],
+    "said": [
+      "hag-2-12",
+      "hag-2-13",
+      "hag-2-14"
+    ],
+    "no": [
+      "hag-2-12"
+    ],
+    "unclean": [
+      "hag-2-13",
+      "hag-2-14"
+    ],
+    "dead": [
+      "hag-2-13"
+    ],
+    "body": [
+      "hag-2-13"
+    ],
+    "these": [
+      "hag-2-13"
+    ],
+    "nation": [
+      "hag-2-14"
+    ],
+    "me": [
+      "hag-2-14",
+      "hag-2-17"
+    ],
+    "offer": [
+      "hag-2-14"
+    ],
+    "pray": [
+      "hag-2-15"
+    ],
+    "upward": [
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "stone": [
+      "hag-2-15"
+    ],
+    "was": [
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "laid": [
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "temple": [
+      "hag-2-15",
+      "hag-2-18"
+    ],
+    "since": [
+      "hag-2-16"
+    ],
+    "those": [
+      "hag-2-16",
+      "hag-2-22"
+    ],
+    "days": [
+      "hag-2-16"
+    ],
+    "were": [
+      "hag-2-16"
+    ],
+    "an": [
+      "hag-2-16"
+    ],
+    "heap": [
+      "hag-2-16"
+    ],
+    "twenty": [
+      "hag-2-16"
+    ],
+    "measures": [
+      "hag-2-16"
+    ],
+    "ten": [
+      "hag-2-16"
+    ],
+    "pressfat": [
+      "hag-2-16"
+    ],
+    "draw": [
+      "hag-2-16"
+    ],
+    "fifty": [
+      "hag-2-16"
+    ],
+    "vessels": [
+      "hag-2-16"
+    ],
+    "press": [
+      "hag-2-16"
+    ],
+    "smote": [
+      "hag-2-17"
+    ],
+    "blasting": [
+      "hag-2-17"
+    ],
+    "mildew": [
+      "hag-2-17"
+    ],
+    "hail": [
+      "hag-2-17"
+    ],
+    "labours": [
+      "hag-2-17"
+    ],
+    "turned": [
+      "hag-2-17"
+    ],
+    "even": [
+      "hag-2-18"
+    ],
+    "foundation": [
+      "hag-2-18"
+    ],
+    "seed": [
+      "hag-2-19"
+    ],
+    "barn": [
+      "hag-2-19"
+    ],
+    "yea": [
+      "hag-2-19"
+    ],
+    "vine": [
+      "hag-2-19"
+    ],
+    "fig": [
+      "hag-2-19"
+    ],
+    "tree": [
+      "hag-2-19"
+    ],
+    "pomegranate": [
+      "hag-2-19"
+    ],
+    "olive": [
+      "hag-2-19"
+    ],
+    "hath": [
+      "hag-2-19"
+    ],
+    "bless": [
+      "hag-2-19"
+    ],
+    "again": [
+      "hag-2-20"
+    ],
+    "overthrow": [
+      "hag-2-22"
+    ],
+    "throne": [
+      "hag-2-22"
+    ],
+    "kingdoms": [
+      "hag-2-22"
+    ],
+    "destroy": [
+      "hag-2-22"
+    ],
+    "strength": [
+      "hag-2-22"
+    ],
+    "heathen": [
+      "hag-2-22"
+    ],
+    "chariots": [
+      "hag-2-22"
+    ],
+    "ride": [
+      "hag-2-22"
+    ],
+    "them": [
+      "hag-2-22"
+    ],
+    "horses": [
+      "hag-2-22"
+    ],
+    "riders": [
+      "hag-2-22"
+    ],
+    "down": [
+      "hag-2-22"
+    ],
+    "sword": [
+      "hag-2-22"
+    ],
+    "brother": [
+      "hag-2-22"
+    ],
+    "thee": [
+      "hag-2-23"
+    ],
+    "servant": [
+      "hag-2-23"
+    ],
+    "make": [
+      "hag-2-23"
+    ],
+    "signet": [
+      "hag-2-23"
+    ],
+    "chosen": [
+      "hag-2-23"
+    ]
+  }
+}

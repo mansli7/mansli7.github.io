@@ -1,0 +1,1122 @@
+{
+  "book": "Jude",
+  "book_id": "jud",
+  "language": "en",
+  "version": "KJV",
+  "tokens": {
+    "jude": [
+      "jud-1-1"
+    ],
+    "the": [
+      "jud-1-1",
+      "jud-1-3",
+      "jud-1-4",
+      "jud-1-5",
+      "jud-1-6",
+      "jud-1-7",
+      "jud-1-8",
+      "jud-1-9",
+      "jud-1-11",
+      "jud-1-12",
+      "jud-1-13",
+      "jud-1-14",
+      "jud-1-17",
+      "jud-1-18",
+      "jud-1-19",
+      "jud-1-20",
+      "jud-1-21",
+      "jud-1-23",
+      "jud-1-24",
+      "jud-1-25"
+    ],
+    "servant": [
+      "jud-1-1"
+    ],
+    "of": [
+      "jud-1-1",
+      "jud-1-3",
+      "jud-1-4",
+      "jud-1-5",
+      "jud-1-6",
+      "jud-1-7",
+      "jud-1-8",
+      "jud-1-9",
+      "jud-1-10",
+      "jud-1-11",
+      "jud-1-12",
+      "jud-1-13",
+      "jud-1-14",
+      "jud-1-15",
+      "jud-1-16",
+      "jud-1-17",
+      "jud-1-21",
+      "jud-1-22",
+      "jud-1-23",
+      "jud-1-24"
+    ],
+    "jesus": [
+      "jud-1-1",
+      "jud-1-4",
+      "jud-1-17",
+      "jud-1-21"
+    ],
+    "christ": [
+      "jud-1-1",
+      "jud-1-4",
+      "jud-1-17",
+      "jud-1-21"
+    ],
+    "and": [
+      "jud-1-1",
+      "jud-1-2",
+      "jud-1-3",
+      "jud-1-4",
+      "jud-1-6",
+      "jud-1-7",
+      "jud-1-8",
+      "jud-1-11",
+      "jud-1-14",
+      "jud-1-15",
+      "jud-1-16",
+      "jud-1-22",
+      "jud-1-23",
+      "jud-1-24",
+      "jud-1-25"
+    ],
+    "brother": [
+      "jud-1-1"
+    ],
+    "james": [
+      "jud-1-1"
+    ],
+    "to": [
+      "jud-1-1",
+      "jud-1-3",
+      "jud-1-4",
+      "jud-1-7",
+      "jud-1-13",
+      "jud-1-15",
+      "jud-1-24",
+      "jud-1-25"
+    ],
+    "them": [
+      "jud-1-1",
+      "jud-1-5",
+      "jud-1-7",
+      "jud-1-11",
+      "jud-1-15",
+      "jud-1-23"
+    ],
+    "that": [
+      "jud-1-1",
+      "jud-1-3",
+      "jud-1-5",
+      "jud-1-15",
+      "jud-1-18",
+      "jud-1-24"
+    ],
+    "are": [
+      "jud-1-1",
+      "jud-1-4",
+      "jud-1-7",
+      "jud-1-12",
+      "jud-1-15",
+      "jud-1-16"
+    ],
+    "sanctified": [
+      "jud-1-1"
+    ],
+    "by": [
+      "jud-1-1",
+      "jud-1-12",
+      "jud-1-23"
+    ],
+    "god": [
+      "jud-1-1",
+      "jud-1-4",
+      "jud-1-21",
+      "jud-1-25"
+    ],
+    "father": [
+      "jud-1-1"
+    ],
+    "preserved": [
+      "jud-1-1"
+    ],
+    "in": [
+      "jud-1-1",
+      "jud-1-4",
+      "jud-1-5",
+      "jud-1-6",
+      "jud-1-7",
+      "jud-1-10",
+      "jud-1-11",
+      "jud-1-12",
+      "jud-1-16",
+      "jud-1-18",
+      "jud-1-20",
+      "jud-1-21"
+    ],
+    "called": [
+      "jud-1-1"
+    ],
+    "mercy": [
+      "jud-1-2",
+      "jud-1-21"
+    ],
+    "unto": [
+      "jud-1-2",
+      "jud-1-3",
+      "jud-1-6",
+      "jud-1-11",
+      "jud-1-21",
+      "jud-1-24"
+    ],
+    "you": [
+      "jud-1-2",
+      "jud-1-3",
+      "jud-1-5",
+      "jud-1-12",
+      "jud-1-18",
+      "jud-1-24"
+    ],
+    "peace": [
+      "jud-1-2"
+    ],
+    "love": [
+      "jud-1-2",
+      "jud-1-21"
+    ],
+    "be": [
+      "jud-1-2",
+      "jud-1-18",
+      "jud-1-19",
+      "jud-1-25"
+    ],
+    "multiplied": [
+      "jud-1-2"
+    ],
+    "beloved": [
+      "jud-1-3",
+      "jud-1-17",
+      "jud-1-20"
+    ],
+    "when": [
+      "jud-1-3",
+      "jud-1-9",
+      "jud-1-12"
+    ],
+    "i": [
+      "jud-1-3",
+      "jud-1-5"
+    ],
+    "gave": [
+      "jud-1-3"
+    ],
+    "all": [
+      "jud-1-3",
+      "jud-1-15"
+    ],
+    "diligence": [
+      "jud-1-3"
+    ],
+    "write": [
+      "jud-1-3"
+    ],
+    "common": [
+      "jud-1-3"
+    ],
+    "salvation": [
+      "jud-1-3"
+    ],
+    "it": [
+      "jud-1-3"
+    ],
+    "was": [
+      "jud-1-3"
+    ],
+    "needful": [
+      "jud-1-3"
+    ],
+    "for": [
+      "jud-1-3",
+      "jud-1-4",
+      "jud-1-7",
+      "jud-1-11",
+      "jud-1-13",
+      "jud-1-21"
+    ],
+    "me": [
+      "jud-1-3"
+    ],
+    "exhort": [
+      "jud-1-3"
+    ],
+    "ye": [
+      "jud-1-3",
+      "jud-1-5",
+      "jud-1-17",
+      "jud-1-20"
+    ],
+    "should": [
+      "jud-1-3",
+      "jud-1-18"
+    ],
+    "earnestly": [
+      "jud-1-3"
+    ],
+    "contend": [
+      "jud-1-3"
+    ],
+    "faith": [
+      "jud-1-3",
+      "jud-1-20"
+    ],
+    "which": [
+      "jud-1-3",
+      "jud-1-6",
+      "jud-1-10",
+      "jud-1-15",
+      "jud-1-17"
+    ],
+    "once": [
+      "jud-1-3",
+      "jud-1-5"
+    ],
+    "delivered": [
+      "jud-1-3"
+    ],
+    "saints": [
+      "jud-1-3",
+      "jud-1-14"
+    ],
+    "there": [
+      "jud-1-4",
+      "jud-1-18"
+    ],
+    "certain": [
+      "jud-1-4"
+    ],
+    "men": [
+      "jud-1-4",
+      "jud-1-16"
+    ],
+    "crept": [
+      "jud-1-4"
+    ],
+    "unawares": [
+      "jud-1-4"
+    ],
+    "who": [
+      "jud-1-4",
+      "jud-1-18",
+      "jud-1-19"
+    ],
+    "were": [
+      "jud-1-4",
+      "jud-1-17"
+    ],
+    "before": [
+      "jud-1-4",
+      "jud-1-17",
+      "jud-1-24"
+    ],
+    "old": [
+      "jud-1-4"
+    ],
+    "ordained": [
+      "jud-1-4"
+    ],
+    "this": [
+      "jud-1-4",
+      "jud-1-5"
+    ],
+    "condemnation": [
+      "jud-1-4"
+    ],
+    "ungodly": [
+      "jud-1-4",
+      "jud-1-15",
+      "jud-1-18"
+    ],
+    "turning": [
+      "jud-1-4"
+    ],
+    "grace": [
+      "jud-1-4"
+    ],
+    "our": [
+      "jud-1-4",
+      "jud-1-17",
+      "jud-1-21",
+      "jud-1-25"
+    ],
+    "into": [
+      "jud-1-4"
+    ],
+    "lasciviousness": [
+      "jud-1-4"
+    ],
+    "denying": [
+      "jud-1-4"
+    ],
+    "only": [
+      "jud-1-4",
+      "jud-1-25"
+    ],
+    "lord": [
+      "jud-1-4",
+      "jud-1-5",
+      "jud-1-9",
+      "jud-1-14",
+      "jud-1-17",
+      "jud-1-21"
+    ],
+    "will": [
+      "jud-1-5"
+    ],
+    "therefore": [
+      "jud-1-5"
+    ],
+    "put": [
+      "jud-1-5"
+    ],
+    "remembrance": [
+      "jud-1-5"
+    ],
+    "though": [
+      "jud-1-5"
+    ],
+    "knew": [
+      "jud-1-5"
+    ],
+    "how": [
+      "jud-1-5",
+      "jud-1-18"
+    ],
+    "having": [
+      "jud-1-5",
+      "jud-1-16",
+      "jud-1-19"
+    ],
+    "saved": [
+      "jud-1-5"
+    ],
+    "people": [
+      "jud-1-5"
+    ],
+    "out": [
+      "jud-1-5",
+      "jud-1-13",
+      "jud-1-23"
+    ],
+    "land": [
+      "jud-1-5"
+    ],
+    "egypt": [
+      "jud-1-5"
+    ],
+    "afterward": [
+      "jud-1-5"
+    ],
+    "destroyed": [
+      "jud-1-5"
+    ],
+    "believed": [
+      "jud-1-5"
+    ],
+    "not": [
+      "jud-1-5",
+      "jud-1-6",
+      "jud-1-9",
+      "jud-1-10",
+      "jud-1-19"
+    ],
+    "angels": [
+      "jud-1-6"
+    ],
+    "kept": [
+      "jud-1-6"
+    ],
+    "their": [
+      "jud-1-6",
+      "jud-1-13",
+      "jud-1-15",
+      "jud-1-16",
+      "jud-1-18"
+    ],
+    "first": [
+      "jud-1-6"
+    ],
+    "estate": [
+      "jud-1-6"
+    ],
+    "but": [
+      "jud-1-6",
+      "jud-1-9",
+      "jud-1-10",
+      "jud-1-17",
+      "jud-1-20"
+    ],
+    "left": [
+      "jud-1-6"
+    ],
+    "own": [
+      "jud-1-6",
+      "jud-1-13",
+      "jud-1-16",
+      "jud-1-18"
+    ],
+    "habitation": [
+      "jud-1-6"
+    ],
+    "he": [
+      "jud-1-6",
+      "jud-1-9"
+    ],
+    "hath": [
+      "jud-1-6"
+    ],
+    "reserved": [
+      "jud-1-6",
+      "jud-1-13"
+    ],
+    "everlasting": [
+      "jud-1-6"
+    ],
+    "chains": [
+      "jud-1-6"
+    ],
+    "under": [
+      "jud-1-6"
+    ],
+    "darkness": [
+      "jud-1-6",
+      "jud-1-13"
+    ],
+    "judgment": [
+      "jud-1-6",
+      "jud-1-15"
+    ],
+    "great": [
+      "jud-1-6",
+      "jud-1-16"
+    ],
+    "day": [
+      "jud-1-6"
+    ],
+    "even": [
+      "jud-1-7",
+      "jud-1-23"
+    ],
+    "as": [
+      "jud-1-7",
+      "jud-1-10"
+    ],
+    "sodom": [
+      "jud-1-7"
+    ],
+    "gomorrha": [
+      "jud-1-7"
+    ],
+    "cities": [
+      "jud-1-7"
+    ],
+    "about": [
+      "jud-1-7",
+      "jud-1-9",
+      "jud-1-12"
+    ],
+    "like": [
+      "jud-1-7"
+    ],
+    "manner": [
+      "jud-1-7"
+    ],
+    "giving": [
+      "jud-1-7"
+    ],
+    "themselves": [
+      "jud-1-7",
+      "jud-1-10",
+      "jud-1-12",
+      "jud-1-19"
+    ],
+    "over": [
+      "jud-1-7"
+    ],
+    "fornication": [
+      "jud-1-7"
+    ],
+    "going": [
+      "jud-1-7"
+    ],
+    "after": [
+      "jud-1-7",
+      "jud-1-11",
+      "jud-1-16",
+      "jud-1-18"
+    ],
+    "strange": [
+      "jud-1-7"
+    ],
+    "flesh": [
+      "jud-1-7",
+      "jud-1-8",
+      "jud-1-23"
+    ],
+    "set": [
+      "jud-1-7"
+    ],
+    "forth": [
+      "jud-1-7"
+    ],
+    "an": [
+      "jud-1-7"
+    ],
+    "example": [
+      "jud-1-7"
+    ],
+    "suffering": [
+      "jud-1-7"
+    ],
+    "vengeance": [
+      "jud-1-7"
+    ],
+    "eternal": [
+      "jud-1-7",
+      "jud-1-21"
+    ],
+    "fire": [
+      "jud-1-7",
+      "jud-1-23"
+    ],
+    "likewise": [
+      "jud-1-8"
+    ],
+    "also": [
+      "jud-1-8",
+      "jud-1-14"
+    ],
+    "these": [
+      "jud-1-8",
+      "jud-1-10",
+      "jud-1-12",
+      "jud-1-14",
+      "jud-1-16",
+      "jud-1-19"
+    ],
+    "filthy": [
+      "jud-1-8"
+    ],
+    "dreamers": [
+      "jud-1-8"
+    ],
+    "defile": [
+      "jud-1-8"
+    ],
+    "despise": [
+      "jud-1-8"
+    ],
+    "dominion": [
+      "jud-1-8",
+      "jud-1-25"
+    ],
+    "speak": [
+      "jud-1-8",
+      "jud-1-10"
+    ],
+    "evil": [
+      "jud-1-8",
+      "jud-1-10"
+    ],
+    "dignities": [
+      "jud-1-8"
+    ],
+    "yet": [
+      "jud-1-9"
+    ],
+    "michael": [
+      "jud-1-9"
+    ],
+    "archangel": [
+      "jud-1-9"
+    ],
+    "contending": [
+      "jud-1-9"
+    ],
+    "with": [
+      "jud-1-9",
+      "jud-1-12",
+      "jud-1-14",
+      "jud-1-23",
+      "jud-1-24"
+    ],
+    "devil": [
+      "jud-1-9"
+    ],
+    "disputed": [
+      "jud-1-9"
+    ],
+    "body": [
+      "jud-1-9"
+    ],
+    "moses": [
+      "jud-1-9"
+    ],
+    "durst": [
+      "jud-1-9"
+    ],
+    "bring": [
+      "jud-1-9"
+    ],
+    "against": [
+      "jud-1-9",
+      "jud-1-15"
+    ],
+    "him": [
+      "jud-1-9",
+      "jud-1-15",
+      "jud-1-24"
+    ],
+    "a": [
+      "jud-1-9",
+      "jud-1-22"
+    ],
+    "railing": [
+      "jud-1-9"
+    ],
+    "accusation": [
+      "jud-1-9"
+    ],
+    "said": [
+      "jud-1-9"
+    ],
+    "rebuke": [
+      "jud-1-9"
+    ],
+    "thee": [
+      "jud-1-9"
+    ],
+    "those": [
+      "jud-1-10"
+    ],
+    "things": [
+      "jud-1-10"
+    ],
+    "they": [
+      "jud-1-10",
+      "jud-1-11",
+      "jud-1-12",
+      "jud-1-15",
+      "jud-1-18",
+      "jud-1-19"
+    ],
+    "know": [
+      "jud-1-10"
+    ],
+    "what": [
+      "jud-1-10"
+    ],
+    "naturally": [
+      "jud-1-10"
+    ],
+    "brute": [
+      "jud-1-10"
+    ],
+    "beasts": [
+      "jud-1-10"
+    ],
+    "corrupt": [
+      "jud-1-10"
+    ],
+    "woe": [
+      "jud-1-11"
+    ],
+    "have": [
+      "jud-1-11",
+      "jud-1-15",
+      "jud-1-22"
+    ],
+    "gone": [
+      "jud-1-11"
+    ],
+    "way": [
+      "jud-1-11"
+    ],
+    "cain": [
+      "jud-1-11"
+    ],
+    "ran": [
+      "jud-1-11"
+    ],
+    "greedily": [
+      "jud-1-11"
+    ],
+    "error": [
+      "jud-1-11"
+    ],
+    "balaam": [
+      "jud-1-11"
+    ],
+    "reward": [
+      "jud-1-11"
+    ],
+    "perished": [
+      "jud-1-11"
+    ],
+    "gainsaying": [
+      "jud-1-11"
+    ],
+    "core": [
+      "jud-1-11"
+    ],
+    "spots": [
+      "jud-1-12"
+    ],
+    "your": [
+      "jud-1-12",
+      "jud-1-20"
+    ],
+    "feasts": [
+      "jud-1-12"
+    ],
+    "charity": [
+      "jud-1-12"
+    ],
+    "feast": [
+      "jud-1-12"
+    ],
+    "feeding": [
+      "jud-1-12"
+    ],
+    "without": [
+      "jud-1-12"
+    ],
+    "fear": [
+      "jud-1-12",
+      "jud-1-23"
+    ],
+    "clouds": [
+      "jud-1-12"
+    ],
+    "water": [
+      "jud-1-12"
+    ],
+    "carried": [
+      "jud-1-12"
+    ],
+    "winds": [
+      "jud-1-12"
+    ],
+    "trees": [
+      "jud-1-12"
+    ],
+    "whose": [
+      "jud-1-12"
+    ],
+    "fruit": [
+      "jud-1-12"
+    ],
+    "withereth": [
+      "jud-1-12"
+    ],
+    "twice": [
+      "jud-1-12"
+    ],
+    "dead": [
+      "jud-1-12"
+    ],
+    "plucked": [
+      "jud-1-12"
+    ],
+    "up": [
+      "jud-1-12",
+      "jud-1-20"
+    ],
+    "roots": [
+      "jud-1-12"
+    ],
+    "raging": [
+      "jud-1-13"
+    ],
+    "waves": [
+      "jud-1-13"
+    ],
+    "sea": [
+      "jud-1-13"
+    ],
+    "foaming": [
+      "jud-1-13"
+    ],
+    "shame": [
+      "jud-1-13"
+    ],
+    "wandering": [
+      "jud-1-13"
+    ],
+    "stars": [
+      "jud-1-13"
+    ],
+    "whom": [
+      "jud-1-13"
+    ],
+    "is": [
+      "jud-1-13",
+      "jud-1-24"
+    ],
+    "blackness": [
+      "jud-1-13"
+    ],
+    "ever": [
+      "jud-1-13",
+      "jud-1-25"
+    ],
+    "enoch": [
+      "jud-1-14"
+    ],
+    "seventh": [
+      "jud-1-14"
+    ],
+    "from": [
+      "jud-1-14",
+      "jud-1-24"
+    ],
+    "adam": [
+      "jud-1-14"
+    ],
+    "prophesied": [
+      "jud-1-14"
+    ],
+    "saying": [
+      "jud-1-14"
+    ],
+    "behold": [
+      "jud-1-14"
+    ],
+    "cometh": [
+      "jud-1-14"
+    ],
+    "ten": [
+      "jud-1-14"
+    ],
+    "thousands": [
+      "jud-1-14"
+    ],
+    "his": [
+      "jud-1-14",
+      "jud-1-24"
+    ],
+    "execute": [
+      "jud-1-15"
+    ],
+    "upon": [
+      "jud-1-15"
+    ],
+    "convince": [
+      "jud-1-15"
+    ],
+    "among": [
+      "jud-1-15"
+    ],
+    "deeds": [
+      "jud-1-15"
+    ],
+    "committed": [
+      "jud-1-15"
+    ],
+    "hard": [
+      "jud-1-15"
+    ],
+    "speeches": [
+      "jud-1-15"
+    ],
+    "sinners": [
+      "jud-1-15"
+    ],
+    "spoken": [
+      "jud-1-15",
+      "jud-1-17"
+    ],
+    "murmurers": [
+      "jud-1-16"
+    ],
+    "complainers": [
+      "jud-1-16"
+    ],
+    "walking": [
+      "jud-1-16"
+    ],
+    "lusts": [
+      "jud-1-16",
+      "jud-1-18"
+    ],
+    "mouth": [
+      "jud-1-16"
+    ],
+    "speaketh": [
+      "jud-1-16"
+    ],
+    "swelling": [
+      "jud-1-16"
+    ],
+    "words": [
+      "jud-1-16",
+      "jud-1-17"
+    ],
+    "s": [
+      "jud-1-16"
+    ],
+    "persons": [
+      "jud-1-16"
+    ],
+    "admiration": [
+      "jud-1-16"
+    ],
+    "because": [
+      "jud-1-16"
+    ],
+    "advantage": [
+      "jud-1-16"
+    ],
+    "remember": [
+      "jud-1-17"
+    ],
+    "apostles": [
+      "jud-1-17"
+    ],
+    "told": [
+      "jud-1-18"
+    ],
+    "mockers": [
+      "jud-1-18"
+    ],
+    "last": [
+      "jud-1-18"
+    ],
+    "time": [
+      "jud-1-18"
+    ],
+    "walk": [
+      "jud-1-18"
+    ],
+    "separate": [
+      "jud-1-19"
+    ],
+    "sensual": [
+      "jud-1-19"
+    ],
+    "spirit": [
+      "jud-1-19"
+    ],
+    "building": [
+      "jud-1-20"
+    ],
+    "yourselves": [
+      "jud-1-20",
+      "jud-1-21"
+    ],
+    "on": [
+      "jud-1-20"
+    ],
+    "most": [
+      "jud-1-20"
+    ],
+    "holy": [
+      "jud-1-20"
+    ],
+    "praying": [
+      "jud-1-20"
+    ],
+    "ghost": [
+      "jud-1-20"
+    ],
+    "keep": [
+      "jud-1-21",
+      "jud-1-24"
+    ],
+    "looking": [
+      "jud-1-21"
+    ],
+    "life": [
+      "jud-1-21"
+    ],
+    "some": [
+      "jud-1-22"
+    ],
+    "compassion": [
+      "jud-1-22"
+    ],
+    "making": [
+      "jud-1-22"
+    ],
+    "difference": [
+      "jud-1-22"
+    ],
+    "others": [
+      "jud-1-23"
+    ],
+    "save": [
+      "jud-1-23"
+    ],
+    "pulling": [
+      "jud-1-23"
+    ],
+    "hating": [
+      "jud-1-23"
+    ],
+    "garment": [
+      "jud-1-23"
+    ],
+    "spotted": [
+      "jud-1-23"
+    ],
+    "now": [
+      "jud-1-24",
+      "jud-1-25"
+    ],
+    "able": [
+      "jud-1-24"
+    ],
+    "falling": [
+      "jud-1-24"
+    ],
+    "present": [
+      "jud-1-24"
+    ],
+    "faultless": [
+      "jud-1-24"
+    ],
+    "presence": [
+      "jud-1-24"
+    ],
+    "glory": [
+      "jud-1-24",
+      "jud-1-25"
+    ],
+    "exceeding": [
+      "jud-1-24"
+    ],
+    "joy": [
+      "jud-1-24"
+    ],
+    "wise": [
+      "jud-1-25"
+    ],
+    "saviour": [
+      "jud-1-25"
+    ],
+    "majesty": [
+      "jud-1-25"
+    ],
+    "power": [
+      "jud-1-25"
+    ],
+    "both": [
+      "jud-1-25"
+    ],
+    "amen": [
+      "jud-1-25"
+    ]
+  }
+}
