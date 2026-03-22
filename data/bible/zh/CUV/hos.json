@@ -1,0 +1,1191 @@
+{
+  "book": "何西阿書",
+  "book_id": "hos",
+  "testament": "OT",
+  "language": "zh",
+  "version": "CUV",
+  "verses": [
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "hos-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "hos-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "hos-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "hos-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "hos-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "hos-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "hos-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "hos-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "hos-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "hos-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "hos-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "hos-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "hos-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "hos-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "hos-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "hos-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "hos-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "hos-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "hos-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "hos-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "hos-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "hos-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "hos-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "hos-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "hos-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "hos-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "hos-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    }
+  ]
+}

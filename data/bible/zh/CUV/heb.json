@@ -1,0 +1,1827 @@
+{
+  "book": "希伯來書",
+  "book_id": "heb",
+  "testament": "OT",
+  "language": "zh",
+  "version": "CUV",
+  "verses": [
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    },
+    {
+      "id": "heb-0-26",
+      "chapter": 0,
+      "verse": 26,
+      "text": "26"
+    },
+    {
+      "id": "heb-0-27",
+      "chapter": 0,
+      "verse": 27,
+      "text": "27"
+    },
+    {
+      "id": "heb-0-28",
+      "chapter": 0,
+      "verse": 28,
+      "text": "28"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    },
+    {
+      "id": "heb-0-26",
+      "chapter": 0,
+      "verse": 26,
+      "text": "26"
+    },
+    {
+      "id": "heb-0-27",
+      "chapter": 0,
+      "verse": 27,
+      "text": "27"
+    },
+    {
+      "id": "heb-0-28",
+      "chapter": 0,
+      "verse": 28,
+      "text": "28"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    },
+    {
+      "id": "heb-0-26",
+      "chapter": 0,
+      "verse": 26,
+      "text": "26"
+    },
+    {
+      "id": "heb-0-27",
+      "chapter": 0,
+      "verse": 27,
+      "text": "27"
+    },
+    {
+      "id": "heb-0-28",
+      "chapter": 0,
+      "verse": 28,
+      "text": "28"
+    },
+    {
+      "id": "heb-0-29",
+      "chapter": 0,
+      "verse": 29,
+      "text": "29"
+    },
+    {
+      "id": "heb-0-30",
+      "chapter": 0,
+      "verse": 30,
+      "text": "30"
+    },
+    {
+      "id": "heb-0-31",
+      "chapter": 0,
+      "verse": 31,
+      "text": "31"
+    },
+    {
+      "id": "heb-0-32",
+      "chapter": 0,
+      "verse": 32,
+      "text": "32"
+    },
+    {
+      "id": "heb-0-33",
+      "chapter": 0,
+      "verse": 33,
+      "text": "33"
+    },
+    {
+      "id": "heb-0-34",
+      "chapter": 0,
+      "verse": 34,
+      "text": "34"
+    },
+    {
+      "id": "heb-0-35",
+      "chapter": 0,
+      "verse": 35,
+      "text": "35"
+    },
+    {
+      "id": "heb-0-36",
+      "chapter": 0,
+      "verse": 36,
+      "text": "36"
+    },
+    {
+      "id": "heb-0-37",
+      "chapter": 0,
+      "verse": 37,
+      "text": "37"
+    },
+    {
+      "id": "heb-0-38",
+      "chapter": 0,
+      "verse": 38,
+      "text": "38"
+    },
+    {
+      "id": "heb-0-39",
+      "chapter": 0,
+      "verse": 39,
+      "text": "39"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    },
+    {
+      "id": "heb-0-26",
+      "chapter": 0,
+      "verse": 26,
+      "text": "26"
+    },
+    {
+      "id": "heb-0-27",
+      "chapter": 0,
+      "verse": 27,
+      "text": "27"
+    },
+    {
+      "id": "heb-0-28",
+      "chapter": 0,
+      "verse": 28,
+      "text": "28"
+    },
+    {
+      "id": "heb-0-29",
+      "chapter": 0,
+      "verse": 29,
+      "text": "29"
+    },
+    {
+      "id": "heb-0-30",
+      "chapter": 0,
+      "verse": 30,
+      "text": "30"
+    },
+    {
+      "id": "heb-0-31",
+      "chapter": 0,
+      "verse": 31,
+      "text": "31"
+    },
+    {
+      "id": "heb-0-32",
+      "chapter": 0,
+      "verse": 32,
+      "text": "32"
+    },
+    {
+      "id": "heb-0-33",
+      "chapter": 0,
+      "verse": 33,
+      "text": "33"
+    },
+    {
+      "id": "heb-0-34",
+      "chapter": 0,
+      "verse": 34,
+      "text": "34"
+    },
+    {
+      "id": "heb-0-35",
+      "chapter": 0,
+      "verse": 35,
+      "text": "35"
+    },
+    {
+      "id": "heb-0-36",
+      "chapter": 0,
+      "verse": 36,
+      "text": "36"
+    },
+    {
+      "id": "heb-0-37",
+      "chapter": 0,
+      "verse": 37,
+      "text": "37"
+    },
+    {
+      "id": "heb-0-38",
+      "chapter": 0,
+      "verse": 38,
+      "text": "38"
+    },
+    {
+      "id": "heb-0-39",
+      "chapter": 0,
+      "verse": 39,
+      "text": "39"
+    },
+    {
+      "id": "heb-0-40",
+      "chapter": 0,
+      "verse": 40,
+      "text": "40"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    },
+    {
+      "id": "heb-0-26",
+      "chapter": 0,
+      "verse": 26,
+      "text": "26"
+    },
+    {
+      "id": "heb-0-27",
+      "chapter": 0,
+      "verse": 27,
+      "text": "27"
+    },
+    {
+      "id": "heb-0-28",
+      "chapter": 0,
+      "verse": 28,
+      "text": "28"
+    },
+    {
+      "id": "heb-0-29",
+      "chapter": 0,
+      "verse": 29,
+      "text": "29"
+    },
+    {
+      "id": "heb-0-1",
+      "chapter": 0,
+      "verse": 1,
+      "text": "1"
+    },
+    {
+      "id": "heb-0-2",
+      "chapter": 0,
+      "verse": 2,
+      "text": "2"
+    },
+    {
+      "id": "heb-0-3",
+      "chapter": 0,
+      "verse": 3,
+      "text": "3"
+    },
+    {
+      "id": "heb-0-4",
+      "chapter": 0,
+      "verse": 4,
+      "text": "4"
+    },
+    {
+      "id": "heb-0-5",
+      "chapter": 0,
+      "verse": 5,
+      "text": "5"
+    },
+    {
+      "id": "heb-0-6",
+      "chapter": 0,
+      "verse": 6,
+      "text": "6"
+    },
+    {
+      "id": "heb-0-7",
+      "chapter": 0,
+      "verse": 7,
+      "text": "7"
+    },
+    {
+      "id": "heb-0-8",
+      "chapter": 0,
+      "verse": 8,
+      "text": "8"
+    },
+    {
+      "id": "heb-0-9",
+      "chapter": 0,
+      "verse": 9,
+      "text": "9"
+    },
+    {
+      "id": "heb-0-10",
+      "chapter": 0,
+      "verse": 10,
+      "text": "10"
+    },
+    {
+      "id": "heb-0-11",
+      "chapter": 0,
+      "verse": 11,
+      "text": "11"
+    },
+    {
+      "id": "heb-0-12",
+      "chapter": 0,
+      "verse": 12,
+      "text": "12"
+    },
+    {
+      "id": "heb-0-13",
+      "chapter": 0,
+      "verse": 13,
+      "text": "13"
+    },
+    {
+      "id": "heb-0-14",
+      "chapter": 0,
+      "verse": 14,
+      "text": "14"
+    },
+    {
+      "id": "heb-0-15",
+      "chapter": 0,
+      "verse": 15,
+      "text": "15"
+    },
+    {
+      "id": "heb-0-16",
+      "chapter": 0,
+      "verse": 16,
+      "text": "16"
+    },
+    {
+      "id": "heb-0-17",
+      "chapter": 0,
+      "verse": 17,
+      "text": "17"
+    },
+    {
+      "id": "heb-0-18",
+      "chapter": 0,
+      "verse": 18,
+      "text": "18"
+    },
+    {
+      "id": "heb-0-19",
+      "chapter": 0,
+      "verse": 19,
+      "text": "19"
+    },
+    {
+      "id": "heb-0-20",
+      "chapter": 0,
+      "verse": 20,
+      "text": "20"
+    },
+    {
+      "id": "heb-0-21",
+      "chapter": 0,
+      "verse": 21,
+      "text": "21"
+    },
+    {
+      "id": "heb-0-22",
+      "chapter": 0,
+      "verse": 22,
+      "text": "22"
+    },
+    {
+      "id": "heb-0-23",
+      "chapter": 0,
+      "verse": 23,
+      "text": "23"
+    },
+    {
+      "id": "heb-0-24",
+      "chapter": 0,
+      "verse": 24,
+      "text": "24"
+    },
+    {
+      "id": "heb-0-25",
+      "chapter": 0,
+      "verse": 25,
+      "text": "25"
+    }
+  ]
+}
