@@ -141,28 +141,21 @@ window.SearchEngine = (function(){
   function loadBook(version, book_id){
     const key = `${version}:${book_id}`;
     if(booksCache[key]) return booksCache[key];
-    // Try a set of candidate URLs (primary is the canonical path we use in the repo)
-    const candidates = [
-      `/data/bible/en/${version}/${book_id}.json`,
-      `/data/bible/en/${version}/${book_id}.js`,
-      `/data/bible/${version.toLowerCase()}/${version}/${book_id}.json`,
-      `/data/bible/${version.toLowerCase()}/${book_id}.json`,
-      `/data/bible/en/${book_id}.json`
-    ];
+    // Only attempt the canonical path used in the repository to avoid incorrect fallbacks
+    const canonical = `/data/bible/en/${version}/${book_id}.json`;
 
-    async function tryFetch(i=0){
-      if(i>=candidates.length) throw new Error('Book not found: '+book_id);
-      const url = candidates[i];
-      try{
-        const res = await fetch(url);
-        if(!res.ok) return tryFetch(i+1);
-        return res.json();
-      }catch(e){
-        return tryFetch(i+1);
+    async function tryFetch(){
+      const url = canonical;
+      console.debug('SearchEngine: loading book', book_id, 'from', url);
+      const res = await fetch(url);
+      if(!res.ok){
+        console.warn('SearchEngine: failed to load', url, 'status', res.status);
+        throw new Error('Book not found: '+book_id+' (tried '+url+')');
       }
+      return res.json();
     }
 
-    const p = tryFetch();
+    const p = tryFetch().catch(e=>{ console.error('SearchEngine: loadBook error', e); throw e; });
     booksCache[key]=p;
     return p;
   }
