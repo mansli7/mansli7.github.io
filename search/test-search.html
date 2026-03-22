@@ -2,72 +2,122 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Test Bible Search</title>
-  <style>body{font-family:system-ui,Segoe UI,Arial;margin:20px} #results{margin-top:10px} .verse{padding:6px;border-bottom:1px solid #eee}</style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bible Search — mansli7</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    :root{--bg:#f8fafc;--card:#fff;--muted:#6b7280;--accent:#2563eb}
+    body{font-family:Inter,system-ui,Segoe UI,Arial;margin:20px;background:var(--bg);color:#0f172a}
+    .search-shell{max-width:900px;margin:18px auto;padding:20px;background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(12,24,64,0.08)}
+    .header{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    h1{margin:0;font-size:18px}
+    .controls{display:flex;gap:8px;flex-wrap:wrap;width:100%}
+    input[type=text]{flex:1;padding:10px 12px;border:1px solid #e6eef8;border-radius:8px;font-size:15px}
+    select{padding:10px;border-radius:8px;border:1px solid #e6eef8}
+    button.btn{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+    button.btn[disabled]{opacity:0.5;cursor:default}
+    #results{margin-top:14px}
+    .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+    .verse{padding:12px;border-radius:8px;background:linear-gradient(180deg, rgba(37,99,235,0.03), rgba(37,99,235,0.01));margin-bottom:8px}
+    .verse strong{display:block;font-weight:600;margin-bottom:6px}
+    mark{background:#fff59d;padding:0 2px;border-radius:2px}
+    .pager{display:flex;align-items:center;gap:8px;justify-content:center;margin-top:12px}
+    .empty{padding:20px;text-align:center;color:var(--muted)}
+    @media(max-width:600px){ .header{flex-direction:column;align-items:stretch} }
+  </style>
   <script src="/assets/js/search-engine.js"></script>
 </head>
 <body>
-  <h2>Test Bible Search (KJV)</h2>
-  <input id="q" style="width:60%" placeholder='query: e.g. "in the beginning" or faith & hope or /love/'>
-  <button id="run">Search</button>
-  <div id="results"></div>
-  <div id="pager" style="margin-top:10px"></div>
+  <div class="search-shell">
+    <div class="header">
+      <div>
+        <h1>Bible Search</h1>
+        <div class="meta">Search KJV (demo). Supports boolean &, |, ~, quoted phrases and /regex/.</div>
+      </div>
+      <div style="margin-left:auto;color:var(--muted);font-size:13px">mansli7 demo</div>
+    </div>
 
-  <script>
-    const version = 'KJV';
-    const pageSize = 20;
-    let currentResults = [];
-    let page = 0;
+    <div class="controls">
+      <input id="q" type="text" placeholder='e.g. "in the beginning" or faith & hope or /love/'>
+      <select id="version"><option value="KJV" selected>KJV</option><option value="CUV1919">CUV1919 (coming)</option></select>
+      <button id="run" class="btn">Search</button>
+      <button id="clear" class="btn" style="background:#64748b">Clear</button>
+    </div>
 
-    function escapeHtml(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-    function escapeRegExp(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+    <script>
+      const pageSize = 20;
+      let currentResults = [];
+      let page = 0;
+      let currentQuery = '';
 
-    function renderPage(){
-      const out = document.getElementById('results');
-      out.innerHTML = `<div>Found ${currentResults.length} results</div>`;
-      const start = page * pageSize;
-      const slice = currentResults.slice(start, start+pageSize);
-      // prepare highlight patterns from currentQuery
-      const hl = [];
-      try{
-        const q = currentQuery || '';
-        // extract quoted phrases
-        const phraseMatches = q.match(/"([^"]+)"/g) || [];
-        for(const p of phraseMatches){ hl.push(escapeRegExp(p.replace(/"/g,''))); }
-        // extract regexes
-        const regexMatches = q.match(/\/(.+?)\//g) || [];
-        for(const r of regexMatches){ hl.push(r.slice(1,-1)); }
-        // remaining words
-        const words = q.replace(/"[^"]+"/g,'').replace(/\/.+?\//g,'').split(/\s+/).filter(Boolean);
-        for(const w of words){ if(/^[&|~()]+$/.test(w)) continue; hl.push('\\b'+escapeRegExp(w)+'\\b'); }
-      }catch(e){ /* ignore */ }
+      const qEl = document.getElementById('q');
+      const runBtn = document.getElementById('run');
+      const clearBtn = document.getElementById('clear');
+      const versionSel = document.getElementById('version');
+      const resultsEl = document.getElementById('results');
+      const pagerEl = document.getElementById('pager');
 
-      const highlightRegex = hl.length ? new RegExp('(' + hl.join('|') + ')', 'ig') : null;
+      function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+      function escapeRegExp(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
-      for(const v of slice){
-        const el = document.createElement('div'); el.className='verse';
-        let text = escapeHtml(v.text);
-        if(highlightRegex) text = text.replace(highlightRegex, '<mark>$1</mark>');
-        el.innerHTML = `<strong>${v.book} ${v.chapter}:${v.verse}</strong> — ${text}`;
-        out.appendChild(el);
+      function buildHighlightRegex(q){
+        const hl = [];
+        try{
+          const phraseMatches = q.match(/"([^\"]+)"/g) || [];
+          for(const p of phraseMatches) hl.push(escapeRegExp(p.replace(/"/g,'')));
+          const regexMatches = q.match(/\/(.+?)\//g) || [];
+          for(const r of regexMatches) hl.push(r.slice(1,-1));
+          const words = q.replace(/"[^\"]+"/g,'').replace(/\/.+?\//g,'').split(/\s+/).filter(Boolean);
+          for(const w of words){ if(/^[&|~()]+$/.test(w)) continue; hl.push('\\b'+escapeRegExp(w)+'\\b'); }
+        }catch(e){ /* ignore */ }
+        return hl.length ? new RegExp('(' + hl.join('|') + ')', 'ig') : null;
       }
-      const pager = document.getElementById('pager');
-      const totalPages = Math.ceil(currentResults.length / pageSize);
-      pager.innerHTML = '';
-      if(totalPages>1){
-        const prev = document.createElement('button'); prev.textContent='Prev'; prev.disabled = page===0;
-        prev.onclick = ()=>{ if(page>0){ page--; renderPage(); } };
-        const next = document.createElement('button'); next.textContent='Next'; next.disabled = page+1>=totalPages;
-        next.onclick = ()=>{ if(page+1<totalPages){ page++; renderPage(); } };
-        const info = document.createElement('span'); info.style.margin='0 8px'; info.textContent = `Page ${page+1}/${totalPages}`;
-        pager.appendChild(prev); pager.appendChild(info); pager.appendChild(next);
-      }
-    }
 
-    document.getElementById('run').addEventListener('click', async ()=>{
-      const q = document.getElementById('q').value.trim();
-      if(!q) return;
-      page = 0;
+      function renderPage(){
+        resultsEl.innerHTML = '';
+        if(!currentResults.length){ resultsEl.innerHTML = '<div class="empty">No results — try a different query.</div>'; pagerEl.innerHTML=''; return; }
+        const start = page * pageSize; const slice = currentResults.slice(start, start+pageSize);
+        const info = document.createElement('div'); info.className='meta'; info.textContent = `Found ${currentResults.length} results`; resultsEl.appendChild(info);
+
+        const hlRe = buildHighlightRegex(currentQuery || '');
+        for(const v of slice){
+          const el = document.createElement('div'); el.className='verse';
+          const title = document.createElement('strong'); title.textContent = `${v.book} ${v.chapter}:${v.verse}`;
+          const p = document.createElement('div'); p.innerHTML = escapeHtml(v.text);
+          if(hlRe) p.innerHTML = p.innerHTML.replace(hlRe, '<mark>$1</mark>');
+          el.appendChild(title); el.appendChild(p);
+          resultsEl.appendChild(el);
+        }
+
+        // pager
+        const totalPages = Math.ceil(currentResults.length / pageSize);
+        pagerEl.innerHTML = '';
+        if(totalPages>1){
+          const prev = document.createElement('button'); prev.textContent='Prev'; prev.disabled = page===0; prev.onclick = ()=>{ page--; renderPage(); };
+          const next = document.createElement('button'); next.textContent='Next'; next.disabled = page+1>=totalPages; next.onclick = ()=>{ page++; renderPage(); };
+          const info = document.createElement('span'); info.textContent = `Page ${page+1}/${totalPages}`;
+          pagerEl.appendChild(prev); pagerEl.appendChild(info); pagerEl.appendChild(next);
+        }
+        window.scrollTo({top: resultsEl.getBoundingClientRect().top + window.scrollY - 20, behavior:'smooth'});
+      }
+
+      async function doSearch(){
+        const q = qEl.value.trim();
+        if(!q) return;
+        currentQuery = q;
+        const ver = versionSel.value || 'KJV';
+        runBtn.disabled = true; runBtn.textContent = 'Searching...';
+        try{
+          currentResults = await SearchEngine.search(q, ver);
+          page = 0; renderPage();
+        }catch(e){ resultsEl.innerHTML = `<div class="empty">Search failed: ${escapeHtml(e.message||e)}</div>`; pagerEl.innerHTML=''; }
+        runBtn.disabled = false; runBtn.textContent = 'Search';
+      }
+
+      runBtn.addEventListener('click', doSearch);
+      qEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter') doSearch(); });
+      clearBtn.addEventListener('click', ()=>{ qEl.value=''; currentResults=[]; page=0; currentQuery=''; resultsEl.innerHTML=''; pagerEl.innerHTML=''; });
+    </script>
       currentResults = await SearchEngine.search(q, version);
       renderPage();
     });
