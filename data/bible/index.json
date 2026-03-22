@@ -1,15 +1,6 @@
 {
   "books": [
     {
-      "id": "gen",
-      "name_en": "Genesis",
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/gen.json"
-    },
-    {
       "id": "1ch",
       "name_en": null,
       "name_zh": "歷代志上",
@@ -595,600 +586,6 @@
       "path": "/data/bible/zh/CUV/zep.json"
     },
     {
-      "id": "1-chronicles",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-chronicles.json"
-    },
-    {
-      "id": "1-corinthians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-corinthians.json"
-    },
-    {
-      "id": "1-john",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-john.json"
-    },
-    {
-      "id": "1-kings",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-kings.json"
-    },
-    {
-      "id": "1-peter",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-peter.json"
-    },
-    {
-      "id": "1-samuel",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-samuel.json"
-    },
-    {
-      "id": "1-thessalonians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-thessalonians.json"
-    },
-    {
-      "id": "1-timothy",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/1-timothy.json"
-    },
-    {
-      "id": "2-chronicles",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-chronicles.json"
-    },
-    {
-      "id": "2-corinthians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-corinthians.json"
-    },
-    {
-      "id": "2-john",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-john.json"
-    },
-    {
-      "id": "2-kings",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-kings.json"
-    },
-    {
-      "id": "2-peter",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-peter.json"
-    },
-    {
-      "id": "2-samuel",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-samuel.json"
-    },
-    {
-      "id": "2-thessalonians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-thessalonians.json"
-    },
-    {
-      "id": "2-timothy",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/2-timothy.json"
-    },
-    {
-      "id": "3-john",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/3-john.json"
-    },
-    {
-      "id": "acts",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/acts.json"
-    },
-    {
-      "id": "amos",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/amos.json"
-    },
-    {
-      "id": "colossians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/colossians.json"
-    },
-    {
-      "id": "daniel",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/daniel.json"
-    },
-    {
-      "id": "deuteronomy",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/deuteronomy.json"
-    },
-    {
-      "id": "ecclesiastes",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/ecclesiastes.json"
-    },
-    {
-      "id": "ephesians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/ephesians.json"
-    },
-    {
-      "id": "esther",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/esther.json"
-    },
-    {
-      "id": "exodus",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/exodus.json"
-    },
-    {
-      "id": "ezekiel",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/ezekiel.json"
-    },
-    {
-      "id": "ezra",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/ezra.json"
-    },
-    {
-      "id": "galatians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/galatians.json"
-    },
-    {
-      "id": "genesis",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/genesis.json"
-    },
-    {
-      "id": "habakkuk",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/habakkuk.json"
-    },
-    {
-      "id": "haggai",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/haggai.json"
-    },
-    {
-      "id": "hebrews",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/hebrews.json"
-    },
-    {
-      "id": "hosea",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/hosea.json"
-    },
-    {
-      "id": "isaiah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/isaiah.json"
-    },
-    {
-      "id": "james",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/james.json"
-    },
-    {
-      "id": "jeremiah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/jeremiah.json"
-    },
-    {
-      "id": "job",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/job.json"
-    },
-    {
-      "id": "joel",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/joel.json"
-    },
-    {
-      "id": "john",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/john.json"
-    },
-    {
-      "id": "jonah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/jonah.json"
-    },
-    {
-      "id": "joshua",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/joshua.json"
-    },
-    {
-      "id": "jude",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/jude.json"
-    },
-    {
-      "id": "judges",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/judges.json"
-    },
-    {
-      "id": "lamentations",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/lamentations.json"
-    },
-    {
-      "id": "leviticus",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/leviticus.json"
-    },
-    {
-      "id": "luke",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/luke.json"
-    },
-    {
-      "id": "malachi",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/malachi.json"
-    },
-    {
-      "id": "mark",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/mark.json"
-    },
-    {
-      "id": "matthew",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/matthew.json"
-    },
-    {
-      "id": "micah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/micah.json"
-    },
-    {
-      "id": "nahum",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/nahum.json"
-    },
-    {
-      "id": "nehemiah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/nehemiah.json"
-    },
-    {
-      "id": "numbers",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/numbers.json"
-    },
-    {
-      "id": "obadiah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/obadiah.json"
-    },
-    {
-      "id": "philemon",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/philemon.json"
-    },
-    {
-      "id": "philippians",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/philippians.json"
-    },
-    {
-      "id": "proverbs",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/proverbs.json"
-    },
-    {
-      "id": "psalm",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/psalm.json"
-    },
-    {
-      "id": "revelation",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/revelation.json"
-    },
-    {
-      "id": "romans",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/romans.json"
-    },
-    {
-      "id": "ruth",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/ruth.json"
-    },
-    {
-      "id": "song-of-solomon",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/song-of-solomon.json"
-    },
-    {
-      "id": "titus",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/titus.json"
-    },
-    {
-      "id": "zechariah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/zechariah.json"
-    },
-    {
-      "id": "zephaniah",
-      "name_en": null,
-      "name_zh": null,
-      "testament": "OT",
-      "language": "en",
-      "version": "KJV",
-      "path": "/data/bible/en/KJV/zephaniah.json"
-    },
-    {
       "id": "阿摩司書",
       "name_en": null,
       "name_zh": "阿摩司書",
@@ -1196,6 +593,600 @@
       "language": "zh",
       "version": "CUV",
       "path": "/data/bible/zh/CUV/阿摩司書.json"
+    },
+    {
+      "id": "1ch",
+      "name_en": "1 Chronicles",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1ch.json"
+    },
+    {
+      "id": "1co",
+      "name_en": "1 Corinthians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1co.json"
+    },
+    {
+      "id": "1jo",
+      "name_en": "1 John",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1jo.json"
+    },
+    {
+      "id": "1ki",
+      "name_en": "1 Kings",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1ki.json"
+    },
+    {
+      "id": "1pe",
+      "name_en": "1 Peter",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1pe.json"
+    },
+    {
+      "id": "1sm",
+      "name_en": "1 Samuel",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1sm.json"
+    },
+    {
+      "id": "1th",
+      "name_en": "1 Thessalonians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1th.json"
+    },
+    {
+      "id": "1ti",
+      "name_en": "1 Timothy",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/1ti.json"
+    },
+    {
+      "id": "2ch",
+      "name_en": "2 Chronicles",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2ch.json"
+    },
+    {
+      "id": "2co",
+      "name_en": "2 Corinthians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2co.json"
+    },
+    {
+      "id": "2jo",
+      "name_en": "2 John",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2jo.json"
+    },
+    {
+      "id": "2ki",
+      "name_en": "2 Kings",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2ki.json"
+    },
+    {
+      "id": "2pe",
+      "name_en": "2 Peter",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2pe.json"
+    },
+    {
+      "id": "2sm",
+      "name_en": "2 Samuel",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2sm.json"
+    },
+    {
+      "id": "2th",
+      "name_en": "2 Thessalonians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2th.json"
+    },
+    {
+      "id": "2ti",
+      "name_en": "2 Timothy",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/2ti.json"
+    },
+    {
+      "id": "3jo",
+      "name_en": "3 John",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/3jo.json"
+    },
+    {
+      "id": "act",
+      "name_en": "Acts",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/act.json"
+    },
+    {
+      "id": "amo",
+      "name_en": "Amos",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/amo.json"
+    },
+    {
+      "id": "col",
+      "name_en": "Colossians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/col.json"
+    },
+    {
+      "id": "dan",
+      "name_en": "Daniel",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/dan.json"
+    },
+    {
+      "id": "dut",
+      "name_en": "Deuteronomy",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/dut.json"
+    },
+    {
+      "id": "ecc",
+      "name_en": "Ecclesiastes",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/ecc.json"
+    },
+    {
+      "id": "eph",
+      "name_en": "Ephesians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/eph.json"
+    },
+    {
+      "id": "est",
+      "name_en": "Esther",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/est.json"
+    },
+    {
+      "id": "ex",
+      "name_en": "Exodus",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/ex.json"
+    },
+    {
+      "id": "eze",
+      "name_en": "Ezekiel",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/eze.json"
+    },
+    {
+      "id": "ezr",
+      "name_en": "Ezra",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/ezr.json"
+    },
+    {
+      "id": "gal",
+      "name_en": "Galatians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/gal.json"
+    },
+    {
+      "id": "gen",
+      "name_en": "Genesis",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/gen.json"
+    },
+    {
+      "id": "hab",
+      "name_en": "Habakkuk",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/hab.json"
+    },
+    {
+      "id": "hag",
+      "name_en": "Haggai",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/hag.json"
+    },
+    {
+      "id": "heb",
+      "name_en": "Hebrews",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/heb.json"
+    },
+    {
+      "id": "hos",
+      "name_en": "Hosea",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/hos.json"
+    },
+    {
+      "id": "isa",
+      "name_en": "Isaiah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/isa.json"
+    },
+    {
+      "id": "jam",
+      "name_en": "James",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jam.json"
+    },
+    {
+      "id": "jdg",
+      "name_en": "Judges",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jdg.json"
+    },
+    {
+      "id": "jer",
+      "name_en": "Jeremiah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jer.json"
+    },
+    {
+      "id": "jhn",
+      "name_en": "John",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jhn.json"
+    },
+    {
+      "id": "job",
+      "name_en": "Job",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/job.json"
+    },
+    {
+      "id": "joe",
+      "name_en": "Joel",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/joe.json"
+    },
+    {
+      "id": "jon",
+      "name_en": "Jonah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jon.json"
+    },
+    {
+      "id": "jos",
+      "name_en": "Joshua",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jos.json"
+    },
+    {
+      "id": "jud",
+      "name_en": "Jude",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/jud.json"
+    },
+    {
+      "id": "lam",
+      "name_en": "Lamentations",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/lam.json"
+    },
+    {
+      "id": "lev",
+      "name_en": "Leviticus",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/lev.json"
+    },
+    {
+      "id": "luk",
+      "name_en": "Luke",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/luk.json"
+    },
+    {
+      "id": "mal",
+      "name_en": "Malachi",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/mal.json"
+    },
+    {
+      "id": "mat",
+      "name_en": "Matthew",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/mat.json"
+    },
+    {
+      "id": "mic",
+      "name_en": "Micah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/mic.json"
+    },
+    {
+      "id": "mrk",
+      "name_en": "Mark",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/mrk.json"
+    },
+    {
+      "id": "nah",
+      "name_en": "Nahum",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/nah.json"
+    },
+    {
+      "id": "neh",
+      "name_en": "Nehemiah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/neh.json"
+    },
+    {
+      "id": "num",
+      "name_en": "Numbers",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/num.json"
+    },
+    {
+      "id": "oba",
+      "name_en": "Obadiah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/oba.json"
+    },
+    {
+      "id": "phm",
+      "name_en": "Philemon",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/phm.json"
+    },
+    {
+      "id": "php",
+      "name_en": "Philippians",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/php.json"
+    },
+    {
+      "id": "pro",
+      "name_en": "Proverbs",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/pro.json"
+    },
+    {
+      "id": "psalm",
+      "name_en": "Psalm",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/psalm.json"
+    },
+    {
+      "id": "rev",
+      "name_en": "Revelation",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/rev.json"
+    },
+    {
+      "id": "rom",
+      "name_en": "Romans",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/rom.json"
+    },
+    {
+      "id": "rth",
+      "name_en": "Ruth",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/rth.json"
+    },
+    {
+      "id": "sos",
+      "name_en": "Song of Solomon",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/sos.json"
+    },
+    {
+      "id": "tit",
+      "name_en": "Titus",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/tit.json"
+    },
+    {
+      "id": "zec",
+      "name_en": "Zechariah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/zec.json"
+    },
+    {
+      "id": "zep",
+      "name_en": "Zephaniah",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/zep.json"
     }
   ]
 }
