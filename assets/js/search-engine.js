@@ -191,21 +191,24 @@ window.SearchEngine = (function(){
         throw new Error('Book not found: '+book_id+' (tried '+url+')');
       }
       const data = await res.json();
-      // normalize to an array of verse objects
-      if(Array.isArray(data)) return data;
-      if(data && Array.isArray(data.verses)) return data.verses;
-      // some files may embed verses under other keys; try common possibilities
-      if(data && Array.isArray(data.v)) return data.v;
-      // fallback: if object has numeric keys, convert to array
-      if(data && typeof data === 'object'){
-        const arr = [];
+      // normalize to an array of verse objects and attach book metadata
+      let arr = null;
+      if(Array.isArray(data)) arr = data;
+      else if(data && Array.isArray(data.verses)) arr = data.verses;
+      else if(data && Array.isArray(data.v)) arr = data.v;
+      else if(data && typeof data === 'object'){
+        const tmp = [];
         for(const k of Object.keys(data)){
-          if(/^\d+$/.test(k) && data[k] && typeof data[k] === 'object') arr.push(data[k]);
+          if(/^\d+$/.test(k) && data[k] && typeof data[k] === 'object') tmp.push(data[k]);
         }
-        if(arr.length) return arr;
+        if(tmp.length) arr = tmp;
       }
-      // as a last resort, return an empty array to avoid runtime errors
-      return [];
+      if(!arr) arr = [];
+      // attach book metadata to each verse for rendering and ordering
+      const bookName = (data && data.book) ? data.book : book_id;
+      const bookId = (data && data.book_id) ? data.book_id : book_id;
+      for(const v of arr){ if(v && typeof v === 'object'){ v.book = v.book || bookName; v.book_id = v.book_id || bookId; if(!v.text_norm) v.text_norm = (v.text || '').toLowerCase(); } }
+      return arr;
     }
 
     const p = tryFetch().catch(e=>{ console.error('SearchEngine: loadBook error', e); throw e; });
