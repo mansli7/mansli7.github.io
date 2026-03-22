@@ -283,6 +283,7 @@ window.SearchEngine = (function(){
     return scored.map(x=>x.v);
   }
 
+  const loadIndex = loadTokenIndexesForVersion;
   return { loadIndex, search };
 })();
 

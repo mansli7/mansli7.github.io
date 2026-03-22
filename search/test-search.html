@@ -118,9 +118,5 @@
       qEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter') doSearch(); });
       clearBtn.addEventListener('click', ()=>{ qEl.value=''; currentResults=[]; page=0; currentQuery=''; resultsEl.innerHTML=''; pagerEl.innerHTML=''; });
     </script>
-      currentResults = await SearchEngine.search(q, version);
-      renderPage();
-    });
-  </script>
 </body>
 </html>

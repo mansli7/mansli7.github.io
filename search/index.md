@@ -185,6 +185,20 @@ function performSearch(query) {
   if (!searchIndexLoaded) {
     return;
   }
+
+  // Ensure the bible search engine script has loaded to avoid "SearchEngine is not defined"
+  if(typeof window.SearchEngine === 'undefined'){
+    // wait up to 5s for the script to arrive (handles cache/stale deploys)
+    await new Promise(resolve=>{
+      const start = Date.now();
+      const check = ()=>{ if(window.SearchEngine) return resolve(); if(Date.now()-start>5000) return resolve(); setTimeout(check,200); };
+      check();
+    });
+    if(typeof window.SearchEngine === 'undefined'){
+      document.getElementById('searchResults').innerHTML = '<div style="padding:14px;background:#fff;border:1px solid #fee2e2;border-radius:12px;color:#dc2626">Search engine not loaded. Try a hard refresh (Cmd/Ctrl+Shift+R).</div>';
+      return;
+    }
+  }
   
   if (!query || query.trim().length < 2) {
     resultsDiv.innerHTML = '';
