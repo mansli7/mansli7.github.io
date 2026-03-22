@@ -1,0 +1,13 @@
+{
+  "books": [
+    {
+      "id": "gen",
+      "name_en": "Genesis",
+      "name_zh": null,
+      "testament": "OT",
+      "language": "en",
+      "version": "KJV",
+      "path": "/data/bible/en/KJV/gen.json"
+    }
+  ]
+}
