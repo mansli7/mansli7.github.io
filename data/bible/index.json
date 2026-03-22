@@ -586,13 +586,13 @@
       "path": "/data/bible/zh/CUV/zep.json"
     },
     {
-      "id": "阿摩司書",
+      "id": "amo",
       "name_en": null,
       "name_zh": "阿摩司書",
       "testament": "OT",
       "language": "zh",
       "version": "CUV",
-      "path": "/data/bible/zh/CUV/阿摩司書.json"
+      "path": "/data/bible/zh/CUV/amo.json"
     },
     {
       "id": "1ch",
