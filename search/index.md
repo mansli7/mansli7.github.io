@@ -175,7 +175,7 @@ fetch('/search.json?v=' + Date.now())
   });
 
 // Search function
-function performSearch(query) {
+async function performSearch(query) {
   const searchInput = document.getElementById('searchInput');
   const resultsDiv = document.getElementById('searchResults');
   const statsDiv = document.getElementById('searchStats');

@@ -157,9 +157,19 @@ window.SearchEngine = (function(){
   function groupIdsByBook(ids){
     const m = {};
     for(const id of ids){
-      // id like VERSION:BOOKID:chapter:verse
-      const parts = id.split(':');
-      const book = parts[1].toLowerCase();
+      // id formats supported:
+      // - VERSION:BOOKID:chapter:verse  (legacy)
+      // - bookid-chapter-verse          (current token files, e.g. gen-1-1)
+      let book = null;
+      if(typeof id === 'string' && id.indexOf(':') !== -1){
+        const parts = id.split(':');
+        book = (parts[1] || parts[0]).toLowerCase();
+      } else if(typeof id === 'string' && id.indexOf('-') !== -1){
+        const parts = id.split('-');
+        book = (parts[0] || id).toLowerCase();
+      } else {
+        book = String(id).toLowerCase();
+      }
       if(!m[book]) m[book]=[];
       m[book].push(id);
     }
