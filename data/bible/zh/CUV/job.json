@@ -1,0 +1,261 @@
+{
+  "book": "約伯記",
+  "book_id": "job",
+  "testament": "OT",
+  "language": "zh",
+  "version": "CUV",
+  "verses": [
+    {
+      "id": "job-1-1",
+      "chapter": 1,
+      "verse": 1,
+      "text": "烏斯地有一個人名叫約伯；那人完全正直，敬畏神，遠離惡事。"
+    },
+    {
+      "id": "job-2-1",
+      "chapter": 2,
+      "verse": 1,
+      "text": "又有一天，神的眾子來侍立在耶和華面前，撒但也來在其中。"
+    },
+    {
+      "id": "job-3-1",
+      "chapter": 3,
+      "verse": 1,
+      "text": "此後，約伯開口咒詛自己的生日，"
+    },
+    {
+      "id": "job-4-1",
+      "chapter": 4,
+      "verse": 1,
+      "text": "提幔人以利法回答說："
+    },
+    {
+      "id": "job-5-1",
+      "chapter": 5,
+      "verse": 1,
+      "text": "你且呼求，有誰答應你？諸聖者之中，你轉向那一位呢？"
+    },
+    {
+      "id": "job-6-1",
+      "chapter": 6,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-7-1",
+      "chapter": 7,
+      "verse": 1,
+      "text": "人在世上豈無爭戰嗎？他的日子不像雇工人的日子嗎？"
+    },
+    {
+      "id": "job-8-1",
+      "chapter": 8,
+      "verse": 1,
+      "text": "書亞人比勒達回答說："
+    },
+    {
+      "id": "job-9-1",
+      "chapter": 9,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-10-1",
+      "chapter": 10,
+      "verse": 1,
+      "text": "我厭煩我的性命，必由着自己述說我的哀情；因心裏苦惱，我要說話，"
+    },
+    {
+      "id": "job-11-1",
+      "chapter": 11,
+      "verse": 1,
+      "text": "拿瑪人瑣法回答說："
+    },
+    {
+      "id": "job-12-1",
+      "chapter": 12,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-13-1",
+      "chapter": 13,
+      "verse": 1,
+      "text": "這一切，我眼都見過；我耳都聽過，而且明白。"
+    },
+    {
+      "id": "job-14-1",
+      "chapter": 14,
+      "verse": 1,
+      "text": "人為婦人所生，日子短少，多有患難；"
+    },
+    {
+      "id": "job-15-1",
+      "chapter": 15,
+      "verse": 1,
+      "text": "提幔人以利法回答說："
+    },
+    {
+      "id": "job-16-1",
+      "chapter": 16,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-17-1",
+      "chapter": 17,
+      "verse": 1,
+      "text": "我的心靈消耗，我的日子滅盡；墳墓為我預備好了。"
+    },
+    {
+      "id": "job-18-1",
+      "chapter": 18,
+      "verse": 1,
+      "text": "書亞人比勒達回答說："
+    },
+    {
+      "id": "job-19-1",
+      "chapter": 19,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-20-1",
+      "chapter": 20,
+      "verse": 1,
+      "text": "拿瑪人瑣法回答說："
+    },
+    {
+      "id": "job-21-1",
+      "chapter": 21,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-22-1",
+      "chapter": 22,
+      "verse": 1,
+      "text": "提幔人以利法回答說："
+    },
+    {
+      "id": "job-23-1",
+      "chapter": 23,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-24-1",
+      "chapter": 24,
+      "verse": 1,
+      "text": "全能者既定期罰惡，為何不使認識他的人看見那日子呢？"
+    },
+    {
+      "id": "job-25-1",
+      "chapter": 25,
+      "verse": 1,
+      "text": "書亞人比勒達回答說："
+    },
+    {
+      "id": "job-26-1",
+      "chapter": 26,
+      "verse": 1,
+      "text": "約伯回答說："
+    },
+    {
+      "id": "job-27-1",
+      "chapter": 27,
+      "verse": 1,
+      "text": "約伯接着說："
+    },
+    {
+      "id": "job-28-1",
+      "chapter": 28,
+      "verse": 1,
+      "text": "銀子有礦；煉金有方。"
+    },
+    {
+      "id": "job-29-1",
+      "chapter": 29,
+      "verse": 1,
+      "text": "約伯又接着說："
+    },
+    {
+      "id": "job-30-1",
+      "chapter": 30,
+      "verse": 1,
+      "text": "但如今，比我年少的人戲笑我；其人之父我曾藐視，不肯安在看守我羊群的狗中。"
+    },
+    {
+      "id": "job-31-1",
+      "chapter": 31,
+      "verse": 1,
+      "text": "我與眼睛立約，怎能戀戀瞻望處女呢？"
+    },
+    {
+      "id": "job-32-1",
+      "chapter": 32,
+      "verse": 1,
+      "text": "於是這三個人，因約伯自以為義就不再回答他。"
+    },
+    {
+      "id": "job-33-1",
+      "chapter": 33,
+      "verse": 1,
+      "text": "約伯啊，請聽我的話，留心聽我一切的言語。"
+    },
+    {
+      "id": "job-34-1",
+      "chapter": 34,
+      "verse": 1,
+      "text": "以利戶又說："
+    },
+    {
+      "id": "job-35-1",
+      "chapter": 35,
+      "verse": 1,
+      "text": "以利戶又說："
+    },
+    {
+      "id": "job-36-1",
+      "chapter": 36,
+      "verse": 1,
+      "text": "以利戶又接着說："
+    },
+    {
+      "id": "job-37-1",
+      "chapter": 37,
+      "verse": 1,
+      "text": "因此我心戰兢，從原處移動。"
+    },
+    {
+      "id": "job-38-1",
+      "chapter": 38,
+      "verse": 1,
+      "text": "那時，耶和華從旋風中回答約伯說："
+    },
+    {
+      "id": "job-39-1",
+      "chapter": 39,
+      "verse": 1,
+      "text": "山巖間的野山羊幾時生產，你知道嗎？母鹿下犢之期，你能察定嗎？"
+    },
+    {
+      "id": "job-40-1",
+      "chapter": 40,
+      "verse": 1,
+      "text": "耶和華又對約伯說："
+    },
+    {
+      "id": "job-41-1",
+      "chapter": 41,
+      "verse": 1,
+      "text": "你能用魚鉤釣上鱷魚嗎？能用繩子壓下牠的舌頭嗎？"
+    },
+    {
+      "id": "job-42-1",
+      "chapter": 42,
+      "verse": 1,
+      "text": "約伯回答耶和華說："
+    }
+  ]
+}
