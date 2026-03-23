@@ -1,14 +1,15 @@
 {
   "book": "腓利門書",
   "book_id": "phm",
+  "testament": "OT",
   "language": "zh",
   "version": "CUV",
-  "tokens": {
-    "為基督耶穌被囚的保羅": [
-      "phm-1-1"
-    ],
-    "同兄弟提摩太寫信給我們所親愛的同工腓利門": [
-      "phm-1-1"
-    ]
-  }
+  "verses": [
+    {
+      "id": "phm-1-1",
+      "chapter": 1,
+      "verse": 1,
+      "text": "為基督耶穌被囚的保羅，同兄弟提摩太寫信給我們所親愛的同工腓利門，"
+    }
+  ]
 }
