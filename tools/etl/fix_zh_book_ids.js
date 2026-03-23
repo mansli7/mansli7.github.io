@@ -30,6 +30,8 @@ function shortIdFromName(name){
 
 const files = fs.readdirSync(zhDir).filter(f=>f.endsWith('.json'));
 for(const f of files){
+  // skip token index files (they live alongside book JSONs)
+  if(f.endsWith('-tokens.json')) continue;
   const fp = path.join(zhDir,f);
   try{
     const j = JSON.parse(fs.readFileSync(fp,'utf8'));
