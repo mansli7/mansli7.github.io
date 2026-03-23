@@ -110,7 +110,11 @@ window.SearchEngine = (function(){
     function setFromArray(arr){ return new Set(arr || []); }
     const stack = [];
     for(const t of rpn){
-      if(t.type==='word') stack.push(setFromArray(index[t.val]));
+      if(t.type==='word'){
+        // if the token exists in the index push its id set, otherwise defer to text filtering
+        if(index && index[t.val]) stack.push(setFromArray(index[t.val]));
+        else stack.push({__defer__: t});
+      }
       else if(t.type==='phrase' || t.type==='regex') stack.push({__defer__:t});
       else if(t.type==='op'){
         if(t.val==='~'){
@@ -234,8 +238,8 @@ window.SearchEngine = (function(){
     // if idsSet is null, fallback to scanning universe (slow)
     let candidateIds = idsSet ? Array.from(idsSet) : ([]);
 
-    // if expression had deferred phrase/regex nodes, we need to filter candidates by loading verse texts
-    const hasDeferred = rpn.some(t=>t.type==='phrase' || t.type==='regex');
+    // if expression had deferred nodes (missing tokens) or phrase/regex, we need to filter candidates by loading verse texts
+    const hasDeferred = (idsSet==null) || rpn.some(t=>t.type==='phrase' || t.type==='regex');
     if(hasDeferred){
       // if no candidates yet, set universe
       if(!candidateIds.length){
@@ -262,6 +266,9 @@ window.SearchEngine = (function(){
             if(need) results = results.filter(v => v.text_norm && v.text_norm.includes(need));
           } else if(t.type==='regex'){
             if(t.val){ const re = new RegExp(t.val); results = results.filter(v => re.test(v.text)); }
+          } else if(t.type==='word'){
+            const w = t.val ? String(t.val).toLowerCase() : '';
+            if(w) results = results.filter(v => v.text_norm && v.text_norm.includes(w));
           }
         }
         // compute simple ranking score
