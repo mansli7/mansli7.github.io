@@ -139,9 +139,11 @@ for(const b of books){
 
   // If we still have bad verses (chapter 0 or text is just numbers), try raw-XML fallback
   const looksBad = verses.length === 0 || verses.every(v=> (v.chapter === 0) || (/^\d+$/.test(String(v.text).trim())) );
-  if(looksBad){
+  // Also consider the case where we only captured verse 1 for many chapters (common in some USFX variants)
+  const onlyVerseOnes = verses.length > 0 && verses.every(v=> v.verse === 1) && (new Set(verses.map(v=>v.chapter)).size > 1);
+  if(looksBad || onlyVerseOnes){
     const rawVerses = parseBookFromRawXML((b['@_id']||b['@_code']||'').toString().toUpperCase());
-    if(rawVerses && rawVerses.length) verses.length = 0, verses.push(...rawVerses);
+    if(rawVerses && rawVerses.length){ verses.length = 0; verses.push(...rawVerses); }
   }
 
   function normalize(s){ return String(s||'').replace(/\s+/g,' ').trim(); }
@@ -154,6 +156,16 @@ for(const b of books){
     version: version,
     verses: verses.map(v=>({ id: `${book_id}-${v.chapter}-${v.verse}`, chapter: v.chapter, verse: v.verse, text: v.text }))
   };
+
+  // If we captured verses but they are all verse 1 (common USFX variant where verses are
+  // represented differently), attempt the raw-XML fallback to extract full verses.
+  if(verses.length > 0 && verses.every(v => v.verse === 1)){
+    console.warn('Only captured verse 1 for all verses in', bookName, '- trying raw XML fallback');
+    const rawVerses = parseBookFromRawXML((b['@_id']||b['@_code']||'').toString().toUpperCase());
+    if(rawVerses && rawVerses.length){
+      verses.length = 0; verses.push(...rawVerses);
+    }
+  }
 
   // Guard: skip if book_id is empty to avoid writing files like ".json" or "-tokens.json"
   if(!book_id || String(book_id).trim() === ''){
