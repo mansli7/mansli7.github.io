@@ -137,6 +137,7 @@ window.SearchEngine = (function(){
     if(expr instanceof Set) return expr;
     if(expr.__not__) {
       const sub = idsFromExpr(expr.__not__, index);
+      if(sub == null) return null;
       // universe = all ids from index
       const all = new Set();
       for(const ids of Object.values(index)) ids.forEach(id=>all.add(id));
@@ -146,11 +147,15 @@ window.SearchEngine = (function(){
     if(expr.__and__){
       const a = idsFromExpr(expr.__and__[0], index);
       const b = idsFromExpr(expr.__and__[1], index);
+      // if either side is deferred (null), we cannot compute the intersection now
+      if(a == null || b == null) return null;
       const res = new Set(); for(const x of a) if(b.has(x)) res.add(x); return res;
     }
     if(expr.__or__){
       const a = idsFromExpr(expr.__or__[0], index);
       const b = idsFromExpr(expr.__or__[1], index);
+      // if either side is deferred, we cannot compute a bounded union
+      if(a == null || b == null) return null;
       const res = new Set(a); for(const x of b) res.add(x); return res;
     }
     if(expr.__defer__){
