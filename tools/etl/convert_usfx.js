@@ -71,7 +71,8 @@ for(const b of books){
   const rawName = b['h'] || b['H'] || b['@_title'] || b['title'] || b['@_code'] || b['@_osisID'] || null;
   const bookName = rawName ? (typeof rawName === 'object' ? extractText(rawName) : rawName) : 'Unknown';
   const code = (b['@_id'] || b['@_code'] || (b['@_osisID'] ? b['@_osisID'] : null) || '').toString().toUpperCase();
-  const book_id = codeMap[code] || shortBookId(bookName.replace(/[^A-Za-z0-9\s-]/g,'').trim());
+  // Prefer explicit code map; fall back to 3-letter USFM code, then short derived id
+  const book_id = codeMap[code] || (code && code.length >= 3 && codeMap[code.slice(0,3)]) || shortBookId(bookName.replace(/[^A-Za-z0-9\s-]/g,'').trim());
 
   // find chapter nodes inside book
   const chapters = [];
