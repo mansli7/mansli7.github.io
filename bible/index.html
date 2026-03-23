@@ -54,6 +54,8 @@
   <script>
     // canonical book order and display names
     const bookOrder = ['genesis','exodus','leviticus','numbers','deuteronomy','joshua','judges','ruth','1-samuel','2-samuel','1-kings','2-kings','1-chronicles','2-chronicles','ezra','nehemiah','esther','job','psalm','proverbs','ecclesiastes','song-of-solomon','isaiah','jeremiah','lamentations','ezekiel','daniel','hosea','joel','amos','obadiah','jonah','micah','nahum','habakkuk','zephaniah','haggai','zechariah','malachi','matthew','mark','luke','john','acts','romans','1-corinthians','2-corinthians','galatians','ephesians','philippians','colossians','1-thessalonians','2-thessalonians','1-timothy','2-timothy','titus','philemon','hebrews','james','1-peter','2-peter','1-john','2-john','3-john','jude','revelation'];
+    // short file IDs (must align with bookOrder indices)
+    const bookIds = ['gen','ex','lev','num','dut','jos','jdg','rth','1sm','2sm','1ki','2ki','1ch','2ch','ezr','neh','est','job','psa','pro','ecc','sos','isa','jer','lam','eze','dan','hos','joe','amo','oba','jon','mic','nah','hab','zep','hag','zec','mal','mat','mrk','luk','jhn','act','rom','1co','2co','gal','eph','php','col','1th','2th','1ti','2ti','tit','phm','heb','jam','1pe','2pe','1jo','2jo','3jo','jud','rev'];
     const displayNames = bookOrder.map(b=>b.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join(' '));
     // Traditional Chinese names for CUV1919 (same order as bookOrder)
     const displayNamesZh = ['創世記','出埃及記','利未記','民數記','申命記','約書亞記','士師記','路得記','撒母耳記上','撒母耳記下','列王紀上','列王紀下','歷代志上','歷代志下','以斯拉記','尼希米記','以斯帖記','約伯記','詩篇','箴言','傳道書','雅歌','以賽亞書','耶利米書','耶利米哀歌','以西結書','但以理書','何西阿書','約珥書','阿摩司書','俄巴底亞書','約拿書','彌迦書','那鴻書','哈巴谷書','西番雅書','哈該書','撒迦利亞書','瑪拉基書','馬太福音','馬可福音','路加福音','約翰福音','使徒行傳','羅馬書','哥林多前書','哥林多後書','加拉太書','以弗所書','腓立比書','歌羅西書','帖撒羅尼迦前書','帖撒羅尼迦後書','提摩太前書','提摩太後書','提多書','腓利門書','希伯來書','雅各書','彼得前書','彼得後書','約翰一書','約翰二書','約翰三書','猶大書','啟示錄'];
@@ -74,7 +76,7 @@
       const otGroup = document.createElement('optgroup'); otGroup.label = 'Old Testament';
       const ntGroup = document.createElement('optgroup'); ntGroup.label = 'New Testament';
       for(let i=0;i<bookOrder.length;i++){
-        const id = bookOrder[i];
+        const id = bookIds[i];
         const name = (versionEl.value === 'CUV' ? displayNamesZh[i] : displayNames[i]);
         if(filter && !name.toLowerCase().includes(filter.toLowerCase())) continue;
         const opt = document.createElement('option'); opt.value = id; opt.textContent = name;
@@ -91,7 +93,8 @@
     async function loadBook(bookId){
       currentBook = bookId;
       const ver = versionEl.value || 'KJV';
-      const url = `/data/bible/en/${ver}/${bookId}.json`;
+      const lang = (ver === 'CUV') ? 'zh' : 'en';
+      const url = `/data/bible/${lang}/${ver}/${bookId}.json`;
       try{
         const res = await fetch(url);
         if(!res.ok) throw new Error('Not found');
@@ -117,8 +120,13 @@
     }
 
     function getBookDisplayName(bookId){
-      const idx = bookOrder.indexOf(bookId);
-      if(idx<0) return bookId;
+      // bookId is short id from bookIds; map back to index
+      const idx = bookIds.indexOf(bookId);
+      if(idx<0){
+        const f = bookOrder.indexOf(bookId);
+        if(f>=0) return (versionEl.value === 'CUV' ? displayNamesZh[f] : displayNames[f]);
+        return bookId;
+      }
       return (versionEl.value === 'CUV' ? displayNamesZh[idx] : displayNames[idx]);
     }
 
@@ -138,7 +146,12 @@
 
     function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-    loadBookBtn.addEventListener('click', ()=>{ const fname = bookFilter.value.trim(); if(!fname) return; const found = bookOrder.find(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b)); if(found) { document.getElementById('book-select').value = found; loadBook(found); } else { populateBookSelect(fname); } });
+    loadBookBtn.addEventListener('click', ()=>{
+      const fname = bookFilter.value.trim(); if(!fname) return;
+      const foundIndex = bookOrder.findIndex(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b));
+      if(foundIndex !== -1){ document.getElementById('book-select').value = bookIds[foundIndex]; loadBook(bookIds[foundIndex]); }
+      else { populateBookSelect(fname); }
+    });
     bookFilter.addEventListener('input', ()=> populateBookSelect(bookFilter.value.trim()));
 
     // initial render
