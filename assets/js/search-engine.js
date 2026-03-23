@@ -238,7 +238,10 @@ window.SearchEngine = (function(){
     const tokens = tokenizeQuery(query);
     const rpn = toRPN(tokens);
     const expr = evalRPN(rpn, idx);
-    const idsSet = idsFromExpr(expr, idx);
+    let idsSet = null;
+    try{
+      idsSet = idsFromExpr(expr, idx);
+    }catch(e){ console.error('SearchEngine: idsFromExpr error', e); idsSet = null; }
 
     // if idsSet is null, fallback to scanning universe (slow)
     let candidateIds = idsSet ? Array.from(idsSet) : ([]);
