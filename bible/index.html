@@ -98,8 +98,18 @@
       try{
         const res = await fetch(url);
         if(!res.ok) throw new Error('Not found');
-        const arr = await res.json();
-        bookData = arr;
+        const data = await res.json();
+          // normalize shapes: support {verses: [...]} or array directly
+          let arr = null;
+          if(Array.isArray(data)) arr = data;
+          else if(data && Array.isArray(data.verses)) arr = data.verses;
+          else if(data && Array.isArray(data.v)) arr = data.v;
+          else arr = [];
+          // attach book metadata and text_norm for searching/display
+          const bookName = (data && data.book) ? data.book : bookId;
+          const bookIdMeta = (data && data.book_id) ? data.book_id : bookId;
+          for(const v of arr){ if(v && typeof v === 'object'){ v.book = v.book || bookName; v.book_id = v.book_id || bookIdMeta; v.text_norm = v.text_norm || (v.text ? v.text.toLowerCase() : ''); } }
+          bookData = arr;
         // highlight active book
         document.querySelectorAll('.book').forEach(el=>el.classList.toggle('active', el.dataset.book===bookId));
         renderChapters();
