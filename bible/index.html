@@ -55,6 +55,8 @@
     // canonical book order and display names
     const bookOrder = ['genesis','exodus','leviticus','numbers','deuteronomy','joshua','judges','ruth','1-samuel','2-samuel','1-kings','2-kings','1-chronicles','2-chronicles','ezra','nehemiah','esther','job','psalm','proverbs','ecclesiastes','song-of-solomon','isaiah','jeremiah','lamentations','ezekiel','daniel','hosea','joel','amos','obadiah','jonah','micah','nahum','habakkuk','zephaniah','haggai','zechariah','malachi','matthew','mark','luke','john','acts','romans','1-corinthians','2-corinthians','galatians','ephesians','philippians','colossians','1-thessalonians','2-thessalonians','1-timothy','2-timothy','titus','philemon','hebrews','james','1-peter','2-peter','1-john','2-john','3-john','jude','revelation'];
     const displayNames = bookOrder.map(b=>b.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join(' '));
+    // Traditional Chinese names for CUV1919 (same order as bookOrder)
+    const displayNamesZh = ['創世記','出埃及記','利未記','民數記','申命記','約書亞記','士師記','路得記','撒母耳記上','撒母耳記下','列王紀上','列王紀下','歷代志上','歷代志下','以斯拉記','尼希米記','以斯帖記','約伯記','詩篇','箴言','傳道書','雅歌','以賽亞書','耶利米書','耶利米哀歌','以西結書','但以理書','何西阿書','約珥書','阿摩司書','俄巴底亞書','約拿書','彌迦書','那鴻書','哈巴谷書','西番雅書','哈該書','撒迦利亞書','瑪拉基書','馬太福音','馬可福音','路加福音','約翰福音','使徒行傳','羅馬書','哥林多前書','哥林多後書','加拉太書','以弗所書','腓立比書','歌羅西書','帖撒羅尼迦前書','帖撒羅尼迦後書','提摩太前書','提摩太後書','提多書','腓利門書','希伯來書','雅各書','彼得前書','彼得後書','約翰一書','約翰二書','約翰三書','猶大書','啟示錄'];
 
     const booksEl = document.getElementById('books');
     const chaptersEl = document.getElementById('chapters');
@@ -72,7 +74,8 @@
       const otGroup = document.createElement('optgroup'); otGroup.label = 'Old Testament';
       const ntGroup = document.createElement('optgroup'); ntGroup.label = 'New Testament';
       for(let i=0;i<bookOrder.length;i++){
-        const id = bookOrder[i]; const name = displayNames[i];
+        const id = bookOrder[i];
+        const name = (versionEl.value === 'CUV' ? displayNamesZh[i] : displayNames[i]);
         if(filter && !name.toLowerCase().includes(filter.toLowerCase())) continue;
         const opt = document.createElement('option'); opt.value = id; opt.textContent = name;
         if(i < ntIndex) otGroup.appendChild(opt); else ntGroup.appendChild(opt);
@@ -81,6 +84,9 @@
       if(ntGroup.children.length) sel.appendChild(ntGroup);
       sel.onchange = ()=>{ const v = sel.value; if(v) loadBook(v); };
     }
+
+    // Update book labels when version changes
+    versionEl.addEventListener('change', ()=> populateBookSelect(bookFilter.value.trim()));
 
     async function loadBook(bookId){
       currentBook = bookId;
@@ -110,13 +116,20 @@
       }
     }
 
+    function getBookDisplayName(bookId){
+      const idx = bookOrder.indexOf(bookId);
+      if(idx<0) return bookId;
+      return (versionEl.value === 'CUV' ? displayNamesZh[idx] : displayNames[idx]);
+    }
+
     function renderChapter(ch){
       if(!bookData) return;
       const verses = bookData.filter(v=>v.chapter===ch);
       versesEl.innerHTML = '';
       for(const v of verses){
         const d = document.createElement('div'); d.className='verse';
-        d.innerHTML = `<strong>${v.book} ${v.chapter}:${v.verse}</strong> <span>${escapeHtml(v.text)}</span>`;
+        const bookLabel = getBookDisplayName(currentBook || v.book);
+        d.innerHTML = `<strong>${bookLabel} ${v.chapter}:${v.verse}</strong> <span>${escapeHtml(v.text)}</span>`;
         versesEl.appendChild(d);
       }
       // mark active chapter
