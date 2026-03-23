@@ -208,44 +208,68 @@ function parseBookFromRawXML(code){
     const cEnd = body.indexOf('>', cPos);
     if(cEnd === -1) break;
     const cTag = body.substring(cPos, cEnd+1);
-    const chMatch = cTag.match(/\b(?:id|ID|Id|n)=["']?(\d+)["']?/i);
+    const chMatch = cTag.match(/\b(?:id|ID|Id|n)=['"]?(\d+)['"]?/i);
     const chNum = chMatch ? parseInt(chMatch[1],10) : 0;
     const nextC = body.indexOf('<c', cEnd+1);
     const chunkEnd = nextC === -1 ? body.length : nextC;
     const chunk = body.substring(cEnd+1, chunkEnd);
-    // scan for <v ...> occurrences
-    let i = 0;
-    while(true){
-      const vPos = chunk.indexOf('<v', i);
-      if(vPos === -1) break;
-      const vEnd = chunk.indexOf('>', vPos);
-      if(vEnd === -1) break;
-      const vTag = chunk.substring(vPos, vEnd+1);
-      const vMatch = vTag.match(/\b(?:id|ID|Id|n)=["']?(\d+)["']?/i);
-      const vNum = vMatch ? parseInt(vMatch[1],10) : 0;
-      let verseText = '';
-      if(/\/>\s*$/.test(vTag)){ // self-closing <v .../>
-        const after = vEnd + 1;
-        // text up to <ve or next <v or <c
-        const vePos = chunk.indexOf('<ve', after);
-        const nextV = chunk.indexOf('<v', after);
-        const cutoff = vePos !== -1 ? vePos : (nextV !== -1 ? nextV : chunk.length);
-        verseText = chunk.substring(after, cutoff);
-        i = cutoff;
-      } else {
-        // find closing </v>
-        const close = chunk.indexOf('</v>', vEnd+1);
-        if(close !== -1){
-          verseText = chunk.substring(vEnd+1, close);
-          i = close + 4;
-        } else {
-          i = vEnd +1;
-        }
-      }
-      const cleaned = verseText.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
-      if(chNum && vNum && cleaned) verses.push({ chapter: chNum, verse: vNum, text: cleaned });
-      else if(vNum && cleaned) verses.push({ chapter: chNum, verse: vNum, text: cleaned });
+
+    // First: try to extract verses using robust regexes that match common USFX patterns:
+    // 1) self-closing <v .../> followed by text and a <ve/> end marker
+    // 2) explicit <v ...>...</v>
+    const selfRe = /<v\b[^>]*\b(?:id|n)=['"]?(\d+)['"]?[^>]*\/>([\s\S]*?)(?:<ve\b[^>]*>|(?=<v)|$)/gim;
+    const fullRe = /<v\b[^>]*\b(?:id|n)=['"]?(\d+)['"]?[^>]*>([\s\S]*?)<\/v>/gim;
+
+    let found = false;
+    let m;
+    while((m = selfRe.exec(chunk)) !== null){
+      found = true;
+      const vNum = parseInt(m[1],10) || 0;
+      const rawText = m[2] || '';
+      const cleaned = rawText.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+      if((vNum || vNum===0) && cleaned) verses.push({ chapter: chNum, verse: vNum, text: cleaned });
     }
+    while((m = fullRe.exec(chunk)) !== null){
+      found = true;
+      const vNum = parseInt(m[1],10) || 0;
+      const rawText = m[2] || '';
+      const cleaned = rawText.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+      if((vNum || vNum===0) && cleaned) verses.push({ chapter: chNum, verse: vNum, text: cleaned });
+    }
+
+    // Fallback to previous scanning approach if regexes didn't find anything
+    if(!found){
+      let i = 0;
+      while(true){
+        const vPos = chunk.indexOf('<v', i);
+        if(vPos === -1) break;
+        const vEnd = chunk.indexOf('>', vPos);
+        if(vEnd === -1) break;
+        const vTag = chunk.substring(vPos, vEnd+1);
+        const vMatch = vTag.match(/\b(?:id|ID|Id|n)=['"]?(\d+)['"]?/i);
+        const vNum = vMatch ? parseInt(vMatch[1],10) : 0;
+        let verseText = '';
+        if(/\/\/>\s*$/.test(vTag)){ // self-closing <v .../>
+          const after = vEnd + 1;
+          const vePos = chunk.indexOf('<ve', after);
+          const nextV = chunk.indexOf('<v', after);
+          const cutoff = vePos !== -1 ? vePos : (nextV !== -1 ? nextV : chunk.length);
+          verseText = chunk.substring(after, cutoff);
+          i = cutoff;
+        } else {
+          const close = chunk.indexOf('</v>', vEnd+1);
+          if(close !== -1){
+            verseText = chunk.substring(vEnd+1, close);
+            i = close + 4;
+          } else {
+            i = vEnd +1;
+          }
+        }
+        const cleaned = verseText.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+        if((vNum || vNum===0) && cleaned) verses.push({ chapter: chNum, verse: vNum, text: cleaned });
+      }
+    }
+
     p = chunkEnd;
   }
   return verses;
