@@ -1,0 +1,132 @@
+---
+layout: default
+title: 2 Chronicles Study Questions
+---
+
+# 2 Chronicles Study Questions
+
+<div style="margin-bottom: 2rem;">
+  <a href="../" class="cta" style="background: linear-gradient(180deg, #8b7355, #6d5a42);">← Back to Study Questions</a>
+  <a href="../zh/2-chronicles" class="cta" style="margin-left: 1rem;">中文版本</a>
+</div>
+
+---
+
+
+2 Chronicles 1–4
+
+---
+
+
+Where was the ark of God, where was the tabernacle Moses had made, from when did the ark begin to be in different places, and after Israel entered Canaan, where did the ark rest?
+If you were Solomon, what would you have asked the LORD to give you?
+Where was the temple built, and what had happened at that place?
+
+---
+
+
+2 Chronicles 5–8
+
+---
+
+
+What did the priests say as they praised the LORD?
+Where is the “place the LORD has chosen for his Name to dwell”?
+How many times in Solomon’s prayer did he ask the LORD to hear and listen?
+When fire came down from heaven and consumed the burnt offerings and other sacrifices, and the glory of the LORD filled the temple, how did all Israel give thanks to the LORD?
+Was Solomon’s wife an Israelite, and why could she not live in the palace of David king of Israel?
+
+---
+
+
+2 Chronicles 9–12
+
+---
+
+
+What did the Queen of Sheba hear that made her come to Jerusalem, and what questions did she bring to test Solomon? What have you learned from her?
+When Rehoboam wanted to go to war against Israel and to regain the kingdom for himself, what word did the LORD give to Shemaiah the man of God?
+Which tribes and which people sided with King Rehoboam of Judah?
+Why did Pharaoh Shishak of Egypt attack Jerusalem, but not destroy the kingdom of Judah?
+
+---
+
+
+2 Chronicles 13–16
+
+---
+
+
+How did the northern kingdom of Israel appoint priests for themselves?
+On whom did King Abijah of Judah rely, that his 400,000 men defeated Israel’s 800,000 warriors?
+On whom did King Asa of Judah rely to defeat a million Cushite troops? Which prophet came to him, what did he do, and from then there was no war until the thirty-fifth year of his reign?
+In the thirty-sixth year of Asa’s reign, Baasha king of Israel attacked Judah. On whom did Asa rely, which prophet came to him, and what did he say? After that, there would still be war.
+
+---
+
+
+2 Chronicles 17–20
+
+---
+
+
+Why was the LORD with Jehoshaphat?
+What did the messenger sent by the king of Israel to summon Micaiah say to him, and how did Micaiah respond?
+What did Jehu, son of Hanani, say to Jehoshaphat?
+When facing the armies of the Ammonites, Moabites, and others, to whom did the battle belong? Did Judah need to fight?
+
+---
+
+
+2 Chronicles 21–24
+
+---
+
+
+In the time of Jehoram, Edom rebelled against Judah and set up its own king. Which prophecy did this fulfill?
+King Jehoram of Judah did what was evil in the LORD’s eyes. Therefore, upon whom did the LORD bring disaster, how did Jehoram die, and why did the LORD not destroy the house of David?
+How was King Ahaziah of Judah killed, and by whose hand did this happen?
+Jehosheba saved Joash son of Ahaziah. Whose daughter, whose sister, and whose wife was she?
+What kindness did Jehoiada the priest show to King Joash, and why did Joash kill his son Zechariah?
+
+---
+
+
+2 Chronicles 25–28
+
+---
+
+
+Why was King Amaziah of Judah able to defeat the people of Seir, yet was defeated by Israel?
+When Uzziah king of Judah became powerful, he became proud. How did he act, against whom did he sin, and what disaster did the LORD bring upon him?
+Why did God deliver Ahaz king of Judah into the hands of Pekah king of Israel, and how did the Israelites treat the captives from Judah?
+
+---
+
+
+2 Chronicles 29–32
+
+---
+
+
+In the first month of the first year of Hezekiah’s reign, the priests consecrated the temple of the LORD. How many days did it take?
+When Hezekiah and the people of Judah celebrated the Passover, was it in the first month or second month, how many times did they celebrate, and why?
+When Hezekiah was sick and near death, he prayed to the LORD, and the LORD added fifteen years to his life. Did he respond to the kindness shown him?
+
+---
+
+
+2 Chronicles 33–36
+
+---
+
+
+Why did the army commanders of the king of Assyria attack Manasseh and his people? In his distress, what did he do, and what was the outcome?
+Whom did Josiah king of Judah go out to fight, resulting in his being wounded and killed? Whose affairs was he warned not to oppose?
+How many times did the Babylonians carry the people of Judah into exile, and did the people still have hope of returning to Jerusalem?
+
+---
+
+<p style="text-align: center; margin-top: 3rem;">
+  <a href="../">← Back to Study Questions</a>
+</p>

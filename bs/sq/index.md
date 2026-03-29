@@ -32,8 +32,8 @@ title: Study Questions
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
-  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first twelve books in the reading flow: Genesis through 2 Kings.</p>
-  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十二卷書，從創世記到列王紀下。</p>
+  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first thirteen books in the reading flow: Genesis through 2 Chronicles.</p>
+  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十三卷書，從創世記到歷代志下。</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
@@ -149,17 +149,7 @@ title: Study Questions
       <a href="zh/2-samuel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
-  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Chronicles</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 歷代志上</h3>
-    <p class="card-en text-xs text-slate-400 mb-3">Genealogies, David's rise, the ark, and preparations for the temple.</p>
-    <p class="card-zh text-xs text-slate-400 mb-3">家譜、大衛的興起、約櫃，以及為建殿的預備。</p>
-    <div class="flex gap-2">
-      <a href="en/1-chronicles" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
-      <a href="zh/1-chronicles" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
-    </div>
-  </div>
-  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Kings</h3>
     <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 列王紀上</h3>
     <p class="card-en text-xs text-slate-400 mb-3">Solomon, the temple, the divided kingdom, and prophets.</p>
@@ -177,6 +167,26 @@ title: Study Questions
     <div class="flex gap-2">
       <a href="en/2-kings" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
       <a href="zh/2-kings" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 1 Chronicles</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 歷代志上</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Genealogies, David's rise, the ark, and preparations for the temple.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">家譜、大衛的興起、約櫃，以及為建殿的預備。</p>
+    <div class="flex gap-2">
+      <a href="en/1-chronicles" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/1-chronicles" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 2 Chronicles</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 歷代志下</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Temple worship, kings of Judah, reform, exile, and faithfulness themes.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">聖殿敬拜、猶大列王、宗教改革、被擄，以及信仰主題。</p>
+    <div class="flex gap-2">
+      <a href="en/2-chronicles" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/2-chronicles" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
 </div>
