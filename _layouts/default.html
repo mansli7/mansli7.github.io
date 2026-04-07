@@ -375,6 +375,28 @@
       return html;
     }
 
+    function normalizePrompts(items) {
+      if (!items || !items.length) return [];
+      var normalized = [];
+      for (var i = 0; i < items.length; i++) {
+        var item = String(items[i] || '').trim();
+        if (!item) continue;
+
+        var matches = item.match(/[^?？]+[?？]/g);
+        if (matches && matches.length > 1) {
+          for (var j = 0; j < matches.length; j++) {
+            var question = matches[j].trim();
+            if (question) normalized.push(question);
+          }
+          var remainder = item.replace(/(?:[^?？]+[?？]\s*)+/g, '').trim();
+          if (remainder) normalized.push(remainder);
+        } else {
+          normalized.push(item);
+        }
+      }
+      return normalized;
+    }
+
     function renderWidget() {
       var currentLang = langApi && langApi.getCurrentLang ? langApi.getCurrentLang() : 'en';
       if (!elActions || !elRef || !elRefZh) return;
@@ -426,7 +448,7 @@
       // Show study-question prompts inline (if available). No extra SQ button.
       if (parsed.sqStatus && parsed.sqStatus.available) {
         var hq = window.Mansli7Reading2026 && window.Mansli7Reading2026.hq ? window.Mansli7Reading2026.hq : {};
-        var prompts = hq && hq[code] ? (currentLang === 'zh' ? hq[code].zh : hq[code].en) : null;
+        var prompts = hq && hq[code] ? normalizePrompts(currentLang === 'zh' ? hq[code].zh : hq[code].en) : null;
         if (elNote) {
           if (prompts && prompts.length) {
             elNote.innerHTML = renderPromptList(prompts);
@@ -436,7 +458,7 @@
             if (window.Mansli7Reading2026 && window.Mansli7Reading2026.getPromptsFor) {
               window.Mansli7Reading2026.getPromptsFor(code).then(function(res) {
                 if (!res) return;
-                var loaded = currentLang === 'zh' ? res.zh : res.en;
+                var loaded = normalizePrompts(currentLang === 'zh' ? res.zh : res.en);
                 if (loaded && loaded.length) {
                   elNote.innerHTML = renderPromptList(loaded);
                 }
