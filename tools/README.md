@@ -101,3 +101,21 @@ Notes and troubleshooting
 - The extractor reads the `r`, `n`, and `sq` mappings from `assets/js/reading-plan-2026.js`. If you change book abbreviations or slugs, update that file accordingly.
 - If a date is a "Review" day (code `Review`) the calendar intentionally hides the question panel — no action required for those dates.
 - If you want the CLI to write per-book files directly, I can add a `--write-book` flag to automate saving outputs into `mansli7.github.io/data/bs-sq/{lang}/{slug}.json`.
+
+
+in index.md of mansli7.github.io, how does it load the study question of today?
+
+ In index.md, todayRef is only the DOM element that shows the reading label on the home page, like “2 Kings 13–16 — Study Questions”. It does not fetch the study questions itself. You can see that placeholder at index.md:36 and the separate note/action containers at index.md:38 and index.md:39.
+
+The actual loading happens in the homepage script inside default.html:351. The flow is:
+
+It gets today’s date and maps it to a reading code from window.Mansli7Reading2026.r, for example on 2026-04-07 that is 2Ki13-16, from reading-plan-2026.js:3.
+It parses that code with parse(code) and writes the title text into todayRef and todayRefZh in default.html:384.
+If study questions are available, it loads the actual prompt list and renders it into todayNote, not todayRef, in default.html:407.
+It also creates the BibleGateway button inside todayActions in default.html:392.
+The prompt source is window.Mansli7Reading2026.getPromptsFor(code) from reading-plan-2026.js:233. That function tries, in order:
+
+Already-loaded in-memory prompt data in window.Mansli7Reading2026.hq.
+Per-book JSON files under data/bs-sq/{lang}/{slug}.json via fetchHqBook, in reading-plan-2026.js:277.
+Fallback extraction from the book study-question pages under bs/sq/{lang}/{slug} via fetchSqPrompts, in reading-plan-2026.js:88.
+So the short answer is: todayRef displays the heading, but today’s study questions are loaded by the homepage script and inserted into todayNote.
