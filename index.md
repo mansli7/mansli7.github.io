@@ -35,7 +35,7 @@ title: Home
   </div>
   <div id="todayRef" class="card-en text-2xl font-bold text-slate-900 leading-tight mb-1">Loading…</div>
   <div id="todayRefZh" class="card-zh text-2xl font-bold text-slate-900 leading-tight mb-1">載入中…</div>
-  <div id="todayNote" class="text-sm text-slate-500 mt-4 mb-4"></div>
+  <div id="todayNote" class="text-base text-slate-500 mt-4 mb-4"></div>
   <div id="todayActions" class="flex flex-wrap gap-3"></div>
 </div>
 

@@ -367,7 +367,7 @@
 
     function renderPromptList(items) {
       if (!items || !items.length) return '';
-      var html = '<div class="text-sm text-slate-600 mb-3" style="display:grid;gap:0.75rem;margin:0;">';
+      var html = '<div class="text-base text-slate-600 mb-3" style="display:grid;gap:0.75rem;margin:0;">';
       for (var idx = 0; idx < items.length; idx++) {
         html += '<div style="line-height:1.7;padding:0 0 0.75rem 1rem;border-bottom:1px solid rgba(148,163,184,0.25);">' + (idx + 1) + '. ' + items[idx] + '</div>';
       }
