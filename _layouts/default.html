@@ -365,6 +365,16 @@
     var elNote = document.getElementById('todayNote');
     var elActions = document.getElementById('todayActions');
 
+    function renderPromptList(items) {
+      if (!items || !items.length) return '';
+      var html = '<div class="text-sm text-slate-600 mb-3" style="display:grid;gap:0.75rem;margin:0;">';
+      for (var idx = 0; idx < items.length; idx++) {
+        html += '<div style="line-height:1.7;padding:0 0 0.75rem 1rem;border-bottom:1px solid rgba(148,163,184,0.25);">' + (idx + 1) + '. ' + items[idx] + '</div>';
+      }
+      html += '</div>';
+      return html;
+    }
+
     function renderWidget() {
       var currentLang = langApi && langApi.getCurrentLang ? langApi.getCurrentLang() : 'en';
       if (!elActions || !elRef || !elRefZh) return;
@@ -419,13 +429,7 @@
         var prompts = hq && hq[code] ? (currentLang === 'zh' ? hq[code].zh : hq[code].en) : null;
         if (elNote) {
           if (prompts && prompts.length) {
-            var noteHtml = '';
-            noteHtml += '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
-            for (var i = 0; i < prompts.length; i++) {
-              noteHtml += '<li style="margin-bottom:0.75rem;line-height:1.7;">' + prompts[i] + '<br></li>';
-            }
-            noteHtml += '</ul>';
-            elNote.innerHTML = noteHtml;
+            elNote.innerHTML = renderPromptList(prompts);
           } else {
             // show availability message immediately, then attempt to load prompts from book page
             elNote.textContent = currentLang === 'zh' ? '今日有對應學習問題。' : 'Study question available for today.';
@@ -434,10 +438,7 @@
                 if (!res) return;
                 var loaded = currentLang === 'zh' ? res.zh : res.en;
                 if (loaded && loaded.length) {
-                  var noteHtml2 = '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
-                  for (var j = 0; j < loaded.length; j++) noteHtml2 += '<li style="margin-bottom:0.75rem;line-height:1.7;">' + loaded[j] + '<br></li>';
-                  noteHtml2 += '</ul>';
-                  elNote.innerHTML = noteHtml2;
+                  elNote.innerHTML = renderPromptList(loaded);
                 }
               }).catch(function(){});
             }
