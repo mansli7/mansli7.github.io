@@ -23,23 +23,38 @@ title: Bible
 <div class="bible-reader-wrap">
   <div class="panel">
       <div class="row">
-        <h2 style="margin:0">📖 Bible Reader</h2>
-        <div style="margin-left:auto;color:#64748b;font-size:13px">Read KJV &amp; CUV1919</div>
+        <h2 style="margin:0">
+          <span class="card-en">📖 Bible Reader</span>
+          <span class="card-zh">📖 聖經閱讀器</span>
+        </h2>
+        <div style="margin-left:auto;color:#64748b;font-size:13px">
+          <span class="card-en">Read KJV &amp; CUV1919</span>
+          <span class="card-zh">閱讀 KJV 與和合本 1919</span>
+        </div>
       </div>
 
       <div style="margin-top:12px" class="row">
-        <label for="version">Version</label>
+        <label for="version">
+          <span class="card-en">Version</span>
+          <span class="card-zh">版本</span>
+        </label>
         <select id="version">
           <option value="KJV" selected>KJV</option>
-          <option value="ESV">ESV (coming)</option>
+          <option value="ESV">ESV (coming soon)</option>
           <option value="CUV">CUV1919</option>
         </select>
         <input id="bookFilter" placeholder="Filter books (Genesis, John...)" style="flex:1;margin-left:8px">
-        <button id="loadBook" style="padding:8px 10px;background:#2563eb;color:#fff;border-radius:8px;border:none">Load</button>
+        <button id="loadBook" style="padding:8px 10px;background:#2563eb;color:#fff;border-radius:8px;border:none">
+          <span class="card-en">Load</span>
+          <span class="card-zh">載入</span>
+        </button>
       </div>
 
       <div style="margin-top:12px">
-        <label for="book-select" style="display:block;font-size:13px;color:#475569;margin-bottom:6px">Select Book</label>
+        <label for="book-select" style="display:block;font-size:13px;color:#475569;margin-bottom:6px">
+          <span class="card-en">Select Book</span>
+          <span class="card-zh">選擇書卷</span>
+        </label>
         <select id="book-select" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8"></select>
       </div>
       <div class="chapters" id="chapters"></div>
@@ -62,30 +77,54 @@ title: Bible
   const versesEl = document.getElementById('verses');
   const versionEl = document.getElementById('version');
   const bookFilter = document.getElementById('bookFilter');
+  const bookSelectEl = document.getElementById('book-select');
   const loadBookBtn = document.getElementById('loadBook');
+  const siteLangApi = window.Mansli7Lang;
 
   let currentBook = null;
   let bookData = null;
 
-  function populateBookSelect(filter){
-    const sel = document.getElementById('book-select'); sel.innerHTML = '';
+  function getCurrentSiteLang() {
+    return siteLangApi && siteLangApi.getCurrentLang ? siteLangApi.getCurrentLang() : 'en';
+  }
+
+  function updateUiText() {
+    const currentLang = getCurrentSiteLang();
+    const esvOption = versionEl.querySelector('option[value="ESV"]');
+    bookFilter.placeholder = currentLang === 'zh' ? '篩選書卷（創世記、約翰福音...）' : 'Filter books (Genesis, John...)';
+    if (esvOption) esvOption.textContent = currentLang === 'zh' ? 'ESV（即將推出）' : 'ESV (coming soon)';
+  }
+
+  function populateBookSelect(filter, preferredBookId){
+    const currentLang = getCurrentSiteLang();
+    const preferred = preferredBookId || bookSelectEl.value || currentBook;
+    bookSelectEl.innerHTML = '';
     const ntIndex = bookOrder.indexOf('matthew');
-    const otGroup = document.createElement('optgroup'); otGroup.label = 'Old Testament';
-    const ntGroup = document.createElement('optgroup'); ntGroup.label = 'New Testament';
+    const otGroup = document.createElement('optgroup'); otGroup.label = currentLang === 'zh' ? '舊約' : 'Old Testament';
+    const ntGroup = document.createElement('optgroup'); ntGroup.label = currentLang === 'zh' ? '新約' : 'New Testament';
     for(let i=0;i<bookOrder.length;i++){
       const id = bookIds[i];
       const name = (versionEl.value === 'CUV' ? displayNamesZh[i] : displayNames[i]);
       if(filter && !name.toLowerCase().includes(filter.toLowerCase())) continue;
       const opt = document.createElement('option'); opt.value = id; opt.textContent = name;
+      if (id === preferred) opt.selected = true;
       if(i < ntIndex) otGroup.appendChild(opt); else ntGroup.appendChild(opt);
     }
-    if(otGroup.children.length) sel.appendChild(otGroup);
-    if(ntGroup.children.length) sel.appendChild(ntGroup);
-    sel.onchange = ()=>{ const v = sel.value; if(v) loadBook(v); };
+    if(otGroup.children.length) bookSelectEl.appendChild(otGroup);
+    if(ntGroup.children.length) bookSelectEl.appendChild(ntGroup);
+    if (!bookSelectEl.value) {
+      const firstOption = bookSelectEl.querySelector('option');
+      if (firstOption) firstOption.selected = true;
+    }
+    bookSelectEl.onchange = ()=>{ const v = bookSelectEl.value; if(v) loadBook(v); };
   }
 
   // Update book labels when version changes
-  versionEl.addEventListener('change', ()=> populateBookSelect(bookFilter.value.trim()));
+  versionEl.addEventListener('change', ()=> {
+    populateBookSelect(bookFilter.value.trim(), currentBook);
+    const selectedBook = bookSelectEl.value || currentBook;
+    if (selectedBook) loadBook(selectedBook);
+  });
 
   async function loadBook(bookId){
     currentBook = bookId;
@@ -107,23 +146,27 @@ title: Bible
         const bookIdMeta = (data && data.book_id) ? data.book_id : bookId;
         for(const v of arr){ if(v && typeof v === 'object'){ v.book = v.book || bookName; v.book_id = v.book_id || bookIdMeta; v.text_norm = v.text_norm || (v.text ? v.text.toLowerCase() : ''); } }
         bookData = arr;
+      bookSelectEl.value = bookId;
       // highlight active book
       document.querySelectorAll('.book').forEach(el=>el.classList.toggle('active', el.dataset.book===bookId));
-      renderChapters();
-    }catch(e){ versesEl.innerHTML = `<div style="color:#dc2626">Failed to load ${bookId} (${e.message})</div>`; }
+      const firstChapter = renderChapters();
+      if (firstChapter !== null) renderChapter(firstChapter);
+    }catch(e){ versesEl.innerHTML = `<div style="color:#dc2626">${getCurrentSiteLang() === 'zh' ? '無法載入' : 'Failed to load'} ${bookId} (${e.message})</div>`; }
   }
 
   function renderChapters(){
     chaptersEl.innerHTML='';
-    if(!bookData) return;
+    if(!bookData) return null;
     // group verses by chapter
     const chapters = {};
     for(const v of bookData){ chapters[v.chapter] = (chapters[v.chapter]||0)+1; }
-    for(const ch of Object.keys(chapters).sort((a,b)=>a-b)){
+    const sortedChapters = Object.keys(chapters).sort((a,b)=>a-b);
+    for(const ch of sortedChapters){
       const el = document.createElement('div'); el.className='chapter'; el.textContent = ch; el.dataset.ch = ch;
       el.onclick = ()=> renderChapter(parseInt(ch,10));
       chaptersEl.appendChild(el);
     }
+    return sortedChapters.length ? parseInt(sortedChapters[0], 10) : null;
   }
 
   function getBookDisplayName(bookId){
@@ -154,13 +197,25 @@ title: Bible
   function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
   loadBookBtn.addEventListener('click', ()=>{
-    const fname = bookFilter.value.trim(); if(!fname) return;
+    const fname = bookFilter.value.trim();
+    if(!fname) {
+      const selectedBook = bookSelectEl.value || currentBook;
+      if (selectedBook) loadBook(selectedBook);
+      return;
+    }
     const foundIndex = bookOrder.findIndex(b=>b.includes(fname.toLowerCase()) || fname.toLowerCase().includes(b));
-    if(foundIndex !== -1){ document.getElementById('book-select').value = bookIds[foundIndex]; loadBook(bookIds[foundIndex]); }
-    else { populateBookSelect(fname); }
+    if(foundIndex !== -1){ bookSelectEl.value = bookIds[foundIndex]; loadBook(bookIds[foundIndex]); }
+    else { populateBookSelect(fname, currentBook); }
   });
-  bookFilter.addEventListener('input', ()=> populateBookSelect(bookFilter.value.trim()));
+  bookFilter.addEventListener('input', ()=> populateBookSelect(bookFilter.value.trim(), currentBook));
 
   // initial render
-  populateBookSelect('');
+  if (getCurrentSiteLang() === 'zh') versionEl.value = 'CUV';
+  updateUiText();
+  populateBookSelect('', versionEl.value === 'CUV' ? 'gen' : 'gen');
+  if (bookSelectEl.value) loadBook(bookSelectEl.value);
+  document.addEventListener('mansli7:langchange', function() {
+    updateUiText();
+    populateBookSelect(bookFilter.value.trim(), currentBook);
+  });
 </script>
