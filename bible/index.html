@@ -4,6 +4,11 @@ title: Bible
 ---
 
 <style>
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
   .bible-reader-wrap{max-width:900px;margin:0 auto;width:100%}
   .panel{background:#fff;padding:16px;border-radius:12px;border:1px solid #e6eef8;box-sizing:border-box;max-width:100%}
   .row{display:flex;gap:8px;align-items:center;min-width:0}
@@ -20,8 +25,18 @@ title: Bible
     .chapter{padding:6px 8px;background:#fff;border:1px solid #eef2ff;border-radius:6px;cursor:pointer}
     .chapter.active{background:#eef2ff;border-color:#c7d2fe}
     .verses{margin-top:12px}
-    .verse{padding:8px;border-bottom:1px solid #f1f5f9;font-size:1rem;line-height:1.75}
-    .verse strong{display:inline-block;width:2.5rem;color:#475569;font-variant-numeric:tabular-nums;font-size:1rem}
+    .verse{
+      padding:8px;
+      border-bottom:1px solid #f1f5f9;
+      font-size:1rem;
+      line-height:1.75;
+      font-family:"Inter","PingFang TC","PingFang SC","Hiragino Sans GB","Noto Sans CJK TC","Noto Sans CJK SC","Microsoft JhengHei","Microsoft YaHei","Segoe UI",sans-serif;
+      font-weight:400;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      text-rendering:optimizeLegibility;
+    }
+    .verse strong{display:inline-block;width:2.5rem;color:#475569;font-variant-numeric:tabular-nums;font-size:1rem;font-family:inherit}
     mark{background:#fff59d}
     @media (max-width: 640px) {
       .bible-reader-wrap{overflow-x:hidden}
