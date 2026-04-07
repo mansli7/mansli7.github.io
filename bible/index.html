@@ -4,10 +4,16 @@ title: Bible
 ---
 
 <style>
-    .bible-reader-wrap{max-width:900px;margin:0 auto}
-    .panel{background:#fff;padding:16px;border-radius:12px;border:1px solid #e6eef8}
-    .row{display:flex;gap:8px;align-items:center}
-    select,input{padding:8px;border-radius:8px;border:1px solid #e6eef8}
+  .bible-reader-wrap{max-width:900px;margin:0 auto;width:100%}
+  .panel{background:#fff;padding:16px;border-radius:12px;border:1px solid #e6eef8;box-sizing:border-box;max-width:100%}
+  .row{display:flex;gap:8px;align-items:center;min-width:0}
+  .reader-toolbar{flex-wrap:wrap}
+  .reader-toolbar > *{min-width:0}
+  .reader-toolbar label{flex:0 0 auto}
+  .reader-toolbar select{flex:0 0 auto;max-width:100%}
+  .reader-toolbar input{flex:1 1 14rem;min-width:0;margin-left:0 !important;max-width:100%}
+  .reader-toolbar button{flex:0 0 auto}
+  select,input{padding:8px;border-radius:8px;border:1px solid #e6eef8;box-sizing:border-box;max-width:100%}
     .books{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
     .book{padding:8px 10px;background:#fff;border:1px solid #eef2ff;border-radius:8px;cursor:pointer}
     .book.active{background:#eef2ff;border-color:#c7d2fe}
@@ -18,11 +24,23 @@ title: Bible
     .verse{padding:8px;border-bottom:1px solid #f1f5f9}
     .verse strong{display:inline-block;width:2.5rem;color:#475569;font-variant-numeric:tabular-nums}
     mark{background:#fff59d}
+    @media (max-width: 640px) {
+      .bible-reader-wrap{overflow-x:hidden}
+      .panel{padding:12px}
+      .row{align-items:flex-start}
+      .reader-header{flex-direction:column;align-items:flex-start}
+      .reader-toolbar{display:grid;grid-template-columns:1fr;gap:10px}
+      .reader-toolbar label,
+      .reader-toolbar select,
+      .reader-toolbar input,
+      .reader-toolbar button{width:100%}
+      .reader-toolbar input{margin-left:0 !important}
+    }
 </style>
 
 <div class="bible-reader-wrap">
   <div class="panel">
-      <div class="row">
+      <div class="row reader-header">
         <h2 style="margin:0">
           <span class="card-en">📖 Bible Reader</span>
           <span class="card-zh">📖 聖經閱讀器</span>
@@ -33,7 +51,7 @@ title: Bible
         </div>
       </div>
 
-      <div style="margin-top:12px" class="row">
+      <div style="margin-top:12px" class="row reader-toolbar">
         <label for="version">
           <span class="card-en">Version</span>
           <span class="card-zh">版本</span>
