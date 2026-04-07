@@ -422,7 +422,7 @@
             var noteHtml = '';
             noteHtml += '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
             for (var i = 0; i < prompts.length; i++) {
-              noteHtml += '<li style="margin-bottom:0.35rem;">' + prompts[i] + '</li>';
+              noteHtml += '<li style="margin-bottom:0.75rem;line-height:1.7;">' + prompts[i] + '<br></li>';
             }
             noteHtml += '</ul>';
             elNote.innerHTML = noteHtml;
@@ -435,7 +435,7 @@
                 var loaded = currentLang === 'zh' ? res.zh : res.en;
                 if (loaded && loaded.length) {
                   var noteHtml2 = '<ul class="text-sm text-slate-600 mb-3" style="padding-left:1rem;margin:0;">';
-                  for (var j = 0; j < loaded.length; j++) noteHtml2 += '<li style="margin-bottom:0.35rem;">' + loaded[j] + '</li>';
+                  for (var j = 0; j < loaded.length; j++) noteHtml2 += '<li style="margin-bottom:0.75rem;line-height:1.7;">' + loaded[j] + '<br></li>';
                   noteHtml2 += '</ul>';
                   elNote.innerHTML = noteHtml2;
                 }
