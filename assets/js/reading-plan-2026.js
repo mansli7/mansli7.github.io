@@ -14,6 +14,7 @@
   };
 
   var bgNames = {"Ge":"Genesis","Ex":"Exodus","Lev":"Leviticus","Nu":"Numbers","Dt":"Deuteronomy","Jos":"Joshua","Jdg":"Judges","Ru":"Ruth","1Sa":"1+Samuel","2Sa":"2+Samuel","1Ki":"1+Kings","2Ki":"2+Kings","1Ch":"1+Chronicles","2Ch":"2+Chronicles","Ezr":"Ezra","Ne":"Nehemiah","Est":"Esther","Job":"Job","Ps":"Psalms","Pr":"Proverbs","Ecc":"Ecclesiastes","SS":"Song+of+Solomon","Isa":"Isaiah","Jer":"Jeremiah","La":"Lamentations","Eze":"Ezekiel","Da":"Daniel","Hos":"Hosea","Joel":"Joel","Am":"Amos","Ob":"Obadiah","Jnh":"Jonah","Mic":"Micah","Na":"Nahum","Hab":"Habakkuk","Zep":"Zephaniah","Hag":"Haggai","Zec":"Zechariah","Mal":"Malachi","Mt":"Matthew","Mk":"Mark","Lk":"Luke","Jn":"John","Ac":"Acts","Ro":"Romans","1Co":"1+Corinthians","2Co":"2+Corinthians","Gal":"Galatians","Eph":"Ephesians","Php":"Philippians","Col":"Colossians","1Th":"1+Thessalonians","2Th":"2+Thessalonians","1Ti":"1+Timothy","2Ti":"2+Timothy","Tit":"Titus","Phm":"Philemon","Heb":"Hebrews","Jas":"James","1Pe":"1+Peter","2Pe":"2+Peter","1Jn":"1+John","2Jn":"2+John","3Jn":"3+John","Jude":"Jude","Rev":"Revelation"};
+  var bibleBookIds = {"Ge":"gen","Ex":"ex","Lev":"lev","Nu":"num","Dt":"dut","Jos":"jos","Jdg":"jdg","Ru":"rth","1Sa":"1sm","2Sa":"2sm","1Ki":"1ki","2Ki":"2ki","1Ch":"1ch","2Ch":"2ch","Ezr":"ezr","Ne":"neh","Est":"est","Job":"job","Ps":"psa","Pr":"pro","Ecc":"ecc","SS":"sos","Isa":"isa","Jer":"jer","La":"lam","Eze":"eze","Da":"dan","Hos":"hos","Joel":"joe","Am":"amo","Ob":"oba","Jnh":"jon","Mic":"mic","Na":"nah","Hab":"hab","Zep":"zep","Hag":"hag","Zec":"zec","Mal":"mal","Mt":"mat","Mk":"mrk","Lk":"luk","Jn":"jhn","Ac":"act","Ro":"rom","1Co":"1co","2Co":"2co","Gal":"gal","Eph":"eph","Php":"php","Col":"col","1Th":"1th","2Th":"2th","1Ti":"1ti","2Ti":"2ti","Tit":"tit","Phm":"phm","Heb":"heb","Jas":"jam","1Pe":"1pe","2Pe":"2pe","1Jn":"1jo","2Jn":"2jo","3Jn":"3jo","Jude":"jud","Rev":"rev"};
 
   function bgUrl(abbr, chapters, version, lang) {
     var name = bgNames[abbr];
@@ -75,6 +76,23 @@
     var href = '/bs/sq/' + targetLang + '/' + parsed.sq;
     var anchor = exactSqAnchor(parsed);
     return anchor ? href + '#' + anchor : href;
+  }
+
+  function firstChapterFromText(chapters) {
+    if (!chapters) return '';
+    var match = String(chapters).match(/\d+/);
+    return match ? match[0] : '';
+  }
+
+  function bibleReaderHref(parsed, targetLang) {
+    if (!parsed || !parsed.abbr) return '/bible/';
+    var bookId = bibleBookIds[parsed.abbr];
+    if (!bookId) return '/bible/';
+    var version = targetLang === 'zh' ? 'CUV' : 'KJV';
+    var chapter = firstChapterFromText(parsed.chapters);
+    var href = '/bible/?version=' + encodeURIComponent(version) + '&book=' + encodeURIComponent(bookId);
+    if (chapter) href += '&chapter=' + encodeURIComponent(chapter);
+    return href;
   }
 
   // Utility: escape RegExp
@@ -342,11 +360,13 @@
     sq: sq,
     sqCoverage: sqCoverage,
     bgNames: bgNames,
+    bibleBookIds: bibleBookIds,
     bgUrl: bgUrl,
     studyQuestionStatus: studyQuestionStatus,
     parse: parse,
     exactSqAnchor: exactSqAnchor,
-    exactSqHref: exactSqHref
+    exactSqHref: exactSqHref,
+    bibleReaderHref: bibleReaderHref
   };
 
   // expose fetch helpers

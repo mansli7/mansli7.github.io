@@ -424,12 +424,23 @@
       // Bible link (language-specific version)
       (function(){
         try {
+          var localBibleHref = null;
           var bibleHref = null;
+          if (parsed.abbr && readingPlan.bibleReaderHref) {
+            localBibleHref = readingPlan.bibleReaderHref(parsed, currentLang === 'zh' ? 'zh' : 'en');
+          }
           if (parsed.abbr) {
             // Use shared bgUrl builder so book names are converted and encoded correctly
             bibleHref = readingPlan.bgUrl(parsed.abbr, parsed.chapters, currentLang === 'zh' ? 'CUV' : 'NIV', currentLang === 'zh' ? 'zh' : 'en');
           } else if (parsed.bg) {
             bibleHref = parsed.bg;
+          }
+          if (localBibleHref) {
+            var localBibleBtn = document.createElement('a');
+            localBibleBtn.href = localBibleHref;
+            localBibleBtn.className = 'cta';
+            localBibleBtn.textContent = currentLang === 'zh' ? '📖 在本站打開經文' : '📖 Read here on site';
+            elActions.appendChild(localBibleBtn);
           }
           if (bibleHref) {
             var bibleBtn = document.createElement('a');

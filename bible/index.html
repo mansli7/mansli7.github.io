@@ -16,7 +16,7 @@ title: Bible
     .chapter.active{background:#eef2ff;border-color:#c7d2fe}
     .verses{margin-top:12px}
     .verse{padding:8px;border-bottom:1px solid #f1f5f9}
-    .verse strong{display:inline-block;width:140px}
+    .verse strong{display:inline-block;width:2.5rem;color:#475569;font-variant-numeric:tabular-nums}
     mark{background:#fff59d}
 </style>
 
@@ -80,9 +80,70 @@ title: Bible
   const bookSelectEl = document.getElementById('book-select');
   const loadBookBtn = document.getElementById('loadBook');
   const siteLangApi = window.Mansli7Lang;
+  const STORAGE_KEY = 'mansli7-bible-reader-state';
 
   let currentBook = null;
   let bookData = null;
+  let currentChapter = null;
+
+  function normalizeVersion(value) {
+    return value === 'CUV' || value === 'KJV' || value === 'ESV' ? value : null;
+  }
+
+  function normalizeBookId(value) {
+    if (!value) return null;
+    var raw = String(value).trim().toLowerCase();
+    var idx = bookIds.indexOf(raw);
+    if (idx >= 0) return bookIds[idx];
+    idx = bookOrder.indexOf(raw);
+    return idx >= 0 ? bookIds[idx] : null;
+  }
+
+  function normalizeChapter(value) {
+    var chapter = parseInt(value, 10);
+    return Number.isFinite(chapter) && chapter > 0 ? chapter : null;
+  }
+
+  function loadStoredState() {
+    try {
+      var raw = window.localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function saveReaderState() {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        version: versionEl.value || 'KJV',
+        book: currentBook || bookSelectEl.value || 'gen',
+        chapter: currentChapter || null
+      }));
+    } catch (error) {
+      // ignore storage failures
+    }
+  }
+
+  function syncUrlState() {
+    if (!window.history || !window.history.replaceState) return;
+    var params = new URLSearchParams();
+    params.set('version', versionEl.value || 'KJV');
+    params.set('book', currentBook || bookSelectEl.value || 'gen');
+    if (currentChapter) params.set('chapter', String(currentChapter));
+    window.history.replaceState(null, '', '/bible/?' + params.toString());
+  }
+
+  function getInitialState() {
+    var params = new URLSearchParams(window.location.search || '');
+    var stored = loadStoredState();
+    var siteDefaultVersion = getCurrentSiteLang() === 'zh' ? 'CUV' : 'KJV';
+    return {
+      version: normalizeVersion(params.get('version')) || normalizeVersion(stored.version) || siteDefaultVersion,
+      book: normalizeBookId(params.get('book')) || normalizeBookId(stored.book) || 'gen',
+      chapter: normalizeChapter(params.get('chapter')) || normalizeChapter(stored.chapter)
+    };
+  }
 
   function getCurrentSiteLang() {
     return siteLangApi && siteLangApi.getCurrentLang ? siteLangApi.getCurrentLang() : 'en';
@@ -123,10 +184,10 @@ title: Bible
   versionEl.addEventListener('change', ()=> {
     populateBookSelect(bookFilter.value.trim(), currentBook);
     const selectedBook = bookSelectEl.value || currentBook;
-    if (selectedBook) loadBook(selectedBook);
+    if (selectedBook) loadBook(selectedBook, currentChapter);
   });
 
-  async function loadBook(bookId){
+  async function loadBook(bookId, chapterToOpen){
     currentBook = bookId;
     const ver = versionEl.value || 'KJV';
     const lang = (ver === 'CUV') ? 'zh' : 'en';
@@ -147,26 +208,34 @@ title: Bible
         for(const v of arr){ if(v && typeof v === 'object'){ v.book = v.book || bookName; v.book_id = v.book_id || bookIdMeta; v.text_norm = v.text_norm || (v.text ? v.text.toLowerCase() : ''); } }
         bookData = arr;
       bookSelectEl.value = bookId;
+      saveReaderState();
       // highlight active book
       document.querySelectorAll('.book').forEach(el=>el.classList.toggle('active', el.dataset.book===bookId));
-      const firstChapter = renderChapters();
-      if (firstChapter !== null) renderChapter(firstChapter);
+      const chapters = renderChapters();
+      var chapterToRender = chapters.length ? chapters[0] : null;
+      if (chapterToOpen !== null && chapterToOpen !== undefined) {
+        var normalizedRequested = normalizeChapter(chapterToOpen);
+        if (normalizedRequested !== null && chapters.indexOf(normalizedRequested) !== -1) {
+          chapterToRender = normalizedRequested;
+        }
+      }
+      if (chapterToRender !== null) renderChapter(chapterToRender);
     }catch(e){ versesEl.innerHTML = `<div style="color:#dc2626">${getCurrentSiteLang() === 'zh' ? '無法載入' : 'Failed to load'} ${bookId} (${e.message})</div>`; }
   }
 
   function renderChapters(){
     chaptersEl.innerHTML='';
-    if(!bookData) return null;
+    if(!bookData) return [];
     // group verses by chapter
     const chapters = {};
     for(const v of bookData){ chapters[v.chapter] = (chapters[v.chapter]||0)+1; }
-    const sortedChapters = Object.keys(chapters).sort((a,b)=>a-b);
+    const sortedChapters = Object.keys(chapters).map(function(ch){ return parseInt(ch, 10); }).sort((a,b)=>a-b);
     for(const ch of sortedChapters){
       const el = document.createElement('div'); el.className='chapter'; el.textContent = ch; el.dataset.ch = ch;
       el.onclick = ()=> renderChapter(parseInt(ch,10));
       chaptersEl.appendChild(el);
     }
-    return sortedChapters.length ? parseInt(sortedChapters[0], 10) : null;
+    return sortedChapters;
   }
 
   function getBookDisplayName(bookId){
@@ -182,16 +251,18 @@ title: Bible
 
   function renderChapter(ch){
     if(!bookData) return;
+    currentChapter = normalizeChapter(ch);
     const verses = bookData.filter(v=>v.chapter===ch);
     versesEl.innerHTML = '';
     for(const v of verses){
       const d = document.createElement('div'); d.className='verse';
-      const bookLabel = getBookDisplayName(currentBook || v.book);
-      d.innerHTML = `<strong>${bookLabel} ${v.chapter}:${v.verse}</strong> <span>${escapeHtml(v.text)}</span>`;
+      d.innerHTML = `<strong>${v.verse}</strong> <span>${escapeHtml(v.text)}</span>`;
       versesEl.appendChild(d);
     }
     // mark active chapter
     document.querySelectorAll('.chapter').forEach(el=>el.classList.toggle('active', el.dataset.ch==ch));
+    saveReaderState();
+    syncUrlState();
   }
 
   function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
@@ -210,10 +281,11 @@ title: Bible
   bookFilter.addEventListener('input', ()=> populateBookSelect(bookFilter.value.trim(), currentBook));
 
   // initial render
-  if (getCurrentSiteLang() === 'zh') versionEl.value = 'CUV';
+  const initialState = getInitialState();
+  versionEl.value = initialState.version;
   updateUiText();
-  populateBookSelect('', versionEl.value === 'CUV' ? 'gen' : 'gen');
-  if (bookSelectEl.value) loadBook(bookSelectEl.value);
+  populateBookSelect('', initialState.book);
+  if (bookSelectEl.value) loadBook(bookSelectEl.value, initialState.chapter);
   document.addEventListener('mansli7:langchange', function() {
     updateUiText();
     populateBookSelect(bookFilter.value.trim(), currentBook);

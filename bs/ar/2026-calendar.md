@@ -286,10 +286,16 @@ title: 2026 Bible Reading Calendar
       ? 'box-shadow:0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08);'
       : 'box-shadow:0 1px 4px rgba(0,0,0,0.06);';
 
+    var bibleReaderHref = parsed.abbr && readingPlan.bibleReaderHref ? readingPlan.bibleReaderHref(parsed, langZh ? 'zh' : 'en') : '';
     var bgUrlForCard = parsed.abbr ? readingPlan.bgUrl(parsed.abbr, parsed.chapters, langZh ? 'CUV' : 'NIV', langZh ? 'zh' : 'en') : parsed.bg;
-    var bgl = bgUrlForCard
-      ? '<a href="' + bgUrlForCard + '" target="_blank" rel="noopener" title="Open in BibleGateway" class="cal-bg-link">↗ BibleGateway</a>'
-      : '';
+    var linkParts = [];
+    if (bibleReaderHref) {
+      linkParts.push('<a href="' + bibleReaderHref + '" title="Read on this site" class="cal-bg-link">' + (langZh ? '📖 本站閱讀' : '📖 Read here') + '</a>');
+    }
+    if (bgUrlForCard) {
+      linkParts.push('<a href="' + bgUrlForCard + '" target="_blank" rel="noopener" title="Open in BibleGateway" class="cal-bg-link">↗ BibleGateway</a>');
+    }
+    var bgl = linkParts.join(' ');
 
     var html = '<div class="cal-card"' + (isToday ? ' data-today="true"' : '') + ' style="' + borderStyle + shadowStyle + '" onmouseover="this.style.boxShadow=\'0 6px 20px rgba(0,0,0,0.1)\'" onmouseout="this.style.boxShadow=\'' + (isToday ? '0 0 0 3px rgba(245,158,11,0.15), 0 4px 12px rgba(0,0,0,0.08)' : '0 1px 4px rgba(0,0,0,0.06)') + '\'">';
 
@@ -408,6 +414,10 @@ title: 2026 Bible Reading Calendar
                 }
                 out += '<a class="card-en cal-bg-link" href="' + exactSqHref('en', parsed) + '">Open full ' + parsed.en + ' page →</a>';
                 out += '<a class="card-zh cal-bg-link" href="' + exactSqHref('zh', parsed) + '" style="display:none;">打開完整' + parsed.zh + '頁面 →</a>';
+                if (readingPlan.bibleReaderHref && parsed.abbr) {
+                  out += '<a class="card-en cal-bg-link" href="' + readingPlan.bibleReaderHref(parsed, 'en') + '">Read ' + parsed.en + ' here →</a>';
+                  out += '<a class="card-zh cal-bg-link" href="' + readingPlan.bibleReaderHref(parsed, 'zh') + '" style="display:none;">在本站閱讀' + parsed.zh + ' →</a>';
+                }
                 panel.innerHTML = out;
               } else {
                 // leave the existing book-level message (already present in HTML)
