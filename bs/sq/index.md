@@ -32,8 +32,8 @@ title: Study Questions
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
-  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first thirteen books in the reading flow: Genesis through 2 Chronicles.</p>
-  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十三卷書，從創世記到歷代志下。</p>
+  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow: Genesis through Esther, plus Job.</p>
+  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書，從創世記到以斯帖記，以及約伯記。</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
@@ -189,14 +189,59 @@ title: Study Questions
       <a href="zh/2-chronicles" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Ezra</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 以斯拉記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Return from exile, rebuilding the temple, and spiritual renewal.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">從被擄歸回、重建聖殿，以及屬靈復興。</p>
+    <div class="flex gap-2">
+      <a href="en/ezra" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/ezra" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Nehemiah</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 尼希米記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Rebuilding Jerusalem's walls, covenant renewal, and reform.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">重建耶路撒冷城牆、更新盟約，以及宗教改革。</p>
+    <div class="flex gap-2">
+      <a href="en/nehemiah" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/nehemiah" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Esther</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 以斯帖記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Providence, courage, and God's protection of his people in exile.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">神的護理、勇氣，以及神對被擄百姓的保護。</p>
+    <div class="flex gap-2">
+      <a href="en/esther" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/esther" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="card-en">📖 Poetry &amp; Wisdom Books (Job – Song of Songs)</h2>
+<h2 class="card-zh">📖 詩歌智慧書 (約伯記至雅歌)</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Job</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 約伯記</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Suffering, sovereignty, lament, and the mystery of God's ways.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">苦難、神的主權、哀嘆，以及神諸般作為的奧秘。</p>
+    <div class="flex gap-2">
+      <a href="en/job" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/job" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
 </div>
 
 <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Coming Soon</p>
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">即將提供</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Poetry &amp; Wisdom (Job – Song of Songs)</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 詩歌智慧書 (約伯記至雅歌)</h3>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Poetry &amp; Wisdom (Psalms – Song of Songs)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘詩歌智慧書 (詩篇至雅歌)</h3>
     <p class="card-en text-xs text-slate-400 mb-0">Study questions exploring beauty, wisdom, lament, worship, and practical godliness.</p>
     <p class="card-zh text-xs text-slate-400 mb-0">將整理關於美、智慧、哀歌、敬拜，以及實際敬虔生活的問題。</p>
   </div>
