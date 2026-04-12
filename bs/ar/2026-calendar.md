@@ -40,8 +40,8 @@ title: 2026 Bible Reading Calendar
     <div>
       <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Future Room</p>
       <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-2" style="display:none;">後續擴充</p>
-      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Prepared study-question sets currently cover Genesis through 2 Kings, and the layout leaves room for later books plus richer metadata such as Strong numbers, verse notes, or bilingual source links.</p>
-      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0" style="display:none;">目前已預備的學習問題涵蓋創世記到列王紀下；這個版面也保留了後續書卷與更多資料的擴充空間，例如 Strong 編號、經文註記，或雙語來源連結。</p>
+      <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Prepared study-question sets currently cover Genesis through Job, and the layout leaves room for later books plus richer metadata such as Strong numbers, verse notes, or bilingual source links.</p>
+      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0" style="display:none;">目前已預備的學習問題涵蓋創世記到約伯記；這個版面也保留了後續書卷與更多資料的擴充空間，例如 Strong 編號、經文註記，或雙語來源連結。</p>
     </div>
   </div>
 </div>
