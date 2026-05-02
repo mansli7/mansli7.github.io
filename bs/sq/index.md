@@ -234,14 +234,24 @@ title: Study Questions
       <a href="zh/job" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Psalms</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 詩篇</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Worship, lament, thanksgiving, wisdom, and songs of trust in the LORD.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">敬拜、哀歌、感恩、智慧，以及信靠耶和華的詩歌。</p>
+    <div class="flex gap-2">
+      <a href="en/psalms" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/psalms" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
 </div>
 
 <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Coming Soon</p>
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">即將提供</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Poetry &amp; Wisdom (Psalms – Song of Songs)</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘詩歌智慧書 (詩篇至雅歌)</h3>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Poetry &amp; Wisdom (Proverbs – Song of Songs)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘詩歌智慧書 (箴言至雅歌)</h3>
     <p class="card-en text-xs text-slate-400 mb-0">Study questions exploring beauty, wisdom, lament, worship, and practical godliness.</p>
     <p class="card-zh text-xs text-slate-400 mb-0">將整理關於美、智慧、哀歌、敬拜，以及實際敬虔生活的問題。</p>
   </div>
