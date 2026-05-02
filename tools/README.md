@@ -28,13 +28,16 @@ Notes
 - Output is JSON keyed by calendar codes such as `Ge1-4` or `2Ki1-4`.
 - The CLI accepts optional args: `[lang] [book] [chapters]` where `lang` is `en` or `zh`, `book` may be an abbreviation (`Ge`) or a slug/name (`genesis` or `創世記`), and `chapters` accepts ranges like `1-4`.
 
-Additional flags (per-day generation)
+Additional flags
 - `--code, -c <code>` — request a specific reading code (e.g. `Ge1-4` or `genesis1-4`).
 - `--date, -d <YYYY-MM-DD>` — lookup the calendar for that date and emit that day’s readings.
 - `--lang, -l <en|zh>` — return only the requested language.
-- `--write, -w` — write per-day files when using `--date`. Writes `<date>.en.json` and `<date>.zh.json` into `--out-dir` (default `mansli7.github.io/tmp`).
-- `--out-dir, -o <path>` — destination directory for `--write`.
+- `--write, -w` — write per-day files when using `--date`; in import mode this also regenerates `data/bs-sq/{en,zh}/<book>.json`.
+- `--out-dir, -o <path>` — destination directory for `--write` in per-day mode.
 - `--silent, -s` — suppress stderr/info messages so stdout is pure JSON.
+- `--import-file, --input, -i <path>` — import study txt (same format as `tmp/19_psm-all.txt`).
+- `--book, -b <slug>` — book slug for import mode (for example `psalms`, `1-samuel`).
+- `--write-md` — in import mode, write `bs/sq/en|zh/<book>.md`.
 
 Scripting tips
 - For automated workflows where you want only the JSON on stdout (no debug), pipe stderr away:
@@ -55,10 +58,16 @@ Adding or updating study questions
 ---------------------------------
 Follow these steps to add or update study questions for a book and make them available to the live site:
 
-- Edit the source markdown(s): add or update sections under `bs/sq/en/<slug>.md` and/or `bs/sq/zh/<slug>.md`.
-	- Each section heading must start with the book name (e.g. "1 Samuel 1–4") and sections are separated by a line containing only `---`.
+Option A: import from uploaded txt (same format as `tmp/19_psm-all.txt`)
 
-- Generate per-book JSON (example for 1 Samuel):
+```bash
+node mansli7.github.io/tools/generate_hq.js --import-file mansli7.github.io/tmp/19_psm-all.txt --book psalms --write-md --write
+```
+
+Option B: manual markdown edits under `bs/sq/en/<slug>.md` and `bs/sq/zh/<slug>.md`
+
+- Each section heading must start with the book name (e.g. "1 Samuel 1–4") and sections are separated by a line containing only `---`.
+- Then generate per-book JSON (example for 1 Samuel):
 
 ```bash
 node mansli7.github.io/tools/generate_hq.js en 1-samuel > mansli7.github.io/data/bs-sq/en/1-samuel.json 2>/dev/null

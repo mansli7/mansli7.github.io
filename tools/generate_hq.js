@@ -26,7 +26,17 @@ const sq = evalObj(extractVar('sq'));
 
 // CLI flags and positional compatibility
 const rawArgv = process.argv.slice(2);
-const opts = { lang: null, code: null, date: null, write: false, outDir: null, silent: false };
+const opts = {
+  lang: null,
+  code: null,
+  date: null,
+  write: false,
+  outDir: null,
+  silent: false,
+  importFile: null,
+  importBook: null,
+  writeMd: false
+};
 // simple flag parser: --key value or --flag
 for(let i=0;i<rawArgv.length;i++){
   const a = rawArgv[i];
@@ -36,6 +46,9 @@ for(let i=0;i<rawArgv.length;i++){
   else if(a === '--write' || a === '-w'){ opts.write = true; }
   else if(a === '--out-dir' || a === '-o'){ opts.outDir = rawArgv[++i]; }
   else if(a === '--silent' || a === '-s'){ opts.silent = true; }
+  else if(a === '--import-file' || a === '--input' || a === '-i'){ opts.importFile = rawArgv[++i]; }
+  else if(a === '--book' || a === '-b'){ opts.importBook = rawArgv[++i]; }
+  else if(a === '--write-md'){ opts.writeMd = true; }
   else if(!opts.lang && (a==='en' || a==='zh')){ opts.lang = a; }
   else if(!opts.code && !a.startsWith('-')){ // positional fallback: book or code
     // if looks like a code (starts with letters+digits) keep as code, else book
@@ -72,6 +85,136 @@ function sqSlug(abbr){
   return book.toLowerCase().replace(/[^0-9a-z\s-]/g,'').replace(/\s+/g,'-');
 }
 function escapeRegExp(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+function hasCjk(s){ return /[\u3400-\u9fff]/.test(s); }
+function normalizeRange(raw){ return String(raw||'').replace(/[—–]/g,'-').replace(/\s+/g,' ').trim(); }
+function extractRangeFromHeading(heading){
+  const m = String(heading||'').match(/(\d+\s*[-–—]\s*\d+|\d+)/);
+  return m ? normalizeRange(m[1]).replace(/\s*/g,'') : null;
+}
+function titleCaseSlug(slug){
+  return String(slug||'').split('-').map(function(p){ return /^\d+$/.test(p) ? p : p.charAt(0).toUpperCase()+p.slice(1); }).join(' ');
+}
+function namesForBookSlug(slug){
+  const abbr = findAbbrFromArg(slug);
+  if(abbr && n[abbr]) return { en: n[abbr][0], zh: n[abbr][1], abbr };
+  return { en: titleCaseSlug(slug), zh: titleCaseSlug(slug), abbr: null };
+}
+function parseStudyTxt(text, names){
+  const lines = String(text||'').replace(/\r\n?/g,'\n').split('\n').map(function(s){ return s.trim(); });
+  const headingRegex = new RegExp('^(?:' + escapeRegExp(names.en) + '|' + escapeRegExp(names.zh) + '|Psalms?)\\s+\\d+(?:\\s*[-–—]\\s*\\d+)?$', 'i');
+  const order = [];
+  const byRange = {};
+  let currentHeading = null;
+  let currentBody = [];
+
+  function flushCurrent(){
+    if(!currentHeading || !currentBody.length) return;
+    const range = extractRangeFromHeading(currentHeading);
+    if(!range) return;
+    const body = currentBody.filter(function(l){ return !/^paste\s+:::/i.test(l) && !/^:::\s*$/.test(l); });
+    if(!body.length) return;
+    const lang = body.some(hasCjk) ? 'zh' : 'en';
+    if(!byRange[range]){ byRange[range] = { en: [], zh: [] }; order.push(range); }
+    byRange[range][lang] = body;
+  }
+
+  for(const line of lines){
+    if(!line) continue;
+    if(/^-{10,}$/.test(line)) continue;
+    if(headingRegex.test(line)){
+      flushCurrent();
+      currentHeading = line;
+      currentBody = [];
+      continue;
+    }
+    if(!currentHeading) continue;
+    if(/^paste\s+:::/i.test(line) || /^:::\s*$/.test(line)) continue;
+    currentBody.push(line);
+  }
+  flushCurrent();
+  return { order, byRange };
+}
+function buildMdFromParsed(slug, lang, names, order, byRange){
+  const isZh = lang === 'zh';
+  const title = isZh ? (names.zh + '學習問題') : (names.en + ' Study Questions');
+  const h1 = title;
+  const back = isZh ? '← 返回學習問題' : '← Back to Study Questions';
+  const other = isZh ? 'English Version' : '中文版本';
+  const otherHref = isZh ? ('../en/' + slug) : ('../zh/' + slug);
+  const bookName = isZh ? names.zh : names.en;
+  const out = [];
+  out.push('---');
+  out.push('layout: default');
+  out.push('title: ' + title);
+  out.push('---');
+  out.push('');
+  out.push('# ' + h1);
+  out.push('');
+  out.push('<div style="margin-bottom: 2rem;">');
+  out.push('  <a href="../" class="cta" style="background: linear-gradient(180deg, #8b7355, #6d5a42);">' + back + '</a>');
+  out.push('  <a href="' + otherHref + '" class="cta" style="margin-left: 1rem;">' + other + '</a>');
+  out.push('</div>');
+  out.push('');
+  for(const range of order){
+    const qs = byRange[range] && byRange[range][lang] ? byRange[range][lang] : [];
+    if(!qs.length) continue;
+    out.push('---');
+    out.push('');
+    out.push(bookName + ' ' + range);
+    out.push('');
+    for(const q of qs){ out.push(q); out.push(''); }
+  }
+  out.push('---');
+  out.push('');
+  out.push('<p style="text-align: center; margin-top: 3rem;"></p>');
+  out.push('');
+  return out.join('\n');
+}
+function runImportMode(){
+  if(!opts.importFile) return false;
+  if(!opts.importBook){ if(!opts.silent) console.error('Missing --book for --import-file mode'); process.exit(2); }
+  const root = path.join(__dirname,'..');
+  const inputPath = path.isAbsolute(opts.importFile) ? opts.importFile : path.join(root, opts.importFile);
+  if(!fs.existsSync(inputPath)){ if(!opts.silent) console.error('Input not found:', inputPath); process.exit(2); }
+  const names = namesForBookSlug(opts.importBook);
+  const parsed = parseStudyTxt(fs.readFileSync(inputPath,'utf8'), names);
+  if(!parsed.order.length){ if(!opts.silent) console.error('No valid ranges parsed from input.'); process.exit(2); }
+  const enRanges = parsed.order.filter(function(rg){ return parsed.byRange[rg] && parsed.byRange[rg].en && parsed.byRange[rg].en.length; });
+  const zhRanges = parsed.order.filter(function(rg){ return parsed.byRange[rg] && parsed.byRange[rg].zh && parsed.byRange[rg].zh.length; });
+  if(!opts.silent) console.log('Parsed ' + parsed.order.length + ' ranges. EN: ' + enRanges.length + ', ZH: ' + zhRanges.length);
+
+  const outEn = path.join(root,'bs','sq','en', opts.importBook + '.md');
+  const outZh = path.join(root,'bs','sq','zh', opts.importBook + '.md');
+  const mdEn = buildMdFromParsed(opts.importBook, 'en', names, parsed.order, parsed.byRange);
+  const mdZh = buildMdFromParsed(opts.importBook, 'zh', names, parsed.order, parsed.byRange);
+
+  if(opts.writeMd || opts.write){
+    fs.mkdirSync(path.dirname(outEn), { recursive:true });
+    fs.mkdirSync(path.dirname(outZh), { recursive:true });
+    fs.writeFileSync(outEn, mdEn, 'utf8');
+    fs.writeFileSync(outZh, mdZh, 'utf8');
+    if(!opts.silent){ console.log('Wrote:', outEn); console.log('Wrote:', outZh); }
+  } else {
+    if(!opts.silent){
+      console.log('Preview only (use --write-md to save markdown files).');
+      console.log('EN output path:', outEn);
+      console.log('ZH output path:', outZh);
+    }
+    return true;
+  }
+
+  if(opts.write){
+    const cmdEn = 'node "' + path.join(root,'tools','generate_hq.js') + '" en ' + opts.importBook + ' > "' + path.join(root,'data','bs-sq','en', opts.importBook + '.json') + '"';
+    const cmdZh = 'node "' + path.join(root,'tools','generate_hq.js') + '" zh ' + opts.importBook + ' > "' + path.join(root,'data','bs-sq','zh', opts.importBook + '.json') + '"';
+    require('child_process').execSync(cmdEn, { stdio:'inherit', shell:'/bin/zsh' });
+    require('child_process').execSync(cmdZh, { stdio:'inherit', shell:'/bin/zsh' });
+    if(!opts.silent) console.log('Regenerated JSON for', opts.importBook);
+  }
+  return true;
+}
+
+if(runImportMode()) process.exit(0);
+
 function extractPrompts(lang, abbr, chapters){
   try{
     const slug = sqSlug(abbr);
