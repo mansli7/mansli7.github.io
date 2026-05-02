@@ -121,8 +121,13 @@ function extractPrompts(lang, abbr, chapters){
         // If this part only contains the heading (common), take the next part as the body
         if (bodyLines.length === 0 && parts[pi+1]) {
           bodyLines = parts[pi+1].trim().split(/\n+/).map(s=>s.trim()).filter(Boolean);
-          // if the next part starts with the same heading again, drop its first line
-          if (bodyLines.length && bodyLines[0].toLowerCase().indexOf(book.toLowerCase()) === 0) bodyLines.shift();
+          // If the next part repeats the exact heading, drop only that duplicate heading line.
+          // Do not drop normal questions that happen to start with the book name (e.g. "Job said...").
+          if (bodyLines.length) {
+            const firstNorm = bodyLines[0].toLowerCase().replace(/\s+/g, ' ').trim();
+            const headingNorm = heading.toLowerCase().replace(/\s+/g, ' ').trim();
+            if (firstNorm === headingNorm) bodyLines.shift();
+          }
         }
         const body = bodyLines.join('\n');
         const blocks = body.split(/\n{2,}/).map(b=>b.trim()).filter(Boolean);
@@ -178,6 +183,23 @@ function gatherForCodeList(codeList){
   return res;
 }
 
+// Build all entries for a specific book abbreviation based on the full calendar map.
+function gatherForAbbrFromCalendar(abbr){
+  const res = {};
+  if(!abbr) return res;
+  for(const k of Object.keys(r)){
+    const code = r[k];
+    if(!code || code === 'Review') continue;
+    const tokens = String(code).split(/\s*,\s*|\s*;\s*|\s+/).filter(Boolean);
+    for(const t of tokens){
+      if(t.indexOf(abbr) !== 0) continue;
+      const d = gatherForToken(t);
+      if(d) res[t] = d;
+    }
+  }
+  return res;
+}
+
 // If CLI requested a specific book, filter by its abbr
 // helper: get calendar codes for a date string YYYY-MM-DD
 function codesForDate(dateStr){
@@ -230,21 +252,17 @@ if(cliBook || opts.date){
     }
   }
   // else cliBook path (existing behavior but code token may be full code)
-  const filtered = {};
+  const filtered = gatherForAbbrFromCalendar(wanted);
   function normalizeChaptersArg(s){
     if(!s) return '';
     return String(s).replace(/[—–]/g,'-').replace(/[^0-9\-]/g,'').replace(/\-+/g,'-').replace(/^-+|-+$/g,'');
   }
   const wantCh = normalizeChaptersArg(cliChapters);
-  for(const k of Object.keys(out)){
-    if(k.indexOf(wanted)===0){
-      if(wantCh){
-        const rem = k.slice(wanted.length);
-        const remNorm = normalizeChaptersArg(rem);
-        if(remNorm === wantCh) filtered[k]=out[k];
-      } else {
-        filtered[k]=out[k];
-      }
+  if(wantCh){
+    for(const k of Object.keys(filtered)){
+      const rem = k.slice(wanted.length);
+      const remNorm = normalizeChaptersArg(rem);
+      if(remNorm !== wantCh) delete filtered[k];
     }
   }
   // If a language was requested, reduce each entry to only that language

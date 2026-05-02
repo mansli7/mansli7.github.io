@@ -32,8 +32,8 @@ title: Study Questions
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
-  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow: Genesis through Esther, plus Job.</p>
-  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書，從創世記到以斯帖記，以及約伯記。</p>
+  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow (Genesis through Esther), plus Job and Psalms.</p>
+  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書（創世記至以斯帖記），以及約伯記與詩篇。</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
