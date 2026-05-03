@@ -18,3 +18,6 @@ node_modules/
 /tmp/
 # Raw source files for data processing (keep out of Pages)
 data/raw/
+
+# Local-only working docs (not pushed)
+doc/

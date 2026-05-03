@@ -7,3 +7,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+
+# Folders used for local workflows only; not part of the published site.
+exclude:
+  - doc/
+  - tmp/
+  - tools/
