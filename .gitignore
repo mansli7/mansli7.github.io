@@ -21,3 +21,6 @@ data/raw/
 
 # Local-only working docs (not pushed)
 doc/
+
+# Local-only tooling scripts (not pushed)
+tools/
