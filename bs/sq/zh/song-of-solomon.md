@@ -14,7 +14,7 @@ title: 雅歌學習問題
 
 雅歌 1-4
 
-pause ::: {.cn} 她如何稱呼他，他如何稱呼她？
+她如何稱呼他，他如何稱呼她？
 
 他如何回答她“你在何處牧羊？”？
 
@@ -28,22 +28,6 @@ pause ::: {.cn} 她如何稱呼他，他如何稱呼她？
 
 他如何描述她的眼，頭髮，牙齒，唇，嘴，太陽(穴)，頸項，兩乳？
 
-Song of Songs 1—4
-
-What does she call him, and what does he call her?
-
-How does he answer her question, “Where do you pasture your flock?”
-
-Whom does she regard as a sachet of myrrh that rests between her breasts?
-
-Among the young women, where is his beloved like a lily?
-
-Among the young men, where is her beloved like an apple tree?
-
-Where did she look for him, and did she eventually find him?
-
-How does he describe her eyes, hair, teeth, lips, mouth, temples, neck, and breasts?
-
 ---
 
 雅歌 5-8
@@ -55,16 +39,6 @@ How does he describe her eyes, hair, teeth, lips, mouth, temples, neck, and brea
 什麼，眾水不能熄滅，大水也不能淹沒？
 
 她求誰快來？
-
-Song of Songs 5—8
-
-How does she describe his head, hair, eyes, cheeks, lips, hands, body, legs, appearance, and mouth?
-
-She belongs to her beloved; to whom does her beloved belong?
-
-What is it that many waters cannot quench and rivers cannot sweep away?
-
-Whom does she ask to come quickly?
 
 ---
 
