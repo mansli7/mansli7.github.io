@@ -1,0 +1,71 @@
+---
+layout: default
+title: 雅歌學習問題
+---
+
+# 雅歌學習問題
+
+<div style="margin-bottom: 2rem;">
+  <a href="../" class="cta" style="background: linear-gradient(180deg, #8b7355, #6d5a42);">← 返回學習問題</a>
+  <a href="../en/song-of-solomon" class="cta" style="margin-left: 1rem;">English Version</a>
+</div>
+
+---
+
+雅歌 1-4
+
+pause ::: {.cn} 她如何稱呼他，他如何稱呼她？
+
+他如何回答她“你在何處牧羊？”？
+
+她以誰為一袋沒藥，常在她懷中？
+
+他的佳偶在女子中，好像百合花在哪裡？
+
+她的良人在男子中，如同蘋果樹在哪裡？
+
+她曾在哪裡尋找過他，後來遇見他沒有？
+
+他如何描述她的眼，頭髮，牙齒，唇，嘴，太陽(穴)，頸項，兩乳？
+
+Song of Songs 1—4
+
+What does she call him, and what does he call her?
+
+How does he answer her question, “Where do you pasture your flock?”
+
+Whom does she regard as a sachet of myrrh that rests between her breasts?
+
+Among the young women, where is his beloved like a lily?
+
+Among the young men, where is her beloved like an apple tree?
+
+Where did she look for him, and did she eventually find him?
+
+How does he describe her eyes, hair, teeth, lips, mouth, temples, neck, and breasts?
+
+---
+
+雅歌 5-8
+
+她如何描述他的頭，頭髮，眼，兩腮，嘴唇，兩手，身體，腿，形狀，口？
+
+她屬她的良人，她的良人屬誰？
+
+什麼，眾水不能熄滅，大水也不能淹沒？
+
+她求誰快來？
+
+Song of Songs 5—8
+
+How does she describe his head, hair, eyes, cheeks, lips, hands, body, legs, appearance, and mouth?
+
+She belongs to her beloved; to whom does her beloved belong?
+
+What is it that many waters cannot quench and rivers cannot sweep away?
+
+Whom does she ask to come quickly?
+
+---
+
+<p style="text-align: center; margin-top: 3rem;"></p>

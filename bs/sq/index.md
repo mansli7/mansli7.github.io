@@ -32,8 +32,8 @@ title: Study Questions
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
-  <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow (Genesis through Esther), plus Job and Psalms.</p>
-  <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書（創世記至以斯帖記），以及約伯記與詩篇。</p>
+      <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow (Genesis through Esther), plus Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, and Isaiah.</p>
+      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書（創世記至以斯帖記），以及約伯記、詩篇、箴言、傳道書、雅歌，以及以賽亞書。</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
@@ -221,7 +221,7 @@ title: Study Questions
   </div>
 </div>
 
-<h2 class="card-en">📖 Poetry &amp; Wisdom Books (Job – Song of Songs)</h2>
+<h2 class="card-en">📖 Poetry &amp; Wisdom Books (Job – Song of Solomon)</h2>
 <h2 class="card-zh">📖 詩歌智慧書 (約伯記至雅歌)</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -244,22 +244,61 @@ title: Study Questions
       <a href="zh/psalms" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Proverbs</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 箴言</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Practical wisdom, fear of the LORD, virtue, and instruction for godly living.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">實踐智慧、敬畏耶和華、美德，以及敬虔生活的教導。</p>
+    <div class="flex gap-2">
+      <a href="en/proverbs" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/proverbs" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Ecclesiastes</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 傳道書</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Vanity, meaning, the pursuit of wisdom, and faith amid life's emptiness.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">虛空、生命意義、智慧追求，以及在人生空洞中的信心。</p>
+    <div class="flex gap-2">
+      <a href="en/ecclesiastes" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/ecclesiastes" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Song of Solomon</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 雅歌</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Love, beauty, covenantal intimacy, and the relationship between Christ and the church.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">愛、美、盟約親密關係，以及基督與教會的關係。</p>
+    <div class="flex gap-2">
+      <a href="en/song-of-solomon" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/song-of-solomon" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="card-en">📖 Prophetic Books (Isaiah)</h2>
+<h2 class="card-zh">📖 先知書 (以賽亞書)</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Isaiah</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 以賽亞書</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Divine holiness, covenant judgment, comfort, redemption, and the servant of the LORD.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">神的聖潔、盟約審判、安慰、救贖，以及耶和華的僕人。</p>
+    <div class="flex gap-2">
+      <a href="en/isaiah" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/isaiah" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
 </div>
 
 <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Coming Soon</p>
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">即將提供</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Poetry &amp; Wisdom (Proverbs – Song of Songs)</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘詩歌智慧書 (箴言至雅歌)</h3>
-    <p class="card-en text-xs text-slate-400 mb-0">Study questions exploring beauty, wisdom, lament, worship, and practical godliness.</p>
-    <p class="card-zh text-xs text-slate-400 mb-0">將整理關於美、智慧、哀歌、敬拜，以及實際敬虔生活的問題。</p>
-  </div>
-  <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Prophetic Books (Isaiah – Malachi)</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 先知書 (以賽亞書至瑪拉基書)</h3>
-    <p class="card-en text-xs text-slate-400 mb-0">Guides for prophetic warnings, covenant themes, judgment, and restoration promises.</p>
-    <p class="card-zh text-xs text-slate-400 mb-0">將整理先知警告、盟約主題、審判，以及復興應許的引導問題。</p>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Prophetic Books (Jeremiah – Malachi)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘先知書 (耶利米書至瑪拉基書)</h3>
+    <p class="card-en text-xs text-slate-400 mb-0">Guides for prophetic warnings, covenant themes, judgment, restoration, and eschatological promises.</p>
+    <p class="card-zh text-xs text-slate-400 mb-0">將整理先知警告、盟約主題、審判、復興，以及末世論應許的引導問題。</p>
   </div>
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
     <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Four Gospels (Matthew – John)</h3>
