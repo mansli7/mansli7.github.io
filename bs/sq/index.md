@@ -32,8 +32,8 @@ title: Study Questions
 <div class="bg-slate-50 rounded-3xl border border-slate-200 p-6 mb-8">
   <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">Current Coverage</p>
   <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-3">目前涵蓋範圍</p>
-      <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow (Genesis through Esther), plus Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, and Jeremiah.</p>
-      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書（創世記至以斯帖記），以及約伯記、詩篇、箴言、傳道書、雅歌、以賽亞書，以及耶利米書。</p>
+      <p class="card-en text-sm text-slate-600 leading-relaxed mb-2">Prepared study-question sets are currently available for the first seventeen books in the reading flow (Genesis through Esther), plus Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, and Hosea.</p>
+      <p class="card-zh text-sm text-slate-600 leading-relaxed mb-2">目前已提供的學習問題涵蓋讀經流程中的前十七卷書（創世記至以斯帖記），以及約伯記、詩篇、箴言、傳道書、雅歌、以賽亞書、耶利米書、耶利米哀歌、以西結書、但以理書，以及何西阿書。</p>
   <p class="card-en text-sm text-slate-600 leading-relaxed mb-0">Later books still appear in the calendar and reading plan, but their question sets remain marked as coming soon until those guides are published.</p>
   <p class="card-zh text-sm text-slate-600 leading-relaxed mb-0">後續書卷仍保留在月曆和讀經計劃中，但其問題集會先標示為即將提供，直到整理完成為止。</p>
 </div>
@@ -276,8 +276,8 @@ title: Study Questions
   </div>
 </div>
 
-<h2 class="card-en">📖 Prophetic Books (Isaiah – Jeremiah)</h2>
-<h2 class="card-zh">📖 先知書 (以賽亞書至耶利米書)</h2>
+<h2 class="card-en">📖 Prophetic Books (Isaiah – Hosea)</h2>
+<h2 class="card-zh">📖 先知書 (以賽亞書至何西阿書)</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8 mt-4">
   <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
     <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Isaiah</h3>
@@ -299,14 +299,54 @@ title: Study Questions
       <a href="zh/jeremiah" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
     </div>
   </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Lamentations</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 耶利米哀歌</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Grief, lament, and hope amid the destruction of Jerusalem.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">耶路撒冷毀滅之際的悲痛、哀歌，以及盼望。</p>
+    <div class="flex gap-2">
+      <a href="en/lamentations" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/lamentations" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Ezekiel</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 以西結書</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Visions, judgment, exile, and the promise of restoration and a new temple.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">異象、審判、被擄，以及復興與新聖殿的應許。</p>
+    <div class="flex gap-2">
+      <a href="en/ezekiel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/ezekiel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Daniel</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 但以理書</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">Faithfulness in exile, visions of kingdoms, and God's sovereign plan for history.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">被擄中的忠信、列國異象，以及神對歷史主權的計劃。</p>
+    <div class="flex gap-2">
+      <a href="en/daniel" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/daniel" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Hosea</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 何西阿書</h3>
+    <p class="card-en text-xs text-slate-400 mb-3">God's steadfast love for an unfaithful people, and the call to return.</p>
+    <p class="card-zh text-xs text-slate-400 mb-3">神對不忠百姓的不渝之愛，以及歸回的呼召。</p>
+    <div class="flex gap-2">
+      <a href="en/hosea" class="cta card-en" style="font-size:0.8rem;padding:0.4rem 0.75rem;">Open Book Page</a>
+      <a href="zh/hosea" class="cta card-zh" style="font-size:0.8rem;padding:0.4rem 0.75rem;">打開書卷頁</a>
+    </div>
+  </div>
 </div>
 
 <p class="card-en text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">Coming Soon</p>
 <p class="card-zh text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">即將提供</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
   <div class="bg-white rounded-xl border border-slate-100 p-5 opacity-60">
-    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Prophetic Books (Lamentations – Malachi)</h3>
-    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘先知書 (耶利米哀歌至瑪拉基書)</h3>
+    <h3 class="card-en" style="margin-top:0;font-size:0.95rem;">📖 Remaining Prophetic Books (Joel – Malachi)</h3>
+    <h3 class="card-zh" style="margin-top:0;font-size:0.95rem;">📖 其餘先知書 (約珥書至瑪拉基書)</h3>
     <p class="card-en text-xs text-slate-400 mb-0">Guides for prophetic warnings, covenant themes, judgment, restoration, and eschatological promises.</p>
     <p class="card-zh text-xs text-slate-400 mb-0">將整理先知警告、盟約主題、審判、復興，以及末世論應許的引導問題。</p>
   </div>
