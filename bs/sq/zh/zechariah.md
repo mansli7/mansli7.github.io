@@ -14,27 +14,29 @@ title: 撒迦利亞書學習問題
 
 撒迦利亞書 1-4
 
-When did the word of the LORD first come to Zechariah?
+耶和華的話第一次臨到撒加利亞是什麼時候？
 
-To whom should Israel return? Who will return to them? What should they turn away from?
+以色列人要轉向誰? 誰就轉向他們？他們要轉離什麼？
 
-How many years had the LORD been angry with Jerusalem and the towns of Judah? Which nations was He especially angry with, and why?
+耶和華惱恨耶路撒冷和猶大的城邑已經多少年？祂特別惱恨哪些國家，為什麼？
 
-To which place will the LORD return to show mercy? What will be rebuilt? On what will the measuring line be stretched?
+耶和華要回到哪裡仍施憐憫？什麼必重建？準繩必拉在什麼之上？
 
-Which towns will again overflow with prosperity? Where will the LORD again bring comfort? Which city will He choose?
+哪些城邑必再豐盛發達？耶和華必再安慰哪裡？祂要揀選哪裡？
 
-What are the four horns? What do the four craftsmen do?
+四個角是什麼意思？四個匠人來做什麼？
 
-Who will be a wall of fire around Jerusalem and the glory within her?
+誰要作耶路撒冷四圍的火城，並要作其中的榮耀？
 
-What must Joshua the high priest do in order to govern the house and have charge of the courts of the LORD?
+大祭司約書亞要如何行，才可以管理耶和華的家和院宇？
 
-What must not be relied upon, but what must be relied upon for success?
+不是依靠什麼和什麼，乃是依靠什麼才能成事？
 
-What are the seven eyes, and what do the two olive trees on either side of the golden lampstand represent?
+七眼是什麼？純金燈臺左右的兩棵橄欖樹是什麼意思？
 
-撒加利亞書 5—8
+---
+
+撒迦利亞書 5-8
 
 飛行的書卷進入誰家？
 
@@ -54,25 +56,7 @@ What are the seven eyes, and what do the two olive trees on either side of the g
 
 ---
 
-撒迦利亞書 5-8
-
-Into whose house does the flying scroll enter?
-
-Where is the basket taken?
-
-What are the four winds of heaven?
-
-Who will branch out from his place, build the temple of the LORD, be clothed with majesty, sit and rule on his throne, and serve as priest, bringing harmony between the two?
-
-For how many years have Israel fasted and mourned in the fifth and seventh months?
-
-What will the fasts of the fourth, fifth, seventh, and tenth months become in the future?
-
-Who made the pleasant land desolate?
-
-Who will return to Zion and dwell in Jerusalem? Why will Jerusalem be called the Faithful City and the mountain of the LORD of hosts called the Holy Mountain?
-
-撒加利亞書 9—12
+撒迦利亞書 9-12
 
 新約哪卷書引用撒加利亞書 9：9（「錫安的民哪，應當大大喜樂…」）？
 
@@ -84,17 +68,7 @@ Who will return to Zion and dwell in Jerusalem? Why will Jerusalem be called the
 
 ---
 
-撒迦利亞書 9-12
-
-Which New Testament books quote Zechariah 9:9 (“Rejoice greatly, Daughter Zion…”)?
-
-What are the two staffs called? What does breaking them represent?
-
-Where in the New Testament is Zechariah 11:12–13 fulfilled?
-
-Which New Testament book quotes, “They will look on me, the one they have pierced”?
-
-撒加利亞書 13—14
+撒迦利亞書 13-14
 
 新約哪卷書引用「擊打牧人，羊就分散」？
 
