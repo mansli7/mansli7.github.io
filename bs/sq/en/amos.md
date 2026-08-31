@@ -1,0 +1,51 @@
+---
+layout: default
+title: Amos Study Questions
+---
+
+# Amos Study Questions
+
+<div style="margin-bottom: 2rem;">
+  <a href="../" class="cta" style="background: linear-gradient(180deg, #8b7355, #6d5a42);">← Back to Study Questions</a>
+  <a href="../zh/amos" class="cta" style="margin-left: 1rem;">中文版本</a>
+</div>
+
+---
+
+Amos 1-4
+
+When did Amos receive the vision concerning Israel?
+
+In Amos 1:1–15 and 2:1–6, which nations does the LORD declare have sinned again and again and therefore will not relent in punishing them? What is the most common punishment mentioned?
+
+How should we understand: “You only have I chosen of all the families of the earth; therefore I will punish you for all your sins”?
+
+In Amos chapter 4, how many kinds of disasters did the LORD use to discipline Israel, yet they still did not return to Him?
+
+---
+
+Amos 5-9
+
+Who takes up this lament concerning Israel? When they fall, can they rise again? Is there anyone to lift them up?
+
+Whom must Israel seek in order to live? What must they hate and what must they love?
+
+Woe to you who long for the day of the Lord! Why?
+
+During the forty years in the wilderness, to whom did the house of Israel offer sacrifices and grain offerings? Whose tent did they carry?
+
+To whom did the house of Israel offer sacrifices and offerings during the forty years in the wilderness? Whose tabernacle did they carry?
+
+Why will some be among the first to go into exile?
+
+After Amos prayed, which disasters did the LORD relent from sending?
+
+What vision did Amos see after which the LORD said He would no longer spare Israel?
+
+In Amos 8:9, 11 and 9:11, 13, what “day” is being referred to?
+
+When the LORD strikes and kills, is there any place to flee or escape?
+
+---
+
+<p style="text-align: center; margin-top: 3rem;"></p>
